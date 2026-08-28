@@ -1,0 +1,56 @@
+{
+  "daily": {
+    "label": "Daily - Model",
+    "n": 3696,
+    "r2": 0.156425,
+    "rmse": 8157320.0,
+    "mae": 1919776.0,
+    "n_nz": 560
+  },
+  "daily_baseline": {
+    "label": "Daily - TrainMean",
+    "n": 3696,
+    "r2": 0.256768,
+    "rmse": 7656812.0,
+    "mae": 3674680.0,
+    "n_nz": 560
+  },
+  "weekly": {
+    "label": "Weekly - Model",
+    "n": 43,
+    "r2": -2.973322,
+    "rmse": 173889176.0,
+    "mae": 152076291.0,
+    "n_nz": 43
+  },
+  "weekly_baseline": {
+    "label": "Weekly - TrainMean",
+    "n": 43,
+    "r2": -2.293511,
+    "rmse": 158316154.0,
+    "mae": 139985958.0,
+    "n_nz": 43
+  },
+  "monthly": {
+    "label": "Monthly - Model",
+    "n": 10,
+    "r2": -37.111951,
+    "rmse": 661871903.0,
+    "mae": 653407429.0,
+    "n_nz": 10
+  },
+  "monthly_baseline": {
+    "label": "Monthly - TrainMean",
+    "n": 10,
+    "r2": -28.941895,
+    "rmse": 586655299.0,
+    "mae": 569182343.0,
+    "n_nz": 10
+  },
+  "zero_fraction": {
+    "daily": 0.8484848484848485,
+    "weekly": 0.0,
+    "monthly": 0.0
+  },
+  "prediction_sparsity": 0.0625
+}

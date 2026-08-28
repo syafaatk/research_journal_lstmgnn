@@ -1,0 +1,188 @@
+{
+  "n_satuan_unik": 18,
+  "distribusi": {
+    "Pcs": 32977,
+    "Box": 7063,
+    "Roll": 2221,
+    "Pack": 2006,
+    "Botol": 828,
+    "Pair": 599,
+    "Set": 301,
+    "Galon": 265,
+    "Sak": 151,
+    "Tube": 142,
+    "Unit": 113,
+    "Lsn": 40,
+    "Kg": 37,
+    "nan": 30,
+    "Buah": 25,
+    "Kit": 9,
+    "Vial": 9,
+    "Pc": 4,
+    "Tabung": 2
+  },
+  "agg_per_satuan": [
+    {
+      "satuan": "Pcs",
+      "n_baris": 32977,
+      "n_faktur": 10769,
+      "total_nilai_jt": 59635.9,
+      "total_qty": 15994074.0,
+      "harga_per_qty_median": 15000.0,
+      "n_produk": 695
+    },
+    {
+      "satuan": "Box",
+      "n_baris": 7063,
+      "n_faktur": 4082,
+      "total_nilai_jt": 23094.5,
+      "total_qty": 305651.0,
+      "harga_per_qty_median": 96000.0,
+      "n_produk": 236
+    },
+    {
+      "satuan": "Roll",
+      "n_baris": 2221,
+      "n_faktur": 1587,
+      "total_nilai_jt": 3314.2,
+      "total_qty": 188723.0,
+      "harga_per_qty_median": 100000.0,
+      "n_produk": 72
+    },
+    {
+      "satuan": "Set",
+      "n_baris": 301,
+      "n_faktur": 238,
+      "total_nilai_jt": 3273.1,
+      "total_qty": 19361.0,
+      "harga_per_qty_median": 415000.0,
+      "n_produk": 71
+    },
+    {
+      "satuan": "Pack",
+      "n_baris": 2006,
+      "n_faktur": 1536,
+      "total_nilai_jt": 3147.3,
+      "total_qty": 55194.0,
+      "harga_per_qty_median": 105000.0,
+      "n_produk": 106
+    },
+    {
+      "satuan": "Unit",
+      "n_baris": 113,
+      "n_faktur": 72,
+      "total_nilai_jt": 2989.2,
+      "total_qty": 538.0,
+      "harga_per_qty_median": 900000.0,
+      "n_produk": 57
+    },
+    {
+      "satuan": "Pair",
+      "n_baris": 599,
+      "n_faktur": 347,
+      "total_nilai_jt": 1877.0,
+      "total_qty": 139044.0,
+      "harga_per_qty_median": 8008.0,
+      "n_produk": 16
+    },
+    {
+      "satuan": "Botol",
+      "n_baris": 828,
+      "n_faktur": 668,
+      "total_nilai_jt": 1234.4,
+      "total_qty": 35577.0,
+      "harga_per_qty_median": 50000.0,
+      "n_produk": 64
+    },
+    {
+      "satuan": "Galon",
+      "n_baris": 265,
+      "n_faktur": 229,
+      "total_nilai_jt": 656.1,
+      "total_qty": 688.0,
+      "harga_per_qty_median": 896100.0,
+      "n_produk": 33
+    },
+    {
+      "satuan": "Tube",
+      "n_baris": 142,
+      "n_faktur": 135,
+      "total_nilai_jt": 182.5,
+      "total_qty": 6764.0,
+      "harga_per_qty_median": 16000.0,
+      "n_produk": 12
+    },
+    {
+      "satuan": "Sak",
+      "n_baris": 151,
+      "n_faktur": 111,
+      "total_nilai_jt": 170.8,
+      "total_qty": 845.0,
+      "harga_per_qty_median": 110550.0,
+      "n_produk": 3
+    },
+    {
+      "satuan": "Tabung",
+      "n_baris": 2,
+      "n_faktur": 2,
+      "total_nilai_jt": 88.6,
+      "total_qty": 51.0,
+      "harga_per_qty_median": 1425000.0,
+      "n_produk": 1
+    },
+    {
+      "satuan": "Kit",
+      "n_baris": 9,
+      "n_faktur": 3,
+      "total_nilai_jt": 81.7,
+      "total_qty": 2007.0,
+      "harga_per_qty_median": 887570.0,
+      "n_produk": 9
+    },
+    {
+      "satuan": "Kg",
+      "n_baris": 37,
+      "n_faktur": 24,
+      "total_nilai_jt": 57.7,
+      "total_qty": 1081.0,
+      "harga_per_qty_median": 55300.0,
+      "n_produk": 6
+    },
+    {
+      "satuan": "Buah",
+      "n_baris": 25,
+      "n_faktur": 24,
+      "total_nilai_jt": 49.9,
+      "total_qty": 1146.0,
+      "harga_per_qty_median": 32000.0,
+      "n_produk": 2
+    },
+    {
+      "satuan": "Pc",
+      "n_baris": 4,
+      "n_faktur": 4,
+      "total_nilai_jt": 43.7,
+      "total_qty": 30.0,
+      "harga_per_qty_median": 3133462.5,
+      "n_produk": 3
+    },
+    {
+      "satuan": "Lsn",
+      "n_baris": 40,
+      "n_faktur": 12,
+      "total_nilai_jt": 8.0,
+      "total_qty": 225.0,
+      "harga_per_qty_median": 23172.5,
+      "n_produk": 4
+    },
+    {
+      "satuan": "Vial",
+      "n_baris": 9,
+      "n_faktur": 2,
+      "total_nilai_jt": 6.5,
+      "total_qty": 31.0,
+      "harga_per_qty_median": 131325.0,
+      "n_produk": 4
+    }
+  ]
+}

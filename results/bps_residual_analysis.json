@@ -1,0 +1,204 @@
+{
+  "corr": {
+    "penduduk": {
+      "residual": {
+        "r": 0.06622518349184178,
+        "p": 0.8074792782469515
+      },
+      "abs_residual": {
+        "r": 0.06622518349184178,
+        "p": 0.8074792782469515
+      },
+      "rmse_region": {
+        "r": 0.03679176860657876,
+        "p": 0.8923953385946604
+      },
+      "n": 16
+    },
+    "dbd_per_100k": {
+      "residual": {
+        "r": 0.27373075843294603,
+        "p": 0.30495298158006834
+      },
+      "abs_residual": {
+        "r": 0.27373075843294603,
+        "p": 0.30495298158006834
+      },
+      "rmse_region": {
+        "r": 0.11184697656399943,
+        "p": 0.6800499663087919
+      },
+      "n": 16
+    },
+    "rs_puskesmas": {
+      "residual": {
+        "r": 0.47833828920057564,
+        "p": 0.06089891416088588
+      },
+      "abs_residual": {
+        "r": 0.47833828920057564,
+        "p": 0.06089891416088588
+      },
+      "rmse_region": {
+        "r": 0.4273555248343701,
+        "p": 0.0987230865240546
+      },
+      "n": 16
+    },
+    "sarana_kesehatan": {
+      "residual": {
+        "r": 0.5101335104748504,
+        "p": 0.04350217778973724
+      },
+      "abs_residual": {
+        "r": 0.5101335104748504,
+        "p": 0.04350217778973724
+      },
+      "rmse_region": {
+        "r": 0.43544339181089,
+        "p": 0.09182830461106234
+      },
+      "n": 16
+    },
+    "jarak_km": {
+      "residual": {
+        "r": -0.1339220377279467,
+        "p": 0.6209730849270084
+      },
+      "abs_residual": {
+        "r": -0.1339220377279467,
+        "p": 0.6209730849270084
+      },
+      "rmse_region": {
+        "r": -0.2487123557804724,
+        "p": 0.35296052716638093
+      },
+      "n": 16
+    },
+    "luas_km2": {
+      "residual": {
+        "r": -0.3414276126690509,
+        "p": 0.19558231506813337
+      },
+      "abs_residual": {
+        "r": -0.3414276126690509,
+        "p": 0.19558231506813337
+      },
+      "rmse_region": {
+        "r": -0.2972774903411564,
+        "p": 0.26349478009199456
+      },
+      "n": 16
+    }
+  },
+  "region_table": {
+    "RMSE": {
+      "Banyuasin": 3648548.0,
+      "Empat Lawang": 0.0,
+      "Lahat": 10815988.0,
+      "Lubuk Linggau": 2561992.0,
+      "Muara Enim": 10389133.0,
+      "Musi Banyuasin": 3375392.0,
+      "Musi Rawas": 315733.0,
+      "Ogan Ilir": 1237280.0,
+      "Ogan Komering Ilir": 0.0,
+      "Ogan Komering Ulu": 6370816.0,
+      "Ogan Komering Ulu Selatan": 261687.0,
+      "Ogan Komering Ulu Timur": 3195624.0,
+      "Pagar Alam": 10687905.0,
+      "Palembang": 21842944.0,
+      "Penukal Abab Lematang Ilir": 3344000.0,
+      "Prabumulih": 3894234.0
+    },
+    "resid_mean": {
+      "Banyuasin": 422711.0,
+      "Empat Lawang": 0.0,
+      "Lahat": 4208010.0,
+      "Lubuk Linggau": 559119.0,
+      "Muara Enim": 2285988.0,
+      "Musi Banyuasin": 663627.0,
+      "Musi Rawas": 35190.0,
+      "Ogan Ilir": 283321.0,
+      "Ogan Komering Ilir": 0.0,
+      "Ogan Komering Ulu": 1884860.0,
+      "Ogan Komering Ulu Selatan": 17218.0,
+      "Ogan Komering Ulu Timur": 1327160.0,
+      "Pagar Alam": 1608121.0,
+      "Palembang": 8502597.0,
+      "Penukal Abab Lematang Ilir": 476069.0,
+      "Prabumulih": 1012837.0
+    },
+    "penduduk": {
+      "Banyuasin": 897425,
+      "Empat Lawang": 348974,
+      "Lahat": 455581,
+      "Lubuk Linggau": 249054,
+      "Muara Enim": 647936,
+      "Musi Banyuasin": 659302,
+      "Musi Rawas": 616543,
+      "Ogan Ilir": 441183,
+      "Ogan Komering Ilir": 816505,
+      "Ogan Komering Ulu": 386816,
+      "Ogan Komering Ulu Selatan": 434789,
+      "Ogan Komering Ulu Timur": 680094,
+      "Pagar Alam": 150533,
+      "Palembang": 1729843,
+      "Penukal Abab Lematang Ilir": 208032,
+      "Prabumulih": 205905
+    },
+    "dbd": {
+      "Banyuasin": 39.0,
+      "Empat Lawang": 7.0,
+      "Lahat": 42.0,
+      "Lubuk Linggau": 155.0,
+      "Muara Enim": 89.0,
+      "Musi Banyuasin": 20.0,
+      "Musi Rawas": 99.0,
+      "Ogan Ilir": 50.0,
+      "Ogan Komering Ilir": 49.0,
+      "Ogan Komering Ulu": 45.0,
+      "Ogan Komering Ulu Selatan": 15.0,
+      "Ogan Komering Ulu Timur": 66.0,
+      "Pagar Alam": 27.0,
+      "Palembang": 55.0,
+      "Penukal Abab Lematang Ilir": 40.0,
+      "Prabumulih": 68.0
+    },
+    "jarak": {
+      "Banyuasin": 38.0,
+      "Empat Lawang": 195.0,
+      "Lahat": 160.0,
+      "Lubuk Linggau": 215.0,
+      "Muara Enim": 131.0,
+      "Musi Banyuasin": 101.0,
+      "Musi Rawas": 402.0,
+      "Ogan Ilir": 33.0,
+      "Ogan Komering Ilir": 48.0,
+      "Ogan Komering Ulu": 144.0,
+      "Ogan Komering Ulu Selatan": 187.0,
+      "Ogan Komering Ulu Timur": 160.0,
+      "Pagar Alam": 207.0,
+      "Palembang": 2.0,
+      "Penukal Abab Lematang Ilir": 103.0,
+      "Prabumulih": 65.0
+    },
+    "luas": {
+      "Banyuasin": 12259.0,
+      "Empat Lawang": 2234.0,
+      "Lahat": 4333.0,
+      "Lubuk Linggau": 368.0,
+      "Muara Enim": 6764.0,
+      "Musi Banyuasin": 14551.0,
+      "Musi Rawas": 12060.0,
+      "Ogan Ilir": 2303.0,
+      "Ogan Komering Ilir": 17076.0,
+      "Ogan Komering Ulu": 3774.0,
+      "Ogan Komering Ulu Selatan": 4369.0,
+      "Ogan Komering Ulu Timur": 3413.0,
+      "Pagar Alam": 626.0,
+      "Palembang": 353.0,
+      "Penukal Abab Lematang Ilir": 1843.0,
+      "Prabumulih": 447.0
+    }
+  }
+}

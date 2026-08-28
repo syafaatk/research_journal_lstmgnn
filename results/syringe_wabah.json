@@ -1,0 +1,70 @@
+{
+  "catatan": "grain = baris item (tanpa dedup faktur); rekonstruksi syringe_covid+dbd",
+  "total_syringe": {
+    "faktur": 1756,
+    "qty": 12372163
+  },
+  "covid": {
+    "pandemi_n": 30,
+    "endemi_n": 34,
+    "pandemi_mean": 220398.16666666666,
+    "endemi_mean": 169418.17647058822,
+    "mannwhitney_p": 0.6139068336548523,
+    "spearman_r": 0.06440909258291672,
+    "spearman_p": 0.6131075120680713
+  },
+  "puncak_per_tahun": {
+    "2020": {
+      "puncak_ym": "2020-12",
+      "puncak_qty": 516575,
+      "total_tahun": 1243712
+    },
+    "2021": {
+      "puncak_ym": "2021-06",
+      "puncak_qty": 506075,
+      "total_tahun": 2859910
+    },
+    "2022": {
+      "puncak_ym": "2022-07",
+      "puncak_qty": 709779,
+      "total_tahun": 2508323
+    },
+    "2023": {
+      "puncak_ym": "2023-07",
+      "puncak_qty": 522897,
+      "total_tahun": 2543843
+    },
+    "2024": {
+      "puncak_ym": "2024-03",
+      "puncak_qty": 305214,
+      "total_tahun": 2154426
+    },
+    "2025": {
+      "puncak_ym": "2025-03",
+      "puncak_qty": 193975,
+      "total_tahun": 1061949
+    }
+  },
+  "event_bulanan": {
+    "delta_jul21": 467126,
+    "delta_agu21": 453750,
+    "omicron_jan22": 37659,
+    "omicron_feb22": 57854,
+    "endemi_nov23": 460191
+  },
+  "dbd": {
+    "n": 77,
+    "pooled_r": 0.04830790869580972,
+    "pooled_p": 0.6765244899995368,
+    "within_r": 0.07153372942846627,
+    "within_p": 0.5364226030277142,
+    "dbd_prov_bps_per_100k": {
+      "2020": 27.86,
+      "2021": 13.4,
+      "2022": 33.38,
+      "2023": 31.5,
+      "2024": 70.44,
+      "2025": 49.99
+    }
+  }
+}

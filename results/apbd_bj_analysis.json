@@ -1,0 +1,221 @@
+{
+  "sumber": "Portal DJPK Kemenkeu, Belanja Barang dan Jasa realisasi per kab/kota, 2020-2024 periode=12 (akhir tahun), 2025 periode=10 (s.d. Oktober). Rupiah.",
+  "pooled": {
+    "n": 96,
+    "r": 0.3454197121254398,
+    "p": 0.0005672513834254552
+  },
+  "within_region": {
+    "n": 96,
+    "r": 0.10291020479943905,
+    "p": 0.3183988150993326
+  },
+  "cross_sectional": {
+    "2020": {
+      "r": 0.4959530408166817,
+      "p": 0.05072697862044898,
+      "n": 16
+    },
+    "2021": {
+      "r": 0.4088235294117647,
+      "p": 0.11588783814878352,
+      "n": 16
+    },
+    "2022": {
+      "r": 0.4705882352941176,
+      "p": 0.06581947250108118,
+      "n": 16
+    },
+    "2023": {
+      "r": 0.16176470588235295,
+      "p": 0.5494831434036929,
+      "n": 16
+    },
+    "2024": {
+      "r": 0.38410606425268223,
+      "p": 0.14187692227551849,
+      "n": 16
+    },
+    "2025": {
+      "r": 0.2516556972689987,
+      "p": 0.34710363587633475,
+      "n": 16
+    }
+  },
+  "per_region": {
+    "Banyuasin": {
+      "r": 0.7714285714285715,
+      "p": 0.07239650145772594
+    },
+    "Empat Lawang": {
+      "r": 0.11595420713048969,
+      "p": 0.826848213385815
+    },
+    "Lahat": {
+      "r": -0.2571428571428572,
+      "p": 0.6227871720116618
+    },
+    "Lubuk Linggau": {
+      "r": 0.6,
+      "p": 0.20799999999999982
+    },
+    "Muara Enim": {
+      "r": 0.028571428571428574,
+      "p": 0.9571545189504373
+    },
+    "Musi Banyuasin": {
+      "r": 0.6,
+      "p": 0.20799999999999982
+    },
+    "Musi Rawas": {
+      "r": 0.08571428571428573,
+      "p": 0.8717434402332361
+    },
+    "Ogan Ilir": {
+      "r": 0.028571428571428574,
+      "p": 0.9571545189504373
+    },
+    "Ogan Komering Ilir": {
+      "r": -0.13093073414159545,
+      "p": 0.8047261622231061
+    },
+    "Ogan Komering Ulu": {
+      "r": 0.028571428571428574,
+      "p": 0.9571545189504373
+    },
+    "Ogan Komering Ulu Selatan": {
+      "r": 0.08571428571428573,
+      "p": 0.8717434402332361
+    },
+    "Ogan Komering Ulu Timur": {
+      "r": -0.3142857142857143,
+      "p": 0.5440932944606414
+    },
+    "Pagar Alam": {
+      "r": -0.48571428571428577,
+      "p": 0.3287230320699709
+    },
+    "Palembang": {
+      "r": 0.6,
+      "p": 0.20799999999999982
+    },
+    "Penukal Abab Lematang Ilir": {
+      "r": -0.6,
+      "p": 0.20799999999999982
+    },
+    "Prabumulih": {
+      "r": -0.7142857142857143,
+      "p": 0.1107871720116617
+    }
+  },
+  "bj_miliar": {
+    "2020": {
+      "Banyuasin": 589,
+      "Empat Lawang": 297,
+      "Lahat": 480,
+      "Lubuk Linggau": 246,
+      "Muara Enim": 710,
+      "Musi Banyuasin": 1194,
+      "Musi Rawas": 690,
+      "Ogan Ilir": 323,
+      "Ogan Komering Ilir": 542,
+      "Ogan Komering Ulu": 349,
+      "Ogan Komering Ulu Selatan": 287,
+      "Ogan Komering Ulu Timur": 367,
+      "Pagar Alam": 261,
+      "Palembang": 1137,
+      "Penukal Abab Lematang Ilir": 337,
+      "Prabumulih": 341
+    },
+    "2021": {
+      "Banyuasin": 575,
+      "Empat Lawang": 311,
+      "Lahat": 514,
+      "Lubuk Linggau": 257,
+      "Muara Enim": 717,
+      "Musi Banyuasin": 1269,
+      "Musi Rawas": 716,
+      "Ogan Ilir": 289,
+      "Ogan Komering Ilir": 570,
+      "Ogan Komering Ulu": 260,
+      "Ogan Komering Ulu Selatan": 286,
+      "Ogan Komering Ulu Timur": 431,
+      "Pagar Alam": 257,
+      "Palembang": 1273,
+      "Penukal Abab Lematang Ilir": 338,
+      "Prabumulih": 277
+    },
+    "2022": {
+      "Banyuasin": 588,
+      "Empat Lawang": 306,
+      "Lahat": 497,
+      "Lubuk Linggau": 325,
+      "Muara Enim": 784,
+      "Musi Banyuasin": 1134,
+      "Musi Rawas": 765,
+      "Ogan Ilir": 419,
+      "Ogan Komering Ilir": 657,
+      "Ogan Komering Ulu": 361,
+      "Ogan Komering Ulu Selatan": 296,
+      "Ogan Komering Ulu Timur": 495,
+      "Pagar Alam": 294,
+      "Palembang": 1393,
+      "Penukal Abab Lematang Ilir": 378,
+      "Prabumulih": 318
+    },
+    "2023": {
+      "Banyuasin": 686,
+      "Empat Lawang": 297,
+      "Lahat": 605,
+      "Lubuk Linggau": 253,
+      "Muara Enim": 820,
+      "Musi Banyuasin": 1131,
+      "Musi Rawas": 763,
+      "Ogan Ilir": 474,
+      "Ogan Komering Ilir": 702,
+      "Ogan Komering Ulu": 334,
+      "Ogan Komering Ulu Selatan": 273,
+      "Ogan Komering Ulu Timur": 509,
+      "Pagar Alam": 292,
+      "Palembang": 1203,
+      "Penukal Abab Lematang Ilir": 449,
+      "Prabumulih": 292
+    },
+    "2024": {
+      "Banyuasin": 692,
+      "Empat Lawang": 375,
+      "Lahat": 704,
+      "Lubuk Linggau": 307,
+      "Muara Enim": 997,
+      "Musi Banyuasin": 1166,
+      "Musi Rawas": 886,
+      "Ogan Ilir": 465,
+      "Ogan Komering Ilir": 894,
+      "Ogan Komering Ulu": 375,
+      "Ogan Komering Ulu Selatan": 334,
+      "Ogan Komering Ulu Timur": 649,
+      "Pagar Alam": 361,
+      "Palembang": 1397,
+      "Penukal Abab Lematang Ilir": 439,
+      "Prabumulih": 314
+    },
+    "2025": {
+      "Banyuasin": 397,
+      "Empat Lawang": 233,
+      "Lahat": 391,
+      "Lubuk Linggau": 208,
+      "Muara Enim": 532,
+      "Musi Banyuasin": 551,
+      "Musi Rawas": 461,
+      "Ogan Ilir": 282,
+      "Ogan Komering Ilir": 467,
+      "Ogan Komering Ulu": 248,
+      "Ogan Komering Ulu Selatan": 148,
+      "Ogan Komering Ulu Timur": 456,
+      "Pagar Alam": 207,
+      "Palembang": 952,
+      "Penukal Abab Lematang Ilir": 446,
+      "Prabumulih": 323
+    }
+  }
+}

@@ -1,0 +1,577 @@
+{
+  "catatan": "grain = baris item; nilai = kolom jumlah",
+  "top_unit_price_items": [
+    {
+      "tanggal": "2023-11-29 11:13:00",
+      "barang_nama": "Hyper-Hypothermia System Blanketrol III",
+      "d_jual_qty": 1,
+      "_val": 441502702.7,
+      "unit_price": 441502702.7,
+      "wilayah": "Palembang",
+      "pelanggan_nama": "RSUD SITI FATIMAH PROV.SUMSEL"
+    },
+    {
+      "tanggal": "2021-08-16 10:06:00",
+      "barang_nama": "Infant Warmer",
+      "d_jual_qty": 1,
+      "_val": 420000000.0,
+      "unit_price": 420000000.0,
+      "wilayah": "Jakarta Pusat",
+      "pelanggan_nama": "PT. BANK TABUNGAN NEGARA"
+    },
+    {
+      "tanggal": "2021-08-05 14:59:00",
+      "barang_nama": "Bubble Infant nCPAP",
+      "d_jual_qty": 1,
+      "_val": 179379000.0,
+      "unit_price": 179379000.0,
+      "wilayah": "Bengkulu",
+      "pelanggan_nama": "YAY. RAFFLESIA"
+    },
+    {
+      "tanggal": "2021-08-20 09:14:00",
+      "barang_nama": "Airvo Unit Optiflow Therapy",
+      "d_jual_qty": 5,
+      "_val": 762500000.0,
+      "unit_price": 152500000.0,
+      "wilayah": "Palembang",
+      "pelanggan_nama": "RUMKIT BHAYANGKARA PALEMBANG"
+    },
+    {
+      "tanggal": "2021-06-29 11:16:00",
+      "barang_nama": "GeNose",
+      "d_jual_qty": 2,
+      "_val": 177020000.0,
+      "unit_price": 88510000.0,
+      "wilayah": "Palembang",
+      "pelanggan_nama": "RUMKIT BHAYANGKARA PALEMBANG"
+    },
+    {
+      "tanggal": "2024-07-11 09:11:00",
+      "barang_nama": "Servis Juli",
+      "d_jual_qty": 1,
+      "_val": 77847400.0,
+      "unit_price": 77847400.0,
+      "wilayah": "Jambi",
+      "pelanggan_nama": "RUMKIT BHAYANGKARA JAMBI"
+    },
+    {
+      "tanggal": "2024-12-23 17:28:00",
+      "barang_nama": "Guedel Airway ",
+      "d_jual_qty": 1,
+      "_val": 45454402.0,
+      "unit_price": 45454402.0,
+      "wilayah": "Jambi",
+      "pelanggan_nama": "RUMAH SAKIT DAERAH PROV. JAMBI"
+    },
+    {
+      "tanggal": "2022-07-05 16:02:00",
+      "barang_nama": "Neopuff Infant Resucitator",
+      "d_jual_qty": 1,
+      "_val": 42180000.0,
+      "unit_price": 42180000.0,
+      "wilayah": "Prabumulih",
+      "pelanggan_nama": "RS AR Bunda Prabumulih"
+    },
+    {
+      "tanggal": "2022-09-19 09:01:00",
+      "barang_nama": "Neopuff Infant Resucitator",
+      "d_jual_qty": 1,
+      "_val": 42180000.0,
+      "unit_price": 42180000.0,
+      "wilayah": "Prabumulih",
+      "pelanggan_nama": "RS AR Bunda Prabumulih"
+    },
+    {
+      "tanggal": "2022-12-15 09:46:00",
+      "barang_nama": "Patient Monitor",
+      "d_jual_qty": 2,
+      "_val": 80180180.18,
+      "unit_price": 40090090.09,
+      "wilayah": "Palembang",
+      "pelanggan_nama": "RUMKIT BHAYANGKARA PALEMBANG"
+    },
+    {
+      "tanggal": "2021-11-10 15:59:00",
+      "barang_nama": "TOBA Obgyn Bed Manual",
+      "d_jual_qty": 4,
+      "_val": 125007272.7,
+      "unit_price": 31251818.175,
+      "wilayah": "Baturaja",
+      "pelanggan_nama": "DINAS KESEHATAN KAB. OGAN KOMERING ULU"
+    },
+    {
+      "tanggal": "2022-12-15 09:46:00",
+      "barang_nama": "BeneFusion VP1 ",
+      "d_jual_qty": 2,
+      "_val": 50899099.1,
+      "unit_price": 25449549.55,
+      "wilayah": "Palembang",
+      "pelanggan_nama": "RUMKIT BHAYANGKARA PALEMBANG"
+    },
+    {
+      "tanggal": "2023-12-18 10:19:00",
+      "barang_nama": "Patient Monitor ",
+      "d_jual_qty": 2,
+      "_val": 46126126.13,
+      "unit_price": 23063063.065,
+      "wilayah": "Palembang",
+      "pelanggan_nama": "RS. MUHAMMADIYAH PALEMBANG"
+    },
+    {
+      "tanggal": "2021-09-27 09:04:00",
+      "barang_nama": "Hecting ",
+      "d_jual_qty": 3,
+      "_val": 44250000.0,
+      "unit_price": 14750000.0,
+      "wilayah": "Palembang",
+      "pelanggan_nama": "RSUD SITI FATIMAH PROV.SUMSEL"
+    },
+    {
+      "tanggal": "2020-09-11 15:17:00",
+      "barang_nama": "IP Cassette + IP 6 35X35 CM",
+      "d_jual_qty": 1,
+      "_val": 14500000.0,
+      "unit_price": 14500000.0,
+      "wilayah": "Lahat",
+      "pelanggan_nama": "Rumah Sakit TK.IV/DKT Lahat"
+    },
+    {
+      "tanggal": "2020-09-11 15:17:00",
+      "barang_nama": "IP Cassette + IP 6 35X35 CM",
+      "d_jual_qty": 1,
+      "_val": 14500000.0,
+      "unit_price": 14500000.0,
+      "wilayah": "Lahat",
+      "pelanggan_nama": "Rumah Sakit TK.IV/DKT Lahat"
+    },
+    {
+      "tanggal": "2022-12-15 09:46:00",
+      "barang_nama": "Suction Unit Portable",
+      "d_jual_qty": 1,
+      "_val": 13288288.29,
+      "unit_price": 13288288.29,
+      "wilayah": "Palembang",
+      "pelanggan_nama": "RUMKIT BHAYANGKARA PALEMBANG"
+    },
+    {
+      "tanggal": "2023-12-20 13:33:00",
+      "barang_nama": "Jackson ",
+      "d_jual_qty": 1,
+      "_val": 11220000.0,
+      "unit_price": 11220000.0,
+      "wilayah": "Palembang",
+      "pelanggan_nama": "RS. MUHAMMADIYAH PALEMBANG"
+    },
+    {
+      "tanggal": "2021-11-10 15:59:00",
+      "barang_nama": "Examination Table ",
+      "d_jual_qty": 4,
+      "_val": 39418181.82,
+      "unit_price": 9854545.455,
+      "wilayah": "Baturaja",
+      "pelanggan_nama": "DINAS KESEHATAN KAB. OGAN KOMERING ULU"
+    },
+    {
+      "tanggal": "2021-07-14 09:21:00",
+      "barang_nama": "DVE Film Rontegen",
+      "d_jual_qty": 1,
+      "_val": 8585000.0,
+      "unit_price": 8585000.0,
+      "wilayah": "Musi Rawas",
+      "pelanggan_nama": "RSUD. Rupit"
+    },
+    {
+      "tanggal": "2021-05-19 13:14:00",
+      "barang_nama": "Minor Set",
+      "d_jual_qty": 5,
+      "_val": 38636363.64,
+      "unit_price": 7727272.728,
+      "wilayah": "Palembang",
+      "pelanggan_nama": "RSUD SITI FATIMAH PROV.SUMSEL"
+    },
+    {
+      "tanggal": "2021-06-10 16:02:00",
+      "barang_nama": "Simoe Original I/A",
+      "d_jual_qty": 1,
+      "_val": 6818181.82,
+      "unit_price": 6818181.82,
+      "wilayah": "Lubuklinggau",
+      "pelanggan_nama": "RS Dr. Sobirin Kabupaten Musirawas"
+    },
+    {
+      "tanggal": "2024-08-29 16:39:00",
+      "barang_nama": "Red Label With Indicator For Steam ",
+      "d_jual_qty": 1,
+      "_val": 6720000.0,
+      "unit_price": 6720000.0,
+      "wilayah": "Bangka Belitung",
+      "pelanggan_nama": "PT. BAKTI TIMAH MEDIKA (RSBT)"
+    },
+    {
+      "tanggal": "2024-09-27 09:33:00",
+      "barang_nama": "Red Label With Indicator For Steam ",
+      "d_jual_qty": 1,
+      "_val": 6720000.0,
+      "unit_price": 6720000.0,
+      "wilayah": "Palembang",
+      "pelanggan_nama": "RS. MUHAMMADIYAH PALEMBANG"
+    },
+    {
+      "tanggal": "2024-10-03 10:16:00",
+      "barang_nama": "Red Label With Indicator For Steam ",
+      "d_jual_qty": 1,
+      "_val": 6720000.0,
+      "unit_price": 6720000.0,
+      "wilayah": "Bangka Belitung",
+      "pelanggan_nama": "PT. BAKTI TIMAH MEDIKA (RSBT)"
+    }
+  ],
+  "products_max_unit_price_gt_50jt": {
+    "Hyper-Hypothermia System Blanketrol III": 441502702.7,
+    "Infant Warmer": 420000000.0,
+    "Bubble Infant nCPAP": 179379000.0,
+    "Airvo Unit Optiflow Therapy": 152500000.0,
+    "GeNose": 88510000.0,
+    "Servis Juli": 77847400.0
+  },
+  "neonatal_total": {
+    "faktur": 100,
+    "nilai": 940454418.1819999,
+    "qty": 1487
+  },
+  "neonatal_by_product": {
+    "total": {
+      "Infant Warmer": 420000000.0,
+      "Bubble Infant nCPAP": 179379000.0,
+      "Neonatal Nasal Ventilation Double Tube 8Fr": 98274400.0,
+      "Neonatal Nasal Ventilation Double Tube 10Fr": 92044654.182,
+      "Neopuff Infant Resucitator": 84360000.0,
+      "Neonatal Nasal Ventilation Double Tube 12Fr": 26124000.0,
+      "Neonatal Sampling Paper": 12000000.0,
+      "Resuscitator": 9810644.0,
+      "Neonatal Silicone Weap SPO2 Sensor": 7400000.0,
+      "Infant Bubble CPAPP System": 4800000.0,
+      "Infant With Bladder": 2400000.0,
+      "Resuscitator Silicone": 1890000.0,
+      "T-Piece Resuscitator": 1087800.0,
+      "Bubble Pap Valve": 883920.0
+    },
+    "n": {
+      "Infant Warmer": 1,
+      "Bubble Infant nCPAP": 1,
+      "Neonatal Nasal Ventilation Double Tube 8Fr": 56,
+      "Neonatal Nasal Ventilation Double Tube 10Fr": 55,
+      "Neopuff Infant Resucitator": 2,
+      "Neonatal Nasal Ventilation Double Tube 12Fr": 5,
+      "Neonatal Sampling Paper": 3,
+      "Resuscitator": 12,
+      "Neonatal Silicone Weap SPO2 Sensor": 2,
+      "Infant Bubble CPAPP System": 2,
+      "Infant With Bladder": 1,
+      "Resuscitator Silicone": 1,
+      "T-Piece Resuscitator": 2,
+      "Bubble Pap Valve": 1
+    },
+    "qty": {
+      "Infant Warmer": 1,
+      "Bubble Infant nCPAP": 1,
+      "Neonatal Nasal Ventilation Double Tube 8Fr": 192,
+      "Neonatal Nasal Ventilation Double Tube 10Fr": 194,
+      "Neopuff Infant Resucitator": 2,
+      "Neonatal Nasal Ventilation Double Tube 12Fr": 57,
+      "Neonatal Sampling Paper": 1000,
+      "Resuscitator": 24,
+      "Neonatal Silicone Weap SPO2 Sensor": 5,
+      "Infant Bubble CPAPP System": 3,
+      "Infant With Bladder": 2,
+      "Resuscitator Silicone": 2,
+      "T-Piece Resuscitator": 2,
+      "Bubble Pap Valve": 2
+    }
+  },
+  "neonatal_by_year_jt": {
+    "2020": 13.1,
+    "2021": 612.9,
+    "2022": 146.1,
+    "2023": 35.6,
+    "2024": 67.8,
+    "2025": 64.8
+  },
+  "neonatal_by_region_jt": {
+    "Jakarta Pusat": 420.0,
+    "Bengkulu": 183.2,
+    "Prabumulih": 118.3,
+    "Muara Enim": 105.9,
+    "Palembang": 83.6,
+    "Lubuklinggau": 23.1,
+    "Baturaja": 2.0,
+    "Lahat": 2.0,
+    "Oku (Ogan Komering Ulu)": 0.7,
+    "Sungailiat": 0.6,
+    "Ogan Ilir": 0.6,
+    "Banyuasin": 0.6
+  },
+  "neonatal_top_customers": {
+    "total": {
+      "PT. BANK TABUNGAN NEGARA": 420000000.0,
+      "YAY. RAFFLESIA": 179379000.0,
+      "RS AR Bunda Prabumulih": 118272000.0,
+      "RSUD dr. H. M.Rabain": 105865000.0,
+      "PT. BUNDA MEDIKA JAKABARING": 22776300.0,
+      "RUMAH SAKIT PERTAMINA PALEMBANG": 16895800.0,
+      "PT. GRAHA PUSRI MEDIKA (RS PUSRI)": 15201000.0,
+      "RSUD SITI AISYAH": 13590000.0,
+      "RS Bunda Palembang": 13244254.182,
+      "RS Dr. Sobirin Kabupaten Musirawas": 7800000.0,
+      "PT. RUMAH SAKIT SILOAM HOSPITALS ": 6669000.0,
+      "RUMKIT BHAYANGKARA PALEMBANG": 5527750.0,
+      "RUMAH SAKIT POLRI BENGKULU": 3492500.0,
+      "RSUD. LAHAT": 2000000.0,
+      "PT. Mega Dwi Sari ( RSIA Dwi Sari )": 1755000.0
+    },
+    "n": {
+      "PT. BANK TABUNGAN NEGARA": 1,
+      "YAY. RAFFLESIA": 1,
+      "RS AR Bunda Prabumulih": 17,
+      "RSUD dr. H. M.Rabain": 11,
+      "PT. BUNDA MEDIKA JAKABARING": 16,
+      "RUMAH SAKIT PERTAMINA PALEMBANG": 7,
+      "PT. GRAHA PUSRI MEDIKA (RS PUSRI)": 9,
+      "RSUD SITI AISYAH": 4,
+      "RS Bunda Palembang": 9,
+      "RS Dr. Sobirin Kabupaten Musirawas": 2,
+      "PT. RUMAH SAKIT SILOAM HOSPITALS ": 3,
+      "RUMKIT BHAYANGKARA PALEMBANG": 4,
+      "RUMAH SAKIT POLRI BENGKULU": 2,
+      "RSUD. LAHAT": 1,
+      "PT. Mega Dwi Sari ( RSIA Dwi Sari )": 2
+    },
+    "region": {
+      "PT. BANK TABUNGAN NEGARA": "Jakarta Pusat",
+      "YAY. RAFFLESIA": "Bengkulu",
+      "RS AR Bunda Prabumulih": "Prabumulih",
+      "RSUD dr. H. M.Rabain": "Muara Enim",
+      "PT. BUNDA MEDIKA JAKABARING": "Palembang",
+      "RUMAH SAKIT PERTAMINA PALEMBANG": "Palembang",
+      "PT. GRAHA PUSRI MEDIKA (RS PUSRI)": "Palembang",
+      "RSUD SITI AISYAH": "Lubuklinggau",
+      "RS Bunda Palembang": "Palembang",
+      "RS Dr. Sobirin Kabupaten Musirawas": "Lubuklinggau",
+      "PT. RUMAH SAKIT SILOAM HOSPITALS ": "Palembang",
+      "RUMKIT BHAYANGKARA PALEMBANG": "Palembang",
+      "RUMAH SAKIT POLRI BENGKULU": "Bengkulu",
+      "RSUD. LAHAT": "Lahat",
+      "PT. Mega Dwi Sari ( RSIA Dwi Sari )": "Lubuklinggau"
+    }
+  },
+  "top_qty_items": [
+    {
+      "tanggal": "2021-06-24 10:27:00",
+      "barang_nama": "Disposable Syringe",
+      "d_jual_qty": 200000,
+      "_val": 136545454.6,
+      "wilayah": "Musi Banyuasin",
+      "pelanggan_nama": "DINAS KESEHATAN KAB.MUSI BANYUASIN"
+    },
+    {
+      "tanggal": "2022-07-08 16:48:00",
+      "barang_nama": "Disposable Syringe",
+      "d_jual_qty": 200000,
+      "_val": 169657657.7,
+      "wilayah": "Muara Enim",
+      "pelanggan_nama": "DINKES KABUPATEN MUARA ENIM"
+    },
+    {
+      "tanggal": "2021-07-26 16:13:00",
+      "barang_nama": "Disposable Syringe",
+      "d_jual_qty": 165700,
+      "_val": 110960583.3,
+      "wilayah": "Muara Enim",
+      "pelanggan_nama": "DINKES KABUPATEN MUARA ENIM"
+    },
+    {
+      "tanggal": "2020-12-08 17:09:00",
+      "barang_nama": "Disposable Syringe",
+      "d_jual_qty": 150000,
+      "_val": 97120182.0,
+      "wilayah": "Muara Enim",
+      "pelanggan_nama": "RSUD dr. H. M.Rabain"
+    },
+    {
+      "tanggal": "2020-12-08 17:09:00",
+      "barang_nama": "Disposable Syringe",
+      "d_jual_qty": 150000,
+      "_val": 115549662.6,
+      "wilayah": "Muara Enim",
+      "pelanggan_nama": "RSUD dr. H. M.Rabain"
+    },
+    {
+      "tanggal": "2022-07-08 16:48:00",
+      "barang_nama": "Auto Destruct Syringe ",
+      "d_jual_qty": 140000,
+      "_val": 165237837.8,
+      "wilayah": "Muara Enim",
+      "pelanggan_nama": "DINKES KABUPATEN MUARA ENIM"
+    },
+    {
+      "tanggal": "2023-12-12 13:32:00",
+      "barang_nama": "ECG Red Roll",
+      "d_jual_qty": 135000,
+      "_val": 6615000.0,
+      "wilayah": "Palembang",
+      "pelanggan_nama": "RSUP DR. M. Hoesin Palembang"
+    },
+    {
+      "tanggal": "2021-07-26 16:13:00",
+      "barang_nama": "Auto Destruct Syringe ",
+      "d_jual_qty": 130000,
+      "_val": 132877727.3,
+      "wilayah": "Muara Enim",
+      "pelanggan_nama": "DINKES KABUPATEN MUARA ENIM"
+    },
+    {
+      "tanggal": "2022-06-06 10:52:00",
+      "barang_nama": "Auto Destruct Syringe ",
+      "d_jual_qty": 120000,
+      "_val": 141632432.0,
+      "wilayah": "Palembang",
+      "pelanggan_nama": "DINAS KESEHATAN PROV. SUMSEL"
+    },
+    {
+      "tanggal": "2021-08-20 15:54:00",
+      "barang_nama": "Auto Destruct Syringe ",
+      "d_jual_qty": 106400,
+      "_val": 105334545.0,
+      "wilayah": "Oku Selatan",
+      "pelanggan_nama": "DINAS KESEHATAN KAB. OKU SELATAN"
+    },
+    {
+      "tanggal": "2024-07-18 18:38:00",
+      "barang_nama": "Disposable Syringe",
+      "d_jual_qty": 100000,
+      "_val": 84828828.83,
+      "wilayah": "Muara Enim",
+      "pelanggan_nama": "DINKES KABUPATEN MUARA ENIM"
+    },
+    {
+      "tanggal": "2023-07-06 16:43:00",
+      "barang_nama": "Disposable Syringe",
+      "d_jual_qty": 90000,
+      "_val": 80666666.67,
+      "wilayah": "Muara Enim",
+      "pelanggan_nama": "DINKES KABUPATEN MUARA ENIM"
+    },
+    {
+      "tanggal": "2023-07-06 16:43:00",
+      "barang_nama": "Disposable Syringe",
+      "d_jual_qty": 90000,
+      "_val": 80666666.67,
+      "wilayah": "Muara Enim",
+      "pelanggan_nama": "DINKES KABUPATEN MUARA ENIM"
+    },
+    {
+      "tanggal": "2021-09-11 14:42:00",
+      "barang_nama": "Disposable Syringe",
+      "d_jual_qty": 80000,
+      "_val": 52182545.6,
+      "wilayah": "Musi Rawas",
+      "pelanggan_nama": "DINAS KESEHATAN KAB. MUSI RAWAS"
+    },
+    {
+      "tanggal": "2022-07-08 16:48:00",
+      "barang_nama": "Disposable Syringe",
+      "d_jual_qty": 80000,
+      "_val": 75315315.32,
+      "wilayah": "Muara Enim",
+      "pelanggan_nama": "DINKES KABUPATEN MUARA ENIM"
+    },
+    {
+      "tanggal": "2023-11-24 15:28:00",
+      "barang_nama": "Disposable Syringe",
+      "d_jual_qty": 80000,
+      "_val": 70947747.75,
+      "wilayah": "Muara Enim",
+      "pelanggan_nama": "RSUD dr. H. M.Rabain"
+    },
+    {
+      "tanggal": "2020-07-16 09:55:00",
+      "barang_nama": "Auto Destruct Syringe ",
+      "d_jual_qty": 79200,
+      "_val": 87400799.64,
+      "wilayah": "Oku Selatan",
+      "pelanggan_nama": "DINAS KESEHATAN KAB. OKU SELATAN"
+    },
+    {
+      "tanggal": "2024-08-05 15:31:00",
+      "barang_nama": "Disposable Syringe",
+      "d_jual_qty": 79000,
+      "_val": 64976576.58,
+      "wilayah": "Oku Selatan",
+      "pelanggan_nama": "DINAS KESEHATAN KAB. OKU SELATAN"
+    },
+    {
+      "tanggal": "2022-07-08 16:48:00",
+      "barang_nama": "Disposable Syringe",
+      "d_jual_qty": 70000,
+      "_val": 63472972.97,
+      "wilayah": "Muara Enim",
+      "pelanggan_nama": "DINKES KABUPATEN MUARA ENIM"
+    },
+    {
+      "tanggal": "2022-11-15 15:26:00",
+      "barang_nama": "Disposable Syringe",
+      "d_jual_qty": 70000,
+      "_val": 65315315.32,
+      "wilayah": "Palembang",
+      "pelanggan_nama": "RSUD SITI FATIMAH PROV.SUMSEL"
+    }
+  ],
+  "big_qty_summary": {
+    "baris": 293,
+    "faktur": 177,
+    "qty": 7778468,
+    "nilai": 7380166868.351999
+  },
+  "big_qty_by_product": {
+    "total": {
+      "Disposable Syringe": 5781652056.062,
+      "Auto Destruct Syringe ": 1000175930.45,
+      "ECG Red Roll": 6615000.0,
+      "Masker ": 181800000.0,
+      "Medicine Cup": 5700000.0,
+      "Shoe Cover": 19800000.0,
+      "MOB CAP": 5382000.0,
+      "Shoes Cover": 7314000.0,
+      "Masker N95": 237500000.0,
+      "Infusion Set": 71498181.84,
+      "IV Catheter ": 62729700.0
+    },
+    "n": {
+      "Disposable Syringe": 161,
+      "Auto Destruct Syringe ": 13,
+      "ECG Red Roll": 1,
+      "Masker ": 1,
+      "Medicine Cup": 3,
+      "Shoe Cover": 2,
+      "MOB CAP": 1,
+      "Shoes Cover": 1,
+      "Masker N95": 1,
+      "Infusion Set": 1,
+      "IV Catheter ": 1
+    },
+    "qty": {
+      "Disposable Syringe": 6596568,
+      "Auto Destruct Syringe ": 884800,
+      "ECG Red Roll": 135000,
+      "Masker ": 50000,
+      "Medicine Cup": 30000,
+      "Shoe Cover": 20000,
+      "MOB CAP": 13800,
+      "Shoes Cover": 13800,
+      "Masker N95": 12500,
+      "Infusion Set": 12000,
+      "IV Catheter ": 10000
+    }
+  }
+}

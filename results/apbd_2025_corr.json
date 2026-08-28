@@ -1,0 +1,124 @@
+{
+  "sumber": "Portal DJPK Kemenkeu, APBD 2025 realisasi s.d. Oktober (periode=10), data SIKD per 19 Agu 2026",
+  "catatan": "MRU digabung ke Musi Rawas. Korelasi cross-sectional 2025 TIDAK signifikan - konsisten dengan within-region 2020-2022 (r=-0,112): belanja bukan prediktor penjualan.",
+  "korelasi": {
+    "belanja_daerah": {
+      "spearman": 0.25607070950178823,
+      "p": 0.33842207982246264,
+      "n": 16
+    },
+    "barang_jasa": {
+      "spearman": 0.2516556972689987,
+      "p": 0.34710363587633475,
+      "n": 16
+    },
+    "belanja_daerah_per_kapita": {
+      "spearman": 0.26342906322310394,
+      "p": 0.32423119700315595,
+      "n": 16
+    },
+    "barang_jasa_per_kapita": {
+      "spearman": 0.48712301635110283,
+      "p": 0.055654436510311454,
+      "n": 16
+    }
+  },
+  "per_region": {
+    "Banyuasin": {
+      "belanja_daerah": 1984310000000.0,
+      "barang_jasa": 396550000000.0,
+      "penjualan": 97646324.32,
+      "penduduk": 897425
+    },
+    "Empat Lawang": {
+      "belanja_daerah": 829460000000.0,
+      "barang_jasa": 233400000000.0,
+      "penjualan": 0.0,
+      "penduduk": 348974
+    },
+    "Lahat": {
+      "belanja_daerah": 1739180000000.0,
+      "barang_jasa": 391020000000.0,
+      "penjualan": 972050396.101,
+      "penduduk": 455581
+    },
+    "Lubuk Linggau": {
+      "belanja_daerah": 671820000000.0,
+      "barang_jasa": 208150000000.0,
+      "penjualan": 129156375.478,
+      "penduduk": 249054
+    },
+    "Muara Enim": {
+      "belanja_daerah": 2353450000000.0,
+      "barang_jasa": 532179999999.99994,
+      "penjualan": 528063177.351,
+      "penduduk": 647936
+    },
+    "Musi Banyuasin": {
+      "belanja_daerah": 2732360000000.0,
+      "barang_jasa": 550730000000.0,
+      "penjualan": 153297762.931,
+      "penduduk": 659302
+    },
+    "Musi Rawas": {
+      "belanja_daerah": 1859080000000.0,
+      "barang_jasa": 460620000000.0,
+      "penjualan": 8128800.0,
+      "penduduk": 616543
+    },
+    "Ogan Ilir": {
+      "belanja_daerah": 1002040000000.0,
+      "barang_jasa": 282500000000.0,
+      "penjualan": 65447064.466,
+      "penduduk": 441183
+    },
+    "Ogan Komering Ilir": {
+      "belanja_daerah": 1922540000000.0,
+      "barang_jasa": 467000000000.0,
+      "penjualan": 0.0,
+      "penduduk": 816505
+    },
+    "Ogan Komering Ulu": {
+      "belanja_daerah": 867090000000.0,
+      "barang_jasa": 248260000000.0,
+      "penjualan": 435402659.435,
+      "penduduk": 386816
+    },
+    "Ogan Komering Ulu Selatan": {
+      "belanja_daerah": 668870000000.0,
+      "barang_jasa": 148400000000.0,
+      "penjualan": 3977292.0,
+      "penduduk": 434789
+    },
+    "Ogan Komering Ulu Timur": {
+      "belanja_daerah": 1584840000000.0,
+      "barang_jasa": 456110000000.0,
+      "penjualan": 306574069.64,
+      "penduduk": 680094
+    },
+    "Pagar Alam": {
+      "belanja_daerah": 537190000000.00006,
+      "barang_jasa": 207430000000.0,
+      "penjualan": 371476050.05,
+      "penduduk": 150533
+    },
+    "Palembang": {
+      "belanja_daerah": 3156460000000.0,
+      "barang_jasa": 952020000000.0,
+      "penjualan": 4979704585.99,
+      "penduduk": 1729843
+    },
+    "Penukal Abab Lematang Ilir": {
+      "belanja_daerah": 1196370000000.0,
+      "barang_jasa": 446020000000.0,
+      "penjualan": 109971947.879,
+      "penduduk": 208032
+    },
+    "Prabumulih": {
+      "belanja_daerah": 843810000000.0,
+      "barang_jasa": 322810000000.0,
+      "penjualan": 233965396.152,
+      "penduduk": 205905
+    }
+  }
+}

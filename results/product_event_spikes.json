@@ -1,0 +1,565 @@
+{
+  "delta_2021": {
+    "label": "Delta COVID (Jul-Agu 2021)",
+    "months": [
+      "2021-07",
+      "2021-08"
+    ],
+    "hits": [
+      {
+        "barang_nama": "Handscoon Non Sterile ",
+        "total_window": 142725000.0,
+        "baseline_median": 3828826.802,
+        "ratio": 37.276431497357656,
+        "groups": [
+          "APD_HIGIENE"
+        ]
+      },
+      {
+        "barang_nama": "Rapit Tes ",
+        "total_window": 128000000.0,
+        "baseline_median": 3500000.0,
+        "ratio": 36.57142857142857,
+        "groups": [
+          "PANDEMI_COVID"
+        ]
+      },
+      {
+        "barang_nama": "Masker",
+        "total_window": 253376839.38,
+        "baseline_median": 7500125.0,
+        "ratio": 33.78301553374111,
+        "groups": [
+          "APD_HIGIENE"
+        ]
+      },
+      {
+        "barang_nama": "Paper Tape",
+        "total_window": 145449144.68,
+        "baseline_median": 6705504.6,
+        "ratio": 21.69100662163441,
+        "groups": [
+          "PERAWATAN_LUKA"
+        ]
+      },
+      {
+        "barang_nama": "Handscoon non sterile",
+        "total_window": 446823181.83,
+        "baseline_median": 29000000.0,
+        "ratio": 15.407695925172414,
+        "groups": [
+          "APD_HIGIENE"
+        ]
+      },
+      {
+        "barang_nama": "Latex Steril Surgical Gloves",
+        "total_window": 81670104.55,
+        "baseline_median": 6136250.0,
+        "ratio": 13.309448694235078,
+        "groups": [
+          "APD_HIGIENE",
+          "BEDAH_OK"
+        ]
+      },
+      {
+        "barang_nama": "Tabung Oxygen ",
+        "total_window": 87500000.0,
+        "baseline_median": 6913636.365,
+        "ratio": 12.656147269035605,
+        "groups": [
+          "RESPIRATORIUM",
+          "LABORATORIUM"
+        ]
+      },
+      {
+        "barang_nama": "Breathing Circuit",
+        "total_window": 69246327.42,
+        "baseline_median": 6119222.523,
+        "ratio": 11.316196977594371,
+        "groups": [
+          "RESPIRATORIUM"
+        ]
+      },
+      {
+        "barang_nama": "Handscoon Gynecology",
+        "total_window": 85329909.1,
+        "baseline_median": 9758000.0,
+        "ratio": 8.744610483705676,
+        "groups": [
+          "APD_HIGIENE"
+        ]
+      },
+      {
+        "barang_nama": "Oxygen Mask Non Rebreathing",
+        "total_window": 97547650.0,
+        "baseline_median": 11258924.414,
+        "ratio": 8.664029210348334,
+        "groups": [
+          "RESPIRATORIUM",
+          "PANDEMI_COVID"
+        ]
+      },
+      {
+        "barang_nama": "Oxygen Mask Non Rebrithing",
+        "total_window": 55222500.0,
+        "baseline_median": 6419000.0,
+        "ratio": 8.602975541361582,
+        "groups": [
+          "RESPIRATORIUM",
+          "PANDEMI_COVID"
+        ]
+      },
+      {
+        "barang_nama": "MF Cath Pro",
+        "total_window": 231780536.8,
+        "baseline_median": 27935000.0,
+        "ratio": 8.297137526400574,
+        "groups": [
+          "RESPIRATORIUM"
+        ]
+      },
+      {
+        "barang_nama": "Apron ",
+        "total_window": 57533640.004,
+        "baseline_median": 7154563.636,
+        "ratio": 8.041530263915035,
+        "groups": [
+          "APD_HIGIENE"
+        ]
+      },
+      {
+        "barang_nama": "Handscoon non steril ",
+        "total_window": 118280000.0,
+        "baseline_median": 15075000.0,
+        "ratio": 7.846102819237148,
+        "groups": [
+          "APD_HIGIENE"
+        ]
+      },
+      {
+        "barang_nama": "2 Way Foley Catheter",
+        "total_window": 62518780.0,
+        "baseline_median": 8485682.73,
+        "ratio": 7.367560394283089,
+        "groups": [
+          "UROLOGI"
+        ]
+      },
+      {
+        "barang_nama": "Handheld Pulse Oximeter",
+        "total_window": 70909090.91,
+        "baseline_median": 10530000.0,
+        "ratio": 6.734006734093067,
+        "groups": [
+          "DIAGNOSTIK"
+        ]
+      },
+      {
+        "barang_nama": "Infusion Set",
+        "total_window": 196279592.124,
+        "baseline_median": 29885823.096,
+        "ratio": 6.567648864597294,
+        "groups": [
+          "DBD"
+        ]
+      },
+      {
+        "barang_nama": "Coverall",
+        "total_window": 186877500.0,
+        "baseline_median": 29800000.0,
+        "ratio": 6.271057046979866,
+        "groups": [
+          "PANDEMI_COVID"
+        ]
+      },
+      {
+        "barang_nama": "KIT 3A",
+        "total_window": 252278072.8,
+        "baseline_median": 44933637.0,
+        "ratio": 5.614459225724373,
+        "groups": [
+          "OPERASIONAL_RS"
+        ]
+      },
+      {
+        "barang_nama": "Spinocan",
+        "total_window": 91037200.0,
+        "baseline_median": 17666875.0,
+        "ratio": 5.152988290232426,
+        "groups": [
+          "BEDAH_OK"
+        ]
+      }
+    ]
+  },
+  "omicron_2022": {
+    "label": "Omicron COVID (Feb-Mar 2022)",
+    "months": [
+      "2022-02",
+      "2022-03"
+    ],
+    "hits": [
+      {
+        "barang_nama": "Assucryl 2/0",
+        "total_window": 53455488.6,
+        "baseline_median": 8521920.0,
+        "ratio": 6.272704812999888,
+        "groups": [
+          "BEDAH_OK"
+        ]
+      },
+      {
+        "barang_nama": "Assucryl 3/0",
+        "total_window": 61861941.6,
+        "baseline_median": 17253206.4,
+        "ratio": 3.5855330403976393,
+        "groups": [
+          "BEDAH_OK"
+        ]
+      },
+      {
+        "barang_nama": "Mask Nebulizer",
+        "total_window": 55307101.818,
+        "baseline_median": 17802850.0,
+        "ratio": 3.1066431396096696,
+        "groups": [
+          "RESPIRATORIUM"
+        ]
+      }
+    ]
+  },
+  "bian_2022": {
+    "label": "BIAN imunisasi (Agu 2022)",
+    "months": [
+      "2022-08"
+    ],
+    "hits": [
+      {
+        "barang_nama": "Handscoon Non Steril",
+        "total_window": 395716580.16999996,
+        "baseline_median": 22801000.0,
+        "ratio": 17.355229164071748,
+        "groups": [
+          "APD_HIGIENE"
+        ]
+      },
+      {
+        "barang_nama": "Endotracheal Tube",
+        "total_window": 58204171.175,
+        "baseline_median": 16209469.6865,
+        "ratio": 3.59075110418172,
+        "groups": [
+          "RESPIRATORIUM"
+        ]
+      },
+      {
+        "barang_nama": "Blood Transfusion Set",
+        "total_window": 58676416.221,
+        "baseline_median": 17197534.1,
+        "ratio": 3.411908700387458,
+        "groups": [
+          "DBD"
+        ]
+      },
+      {
+        "barang_nama": "Assucryl 3/0",
+        "total_window": 54904693.2,
+        "baseline_median": 17372995.2,
+        "ratio": 3.1603469964695554,
+        "groups": [
+          "BEDAH_OK"
+        ]
+      }
+    ]
+  },
+  "karhutla_2023": {
+    "label": "Karhutla El Nino (Sep-Okt 2023)",
+    "months": [
+      "2023-09",
+      "2023-10"
+    ],
+    "hits": [
+      {
+        "barang_nama": "IV Catheter",
+        "total_window": 69000000.0,
+        "baseline_median": 3151300.0,
+        "ratio": 21.89572557357281,
+        "groups": [
+          "DBD"
+        ]
+      },
+      {
+        "barang_nama": "Infusion Set",
+        "total_window": 193012031.621,
+        "baseline_median": 29885823.096,
+        "ratio": 6.458314064196989,
+        "groups": [
+          "DBD"
+        ]
+      },
+      {
+        "barang_nama": "2 Way Foley Catheter",
+        "total_window": 52945546.386999995,
+        "baseline_median": 8485682.73,
+        "ratio": 6.239397355715183,
+        "groups": [
+          "UROLOGI"
+        ]
+      },
+      {
+        "barang_nama": "IV Cannula",
+        "total_window": 141688835.138,
+        "baseline_median": 23914369.3695,
+        "ratio": 5.924840958537157,
+        "groups": [
+          "DBD"
+        ]
+      },
+      {
+        "barang_nama": "Mask Nebulizer",
+        "total_window": 98585772.075,
+        "baseline_median": 17109100.0,
+        "ratio": 5.762183403861103,
+        "groups": [
+          "RESPIRATORIUM"
+        ]
+      },
+      {
+        "barang_nama": "Spinocan",
+        "total_window": 72992500.0,
+        "baseline_median": 17666875.0,
+        "ratio": 4.131602221671915,
+        "groups": [
+          "BEDAH_OK"
+        ]
+      },
+      {
+        "barang_nama": "IV Catheter ",
+        "total_window": 124648270.276,
+        "baseline_median": 33960000.0,
+        "ratio": 3.6704437654888102,
+        "groups": [
+          "DBD"
+        ]
+      },
+      {
+        "barang_nama": "Blood Transfusion Set",
+        "total_window": 58103805.405,
+        "baseline_median": 17040000.0,
+        "ratio": 3.4098477350352114,
+        "groups": [
+          "DBD"
+        ]
+      }
+    ]
+  },
+  "dbd_season": {
+    "label": "Musim DBD (Jan-Apr, rata 2021-2025)",
+    "months": [
+      "2021-01",
+      "2021-02",
+      "2021-03",
+      "2021-04",
+      "2022-01",
+      "2022-02",
+      "2022-03",
+      "2022-04",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04",
+      "2024-01",
+      "2024-02",
+      "2024-03",
+      "2024-04",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04"
+    ],
+    "hits": [
+      {
+        "barang_nama": "Alkohol 95%",
+        "total_window": 74023247.3,
+        "baseline_median": 265000.0,
+        "ratio": 279.33300867924527,
+        "groups": [
+          "FARMASI"
+        ]
+      },
+      {
+        "barang_nama": "Oxygen Mask",
+        "total_window": 64345347.739,
+        "baseline_median": 852639.64,
+        "ratio": 75.46605238644545,
+        "groups": [
+          "RESPIRATORIUM",
+          "PANDEMI_COVID"
+        ]
+      },
+      {
+        "barang_nama": "Feeding Tube",
+        "total_window": 110525596.726,
+        "baseline_median": 1475400.0,
+        "ratio": 74.91229275179612,
+        "groups": [
+          "OPERASIONAL_RS"
+        ]
+      },
+      {
+        "barang_nama": "Handscoon Non Sterile ",
+        "total_window": 539208839.069,
+        "baseline_median": 7827600.0,
+        "ratio": 68.8855893337677,
+        "groups": [
+          "APD_HIGIENE"
+        ]
+      },
+      {
+        "barang_nama": "Oxygen Mask ",
+        "total_window": 73731616.159,
+        "baseline_median": 1382409.6395,
+        "ratio": 53.33557727915423,
+        "groups": [
+          "RESPIRATORIUM",
+          "PANDEMI_COVID"
+        ]
+      },
+      {
+        "barang_nama": "Nasal Cannula",
+        "total_window": 145721009.111,
+        "baseline_median": 2830000.0,
+        "ratio": 51.4915226540636,
+        "groups": [
+          "RESPIRATORIUM"
+        ]
+      },
+      {
+        "barang_nama": "Assucryl 2/0",
+        "total_window": 356253670.621,
+        "baseline_median": 8231630.4,
+        "ratio": 43.27862808575564,
+        "groups": [
+          "BEDAH_OK"
+        ]
+      },
+      {
+        "barang_nama": "Film  DIHL",
+        "total_window": 291331818.0,
+        "baseline_median": 7254545.4545,
+        "ratio": 40.15852127844711,
+        "groups": [
+          "DIAGNOSTIK"
+        ]
+      },
+      {
+        "barang_nama": "CVC Triple Lumen",
+        "total_window": 118800710.611,
+        "baseline_median": 3074282.0,
+        "ratio": 38.64340051140396,
+        "groups": [
+          "DBD"
+        ]
+      },
+      {
+        "barang_nama": "Stomach Tube",
+        "total_window": 164808037.772,
+        "baseline_median": 4613150.0,
+        "ratio": 35.7257053796213,
+        "groups": [
+          "OPERASIONAL_RS"
+        ]
+      },
+      {
+        "barang_nama": "Silk 3/0",
+        "total_window": 86633961.731,
+        "baseline_median": 2525544.0,
+        "ratio": 34.303089445679824,
+        "groups": [
+          "BEDAH_OK"
+        ]
+      },
+      {
+        "barang_nama": "ID Band",
+        "total_window": 60463581.109,
+        "baseline_median": 1863000.0,
+        "ratio": 32.45495496994096,
+        "groups": [
+          "APD_HIGIENE"
+        ]
+      },
+      {
+        "barang_nama": "Kasa Hidrofil ",
+        "total_window": 90250290.0,
+        "baseline_median": 2793000.0,
+        "ratio": 32.31302900107411,
+        "groups": [
+          "PERAWATAN_LUKA"
+        ]
+      },
+      {
+        "barang_nama": "Mess",
+        "total_window": 61489682.93700001,
+        "baseline_median": 1936732.3900000001,
+        "ratio": 31.749189126227193,
+        "groups": [
+          "OPERASIONAL_RS"
+        ]
+      },
+      {
+        "barang_nama": "HMEF ",
+        "total_window": 91710697.821,
+        "baseline_median": 3146750.0,
+        "ratio": 29.14457704647652,
+        "groups": [
+          "RESPIRATORIUM"
+        ]
+      },
+      {
+        "barang_nama": "2 Way Foley Catheter",
+        "total_window": 254666595.90899998,
+        "baseline_median": 8785283.125,
+        "ratio": 28.98786439611757,
+        "groups": [
+          "UROLOGI"
+        ]
+      },
+      {
+        "barang_nama": "Chromic 2/0",
+        "total_window": 138665566.29799998,
+        "baseline_median": 4792848.0,
+        "ratio": 28.931767979706425,
+        "groups": [
+          "BEDAH_OK"
+        ]
+      },
+      {
+        "barang_nama": "Silk 2/0",
+        "total_window": 143144713.79999998,
+        "baseline_median": 4961952.0,
+        "ratio": 28.84846806256892,
+        "groups": [
+          "BEDAH_OK"
+        ]
+      },
+      {
+        "barang_nama": "Nasal Oxygen Cannula",
+        "total_window": 117238974.913,
+        "baseline_median": 4116975.0,
+        "ratio": 28.476970327242697,
+        "groups": [
+          "PANDEMI_COVID"
+        ]
+      },
+      {
+        "barang_nama": "Infusion set",
+        "total_window": 83313325.0,
+        "baseline_median": 2976048.0,
+        "ratio": 27.994617358322177,
+        "groups": [
+          "DBD"
+        ]
+      }
+    ]
+  }
+}

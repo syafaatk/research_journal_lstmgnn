@@ -1,0 +1,202 @@
+{
+  "ARIMA": {
+    "RMSE": 8133444.783512722,
+    "MAE": 1924544.134425219,
+    "R2": -0.07753360804681618
+  },
+  "XGBoost": {
+    "RMSE": 8303467.257211118,
+    "MAE": 1966595.6486744843,
+    "R2": -0.08402243618284926
+  },
+  "arima_orders": {
+    "Banyuasin": [
+      2,
+      0,
+      1
+    ],
+    "Empat Lawang": [
+      1,
+      0,
+      2
+    ],
+    "Lahat": [
+      2,
+      1,
+      2
+    ],
+    "Lubuk Linggau": [
+      0,
+      1,
+      2
+    ],
+    "Muara Enim": [
+      1,
+      0,
+      1
+    ],
+    "Musi Banyuasin": [
+      2,
+      0,
+      2
+    ],
+    "Musi Rawas": [
+      1,
+      1,
+      1
+    ],
+    "Ogan Ilir": [
+      0,
+      1,
+      1
+    ],
+    "Ogan Komering Ilir": [
+      2,
+      1,
+      1
+    ],
+    "Ogan Komering Ulu": [
+      0,
+      1,
+      1
+    ],
+    "Ogan Komering Ulu Selatan": [
+      2,
+      1,
+      1
+    ],
+    "Ogan Komering Ulu Timur": [
+      0,
+      1,
+      1
+    ],
+    "Pagar Alam": [
+      0,
+      0,
+      0
+    ],
+    "Palembang": [
+      1,
+      1,
+      2
+    ],
+    "Penukal Abab Lematang Ilir": [
+      0,
+      1,
+      1
+    ],
+    "Prabumulih": [
+      0,
+      1,
+      2
+    ]
+  },
+  "config": {
+    "panel_days": 1495,
+    "regions": 16,
+    "window": 30,
+    "train": 957,
+    "val": 277,
+    "test": 231,
+    "arima_grid": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        2
+      ],
+      [
+        2,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        1
+      ],
+      [
+        2,
+        0,
+        2
+      ],
+      [
+        2,
+        1,
+        0
+      ],
+      [
+        2,
+        1,
+        1
+      ],
+      [
+        2,
+        1,
+        2
+      ]
+    ],
+    "arima_fit": "train+val, forecast test",
+    "xgb": {
+      "n_estimators": 500,
+      "max_depth": 6,
+      "lr": 0.05,
+      "early_stopping_rounds": 20,
+      "best_iteration": 75
+    }
+  }
+}

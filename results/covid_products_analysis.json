@@ -1,0 +1,70 @@
+{
+  "total_by_year": {
+    "2020": 15557.0,
+    "2021": 23806.0,
+    "2022": 16750.0,
+    "2023": 19144.0,
+    "2024": 14990.0,
+    "2025": 9724.0
+  },
+  "Airvo Unit Optiflow Therapy": {
+    "total": 762500000.0,
+    "n_invoices": 1,
+    "n_customers": 1,
+    "by_year_jt": {
+      "2021": 762.5
+    },
+    "share_persen": {
+      "2020": NaN,
+      "2021": 3.2,
+      "2022": NaN,
+      "2023": NaN,
+      "2024": NaN,
+      "2025": NaN
+    },
+    "top_months_jt": {
+      "2021-08": 762.5
+    }
+  },
+  "Hyper-Hypothermia System Blanketrol III": {
+    "total": 441502702.7,
+    "n_invoices": 1,
+    "n_customers": 1,
+    "by_year_jt": {
+      "2023": 441.5
+    },
+    "share_persen": {
+      "2020": NaN,
+      "2021": NaN,
+      "2022": NaN,
+      "2023": 2.31,
+      "2024": NaN,
+      "2025": NaN
+    },
+    "top_months_jt": {
+      "2023-11": 441.5
+    }
+  },
+  "Junior Optiflow Nasal Cannula": {
+    "total": 10014865.9,
+    "n_invoices": 4,
+    "n_customers": 3,
+    "by_year_jt": {
+      "2023": 0.5,
+      "2024": 2.6,
+      "2025": 6.9
+    },
+    "share_persen": {
+      "2020": NaN,
+      "2021": NaN,
+      "2022": NaN,
+      "2023": 0.0,
+      "2024": 0.02,
+      "2025": 0.07
+    }
+  },
+  "main_products_by_year": {
+    "2021": 762.5,
+    "2023": 441.5
+  }
+}

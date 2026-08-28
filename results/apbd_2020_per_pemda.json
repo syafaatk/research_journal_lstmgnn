@@ -1,0 +1,3504 @@
+{
+  "01": {
+    "pemda": "Kab. Lahat",
+    "region": "Lahat",
+    "akun": {
+      "Pendapatan Daerah": {
+        "anggaran": 1946160000000.0,
+        "realisasi": 1951240000000.0,
+        "persen": 100.26
+      },
+      "PAD": {
+        "anggaran": 119670000000.0,
+        "realisasi": 127990000000.0,
+        "persen": 106.95
+      },
+      "Pajak Daerah": {
+        "anggaran": 45930000000.0,
+        "realisasi": 43320000000.0,
+        "persen": 94.32
+      },
+      "Retribusi Daerah": {
+        "anggaran": 5540000000.0,
+        "realisasi": 3040000000.0,
+        "persen": 54.83
+      },
+      "Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan": {
+        "anggaran": 6500000000.0,
+        "realisasi": 7580000000.0,
+        "persen": 116.58
+      },
+      "Lain-Lain PAD yang Sah": {
+        "anggaran": 61700000000.0,
+        "realisasi": 74060000000.0,
+        "persen": 120.02
+      },
+      "TKDD": {
+        "anggaran": 1694450000000.0,
+        "realisasi": 1606640000000.0,
+        "persen": 94.82
+      },
+      "Pendapatan Transfer Pemerintah Pusat": {
+        "anggaran": 1694450000000.0,
+        "realisasi": 1606640000000.0,
+        "persen": 94.82
+      },
+      "Pendapatan Transfer Antar Daerah": {
+        "anggaran": 69510000000.0,
+        "realisasi": 135639999999.99998,
+        "persen": 195.15
+      },
+      "Pendapatan Lainnya": {
+        "anggaran": 132050000000.00002,
+        "realisasi": 216610000000.0,
+        "persen": 164.04
+      },
+      "Pendapatan Hibah": {
+        "anggaran": 62540000000.0,
+        "realisasi": 80970000000.0,
+        "persen": 129.47
+      },
+      "Dana Darurat": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Daerah": {
+        "anggaran": 2042840000000.0,
+        "realisasi": 2006510000000.0,
+        "persen": 98.22
+      },
+      "Belanja Pegawai": {
+        "anggaran": 723930000000.0,
+        "realisasi": 645460000000.0,
+        "persen": 89.16
+      },
+      "Belanja Barang Jasa": {
+        "anggaran": 560610000000.0,
+        "realisasi": 480440000000.0,
+        "persen": 85.7
+      },
+      "Belanja Barang dan Jasa": {
+        "anggaran": 560610000000.0,
+        "realisasi": 480440000000.0,
+        "persen": 85.7
+      },
+      "Belanja Modal": {
+        "anggaran": 286530000000.0,
+        "realisasi": 367820000000.0,
+        "persen": 128.37
+      },
+      "Belanja Lainnya": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Bagi Hasil": {
+        "anggaran": 5150000000.0,
+        "realisasi": 3480000000.0,
+        "persen": 67.53
+      },
+      "Belanja Bantuan Keuangan": {
+        "anggaran": 452460000000.0,
+        "realisasi": 448000000000.0,
+        "persen": 99.01
+      },
+      "Belanja Bunga": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Subsidi": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Hibah": {
+        "anggaran": 10760000000.0,
+        "realisasi": 20650000000.0,
+        "persen": 191.96
+      },
+      "Belanja Bantuan Sosial": {
+        "anggaran": 400000000.0,
+        "realisasi": 400000000.0,
+        "persen": 99.38
+      },
+      "Belanja Tidak Terduga": {
+        "anggaran": 3000000000.0,
+        "realisasi": 40270000000.0,
+        "persen": null
+      },
+      "Pembiayaan Daerah": {
+        "anggaran": 96680000000.0,
+        "realisasi": 342630000000.0,
+        "persen": 354.41
+      },
+      "Penerimaan Pembiayaan Daerah": {
+        "anggaran": 97680000000.0,
+        "realisasi": 342630000000.0,
+        "persen": 350.78
+      },
+      "Sisa Lebih Perhitungan Anggaran Tahun Sebelumnya": {
+        "anggaran": 8650000000.0,
+        "realisasi": 342630000000.0,
+        "persen": null
+      },
+      "Pencairan Dana Cadangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penjualan Kekayaan Daerah yang Dipisahkan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Kembali Pemberian Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Pembiayaan Lainnya Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 89020000000.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pengeluaran Pembiayaan Daerah": {
+        "anggaran": 1000000000.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pembentukan Dana Cadangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penyertaan Modal Daerah": {
+        "anggaran": 1000000000.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pembayaran Cicilan Pokok Utang yang Jatuh Tempo": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pemberian Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pengeluaran Pembiayaan Lainnya Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      }
+    }
+  },
+  "02": {
+    "pemda": "Kab. Musi Banyuasin",
+    "region": "Musi Banyuasin",
+    "akun": {
+      "Pendapatan Daerah": {
+        "anggaran": 3135510000000.0,
+        "realisasi": 3540660000000.0,
+        "persen": 112.92
+      },
+      "PAD": {
+        "anggaran": 338790000000.0,
+        "realisasi": 353990000000.0,
+        "persen": 104.49
+      },
+      "Pajak Daerah": {
+        "anggaran": 80480000000.0,
+        "realisasi": 79220000000.0,
+        "persen": 98.43
+      },
+      "Retribusi Daerah": {
+        "anggaran": 10960000000.0,
+        "realisasi": 12200000000.0,
+        "persen": 111.29
+      },
+      "Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan": {
+        "anggaran": 17500000000.0,
+        "realisasi": 15210000000.0,
+        "persen": 86.89
+      },
+      "Lain-Lain PAD yang Sah": {
+        "anggaran": 229840000000.0,
+        "realisasi": 247360000000.0,
+        "persen": 107.62
+      },
+      "TKDD": {
+        "anggaran": 2614090000000.0,
+        "realisasi": 2909330000000.0,
+        "persen": 111.29
+      },
+      "Pendapatan Transfer Pemerintah Pusat": {
+        "anggaran": 2614090000000.0,
+        "realisasi": 2909330000000.0,
+        "persen": 111.29
+      },
+      "Pendapatan Transfer Antar Daerah": {
+        "anggaran": 85310000000.0,
+        "realisasi": 144610000000.0,
+        "persen": 169.51
+      },
+      "Pendapatan Lainnya": {
+        "anggaran": 182630000000.0,
+        "realisasi": 277340000000.0,
+        "persen": 151.86
+      },
+      "Pendapatan Hibah": {
+        "anggaran": 97320000000.0,
+        "realisasi": 132729999999.99998,
+        "persen": 136.38
+      },
+      "Dana Darurat": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Daerah": {
+        "anggaran": 3280010000000.0,
+        "realisasi": 3377580000000.0,
+        "persen": 102.97
+      },
+      "Belanja Pegawai": {
+        "anggaran": 866850000000.0,
+        "realisasi": 849510000000.0,
+        "persen": 98.0
+      },
+      "Belanja Barang Jasa": {
+        "anggaran": 1155320000000.0,
+        "realisasi": 1194090000000.0,
+        "persen": 103.36
+      },
+      "Belanja Barang dan Jasa": {
+        "anggaran": 1155320000000.0,
+        "realisasi": 1194090000000.0,
+        "persen": 103.36
+      },
+      "Belanja Modal": {
+        "anggaran": 954240000000.0,
+        "realisasi": 790700000000.0,
+        "persen": 82.86
+      },
+      "Belanja Lainnya": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Bagi Hasil": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Bantuan Keuangan": {
+        "anggaran": 265700000000.0,
+        "realisasi": 454540000000.0,
+        "persen": 171.07
+      },
+      "Belanja Bunga": {
+        "anggaran": 22430000000.0,
+        "realisasi": 19890000000.0,
+        "persen": 88.69
+      },
+      "Belanja Subsidi": {
+        "anggaran": 5990000000.0,
+        "realisasi": 46190000000.0,
+        "persen": 770.72
+      },
+      "Belanja Hibah": {
+        "anggaran": 7910000000.0,
+        "realisasi": 20980000000.0,
+        "persen": 265.1
+      },
+      "Belanja Bantuan Sosial": {
+        "anggaran": 400000000.0,
+        "realisasi": 310000000.0,
+        "persen": 77.75
+      },
+      "Belanja Tidak Terduga": {
+        "anggaran": 1160000000.0,
+        "realisasi": 1360000000.0,
+        "persen": 117.26
+      },
+      "Pembiayaan Daerah": {
+        "anggaran": 144500000000.0,
+        "realisasi": 512520000000.0,
+        "persen": 354.69
+      },
+      "Penerimaan Pembiayaan Daerah": {
+        "anggaran": 330000000000.0,
+        "realisasi": 691750000000.0,
+        "persen": 209.62
+      },
+      "Sisa Lebih Perhitungan Anggaran Tahun Sebelumnya": {
+        "anggaran": 60000000000.0,
+        "realisasi": 591790000000.0,
+        "persen": 986.31
+      },
+      "Pencairan Dana Cadangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penjualan Kekayaan Daerah yang Dipisahkan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Pinjaman Daerah": {
+        "anggaran": 270000000000.0,
+        "realisasi": 99960000000.0,
+        "persen": 37.02
+      },
+      "Penerimaan Kembali Pemberian Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Pembiayaan Lainnya Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pengeluaran Pembiayaan Daerah": {
+        "anggaran": 185500000000.0,
+        "realisasi": 179220000000.0,
+        "persen": 96.62
+      },
+      "Pembentukan Dana Cadangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penyertaan Modal Daerah": {
+        "anggaran": 13500000000.0,
+        "realisasi": 12500000000.0,
+        "persen": 92.59
+      },
+      "Pembayaran Cicilan Pokok Utang yang Jatuh Tempo": {
+        "anggaran": 172000000000.0,
+        "realisasi": 166720000000.0,
+        "persen": 96.93
+      },
+      "Pemberian Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pengeluaran Pembiayaan Lainnya Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      }
+    }
+  },
+  "03": {
+    "pemda": "Kab. Musi Rawas",
+    "region": "Musi Rawas",
+    "akun": {
+      "Pendapatan Daerah": {
+        "anggaran": 1678840000000.0,
+        "realisasi": 1809860000000.0,
+        "persen": 107.8
+      },
+      "PAD": {
+        "anggaran": 154240000000.0,
+        "realisasi": 169760000000.0,
+        "persen": 110.06
+      },
+      "Pajak Daerah": {
+        "anggaran": 61450000000.0,
+        "realisasi": 83590000000.0,
+        "persen": 136.04
+      },
+      "Retribusi Daerah": {
+        "anggaran": 5270000000.0,
+        "realisasi": 2870000000.0,
+        "persen": 54.46
+      },
+      "Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan": {
+        "anggaran": 6000000000.0,
+        "realisasi": 5680000000.0,
+        "persen": 94.67
+      },
+      "Lain-Lain PAD yang Sah": {
+        "anggaran": 81530000000.0,
+        "realisasi": 77620000000.0,
+        "persen": 95.2
+      },
+      "TKDD": {
+        "anggaran": 1224620000000.0,
+        "realisasi": 1452190000000.0,
+        "persen": 118.58
+      },
+      "Pendapatan Transfer Pemerintah Pusat": {
+        "anggaran": 1224620000000.0,
+        "realisasi": 1452190000000.0,
+        "persen": 118.58
+      },
+      "Pendapatan Transfer Antar Daerah": {
+        "anggaran": 45220000000.0,
+        "realisasi": 115760000000.0,
+        "persen": 255.98
+      },
+      "Pendapatan Lainnya": {
+        "anggaran": 299970000000.0,
+        "realisasi": 187910000000.0,
+        "persen": 62.64
+      },
+      "Pendapatan Hibah": {
+        "anggaran": 63630000000.0,
+        "realisasi": 72160000000.0,
+        "persen": 113.41
+      },
+      "Dana Darurat": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 191130000000.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Daerah": {
+        "anggaran": 1715130000000.0,
+        "realisasi": 1881890000000.0,
+        "persen": 109.72
+      },
+      "Belanja Pegawai": {
+        "anggaran": 624180000000.0,
+        "realisasi": 622020000000.0,
+        "persen": 99.65
+      },
+      "Belanja Barang Jasa": {
+        "anggaran": 502590000000.0,
+        "realisasi": 473710000000.0,
+        "persen": 94.25
+      },
+      "Belanja Barang dan Jasa": {
+        "anggaran": 502590000000.0,
+        "realisasi": 473710000000.0,
+        "persen": 94.25
+      },
+      "Belanja Modal": {
+        "anggaran": 259060000000.0,
+        "realisasi": 406020000000.0,
+        "persen": 156.73
+      },
+      "Belanja Lainnya": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Bagi Hasil": {
+        "anggaran": 0.0,
+        "realisasi": 7530000000.0,
+        "persen": 0.0
+      },
+      "Belanja Bantuan Keuangan": {
+        "anggaran": 253360000000.0,
+        "realisasi": 283780000000.0,
+        "persen": 112.01
+      },
+      "Belanja Bunga": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Subsidi": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Hibah": {
+        "anggaran": 74940000000.0,
+        "realisasi": 81980000000.0,
+        "persen": 109.39
+      },
+      "Belanja Bantuan Sosial": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Tidak Terduga": {
+        "anggaran": 1000000000.0,
+        "realisasi": 6850000000.0,
+        "persen": 684.51
+      },
+      "Pembiayaan Daerah": {
+        "anggaran": 36300000000.0,
+        "realisasi": 206320000000.0,
+        "persen": 568.4
+      },
+      "Penerimaan Pembiayaan Daerah": {
+        "anggaran": 36300000000.0,
+        "realisasi": 206320000000.0,
+        "persen": 568.4
+      },
+      "Sisa Lebih Perhitungan Anggaran Tahun Sebelumnya": {
+        "anggaran": 36300000000.0,
+        "realisasi": 206320000000.0,
+        "persen": 568.4
+      },
+      "Pencairan Dana Cadangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penjualan Kekayaan Daerah yang Dipisahkan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Kembali Pemberian Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Pembiayaan Lainnya Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pengeluaran Pembiayaan Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pembentukan Dana Cadangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penyertaan Modal Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pembayaran Cicilan Pokok Utang yang Jatuh Tempo": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pemberian Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pengeluaran Pembiayaan Lainnya Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      }
+    }
+  },
+  "04": {
+    "pemda": "Kab. Muara Enim",
+    "region": "Muara Enim",
+    "akun": {
+      "Pendapatan Daerah": {
+        "anggaran": 2649970000000.0,
+        "realisasi": 2460180000000.0,
+        "persen": 92.84
+      },
+      "PAD": {
+        "anggaran": 251890000000.0,
+        "realisasi": 248530000000.0,
+        "persen": 98.66
+      },
+      "Pajak Daerah": {
+        "anggaran": 83610000000.0,
+        "realisasi": 81430000000.0,
+        "persen": 97.4
+      },
+      "Retribusi Daerah": {
+        "anggaran": 10750000000.0,
+        "realisasi": 7850000000.0,
+        "persen": 73.0
+      },
+      "Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan": {
+        "anggaran": 18320000000.0,
+        "realisasi": 19190000000.0,
+        "persen": 104.78
+      },
+      "Lain-Lain PAD yang Sah": {
+        "anggaran": 139220000000.0,
+        "realisasi": 140050000000.0,
+        "persen": 100.6
+      },
+      "TKDD": {
+        "anggaran": 1912380000000.0,
+        "realisasi": 1635290000000.0,
+        "persen": 85.51
+      },
+      "Pendapatan Transfer Pemerintah Pusat": {
+        "anggaran": 1912380000000.0,
+        "realisasi": 1635290000000.0,
+        "persen": 85.51
+      },
+      "Pendapatan Transfer Antar Daerah": {
+        "anggaran": 107810000000.0,
+        "realisasi": 168620000000.0,
+        "persen": 156.4
+      },
+      "Pendapatan Lainnya": {
+        "anggaran": 485700000000.0,
+        "realisasi": 576360000000.0,
+        "persen": 118.67
+      },
+      "Pendapatan Hibah": {
+        "anggaran": 98770000000.0,
+        "realisasi": 407740000000.0,
+        "persen": 412.81
+      },
+      "Dana Darurat": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 279110000000.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Daerah": {
+        "anggaran": 2648590000000.0,
+        "realisasi": 2511880000000.0,
+        "persen": 94.84
+      },
+      "Belanja Pegawai": {
+        "anggaran": 779190000000.0,
+        "realisasi": 754380000000.0,
+        "persen": 96.82
+      },
+      "Belanja Barang Jasa": {
+        "anggaran": 875970000000.0,
+        "realisasi": 710280000000.0,
+        "persen": 81.08
+      },
+      "Belanja Barang dan Jasa": {
+        "anggaran": 875970000000.0,
+        "realisasi": 710280000000.0,
+        "persen": 81.08
+      },
+      "Belanja Modal": {
+        "anggaran": 525299999999.99994,
+        "realisasi": 541990000000.0,
+        "persen": 103.18
+      },
+      "Belanja Lainnya": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Bagi Hasil": {
+        "anggaran": 11280000000.0,
+        "realisasi": 6980000000.0,
+        "persen": 61.91
+      },
+      "Belanja Bantuan Keuangan": {
+        "anggaran": 387920000000.0,
+        "realisasi": 424380000000.0,
+        "persen": 109.4
+      },
+      "Belanja Bunga": {
+        "anggaran": 8500000000.0,
+        "realisasi": 6160000000.0,
+        "persen": 72.46
+      },
+      "Belanja Subsidi": {
+        "anggaran": 4900000000.0,
+        "realisasi": 3070000000.0,
+        "persen": 62.7
+      },
+      "Belanja Hibah": {
+        "anggaran": 36960000000.0,
+        "realisasi": 25680000000.0,
+        "persen": 69.47
+      },
+      "Belanja Bantuan Sosial": {
+        "anggaran": 3580000000.0,
+        "realisasi": 2330000000.0,
+        "persen": 65.19
+      },
+      "Belanja Tidak Terduga": {
+        "anggaran": 15000000000.0,
+        "realisasi": 36640000000.0,
+        "persen": 244.24
+      },
+      "Pembiayaan Daerah": {
+        "anggaran": null,
+        "realisasi": 316760000000.0,
+        "persen": null
+      },
+      "Penerimaan Pembiayaan Daerah": {
+        "anggaran": 24910000000.0,
+        "realisasi": 327460000000.0,
+        "persen": null
+      },
+      "Sisa Lebih Perhitungan Anggaran Tahun Sebelumnya": {
+        "anggaran": 24910000000.0,
+        "realisasi": 327460000000.0,
+        "persen": null
+      },
+      "Pencairan Dana Cadangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penjualan Kekayaan Daerah yang Dipisahkan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Kembali Pemberian Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Pembiayaan Lainnya Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pengeluaran Pembiayaan Daerah": {
+        "anggaran": 26280000000.0,
+        "realisasi": 10700000000.0,
+        "persen": 40.71
+      },
+      "Pembentukan Dana Cadangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penyertaan Modal Daerah": {
+        "anggaran": 20000000000.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pembayaran Cicilan Pokok Utang yang Jatuh Tempo": {
+        "anggaran": 6280000000.0,
+        "realisasi": 10700000000.0,
+        "persen": 170.39
+      },
+      "Pemberian Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pengeluaran Pembiayaan Lainnya Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      }
+    }
+  },
+  "05": {
+    "pemda": "Kab. Ogan Komering Ilir",
+    "region": "Ogan Komering Ilir",
+    "akun": {
+      "Pendapatan Daerah": {
+        "anggaran": 2391450000000.0,
+        "realisasi": 2243100000000.0,
+        "persen": 93.8
+      },
+      "PAD": {
+        "anggaran": 290300000000.0,
+        "realisasi": 168780000000.0,
+        "persen": 58.14
+      },
+      "Pajak Daerah": {
+        "anggaran": 46100000000.0,
+        "realisasi": 60070000000.0,
+        "persen": 130.3
+      },
+      "Retribusi Daerah": {
+        "anggaran": 4850000000.0,
+        "realisasi": 5010000000.0,
+        "persen": 103.21
+      },
+      "Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan": {
+        "anggaran": 8010000000.0,
+        "realisasi": 8710000000.0,
+        "persen": 108.7
+      },
+      "Lain-Lain PAD yang Sah": {
+        "anggaran": 231330000000.0,
+        "realisasi": 94990000000.0,
+        "persen": 41.06
+      },
+      "TKDD": {
+        "anggaran": 1915180000000.0,
+        "realisasi": 1775460000000.0,
+        "persen": 92.7
+      },
+      "Pendapatan Transfer Pemerintah Pusat": {
+        "anggaran": 1915180000000.0,
+        "realisasi": 1775460000000.0,
+        "persen": 92.7
+      },
+      "Pendapatan Transfer Antar Daerah": {
+        "anggaran": 84440000000.0,
+        "realisasi": 173350000000.0,
+        "persen": 205.3
+      },
+      "Pendapatan Lainnya": {
+        "anggaran": 185970000000.0,
+        "realisasi": 298870000000.0,
+        "persen": 160.71
+      },
+      "Pendapatan Hibah": {
+        "anggaran": 101530000000.0,
+        "realisasi": 125520000000.0,
+        "persen": 123.62
+      },
+      "Dana Darurat": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Daerah": {
+        "anggaran": 2641940000000.0,
+        "realisasi": 2489890000000.0,
+        "persen": 94.24
+      },
+      "Belanja Pegawai": {
+        "anggaran": 987040000000.0,
+        "realisasi": 788370000000.0,
+        "persen": 79.87
+      },
+      "Belanja Barang Jasa": {
+        "anggaran": 558740000000.0,
+        "realisasi": 542380000000.0,
+        "persen": 97.07
+      },
+      "Belanja Barang dan Jasa": {
+        "anggaran": 558740000000.0,
+        "realisasi": 542380000000.0,
+        "persen": 97.07
+      },
+      "Belanja Modal": {
+        "anggaran": 637440000000.0,
+        "realisasi": 608890000000.0,
+        "persen": 95.52
+      },
+      "Belanja Lainnya": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Bagi Hasil": {
+        "anggaran": 135300000000.00002,
+        "realisasi": 127080000000.0,
+        "persen": 93.93
+      },
+      "Belanja Bantuan Keuangan": {
+        "anggaran": 297470000000.0,
+        "realisasi": 296760000000.0,
+        "persen": 99.76
+      },
+      "Belanja Bunga": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Subsidi": {
+        "anggaran": 1760000000.0,
+        "realisasi": 2780000000.0,
+        "persen": 157.68
+      },
+      "Belanja Hibah": {
+        "anggaran": 19420000000.0,
+        "realisasi": 15870000000.0,
+        "persen": 81.68
+      },
+      "Belanja Bantuan Sosial": {
+        "anggaran": 2920000000.0,
+        "realisasi": 2920000000.0,
+        "persen": 100.0
+      },
+      "Belanja Tidak Terduga": {
+        "anggaran": 1860000000.0,
+        "realisasi": 104830000000.0,
+        "persen": null
+      },
+      "Pembiayaan Daerah": {
+        "anggaran": 250490000000.0,
+        "realisasi": 412350000000.0,
+        "persen": 164.62
+      },
+      "Penerimaan Pembiayaan Daerah": {
+        "anggaran": 255490000000.0,
+        "realisasi": 412350000000.0,
+        "persen": 161.4
+      },
+      "Sisa Lebih Perhitungan Anggaran Tahun Sebelumnya": {
+        "anggaran": 252530000000.0,
+        "realisasi": 412350000000.0,
+        "persen": 163.29
+      },
+      "Pencairan Dana Cadangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penjualan Kekayaan Daerah yang Dipisahkan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Kembali Pemberian Pinjaman Daerah": {
+        "anggaran": 2960000000.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Pembiayaan Lainnya Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pengeluaran Pembiayaan Daerah": {
+        "anggaran": 5000000000.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pembentukan Dana Cadangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penyertaan Modal Daerah": {
+        "anggaran": 5000000000.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pembayaran Cicilan Pokok Utang yang Jatuh Tempo": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pemberian Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pengeluaran Pembiayaan Lainnya Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      }
+    }
+  },
+  "06": {
+    "pemda": "Kab. Ogan Komering Ulu",
+    "region": "Ogan Komering Ulu",
+    "akun": {
+      "Pendapatan Daerah": {
+        "anggaran": 1532790000000.0,
+        "realisasi": 1385250000000.0,
+        "persen": 90.37
+      },
+      "PAD": {
+        "anggaran": 160910000000.0,
+        "realisasi": 115930000000.0,
+        "persen": 72.05
+      },
+      "Pajak Daerah": {
+        "anggaran": 58610000000.0,
+        "realisasi": 44320000000.0,
+        "persen": 75.62
+      },
+      "Retribusi Daerah": {
+        "anggaran": 3030000000.0,
+        "realisasi": 2210000000.0,
+        "persen": 73.11
+      },
+      "Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan": {
+        "anggaran": 5530000000.0,
+        "realisasi": 3360000000.0,
+        "persen": 60.77
+      },
+      "Lain-Lain PAD yang Sah": {
+        "anggaran": 93740000000.0,
+        "realisasi": 66040000000.00001,
+        "persen": 70.45
+      },
+      "TKDD": {
+        "anggaran": 1200340000000.0,
+        "realisasi": 1107440000000.0,
+        "persen": 92.26
+      },
+      "Pendapatan Transfer Pemerintah Pusat": {
+        "anggaran": 1200340000000.0,
+        "realisasi": 1107440000000.0,
+        "persen": 92.26
+      },
+      "Pendapatan Transfer Antar Daerah": {
+        "anggaran": 119920000000.0,
+        "realisasi": 65129999999.99999,
+        "persen": 54.31
+      },
+      "Pendapatan Lainnya": {
+        "anggaran": 171540000000.0,
+        "realisasi": 161880000000.0,
+        "persen": 94.37
+      },
+      "Pendapatan Hibah": {
+        "anggaran": 51620000000.0,
+        "realisasi": 96750000000.0,
+        "persen": 187.44
+      },
+      "Dana Darurat": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Daerah": {
+        "anggaran": 1593570000000.0,
+        "realisasi": 1490570000000.0,
+        "persen": 93.54
+      },
+      "Belanja Pegawai": {
+        "anggaran": 634550000000.0,
+        "realisasi": 584120000000.0,
+        "persen": 92.05
+      },
+      "Belanja Barang Jasa": {
+        "anggaran": 378890000000.0,
+        "realisasi": 348860000000.0,
+        "persen": 92.07
+      },
+      "Belanja Barang dan Jasa": {
+        "anggaran": 378890000000.0,
+        "realisasi": 348860000000.0,
+        "persen": 92.07
+      },
+      "Belanja Modal": {
+        "anggaran": 266310000000.0,
+        "realisasi": 247550000000.0,
+        "persen": 92.95
+      },
+      "Belanja Lainnya": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Bagi Hasil": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Bantuan Keuangan": {
+        "anggaran": 239720000000.0,
+        "realisasi": 226590000000.0,
+        "persen": 94.52
+      },
+      "Belanja Bunga": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Subsidi": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Hibah": {
+        "anggaran": 73100000000.0,
+        "realisasi": 72190000000.0,
+        "persen": 98.76
+      },
+      "Belanja Bantuan Sosial": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Tidak Terduga": {
+        "anggaran": 1000000000.0,
+        "realisasi": 11260000000.0,
+        "persen": null
+      },
+      "Pembiayaan Daerah": {
+        "anggaran": 60780000000.0,
+        "realisasi": 140670000000.0,
+        "persen": 231.44
+      },
+      "Penerimaan Pembiayaan Daerah": {
+        "anggaran": 65370000000.00001,
+        "realisasi": 145300000000.0,
+        "persen": 222.28
+      },
+      "Sisa Lebih Perhitungan Anggaran Tahun Sebelumnya": {
+        "anggaran": 65370000000.00001,
+        "realisasi": 145300000000.0,
+        "persen": 222.28
+      },
+      "Pencairan Dana Cadangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penjualan Kekayaan Daerah yang Dipisahkan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Kembali Pemberian Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Pembiayaan Lainnya Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pengeluaran Pembiayaan Daerah": {
+        "anggaran": 4590000000.0,
+        "realisasi": 4630000000.0,
+        "persen": 100.95
+      },
+      "Pembentukan Dana Cadangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penyertaan Modal Daerah": {
+        "anggaran": 4590000000.0,
+        "realisasi": 4630000000.0,
+        "persen": 100.95
+      },
+      "Pembayaran Cicilan Pokok Utang yang Jatuh Tempo": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pemberian Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pengeluaran Pembiayaan Lainnya Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      }
+    }
+  },
+  "07": {
+    "pemda": "Kota Palembang",
+    "region": "Palembang",
+    "akun": {
+      "Pendapatan Daerah": {
+        "anggaran": 4644410000000.0,
+        "realisasi": 3695470000000.0,
+        "persen": 79.57
+      },
+      "PAD": {
+        "anggaran": 1844720000000.0,
+        "realisasi": 1032720000000.0,
+        "persen": 55.98
+      },
+      "Pajak Daerah": {
+        "anggaran": 1502010000000.0,
+        "realisasi": 787920000000.0,
+        "persen": 52.46
+      },
+      "Retribusi Daerah": {
+        "anggaran": 127930000000.0,
+        "realisasi": 35530000000.0,
+        "persen": 27.77
+      },
+      "Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan": {
+        "anggaran": 63800000000.0,
+        "realisasi": 64550000000.0,
+        "persen": 101.18
+      },
+      "Lain-Lain PAD yang Sah": {
+        "anggaran": 150980000000.0,
+        "realisasi": 144720000000.0,
+        "persen": 95.85
+      },
+      "TKDD": {
+        "anggaran": 2108850000000.0,
+        "realisasi": 1996730000000.0,
+        "persen": 94.68
+      },
+      "Pendapatan Transfer Pemerintah Pusat": {
+        "anggaran": 2108850000000.0,
+        "realisasi": 1996730000000.0,
+        "persen": 94.68
+      },
+      "Pendapatan Transfer Antar Daerah": {
+        "anggaran": 340990000000.0,
+        "realisasi": 324430000000.0,
+        "persen": 95.14
+      },
+      "Pendapatan Lainnya": {
+        "anggaran": 690840000000.0,
+        "realisasi": 666020000000.0,
+        "persen": 96.41
+      },
+      "Pendapatan Hibah": {
+        "anggaran": 349860000000.0,
+        "realisasi": 341590000000.0,
+        "persen": 97.64
+      },
+      "Dana Darurat": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Daerah": {
+        "anggaran": 4679520000000.0,
+        "realisasi": 3688140000000.0,
+        "persen": 78.81
+      },
+      "Belanja Pegawai": {
+        "anggaran": 1948770000000.0,
+        "realisasi": 1543620000000.0,
+        "persen": 79.21
+      },
+      "Belanja Barang Jasa": {
+        "anggaran": 1425120000000.0,
+        "realisasi": 1136730000000.0,
+        "persen": 79.76
+      },
+      "Belanja Barang dan Jasa": {
+        "anggaran": 1425120000000.0,
+        "realisasi": 1136730000000.0,
+        "persen": 79.76
+      },
+      "Belanja Modal": {
+        "anggaran": 1240870000000.0,
+        "realisasi": 885860000000.0,
+        "persen": 71.39
+      },
+      "Belanja Lainnya": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Bagi Hasil": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Bantuan Keuangan": {
+        "anggaran": 3320000000.0,
+        "realisasi": 3320000000.0,
+        "persen": 100.0
+      },
+      "Belanja Bunga": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Subsidi": {
+        "anggaran": 22000000000.0,
+        "realisasi": 10940000000.0,
+        "persen": 49.71
+      },
+      "Belanja Hibah": {
+        "anggaran": 35180000000.0,
+        "realisasi": 29720000000.0,
+        "persen": 84.49
+      },
+      "Belanja Bantuan Sosial": {
+        "anggaran": 1230000000.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Tidak Terduga": {
+        "anggaran": 3040000000.0,
+        "realisasi": 77940000000.0,
+        "persen": null
+      },
+      "Pembiayaan Daerah": {
+        "anggaran": 35110000000.0,
+        "realisasi": 48890000000.0,
+        "persen": 139.25
+      },
+      "Penerimaan Pembiayaan Daerah": {
+        "anggaran": 50110000000.0,
+        "realisasi": 55320000000.0,
+        "persen": 110.41
+      },
+      "Sisa Lebih Perhitungan Anggaran Tahun Sebelumnya": {
+        "anggaran": 50110000000.0,
+        "realisasi": 55320000000.0,
+        "persen": 110.41
+      },
+      "Pencairan Dana Cadangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penjualan Kekayaan Daerah yang Dipisahkan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Kembali Pemberian Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Pembiayaan Lainnya Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pengeluaran Pembiayaan Daerah": {
+        "anggaran": 15000000000.0,
+        "realisasi": 6440000000.0,
+        "persen": 42.92
+      },
+      "Pembentukan Dana Cadangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penyertaan Modal Daerah": {
+        "anggaran": 15000000000.0,
+        "realisasi": 6440000000.0,
+        "persen": 42.92
+      },
+      "Pembayaran Cicilan Pokok Utang yang Jatuh Tempo": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pemberian Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pengeluaran Pembiayaan Lainnya Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      }
+    }
+  },
+  "08": {
+    "pemda": "Kota Prabumulih",
+    "region": "Prabumulih",
+    "akun": {
+      "Pendapatan Daerah": {
+        "anggaran": 966640000000.0,
+        "realisasi": 972240000000.0,
+        "persen": 100.58
+      },
+      "PAD": {
+        "anggaran": 105670000000.0,
+        "realisasi": 85040000000.0,
+        "persen": 80.47
+      },
+      "Pajak Daerah": {
+        "anggaran": 31130000000.0,
+        "realisasi": 28490000000.0,
+        "persen": 91.52
+      },
+      "Retribusi Daerah": {
+        "anggaran": 5380000000.0,
+        "realisasi": 2800000000.0,
+        "persen": 52.07
+      },
+      "Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan": {
+        "anggaran": 1700000000.0,
+        "realisasi": 2069999999.9999998,
+        "persen": 121.98
+      },
+      "Lain-Lain PAD yang Sah": {
+        "anggaran": 67459999999.99999,
+        "realisasi": 51670000000.0,
+        "persen": 76.6
+      },
+      "TKDD": {
+        "anggaran": 778730000000.0,
+        "realisasi": 764030000000.0,
+        "persen": 98.11
+      },
+      "Pendapatan Transfer Pemerintah Pusat": {
+        "anggaran": 778730000000.0,
+        "realisasi": 764030000000.0,
+        "persen": 98.11
+      },
+      "Pendapatan Transfer Antar Daerah": {
+        "anggaran": 55590000000.0,
+        "realisasi": 95850000000.0,
+        "persen": 172.43
+      },
+      "Pendapatan Lainnya": {
+        "anggaran": 82240000000.0,
+        "realisasi": 123170000000.0,
+        "persen": 149.77
+      },
+      "Pendapatan Hibah": {
+        "anggaran": 26650000000.0,
+        "realisasi": 27320000000.0,
+        "persen": 102.5
+      },
+      "Dana Darurat": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Daerah": {
+        "anggaran": 1028920000000.0001,
+        "realisasi": 1054349999999.9999,
+        "persen": 102.47
+      },
+      "Belanja Pegawai": {
+        "anggaran": 416480000000.0,
+        "realisasi": 386050000000.0,
+        "persen": 92.69
+      },
+      "Belanja Barang Jasa": {
+        "anggaran": 388450000000.0,
+        "realisasi": 341040000000.0,
+        "persen": 87.8
+      },
+      "Belanja Barang dan Jasa": {
+        "anggaran": 388450000000.0,
+        "realisasi": 341040000000.0,
+        "persen": 87.8
+      },
+      "Belanja Modal": {
+        "anggaran": 180140000000.0,
+        "realisasi": 220760000000.0,
+        "persen": 122.55
+      },
+      "Belanja Lainnya": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Bagi Hasil": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Bantuan Keuangan": {
+        "anggaran": 24900000000.0,
+        "realisasi": 30320000000.0,
+        "persen": 121.75
+      },
+      "Belanja Bunga": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Subsidi": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Hibah": {
+        "anggaran": 13750000000.0,
+        "realisasi": 29300000000.0,
+        "persen": 213.06
+      },
+      "Belanja Bantuan Sosial": {
+        "anggaran": 200000000.0,
+        "realisasi": 170000000.0,
+        "persen": 82.09
+      },
+      "Belanja Tidak Terduga": {
+        "anggaran": 5000000000.0,
+        "realisasi": 46710000000.0,
+        "persen": 934.27
+      },
+      "Pembiayaan Daerah": {
+        "anggaran": 62280000000.0,
+        "realisasi": 171870000000.0,
+        "persen": 275.95
+      },
+      "Penerimaan Pembiayaan Daerah": {
+        "anggaran": 65280000000.0,
+        "realisasi": 171870000000.0,
+        "persen": 263.27
+      },
+      "Sisa Lebih Perhitungan Anggaran Tahun Sebelumnya": {
+        "anggaran": 65280000000.0,
+        "realisasi": 171870000000.0,
+        "persen": 263.27
+      },
+      "Pencairan Dana Cadangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penjualan Kekayaan Daerah yang Dipisahkan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Kembali Pemberian Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Pembiayaan Lainnya Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pengeluaran Pembiayaan Daerah": {
+        "anggaran": 3000000000.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pembentukan Dana Cadangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penyertaan Modal Daerah": {
+        "anggaran": 3000000000.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pembayaran Cicilan Pokok Utang yang Jatuh Tempo": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pemberian Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pengeluaran Pembiayaan Lainnya Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      }
+    }
+  },
+  "09": {
+    "pemda": "Kota Pagar Alam",
+    "region": "Pagar Alam",
+    "akun": {
+      "Pendapatan Daerah": {
+        "anggaran": 740800000000.0,
+        "realisasi": 856670000000.0,
+        "persen": 115.64
+      },
+      "PAD": {
+        "anggaran": 65340000000.0,
+        "realisasi": 88130000000.0,
+        "persen": 134.88
+      },
+      "Pajak Daerah": {
+        "anggaran": 8400000000.0,
+        "realisasi": 19900000000.0,
+        "persen": 236.94
+      },
+      "Retribusi Daerah": {
+        "anggaran": 2350000000.0,
+        "realisasi": 2660000000.0,
+        "persen": 113.21
+      },
+      "Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan": {
+        "anggaran": 4830000000.0,
+        "realisasi": 5890000000.0,
+        "persen": 121.8
+      },
+      "Lain-Lain PAD yang Sah": {
+        "anggaran": 49750000000.0,
+        "realisasi": 59670000000.0,
+        "persen": 119.94
+      },
+      "TKDD": {
+        "anggaran": 654140000000.0,
+        "realisasi": 657710000000.0,
+        "persen": 100.54
+      },
+      "Pendapatan Transfer Pemerintah Pusat": {
+        "anggaran": 654140000000.0,
+        "realisasi": 657710000000.0,
+        "persen": 100.54
+      },
+      "Pendapatan Transfer Antar Daerah": {
+        "anggaran": 21320000000.0,
+        "realisasi": 110840000000.0,
+        "persen": 519.9
+      },
+      "Pendapatan Lainnya": {
+        "anggaran": 21320000000.0,
+        "realisasi": 110840000000.0,
+        "persen": 519.9
+      },
+      "Pendapatan Hibah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Dana Darurat": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Daerah": {
+        "anggaran": 741300000000.0,
+        "realisasi": 805450000000.0,
+        "persen": 108.65
+      },
+      "Belanja Pegawai": {
+        "anggaran": 352290000000.0,
+        "realisasi": 280860000000.0,
+        "persen": 79.72
+      },
+      "Belanja Barang Jasa": {
+        "anggaran": 264390000000.0,
+        "realisasi": 261200000000.0,
+        "persen": 98.8
+      },
+      "Belanja Barang dan Jasa": {
+        "anggaran": 264390000000.0,
+        "realisasi": 261200000000.0,
+        "persen": 98.8
+      },
+      "Belanja Modal": {
+        "anggaran": 113910000000.0,
+        "realisasi": 248940000000.0,
+        "persen": 218.54
+      },
+      "Belanja Lainnya": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Bagi Hasil": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Bantuan Keuangan": {
+        "anggaran": 760000000.0,
+        "realisasi": 730000000.0,
+        "persen": 95.79
+      },
+      "Belanja Bunga": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Subsidi": {
+        "anggaran": 3000000000.0,
+        "realisasi": 90000000.0,
+        "persen": 3.16
+      },
+      "Belanja Hibah": {
+        "anggaran": 5480000000.0,
+        "realisasi": 4170000000.0,
+        "persen": 76.14
+      },
+      "Belanja Bantuan Sosial": {
+        "anggaran": 470000000.0,
+        "realisasi": 1690000000.0,
+        "persen": 357.0
+      },
+      "Belanja Tidak Terduga": {
+        "anggaran": 1000000000.0,
+        "realisasi": 7760000000.0,
+        "persen": 776.48
+      },
+      "Pembiayaan Daerah": {
+        "anggaran": 500000000.0,
+        "realisasi": 42060000000.0,
+        "persen": null
+      },
+      "Penerimaan Pembiayaan Daerah": {
+        "anggaran": 2500000000.0,
+        "realisasi": 42060000000.0,
+        "persen": null
+      },
+      "Sisa Lebih Perhitungan Anggaran Tahun Sebelumnya": {
+        "anggaran": 2500000000.0,
+        "realisasi": 42060000000.0,
+        "persen": null
+      },
+      "Pencairan Dana Cadangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penjualan Kekayaan Daerah yang Dipisahkan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Kembali Pemberian Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Pembiayaan Lainnya Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pengeluaran Pembiayaan Daerah": {
+        "anggaran": 2000000000.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pembentukan Dana Cadangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penyertaan Modal Daerah": {
+        "anggaran": 2000000000.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pembayaran Cicilan Pokok Utang yang Jatuh Tempo": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pemberian Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pengeluaran Pembiayaan Lainnya Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      }
+    }
+  },
+  "10": {
+    "pemda": "Kota Lubuk Linggau",
+    "region": "Lubuk Linggau",
+    "akun": {
+      "Pendapatan Daerah": {
+        "anggaran": 1025630000000.0001,
+        "realisasi": 1026930000000.0001,
+        "persen": 100.13
+      },
+      "PAD": {
+        "anggaran": 98040000000.0,
+        "realisasi": 86320000000.0,
+        "persen": 88.05
+      },
+      "Pajak Daerah": {
+        "anggaran": 42390000000.0,
+        "realisasi": 36400000000.0,
+        "persen": 85.88
+      },
+      "Retribusi Daerah": {
+        "anggaran": 6750000000.0,
+        "realisasi": 3190000000.0,
+        "persen": 47.19
+      },
+      "Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan": {
+        "anggaran": 1850000000.0,
+        "realisasi": 2009999999.9999998,
+        "persen": 108.57
+      },
+      "Lain-Lain PAD yang Sah": {
+        "anggaran": 47050000000.0,
+        "realisasi": 44730000000.0,
+        "persen": 95.06
+      },
+      "TKDD": {
+        "anggaran": 854660000000.0,
+        "realisasi": 793210000000.0,
+        "persen": 92.81
+      },
+      "Pendapatan Transfer Pemerintah Pusat": {
+        "anggaran": 854660000000.0,
+        "realisasi": 793210000000.0,
+        "persen": 92.81
+      },
+      "Pendapatan Transfer Antar Daerah": {
+        "anggaran": 67269999999.99999,
+        "realisasi": 115050000000.0,
+        "persen": 171.03
+      },
+      "Pendapatan Lainnya": {
+        "anggaran": 72930000000.0,
+        "realisasi": 147410000000.0,
+        "persen": 202.11
+      },
+      "Pendapatan Hibah": {
+        "anggaran": 5670000000.0,
+        "realisasi": 32360000000.0,
+        "persen": 571.1
+      },
+      "Dana Darurat": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Daerah": {
+        "anggaran": 984360000000.0,
+        "realisasi": 1020620000000.0,
+        "persen": 103.68
+      },
+      "Belanja Pegawai": {
+        "anggaran": 459840000000.0,
+        "realisasi": 378830000000.0,
+        "persen": 82.38
+      },
+      "Belanja Barang Jasa": {
+        "anggaran": 237920000000.0,
+        "realisasi": 245540000000.0,
+        "persen": 103.2
+      },
+      "Belanja Barang dan Jasa": {
+        "anggaran": 237920000000.0,
+        "realisasi": 245540000000.0,
+        "persen": 103.2
+      },
+      "Belanja Modal": {
+        "anggaran": 268690000000.0,
+        "realisasi": 334870000000.0,
+        "persen": 124.63
+      },
+      "Belanja Lainnya": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Bagi Hasil": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Bantuan Keuangan": {
+        "anggaran": 490000000.0,
+        "realisasi": 500000000.0,
+        "persen": 101.48
+      },
+      "Belanja Bunga": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Subsidi": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Hibah": {
+        "anggaran": 14030000000.0,
+        "realisasi": 25370000000.0,
+        "persen": 180.82
+      },
+      "Belanja Bantuan Sosial": {
+        "anggaran": 1510000000.0,
+        "realisasi": 180000000.0,
+        "persen": 12.13
+      },
+      "Belanja Tidak Terduga": {
+        "anggaran": 1880000000.0,
+        "realisasi": 35330000000.0,
+        "persen": null
+      },
+      "Pembiayaan Daerah": {
+        "anggaran": null,
+        "realisasi": null,
+        "persen": 10.1
+      },
+      "Penerimaan Pembiayaan Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 830000000.0,
+        "persen": 0.0
+      },
+      "Sisa Lebih Perhitungan Anggaran Tahun Sebelumnya": {
+        "anggaran": 0.0,
+        "realisasi": 830000000.0,
+        "persen": 0.0
+      },
+      "Pencairan Dana Cadangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penjualan Kekayaan Daerah yang Dipisahkan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Kembali Pemberian Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Pembiayaan Lainnya Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pengeluaran Pembiayaan Daerah": {
+        "anggaran": 41280000000.0,
+        "realisasi": 5000000000.0,
+        "persen": 12.11
+      },
+      "Pembentukan Dana Cadangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penyertaan Modal Daerah": {
+        "anggaran": 3000000000.0,
+        "realisasi": 5000000000.0,
+        "persen": 166.67
+      },
+      "Pembayaran Cicilan Pokok Utang yang Jatuh Tempo": {
+        "anggaran": 38280000000.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pemberian Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pengeluaran Pembiayaan Lainnya Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      }
+    }
+  },
+  "11": {
+    "pemda": "Kab. Banyuasin",
+    "region": "Banyuasin",
+    "akun": {
+      "Pendapatan Daerah": {
+        "anggaran": 2225150000000.0,
+        "realisasi": 2224010000000.0,
+        "persen": 99.95
+      },
+      "PAD": {
+        "anggaran": 184000000000.0,
+        "realisasi": 202820000000.0,
+        "persen": 110.23
+      },
+      "Pajak Daerah": {
+        "anggaran": 126030000000.0,
+        "realisasi": 123980000000.0,
+        "persen": 98.38
+      },
+      "Retribusi Daerah": {
+        "anggaran": 9330000000.0,
+        "realisasi": 10590000000.0,
+        "persen": 113.49
+      },
+      "Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan": {
+        "anggaran": 5410000000.0,
+        "realisasi": 6430000000.0,
+        "persen": 118.77
+      },
+      "Lain-Lain PAD yang Sah": {
+        "anggaran": 43240000000.0,
+        "realisasi": 61820000000.0,
+        "persen": 142.99
+      },
+      "TKDD": {
+        "anggaran": 1858810000000.0,
+        "realisasi": 1735330000000.0,
+        "persen": 93.36
+      },
+      "Pendapatan Transfer Pemerintah Pusat": {
+        "anggaran": 1858810000000.0,
+        "realisasi": 1735330000000.0,
+        "persen": 93.36
+      },
+      "Pendapatan Transfer Antar Daerah": {
+        "anggaran": 80540000000.0,
+        "realisasi": 159650000000.0,
+        "persen": 198.23
+      },
+      "Pendapatan Lainnya": {
+        "anggaran": 182340000000.0,
+        "realisasi": 285850000000.0,
+        "persen": 156.77
+      },
+      "Pendapatan Hibah": {
+        "anggaran": 101800000000.0,
+        "realisasi": 126210000000.0,
+        "persen": 123.97
+      },
+      "Dana Darurat": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Daerah": {
+        "anggaran": 2439270000000.0,
+        "realisasi": 2550700000000.0,
+        "persen": 104.57
+      },
+      "Belanja Pegawai": {
+        "anggaran": 821830000000.0,
+        "realisasi": 778160000000.0,
+        "persen": 94.69
+      },
+      "Belanja Barang Jasa": {
+        "anggaran": 705280000000.0,
+        "realisasi": 588920000000.0,
+        "persen": 83.5
+      },
+      "Belanja Barang dan Jasa": {
+        "anggaran": 705280000000.0,
+        "realisasi": 588920000000.0,
+        "persen": 83.5
+      },
+      "Belanja Modal": {
+        "anggaran": 453090000000.0,
+        "realisasi": 582780000000.0,
+        "persen": 128.62
+      },
+      "Belanja Lainnya": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Bagi Hasil": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Bantuan Keuangan": {
+        "anggaran": 424310000000.0,
+        "realisasi": 417250000000.0,
+        "persen": 98.34
+      },
+      "Belanja Bunga": {
+        "anggaran": 7600000000.0,
+        "realisasi": 6070000000.0,
+        "persen": 79.88
+      },
+      "Belanja Subsidi": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Hibah": {
+        "anggaran": 23280000000.0,
+        "realisasi": 94010000000.0,
+        "persen": 403.91
+      },
+      "Belanja Bantuan Sosial": {
+        "anggaran": 0.0,
+        "realisasi": 80000000.0,
+        "persen": 0.0
+      },
+      "Belanja Tidak Terduga": {
+        "anggaran": 3890000000.0,
+        "realisasi": 83440000000.0,
+        "persen": null
+      },
+      "Pembiayaan Daerah": {
+        "anggaran": 214120000000.0,
+        "realisasi": 335870000000.0,
+        "persen": 156.86
+      },
+      "Penerimaan Pembiayaan Daerah": {
+        "anggaran": 287320000000.0,
+        "realisasi": 425280000000.0,
+        "persen": 148.02
+      },
+      "Sisa Lebih Perhitungan Anggaran Tahun Sebelumnya": {
+        "anggaran": 75250000000.0,
+        "realisasi": 152210000000.0,
+        "persen": 202.27
+      },
+      "Pencairan Dana Cadangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penjualan Kekayaan Daerah yang Dipisahkan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Pinjaman Daerah": {
+        "anggaran": 212070000000.0,
+        "realisasi": 273070000000.0,
+        "persen": 128.76
+      },
+      "Penerimaan Kembali Pemberian Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Pembiayaan Lainnya Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pengeluaran Pembiayaan Daerah": {
+        "anggaran": 73200000000.0,
+        "realisasi": 89410000000.0,
+        "persen": 122.14
+      },
+      "Pembentukan Dana Cadangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penyertaan Modal Daerah": {
+        "anggaran": 13200000000.0,
+        "realisasi": 11260000000.0,
+        "persen": 85.31
+      },
+      "Pembayaran Cicilan Pokok Utang yang Jatuh Tempo": {
+        "anggaran": 60000000000.0,
+        "realisasi": 78150000000.0,
+        "persen": 130.25
+      },
+      "Pemberian Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pengeluaran Pembiayaan Lainnya Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      }
+    }
+  },
+  "12": {
+    "pemda": "Kab. Ogan Ilir",
+    "region": "Ogan Ilir",
+    "akun": {
+      "Pendapatan Daerah": {
+        "anggaran": 1667510000000.0,
+        "realisasi": 1509200000000.0,
+        "persen": 90.51
+      },
+      "PAD": {
+        "anggaran": 179190000000.0,
+        "realisasi": 87850000000.0,
+        "persen": 49.03
+      },
+      "Pajak Daerah": {
+        "anggaran": 131970000000.0,
+        "realisasi": 51030000000.0,
+        "persen": 38.66
+      },
+      "Retribusi Daerah": {
+        "anggaran": 9380000000.0,
+        "realisasi": 5980000000.0,
+        "persen": 63.74
+      },
+      "Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan": {
+        "anggaran": 3400000000.0,
+        "realisasi": 3960000000.0,
+        "persen": 116.53
+      },
+      "Lain-Lain PAD yang Sah": {
+        "anggaran": 34440000000.0,
+        "realisasi": 26880000000.0,
+        "persen": 78.06
+      },
+      "TKDD": {
+        "anggaran": 1200200000000.0,
+        "realisasi": 1047280000000.0,
+        "persen": 87.26
+      },
+      "Pendapatan Transfer Pemerintah Pusat": {
+        "anggaran": 1200200000000.0,
+        "realisasi": 1047280000000.0,
+        "persen": 87.26
+      },
+      "Pendapatan Transfer Antar Daerah": {
+        "anggaran": 78530000000.0,
+        "realisasi": 87980000000.0,
+        "persen": 112.04
+      },
+      "Pendapatan Lainnya": {
+        "anggaran": 288120000000.0,
+        "realisasi": 374070000000.0,
+        "persen": 129.83
+      },
+      "Pendapatan Hibah": {
+        "anggaran": 4000000000.0,
+        "realisasi": 286090000000.0,
+        "persen": null
+      },
+      "Dana Darurat": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 205600000000.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Daerah": {
+        "anggaran": 1673560000000.0,
+        "realisasi": 1588540000000.0,
+        "persen": 94.92
+      },
+      "Belanja Pegawai": {
+        "anggaran": 619380000000.0,
+        "realisasi": 538380000000.0,
+        "persen": 86.92
+      },
+      "Belanja Barang Jasa": {
+        "anggaran": 343930000000.0,
+        "realisasi": 322810000000.0,
+        "persen": 93.86
+      },
+      "Belanja Barang dan Jasa": {
+        "anggaran": 343930000000.0,
+        "realisasi": 322810000000.0,
+        "persen": 93.86
+      },
+      "Belanja Modal": {
+        "anggaran": 286450000000.0,
+        "realisasi": 264320000000.0,
+        "persen": 92.27
+      },
+      "Belanja Lainnya": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Bagi Hasil": {
+        "anggaran": 14140000000.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Bantuan Keuangan": {
+        "anggaran": 326720000000.0,
+        "realisasi": 312130000000.0,
+        "persen": 95.54
+      },
+      "Belanja Bunga": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Subsidi": {
+        "anggaran": 3330000000.0,
+        "realisasi": 3330000000.0,
+        "persen": 100.0
+      },
+      "Belanja Hibah": {
+        "anggaran": 77620000000.0,
+        "realisasi": 88460000000.0,
+        "persen": 113.96
+      },
+      "Belanja Bantuan Sosial": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Tidak Terduga": {
+        "anggaran": 2000000000.0,
+        "realisasi": 59120000000.0,
+        "persen": null
+      },
+      "Pembiayaan Daerah": {
+        "anggaran": 6050000000.0,
+        "realisasi": 122790000000.0,
+        "persen": null
+      },
+      "Penerimaan Pembiayaan Daerah": {
+        "anggaran": 9350000000.0,
+        "realisasi": 125090000000.0,
+        "persen": null
+      },
+      "Sisa Lebih Perhitungan Anggaran Tahun Sebelumnya": {
+        "anggaran": 9350000000.0,
+        "realisasi": 125090000000.0,
+        "persen": null
+      },
+      "Pencairan Dana Cadangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penjualan Kekayaan Daerah yang Dipisahkan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Kembali Pemberian Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Pembiayaan Lainnya Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pengeluaran Pembiayaan Daerah": {
+        "anggaran": 3300000000.0,
+        "realisasi": 2300000000.0,
+        "persen": 69.7
+      },
+      "Pembentukan Dana Cadangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penyertaan Modal Daerah": {
+        "anggaran": 3300000000.0,
+        "realisasi": 2300000000.0,
+        "persen": 69.7
+      },
+      "Pembayaran Cicilan Pokok Utang yang Jatuh Tempo": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pemberian Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pengeluaran Pembiayaan Lainnya Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      }
+    }
+  },
+  "13": {
+    "pemda": "Kab. OKU Timur",
+    "region": "Ogan Komering Ulu Timur",
+    "akun": {
+      "Pendapatan Daerah": {
+        "anggaran": 1887170000000.0,
+        "realisasi": 1997670000000.0,
+        "persen": 105.86
+      },
+      "PAD": {
+        "anggaran": 107870000000.0,
+        "realisasi": 95310000000.0,
+        "persen": 88.36
+      },
+      "Pajak Daerah": {
+        "anggaran": 41200000000.0,
+        "realisasi": 34030000000.0,
+        "persen": 82.61
+      },
+      "Retribusi Daerah": {
+        "anggaran": 17370000000.0,
+        "realisasi": 11340000000.0,
+        "persen": 65.3
+      },
+      "Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan": {
+        "anggaran": 2500000000.0,
+        "realisasi": 2810000000.0,
+        "persen": 112.24
+      },
+      "Lain-Lain PAD yang Sah": {
+        "anggaran": 46800000000.0,
+        "realisasi": 47130000000.0,
+        "persen": 100.7
+      },
+      "TKDD": {
+        "anggaran": 1556030000000.0,
+        "realisasi": 1460270000000.0,
+        "persen": 93.85
+      },
+      "Pendapatan Transfer Pemerintah Pusat": {
+        "anggaran": 1556030000000.0,
+        "realisasi": 1460270000000.0,
+        "persen": 93.85
+      },
+      "Pendapatan Transfer Antar Daerah": {
+        "anggaran": 149910000000.0,
+        "realisasi": 356430000000.0,
+        "persen": 237.76
+      },
+      "Pendapatan Lainnya": {
+        "anggaran": 223270000000.0,
+        "realisasi": 442090000000.0,
+        "persen": 198.01
+      },
+      "Pendapatan Hibah": {
+        "anggaran": 73360000000.0,
+        "realisasi": 85660000000.0,
+        "persen": 116.78
+      },
+      "Dana Darurat": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Daerah": {
+        "anggaran": 1835870000000.0,
+        "realisasi": 1900170000000.0,
+        "persen": 103.5
+      },
+      "Belanja Pegawai": {
+        "anggaran": 694200000000.0,
+        "realisasi": 649840000000.0,
+        "persen": 93.61
+      },
+      "Belanja Barang Jasa": {
+        "anggaran": 408690000000.0,
+        "realisasi": 367110000000.0,
+        "persen": 89.83
+      },
+      "Belanja Barang dan Jasa": {
+        "anggaran": 408690000000.0,
+        "realisasi": 367110000000.0,
+        "persen": 89.83
+      },
+      "Belanja Modal": {
+        "anggaran": 291230000000.0,
+        "realisasi": 440580000000.0,
+        "persen": 151.28
+      },
+      "Belanja Lainnya": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Bagi Hasil": {
+        "anggaran": 0.0,
+        "realisasi": 6530000000.0,
+        "persen": 0.0
+      },
+      "Belanja Bantuan Keuangan": {
+        "anggaran": 358920000000.0,
+        "realisasi": 344620000000.0,
+        "persen": 96.01
+      },
+      "Belanja Bunga": {
+        "anggaran": 8000000000.0,
+        "realisasi": 6700000000.0,
+        "persen": 83.7
+      },
+      "Belanja Subsidi": {
+        "anggaran": 1200000000.0,
+        "realisasi": 1200000000.0,
+        "persen": 100.0
+      },
+      "Belanja Hibah": {
+        "anggaran": 71410000000.0,
+        "realisasi": 80540000000.0,
+        "persen": 112.79
+      },
+      "Belanja Bantuan Sosial": {
+        "anggaran": 1230000000.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Tidak Terduga": {
+        "anggaran": 1000000000.0,
+        "realisasi": 3060000000.0,
+        "persen": 305.89
+      },
+      "Pembiayaan Daerah": {
+        "anggaran": null,
+        "realisasi": null,
+        "persen": 24.0
+      },
+      "Penerimaan Pembiayaan Daerah": {
+        "anggaran": 250000000.0,
+        "realisasi": 19370000000.0,
+        "persen": null
+      },
+      "Sisa Lebih Perhitungan Anggaran Tahun Sebelumnya": {
+        "anggaran": 250000000.0,
+        "realisasi": 19370000000.0,
+        "persen": null
+      },
+      "Pencairan Dana Cadangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penjualan Kekayaan Daerah yang Dipisahkan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Kembali Pemberian Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Pembiayaan Lainnya Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pengeluaran Pembiayaan Daerah": {
+        "anggaran": 51540000000.0,
+        "realisasi": 31680000000.0,
+        "persen": 61.47
+      },
+      "Pembentukan Dana Cadangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penyertaan Modal Daerah": {
+        "anggaran": 2540000000.0,
+        "realisasi": 2540000000.0,
+        "persen": 100.0
+      },
+      "Pembayaran Cicilan Pokok Utang yang Jatuh Tempo": {
+        "anggaran": 49000000000.0,
+        "realisasi": 29140000000.0,
+        "persen": 59.47
+      },
+      "Pemberian Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pengeluaran Pembiayaan Lainnya Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      }
+    }
+  },
+  "14": {
+    "pemda": "Kab. OKU Selatan",
+    "region": "Ogan Komering Ulu Selatan",
+    "akun": {
+      "Pendapatan Daerah": {
+        "anggaran": 1417930000000.0,
+        "realisasi": 1362290000000.0,
+        "persen": 96.08
+      },
+      "PAD": {
+        "anggaran": 66230000000.00001,
+        "realisasi": 46950000000.0,
+        "persen": 70.88
+      },
+      "Pajak Daerah": {
+        "anggaran": 20090000000.0,
+        "realisasi": 14510000000.0,
+        "persen": 72.22
+      },
+      "Retribusi Daerah": {
+        "anggaran": 14410000000.0,
+        "realisasi": 12150000000.0,
+        "persen": 84.32
+      },
+      "Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan": {
+        "anggaran": 4240000000.0,
+        "realisasi": 4910000000.0,
+        "persen": 116.06
+      },
+      "Lain-Lain PAD yang Sah": {
+        "anggaran": 27500000000.0,
+        "realisasi": 15370000000.0,
+        "persen": 55.9
+      },
+      "TKDD": {
+        "anggaran": 1229110000000.0,
+        "realisasi": 1130380000000.0,
+        "persen": 91.97
+      },
+      "Pendapatan Transfer Pemerintah Pusat": {
+        "anggaran": 1229110000000.0,
+        "realisasi": 1130380000000.0,
+        "persen": 91.97
+      },
+      "Pendapatan Transfer Antar Daerah": {
+        "anggaran": 55440000000.0,
+        "realisasi": 115600000000.0,
+        "persen": 208.52
+      },
+      "Pendapatan Lainnya": {
+        "anggaran": 122590000000.0,
+        "realisasi": 184950000000.0,
+        "persen": 150.87
+      },
+      "Pendapatan Hibah": {
+        "anggaran": 67150000000.00001,
+        "realisasi": 69350000000.0,
+        "persen": 103.28
+      },
+      "Dana Darurat": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Daerah": {
+        "anggaran": 1474650000000.0,
+        "realisasi": 1356760000000.0,
+        "persen": 92.01
+      },
+      "Belanja Pegawai": {
+        "anggaran": 460170000000.0,
+        "realisasi": 420540000000.0,
+        "persen": 91.39
+      },
+      "Belanja Barang Jasa": {
+        "anggaran": 318540000000.0,
+        "realisasi": 286530000000.0,
+        "persen": 89.95
+      },
+      "Belanja Barang dan Jasa": {
+        "anggaran": 318540000000.0,
+        "realisasi": 286530000000.0,
+        "persen": 89.95
+      },
+      "Belanja Modal": {
+        "anggaran": 327940000000.0,
+        "realisasi": 283800000000.0,
+        "persen": 86.54
+      },
+      "Belanja Lainnya": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Bagi Hasil": {
+        "anggaran": 250000000.0,
+        "realisasi": 250000000.0,
+        "persen": 100.0
+      },
+      "Belanja Bantuan Keuangan": {
+        "anggaran": 309920000000.0,
+        "realisasi": 296760000000.0,
+        "persen": 95.75
+      },
+      "Belanja Bunga": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Subsidi": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Hibah": {
+        "anggaran": 56280000000.0,
+        "realisasi": 56090000000.0,
+        "persen": 99.65
+      },
+      "Belanja Bantuan Sosial": {
+        "anggaran": 800000000.0,
+        "realisasi": 800000000.0,
+        "persen": 99.98
+      },
+      "Belanja Tidak Terduga": {
+        "anggaran": 750000000.0,
+        "realisasi": 11990000000.0,
+        "persen": null
+      },
+      "Pembiayaan Daerah": {
+        "anggaran": 56720000000.0,
+        "realisasi": null,
+        "persen": -1.65
+      },
+      "Penerimaan Pembiayaan Daerah": {
+        "anggaran": 60270000000.0,
+        "realisasi": 2610000000.0,
+        "persen": 4.34
+      },
+      "Sisa Lebih Perhitungan Anggaran Tahun Sebelumnya": {
+        "anggaran": 60270000000.0,
+        "realisasi": 2610000000.0,
+        "persen": 4.34
+      },
+      "Pencairan Dana Cadangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penjualan Kekayaan Daerah yang Dipisahkan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Kembali Pemberian Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Pembiayaan Lainnya Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pengeluaran Pembiayaan Daerah": {
+        "anggaran": 3550000000.0,
+        "realisasi": 3550000000.0,
+        "persen": 100.0
+      },
+      "Pembentukan Dana Cadangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penyertaan Modal Daerah": {
+        "anggaran": 3550000000.0,
+        "realisasi": 3550000000.0,
+        "persen": 100.0
+      },
+      "Pembayaran Cicilan Pokok Utang yang Jatuh Tempo": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pemberian Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pengeluaran Pembiayaan Lainnya Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      }
+    }
+  },
+  "15": {
+    "pemda": "Kab. Empat Lawang",
+    "region": "Empat Lawang",
+    "akun": {
+      "Pendapatan Daerah": {
+        "anggaran": 1104390000000.0,
+        "realisasi": 1067660000000.0001,
+        "persen": 96.67
+      },
+      "PAD": {
+        "anggaran": 56560000000.0,
+        "realisasi": 33740000000.000004,
+        "persen": 59.65
+      },
+      "Pajak Daerah": {
+        "anggaran": 16450000000.0,
+        "realisasi": 8100000000.0,
+        "persen": 49.26
+      },
+      "Retribusi Daerah": {
+        "anggaran": 710000000.0,
+        "realisasi": 590000000.0,
+        "persen": 83.53
+      },
+      "Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan": {
+        "anggaran": 6000000000.0,
+        "realisasi": 6300000000.0,
+        "persen": 105.02
+      },
+      "Lain-Lain PAD yang Sah": {
+        "anggaran": 33400000000.0,
+        "realisasi": 18740000000.0,
+        "persen": 56.11
+      },
+      "TKDD": {
+        "anggaran": 945010000000.0,
+        "realisasi": 713060000000.0,
+        "persen": 75.46
+      },
+      "Pendapatan Transfer Pemerintah Pusat": {
+        "anggaran": 945010000000.0,
+        "realisasi": 713060000000.0,
+        "persen": 75.46
+      },
+      "Pendapatan Transfer Antar Daerah": {
+        "anggaran": 51030000000.0,
+        "realisasi": 142300000000.0,
+        "persen": 278.86
+      },
+      "Pendapatan Lainnya": {
+        "anggaran": 102820000000.0,
+        "realisasi": 320860000000.0,
+        "persen": 312.07
+      },
+      "Pendapatan Hibah": {
+        "anggaran": 51790000000.0,
+        "realisasi": 178560000000.0,
+        "persen": 344.8
+      },
+      "Dana Darurat": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Daerah": {
+        "anggaran": 1102390000000.0,
+        "realisasi": 1067119999999.9999,
+        "persen": 96.8
+      },
+      "Belanja Pegawai": {
+        "anggaran": 331670000000.0,
+        "realisasi": 284020000000.0,
+        "persen": 85.63
+      },
+      "Belanja Barang Jasa": {
+        "anggaran": 312510000000.0,
+        "realisasi": 297420000000.0,
+        "persen": 95.17
+      },
+      "Belanja Barang dan Jasa": {
+        "anggaran": 312510000000.0,
+        "realisasi": 297420000000.0,
+        "persen": 95.17
+      },
+      "Belanja Modal": {
+        "anggaran": 250810000000.0,
+        "realisasi": 278170000000.0,
+        "persen": 110.91
+      },
+      "Belanja Lainnya": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Bagi Hasil": {
+        "anggaran": 1720000000.0,
+        "realisasi": 1150000000.0,
+        "persen": 67.02
+      },
+      "Belanja Bantuan Keuangan": {
+        "anggaran": 195430000000.0,
+        "realisasi": 186300000000.0,
+        "persen": 95.32
+      },
+      "Belanja Bunga": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Subsidi": {
+        "anggaran": 300000000.0,
+        "realisasi": 400000000.0,
+        "persen": 133.33
+      },
+      "Belanja Hibah": {
+        "anggaran": 7950000000.0,
+        "realisasi": 8390000000.000001,
+        "persen": 105.52
+      },
+      "Belanja Bantuan Sosial": {
+        "anggaran": 0.0,
+        "realisasi": 770000000.0,
+        "persen": 0.0
+      },
+      "Belanja Tidak Terduga": {
+        "anggaran": 2000000000.0,
+        "realisasi": 10510000000.0,
+        "persen": 525.3
+      },
+      "Pembiayaan Daerah": {
+        "anggaran": null,
+        "realisasi": 21040000000.0,
+        "persen": null
+      },
+      "Penerimaan Pembiayaan Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 23040000000.0,
+        "persen": 0.0
+      },
+      "Sisa Lebih Perhitungan Anggaran Tahun Sebelumnya": {
+        "anggaran": 0.0,
+        "realisasi": 22740000000.0,
+        "persen": 0.0
+      },
+      "Pencairan Dana Cadangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penjualan Kekayaan Daerah yang Dipisahkan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Kembali Pemberian Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Pembiayaan Lainnya Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 310000000.0,
+        "persen": 0.0
+      },
+      "Pengeluaran Pembiayaan Daerah": {
+        "anggaran": 2000000000.0,
+        "realisasi": 2000000000.0,
+        "persen": 100.0
+      },
+      "Pembentukan Dana Cadangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penyertaan Modal Daerah": {
+        "anggaran": 2000000000.0,
+        "realisasi": 2000000000.0,
+        "persen": 100.0
+      },
+      "Pembayaran Cicilan Pokok Utang yang Jatuh Tempo": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pemberian Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pengeluaran Pembiayaan Lainnya Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      }
+    }
+  },
+  "16": {
+    "pemda": "Kab. Penukal Abab Lematang Ilir",
+    "region": "Penukal Abab Lematang Ilir",
+    "akun": {
+      "Pendapatan Daerah": {
+        "anggaran": 1564140000000.0,
+        "realisasi": 985060000000.0,
+        "persen": 62.98
+      },
+      "PAD": {
+        "anggaran": 114460000000.0,
+        "realisasi": 49470000000.0,
+        "persen": 43.22
+      },
+      "Pajak Daerah": {
+        "anggaran": 18250000000.0,
+        "realisasi": 12150000000.0,
+        "persen": 66.57
+      },
+      "Retribusi Daerah": {
+        "anggaran": 1470000000.0,
+        "realisasi": 950000000.0,
+        "persen": 64.81
+      },
+      "Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan": {
+        "anggaran": 1720000000.0,
+        "realisasi": 1260000000.0,
+        "persen": 73.41
+      },
+      "Lain-Lain PAD yang Sah": {
+        "anggaran": 93020000000.0,
+        "realisasi": 35100000000.0,
+        "persen": 37.74
+      },
+      "TKDD": {
+        "anggaran": 1170460000000.0,
+        "realisasi": 803860000000.0,
+        "persen": 68.68
+      },
+      "Pendapatan Transfer Pemerintah Pusat": {
+        "anggaran": 1170460000000.0,
+        "realisasi": 803860000000.0,
+        "persen": 68.68
+      },
+      "Pendapatan Transfer Antar Daerah": {
+        "anggaran": 80090000000.0,
+        "realisasi": 97650000000.0,
+        "persen": 121.92
+      },
+      "Pendapatan Lainnya": {
+        "anggaran": 279220000000.0,
+        "realisasi": 131729999999.99998,
+        "persen": 47.18
+      },
+      "Pendapatan Hibah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Dana Darurat": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 199120000000.0,
+        "realisasi": 34080000000.0,
+        "persen": 17.12
+      },
+      "Belanja Daerah": {
+        "anggaran": 1421340000000.0,
+        "realisasi": 987170000000.0,
+        "persen": 69.45
+      },
+      "Belanja Pegawai": {
+        "anggaran": 257700000000.0,
+        "realisasi": 177810000000.0,
+        "persen": 69.0
+      },
+      "Belanja Barang Jasa": {
+        "anggaran": 508990000000.0,
+        "realisasi": 336540000000.0,
+        "persen": 66.12
+      },
+      "Belanja Barang dan Jasa": {
+        "anggaran": 508990000000.0,
+        "realisasi": 336540000000.0,
+        "persen": 66.12
+      },
+      "Belanja Modal": {
+        "anggaran": 389890000000.0,
+        "realisasi": 275490000000.0,
+        "persen": 70.66
+      },
+      "Belanja Lainnya": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Bagi Hasil": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Bantuan Keuangan": {
+        "anggaran": 147370000000.0,
+        "realisasi": 105770000000.0,
+        "persen": 71.77
+      },
+      "Belanja Bunga": {
+        "anggaran": 21000000000.0,
+        "realisasi": 9230000000.0,
+        "persen": 43.93
+      },
+      "Belanja Subsidi": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Hibah": {
+        "anggaran": 95690000000.0,
+        "realisasi": 77380000000.0,
+        "persen": 80.87
+      },
+      "Belanja Bantuan Sosial": {
+        "anggaran": 0.0,
+        "realisasi": 3410000000.0,
+        "persen": 0.0
+      },
+      "Belanja Tidak Terduga": {
+        "anggaran": 700000000.0,
+        "realisasi": 1550000000.0,
+        "persen": 221.26
+      },
+      "Pembiayaan Daerah": {
+        "anggaran": null,
+        "realisasi": 9600000000.0,
+        "persen": -6.72
+      },
+      "Penerimaan Pembiayaan Daerah": {
+        "anggaran": 101700000000.0,
+        "realisasi": 124710000000.0,
+        "persen": 122.63
+      },
+      "Sisa Lebih Perhitungan Anggaran Tahun Sebelumnya": {
+        "anggaran": 1700000000.0,
+        "realisasi": 25710000000.0,
+        "persen": null
+      },
+      "Pencairan Dana Cadangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penjualan Kekayaan Daerah yang Dipisahkan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Pinjaman Daerah": {
+        "anggaran": 100000000000.0,
+        "realisasi": 99000000000.0,
+        "persen": 99.0
+      },
+      "Penerimaan Kembali Pemberian Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Pembiayaan Lainnya Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pengeluaran Pembiayaan Daerah": {
+        "anggaran": 244500000000.0,
+        "realisasi": 115110000000.0,
+        "persen": 47.08
+      },
+      "Pembentukan Dana Cadangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penyertaan Modal Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pembayaran Cicilan Pokok Utang yang Jatuh Tempo": {
+        "anggaran": 244500000000.0,
+        "realisasi": 115110000000.0,
+        "persen": 47.08
+      },
+      "Pemberian Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pengeluaran Pembiayaan Lainnya Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      }
+    }
+  },
+  "17": {
+    "pemda": "Kab. Musi Rawas Utara",
+    "region": "Musi Rawas",
+    "akun": {
+      "Pendapatan Daerah": {
+        "anggaran": 1096210000000.0,
+        "realisasi": 880380000000.0,
+        "persen": 80.31
+      },
+      "PAD": {
+        "anggaran": 56210000000.0,
+        "realisasi": 47920000000.0,
+        "persen": 85.25
+      },
+      "Pajak Daerah": {
+        "anggaran": 13550000000.0,
+        "realisasi": 23070000000.0,
+        "persen": 170.31
+      },
+      "Retribusi Daerah": {
+        "anggaran": 860000000.0,
+        "realisasi": 690000000.0,
+        "persen": 79.74
+      },
+      "Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan": {
+        "anggaran": 0.0,
+        "realisasi": 760000000.0,
+        "persen": 0.0
+      },
+      "Lain-Lain PAD yang Sah": {
+        "anggaran": 41810000000.0,
+        "realisasi": 23410000000.0,
+        "persen": 55.99
+      },
+      "TKDD": {
+        "anggaran": 943300000000.0,
+        "realisasi": 736210000000.0,
+        "persen": 78.05
+      },
+      "Pendapatan Transfer Pemerintah Pusat": {
+        "anggaran": 943300000000.0,
+        "realisasi": 736210000000.0,
+        "persen": 78.05
+      },
+      "Pendapatan Transfer Antar Daerah": {
+        "anggaran": 68700000000.0,
+        "realisasi": 62030000000.0,
+        "persen": 90.29
+      },
+      "Pendapatan Lainnya": {
+        "anggaran": 96700000000.0,
+        "realisasi": 96250000000.0,
+        "persen": 99.53
+      },
+      "Pendapatan Hibah": {
+        "anggaran": 0.0,
+        "realisasi": 34220000000.0,
+        "persen": 0.0
+      },
+      "Dana Darurat": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 28000000000.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Daerah": {
+        "anggaran": 1126210000000.0,
+        "realisasi": 919130000000.0,
+        "persen": 81.61
+      },
+      "Belanja Pegawai": {
+        "anggaran": 234570000000.0,
+        "realisasi": 203610000000.0,
+        "persen": 86.8
+      },
+      "Belanja Barang Jasa": {
+        "anggaran": 358490000000.0,
+        "realisasi": 216050000000.0,
+        "persen": 60.27
+      },
+      "Belanja Barang dan Jasa": {
+        "anggaran": 358490000000.0,
+        "realisasi": 216050000000.0,
+        "persen": 60.27
+      },
+      "Belanja Modal": {
+        "anggaran": 328170000000.0,
+        "realisasi": 267160000000.00003,
+        "persen": 81.41
+      },
+      "Belanja Lainnya": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Bagi Hasil": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Bantuan Keuangan": {
+        "anggaran": 147220000000.0,
+        "realisasi": 135000000000.0,
+        "persen": 91.7
+      },
+      "Belanja Bunga": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Subsidi": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Belanja Hibah": {
+        "anggaran": 50260000000.0,
+        "realisasi": 71160000000.0,
+        "persen": 141.57
+      },
+      "Belanja Bantuan Sosial": {
+        "anggaran": 3130000000.0,
+        "realisasi": 2820000000.0,
+        "persen": 90.21
+      },
+      "Belanja Tidak Terduga": {
+        "anggaran": 4380000000.0,
+        "realisasi": 23340000000.0,
+        "persen": 533.25
+      },
+      "Pembiayaan Daerah": {
+        "anggaran": 30000000000.0,
+        "realisasi": 44160000000.0,
+        "persen": 147.21
+      },
+      "Penerimaan Pembiayaan Daerah": {
+        "anggaran": 34000000000.0,
+        "realisasi": 48160000000.0,
+        "persen": 141.66
+      },
+      "Sisa Lebih Perhitungan Anggaran Tahun Sebelumnya": {
+        "anggaran": 34000000000.0,
+        "realisasi": 48160000000.0,
+        "persen": 141.66
+      },
+      "Pencairan Dana Cadangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penjualan Kekayaan Daerah yang Dipisahkan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Kembali Pemberian Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penerimaan Pembiayaan Lainnya Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pengeluaran Pembiayaan Daerah": {
+        "anggaran": 4000000000.0,
+        "realisasi": 4000000000.0,
+        "persen": 100.0
+      },
+      "Pembentukan Dana Cadangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Penyertaan Modal Daerah": {
+        "anggaran": 4000000000.0,
+        "realisasi": 4000000000.0,
+        "persen": 100.0
+      },
+      "Pembayaran Cicilan Pokok Utang yang Jatuh Tempo": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pemberian Pinjaman Daerah": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      },
+      "Pengeluaran Pembiayaan Lainnya Sesuai dengan Ketentuan Peraturan Perundang-Undangan": {
+        "anggaran": 0.0,
+        "realisasi": 0.0,
+        "persen": 0.0
+      }
+    }
+  }
+}

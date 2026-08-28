@@ -1,0 +1,674 @@
+{
+  "pooled": {
+    "daily": {
+      "label": "Daily (pooled)",
+      "n": 3696,
+      "n_nonzero": 560,
+      "r2_all": 0.265997,
+      "rmse": 7609122.0,
+      "mae": 1774426.0,
+      "r2_nonzero": -0.155472,
+      "rmse_nonzero": 19525215.0
+    },
+    "weekly": {
+      "label": "Weekly (pooled)",
+      "n": 43,
+      "n_nonzero": 43,
+      "r2_all": -1.95506,
+      "rmse": 149961152.0,
+      "mae": 125317548.0,
+      "r2_nonzero": -1.95506,
+      "rmse_nonzero": 149961152.0
+    },
+    "monthly": {
+      "label": "Monthly (pooled)",
+      "n": 10,
+      "n_nonzero": 10,
+      "r2_all": -25.152093,
+      "rmse": 548272646.0,
+      "mae": 537925712.0,
+      "r2_nonzero": -25.152093,
+      "rmse_nonzero": 548272646.0
+    }
+  },
+  "per_region": {
+    "daily": {
+      "Banyuasin": {
+        "label": "Daily-Banyuasin",
+        "n": 231,
+        "n_nonzero": 5,
+        "r2_all": -0.013606,
+        "rmse": 3648548.0,
+        "mae": 422711.0,
+        "r2_nonzero": -1.632549,
+        "rmse_nonzero": 24799392.0
+      },
+      "Empat Lawang": {
+        "label": "Daily-Empat Lawang",
+        "n": 231,
+        "n_nonzero": 0,
+        "r2_all": 1.0,
+        "rmse": 0.0,
+        "mae": 0.0,
+        "r2_nonzero": null,
+        "rmse_nonzero": null
+      },
+      "Lahat": {
+        "label": "Daily-Lahat",
+        "n": 231,
+        "n_nonzero": 57,
+        "r2_all": -0.178361,
+        "rmse": 10815988.0,
+        "mae": 4208010.0,
+        "r2_nonzero": -1.586791,
+        "rmse_nonzero": 21773826.0
+      },
+      "Lubuk Linggau": {
+        "label": "Daily-Lubuk Linggau",
+        "n": 231,
+        "n_nonzero": 26,
+        "r2_all": -0.050009,
+        "rmse": 2561992.0,
+        "mae": 559119.0,
+        "r2_nonzero": -0.733542,
+        "rmse_nonzero": 7636549.0
+      },
+      "Muara Enim": {
+        "label": "Daily-Muara Enim",
+        "n": 231,
+        "n_nonzero": 25,
+        "r2_all": -0.050879,
+        "rmse": 10389133.0,
+        "mae": 2285988.0,
+        "r2_nonzero": -0.80951,
+        "rmse_nonzero": 31580231.0
+      },
+      "Musi Banyuasin": {
+        "label": "Daily-Musi Banyuasin",
+        "n": 231,
+        "n_nonzero": 16,
+        "r2_all": -0.040209,
+        "rmse": 3375392.0,
+        "mae": 663627.0,
+        "r2_nonzero": -1.262819,
+        "rmse_nonzero": 12825379.0
+      },
+      "Musi Rawas": {
+        "label": "Daily-Musi Rawas",
+        "n": 231,
+        "n_nonzero": 3,
+        "r2_all": -0.012578,
+        "rmse": 315733.0,
+        "mae": 35190.0,
+        "r2_nonzero": -21.982977,
+        "rmse_nonzero": 2770544.0
+      },
+      "Ogan Ilir": {
+        "label": "Daily-Ogan Ilir",
+        "n": 231,
+        "n_nonzero": 18,
+        "r2_all": -0.055336,
+        "rmse": 1237280.0,
+        "mae": 283321.0,
+        "r2_nonzero": -2.057304,
+        "rmse_nonzero": 4432388.0
+      },
+      "Ogan Komering Ilir": {
+        "label": "Daily-Ogan Komering Ilir",
+        "n": 231,
+        "n_nonzero": 0,
+        "r2_all": 1.0,
+        "rmse": 0.0,
+        "mae": 0.0,
+        "r2_nonzero": null,
+        "rmse_nonzero": null
+      },
+      "Ogan Komering Ulu": {
+        "label": "Daily-Ogan Komering Ulu",
+        "n": 231,
+        "n_nonzero": 66,
+        "r2_all": -0.095929,
+        "rmse": 6370816.0,
+        "mae": 1884860.0,
+        "r2_nonzero": -0.441676,
+        "rmse_nonzero": 11918706.0
+      },
+      "Ogan Komering Ulu Selatan": {
+        "label": "Daily-Ogan Komering Ulu Selatan",
+        "n": 231,
+        "n_nonzero": 1,
+        "r2_all": -0.004348,
+        "rmse": 261687.0,
+        "mae": 17218.0,
+        "r2_nonzero": null,
+        "rmse_nonzero": null
+      },
+      "Ogan Komering Ulu Timur": {
+        "label": "Daily-Ogan Komering Ulu Timur",
+        "n": 231,
+        "n_nonzero": 72,
+        "r2_all": -0.208428,
+        "rmse": 3195624.0,
+        "mae": 1327160.0,
+        "r2_nonzero": -1.238986,
+        "rmse_nonzero": 5723945.0
+      },
+      "Pagar Alam": {
+        "label": "Daily-Pagar Alam",
+        "n": 231,
+        "n_nonzero": 10,
+        "r2_all": -0.023163,
+        "rmse": 10687905.0,
+        "mae": 1608121.0,
+        "r2_nonzero": -1.096239,
+        "rmse_nonzero": 51368698.0
+      },
+      "Palembang": {
+        "label": "Daily-Palembang",
+        "n": 231,
+        "n_nonzero": 223,
+        "r2_all": -0.107868,
+        "rmse": 21842944.0,
+        "mae": 13606587.0,
+        "r2_nonzero": -0.147225,
+        "rmse_nonzero": 22180535.0
+      },
+      "Penukal Abab Lematang Ilir": {
+        "label": "Daily-Penukal Abab Lematang Ilir",
+        "n": 231,
+        "n_nonzero": 10,
+        "r2_all": -0.020687,
+        "rmse": 3344000.0,
+        "mae": 476069.0,
+        "r2_nonzero": -0.88036,
+        "rmse_nonzero": 16072087.0
+      },
+      "Prabumulih": {
+        "label": "Daily-Prabumulih",
+        "n": 231,
+        "n_nonzero": 28,
+        "r2_all": -0.072553,
+        "rmse": 3894234.0,
+        "mae": 1012837.0,
+        "r2_nonzero": -1.262805,
+        "rmse_nonzero": 11185336.0
+      }
+    },
+    "weekly": {
+      "Banyuasin": {
+        "label": "Weekly-Banyuasin",
+        "n": 43,
+        "n_nonzero": 5,
+        "r2_all": -0.077713,
+        "rmse": 8456522.0,
+        "mae": 2270845.0,
+        "r2_nonzero": -1.632549,
+        "rmse_nonzero": 24799392.0
+      },
+      "Empat Lawang": {
+        "label": "Weekly-Empat Lawang",
+        "n": 43,
+        "n_nonzero": 0,
+        "r2_all": 1.0,
+        "rmse": 0.0,
+        "mae": 0.0,
+        "r2_nonzero": null,
+        "rmse_nonzero": null
+      },
+      "Lahat": {
+        "label": "Weekly-Lahat",
+        "n": 43,
+        "n_nonzero": 32,
+        "r2_all": -0.687682,
+        "rmse": 35413747.0,
+        "mae": 22605823.0,
+        "r2_nonzero": -1.210137,
+        "rmse_nonzero": 41051698.0
+      },
+      "Lubuk Linggau": {
+        "label": "Weekly-Lubuk Linggau",
+        "n": 43,
+        "n_nonzero": 21,
+        "r2_all": -0.197164,
+        "rmse": 7401340.0,
+        "mae": 3003637.0,
+        "r2_nonzero": -0.508814,
+        "rmse_nonzero": 10590950.0
+      },
+      "Muara Enim": {
+        "label": "Weekly-Muara Enim",
+        "n": 43,
+        "n_nonzero": 19,
+        "r2_all": -0.182296,
+        "rmse": 31274583.0,
+        "mae": 12280539.0,
+        "r2_nonzero": -0.535987,
+        "rmse_nonzero": 47048845.0
+      },
+      "Musi Banyuasin": {
+        "label": "Weekly-Musi Banyuasin",
+        "n": 43,
+        "n_nonzero": 12,
+        "r2_all": -0.141171,
+        "rmse": 10136088.0,
+        "mae": 3565064.0,
+        "r2_nonzero": -0.796245,
+        "rmse_nonzero": 19187306.0
+      },
+      "Musi Rawas": {
+        "label": "Weekly-Musi Rawas",
+        "n": 43,
+        "n_nonzero": 2,
+        "r2_all": -0.045711,
+        "rmse": 904175.0,
+        "mae": 189042.0,
+        "r2_nonzero": -15.619558,
+        "rmse_nonzero": 4192488.0
+      },
+      "Ogan Ilir": {
+        "label": "Weekly-Ogan Ilir",
+        "n": 43,
+        "n_nonzero": 15,
+        "r2_all": -0.30347,
+        "rmse": 3154381.0,
+        "mae": 1522025.0,
+        "r2_nonzero": -2.006699,
+        "rmse_nonzero": 5340756.0
+      },
+      "Ogan Komering Ilir": {
+        "label": "Weekly-Ogan Komering Ilir",
+        "n": 43,
+        "n_nonzero": 0,
+        "r2_all": 1.0,
+        "rmse": 0.0,
+        "mae": 0.0,
+        "r2_nonzero": null,
+        "rmse_nonzero": null
+      },
+      "Ogan Komering Ulu": {
+        "label": "Weekly-Ogan Komering Ulu",
+        "n": 43,
+        "n_nonzero": 37,
+        "r2_all": -0.338692,
+        "rmse": 20130766.0,
+        "mae": 10125643.0,
+        "r2_nonzero": -0.41649,
+        "rmse_nonzero": 21701695.0
+      },
+      "Ogan Komering Ulu Selatan": {
+        "label": "Weekly-Ogan Komering Ulu Selatan",
+        "n": 43,
+        "n_nonzero": 1,
+        "r2_all": -0.02381,
+        "rmse": 606531.0,
+        "mae": 92495.0,
+        "r2_nonzero": null,
+        "rmse_nonzero": null
+      },
+      "Ogan Komering Ulu Timur": {
+        "label": "Weekly-Ogan Komering Ulu Timur",
+        "n": 43,
+        "n_nonzero": 40,
+        "r2_all": -1.668536,
+        "rmse": 9016453.0,
+        "mae": 7129630.0,
+        "r2_nonzero": -2.050244,
+        "rmse_nonzero": 9348458.0
+      },
+      "Pagar Alam": {
+        "label": "Weekly-Pagar Alam",
+        "n": 43,
+        "n_nonzero": 8,
+        "r2_all": -0.120899,
+        "rmse": 26304715.0,
+        "mae": 8638978.0,
+        "r2_nonzero": -1.3795,
+        "rmse_nonzero": 60984974.0
+      },
+      "Palembang": {
+        "label": "Weekly-Palembang",
+        "n": 43,
+        "n_nonzero": 43,
+        "r2_all": -0.866681,
+        "rmse": 62484375.0,
+        "mae": 51108684.0,
+        "r2_nonzero": -0.866681,
+        "rmse_nonzero": 62484375.0
+      },
+      "Penukal Abab Lematang Ilir": {
+        "label": "Weekly-Penukal Abab Lematang Ilir",
+        "n": 43,
+        "n_nonzero": 10,
+        "r2_all": -0.122184,
+        "rmse": 7750649.0,
+        "mae": 2557487.0,
+        "r2_nonzero": -0.88036,
+        "rmse_nonzero": 16072087.0
+      },
+      "Prabumulih": {
+        "label": "Weekly-Prabumulih",
+        "n": 43,
+        "n_nonzero": 23,
+        "r2_all": -0.501875,
+        "rmse": 9412444.0,
+        "mae": 5441056.0,
+        "r2_nonzero": -1.664848,
+        "rmse_nonzero": 12869827.0
+      }
+    },
+    "monthly": {
+      "Banyuasin": {
+        "label": "Monthly-Banyuasin",
+        "n": 10,
+        "n_nonzero": 5,
+        "r2_all": -0.449422,
+        "rmse": 17535818.0,
+        "mae": 9764632.0,
+        "r2_nonzero": -1.632549,
+        "rmse_nonzero": 24799392.0
+      },
+      "Empat Lawang": {
+        "label": "Monthly-Empat Lawang",
+        "n": 10,
+        "n_nonzero": 0,
+        "r2_all": 1.0,
+        "rmse": 0.0,
+        "mae": 0.0,
+        "r2_nonzero": null,
+        "rmse_nonzero": null
+      },
+      "Lahat": {
+        "label": "Monthly-Lahat",
+        "n": 10,
+        "n_nonzero": 10,
+        "r2_all": -3.250807,
+        "rmse": 111154967.0,
+        "mae": 97205040.0,
+        "r2_nonzero": -3.250807,
+        "rmse_nonzero": 111154967.0
+      },
+      "Lubuk Linggau": {
+        "label": "Monthly-Lubuk Linggau",
+        "n": 10,
+        "n_nonzero": 10,
+        "r2_all": -0.829887,
+        "rmse": 19178670.0,
+        "mae": 12915638.0,
+        "r2_nonzero": -0.829887,
+        "rmse_nonzero": 19178670.0
+      },
+      "Muara Enim": {
+        "label": "Monthly-Muara Enim",
+        "n": 10,
+        "n_nonzero": 10,
+        "r2_all": -0.687602,
+        "rmse": 82727958.0,
+        "mae": 52806318.0,
+        "r2_nonzero": -0.687602,
+        "rmse_nonzero": 82727958.0
+      },
+      "Musi Banyuasin": {
+        "label": "Monthly-Musi Banyuasin",
+        "n": 10,
+        "n_nonzero": 7,
+        "r2_all": -0.429787,
+        "rmse": 27960490.0,
+        "mae": 15329776.0,
+        "r2_nonzero": -0.752608,
+        "rmse_nonzero": 33419178.0
+      },
+      "Musi Rawas": {
+        "label": "Monthly-Musi Rawas",
+        "n": 10,
+        "n_nonzero": 2,
+        "r2_all": -0.231476,
+        "rmse": 1874938.0,
+        "mae": 812880.0,
+        "r2_nonzero": -15.619558,
+        "rmse_nonzero": 4192488.0
+      },
+      "Ogan Ilir": {
+        "label": "Monthly-Ogan Ilir",
+        "n": 10,
+        "n_nonzero": 8,
+        "r2_all": -1.235566,
+        "rmse": 8803411.0,
+        "mae": 6544706.0,
+        "r2_nonzero": -2.234753,
+        "rmse_nonzero": 9842513.0
+      },
+      "Ogan Komering Ilir": {
+        "label": "Monthly-Ogan Komering Ilir",
+        "n": 10,
+        "n_nonzero": 0,
+        "r2_all": 1.0,
+        "rmse": 0.0,
+        "mae": 0.0,
+        "r2_nonzero": null,
+        "rmse_nonzero": null
+      },
+      "Ogan Komering Ulu": {
+        "label": "Monthly-Ogan Komering Ulu",
+        "n": 10,
+        "n_nonzero": 10,
+        "r2_all": -0.873059,
+        "rmse": 63774199.0,
+        "mae": 43540266.0,
+        "r2_nonzero": -0.873059,
+        "rmse_nonzero": 63774199.0
+      },
+      "Ogan Komering Ulu Selatan": {
+        "label": "Monthly-Ogan Komering Ulu Selatan",
+        "n": 10,
+        "n_nonzero": 1,
+        "r2_all": -0.111111,
+        "rmse": 1257730.0,
+        "mae": 397729.0,
+        "r2_nonzero": null,
+        "rmse_nonzero": null
+      },
+      "Ogan Komering Ulu Timur": {
+        "label": "Monthly-Ogan Komering Ulu Timur",
+        "n": 10,
+        "n_nonzero": 10,
+        "r2_all": -9.693179,
+        "rmse": 32199989.0,
+        "mae": 30657407.0,
+        "r2_nonzero": -9.693179,
+        "rmse_nonzero": 32199989.0
+      },
+      "Pagar Alam": {
+        "label": "Monthly-Pagar Alam",
+        "n": 10,
+        "n_nonzero": 6,
+        "r2_all": -0.673956,
+        "rmse": 58544635.0,
+        "mae": 37147605.0,
+        "r2_nonzero": -2.039709,
+        "rmse_nonzero": 75580798.0
+      },
+      "Palembang": {
+        "label": "Monthly-Palembang",
+        "n": 10,
+        "n_nonzero": 10,
+        "r2_all": -4.540779,
+        "rmse": 211143213.0,
+        "mae": 196409981.0,
+        "r2_nonzero": -4.540779,
+        "rmse_nonzero": 211143213.0
+      },
+      "Penukal Abab Lematang Ilir": {
+        "label": "Monthly-Penukal Abab Lematang Ilir",
+        "n": 10,
+        "n_nonzero": 9,
+        "r2_all": -0.820928,
+        "rmse": 16378561.0,
+        "mae": 10997195.0,
+        "r2_nonzero": -1.003694,
+        "rmse_nonzero": 17264519.0
+      },
+      "Prabumulih": {
+        "label": "Monthly-Prabumulih",
+        "n": 10,
+        "n_nonzero": 10,
+        "r2_all": -3.999862,
+        "rmse": 26158217.0,
+        "mae": 23396540.0,
+        "r2_nonzero": -3.999862,
+        "rmse_nonzero": 26158217.0
+      }
+    }
+  },
+  "zone": {
+    "big4": {
+      "regions": [
+        "Palembang",
+        "Lahat",
+        "Muara Enim",
+        "Ogan Komering Ulu"
+      ],
+      "daily": {
+        "label": "Top-4 regions (daily)",
+        "n": 231,
+        "n_nonzero": 227,
+        "r2_all": -0.369468,
+        "rmse": 31339421.0,
+        "mae": 20083761.0,
+        "r2_nonzero": -0.39884,
+        "rmse_nonzero": 31597832.0
+      },
+      "weekly": {
+        "label": "Top-4 (weekly)",
+        "n": 43,
+        "n_nonzero": 43,
+        "r2_all": -1.355459,
+        "rmse": 115820452.0,
+        "mae": 91125994.0,
+        "r2_nonzero": -1.355459,
+        "rmse_nonzero": 115820452.0
+      },
+      "monthly": {
+        "label": "Top-4 (monthly)",
+        "n": 10,
+        "n_nonzero": 10,
+        "r2_all": -12.42779,
+        "rmse": 403579681.0,
+        "mae": 389961604.0,
+        "r2_nonzero": -12.42779,
+        "rmse_nonzero": 403579681.0
+      }
+    },
+    "small12": {
+      "regions": [
+        "Pagar Alam",
+        "Ogan Komering Ulu Timur",
+        "Prabumulih",
+        "Musi Banyuasin",
+        "Lubuk Linggau",
+        "Penukal Abab Lematang Ilir",
+        "Banyuasin",
+        "Ogan Ilir",
+        "Musi Rawas",
+        "Ogan Komering Ulu Selatan",
+        "Empat Lawang",
+        "Ogan Komering Ilir"
+      ],
+      "daily": {
+        "label": "Bottom-12 regions (daily)",
+        "n": 231,
+        "n_nonzero": 134,
+        "r2_all": -0.197731,
+        "rmse": 15764744.0,
+        "mae": 6405373.0,
+        "r2_nonzero": -0.397803,
+        "rmse_nonzero": 20698578.0
+      },
+      "weekly": {
+        "label": "Bottom-12 (weekly)",
+        "n": 43,
+        "n_nonzero": 43,
+        "r2_all": -1.02996,
+        "rmse": 48308268.0,
+        "mae": 34410258.0,
+        "r2_nonzero": -1.02996,
+        "rmse_nonzero": 48308268.0
+      },
+      "monthly": {
+        "label": "Bottom-12 (monthly)",
+        "n": 10,
+        "n_nonzero": 10,
+        "r2_all": -6.554229,
+        "rmse": 158851254.0,
+        "mae": 147964108.0,
+        "r2_nonzero": -6.554229,
+        "rmse_nonzero": 158851254.0
+      }
+    }
+  },
+  "region_sales_ranking": {
+    "Palembang": {
+      "total_sales": 4979704585.99,
+      "share_pct": 59.3
+    },
+    "Lahat": {
+      "total_sales": 972050396.101,
+      "share_pct": 11.6
+    },
+    "Muara Enim": {
+      "total_sales": 528063177.351,
+      "share_pct": 6.3
+    },
+    "Ogan Komering Ulu": {
+      "total_sales": 435402659.435,
+      "share_pct": 5.2
+    },
+    "Pagar Alam": {
+      "total_sales": 371476050.05,
+      "share_pct": 4.4
+    },
+    "Ogan Komering Ulu Timur": {
+      "total_sales": 306574069.64,
+      "share_pct": 3.7
+    },
+    "Prabumulih": {
+      "total_sales": 233965396.152,
+      "share_pct": 2.8
+    },
+    "Musi Banyuasin": {
+      "total_sales": 153297762.931,
+      "share_pct": 1.8
+    },
+    "Lubuk Linggau": {
+      "total_sales": 129156375.478,
+      "share_pct": 1.5
+    },
+    "Penukal Abab Lematang Ilir": {
+      "total_sales": 109971947.879,
+      "share_pct": 1.3
+    },
+    "Banyuasin": {
+      "total_sales": 97646324.32,
+      "share_pct": 1.2
+    },
+    "Ogan Ilir": {
+      "total_sales": 65447064.466,
+      "share_pct": 0.8
+    },
+    "Musi Rawas": {
+      "total_sales": 8128800.0,
+      "share_pct": 0.1
+    },
+    "Ogan Komering Ulu Selatan": {
+      "total_sales": 3977292.0,
+      "share_pct": 0.0
+    },
+    "Empat Lawang": {
+      "total_sales": 0.0,
+      "share_pct": 0.0
+    },
+    "Ogan Komering Ilir": {
+      "total_sales": 0.0,
+      "share_pct": 0.0
+    }
+  }
+}

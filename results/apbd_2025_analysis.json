@@ -1,0 +1,208 @@
+{
+  "source": "data_apbd.xls (XML Spreadsheet 2003), APBD Provinsi Sumsel 2025, realisasi s.d. Oktober 2025",
+  "akun": [
+    {
+      "Akun": " Pendapatan Daerah",
+      "Anggaran": 10523288856474.0,
+      "Realisasi": 8255938738824.7,
+      "Persentase": 78.45
+    },
+    {
+      "Akun": " PAD",
+      "Anggaran": 4642152890474.0,
+      "Realisasi": 3730509377119.7,
+      "Persentase": 80.36
+    },
+    {
+      "Akun": " Pajak Daerah",
+      "Anggaran": 3748959869215.0,
+      "Realisasi": 3172363555184.6,
+      "Persentase": 84.62
+    },
+    {
+      "Akun": " Retribusi Daerah",
+      "Anggaran": 5213358400.0,
+      "Realisasi": 4398915882.0,
+      "Persentase": 84.38
+    },
+    {
+      "Akun": " Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan",
+      "Anggaran": 173213785434.0,
+      "Realisasi": 106316886488.21,
+      "Persentase": 61.38
+    },
+    {
+      "Akun": " Lain-Lain PAD yang Sah",
+      "Anggaran": 714765877425.0,
+      "Realisasi": 447430019564.83,
+      "Persentase": 62.6
+    },
+    {
+      "Akun": " TKDD",
+      "Anggaran": 5877073042000.0,
+      "Realisasi": 4522720745705.0,
+      "Persentase": 76.96
+    },
+    {
+      "Akun": " Pendapatan Transfer Pemerintah Pusat",
+      "Anggaran": 5877073042000.0,
+      "Realisasi": 4522720745705.0,
+      "Persentase": 76.96
+    },
+    {
+      "Akun": " Pendapatan Lainnya",
+      "Anggaran": 4062924000.0,
+      "Realisasi": 2708616000.0,
+      "Persentase": 66.67
+    },
+    {
+      "Akun": " Pendapatan Hibah",
+      "Anggaran": 4062924000.0,
+      "Realisasi": 2708616000.0,
+      "Persentase": 66.67
+    },
+    {
+      "Akun": " Belanja Daerah",
+      "Anggaran": 10631783507681.0,
+      "Realisasi": 6295060596615.3,
+      "Persentase": 59.21
+    },
+    {
+      "Akun": " Belanja Pegawai",
+      "Anggaran": 3045301996450.7,
+      "Realisasi": 1853015503259.0,
+      "Persentase": 60.85
+    },
+    {
+      "Akun": " Belanja Pegawai",
+      "Anggaran": 3045301996450.7,
+      "Realisasi": 1853015503259.0,
+      "Persentase": 60.85
+    },
+    {
+      "Akun": " Belanja Barang dan Jasa",
+      "Anggaran": 2284928856746.3,
+      "Realisasi": 1418084450522.7,
+      "Persentase": 62.06
+    },
+    {
+      "Akun": " Belanja Barang dan Jasa",
+      "Anggaran": 2284928856746.3,
+      "Realisasi": 1418084450522.7,
+      "Persentase": 62.06
+    },
+    {
+      "Akun": " Belanja Modal",
+      "Anggaran": 1505432346326.0,
+      "Realisasi": 672506525630.9,
+      "Persentase": 44.67
+    },
+    {
+      "Akun": " Belanja Modal",
+      "Anggaran": 1505432346326.0,
+      "Realisasi": 672506525630.9,
+      "Persentase": 44.67
+    },
+    {
+      "Akun": " Belanja Lainnya",
+      "Anggaran": 3796120308158.0,
+      "Realisasi": 2351454117202.7,
+      "Persentase": 61.94
+    },
+    {
+      "Akun": " Belanja Bagi Hasil",
+      "Anggaran": 1637090013024.0,
+      "Realisasi": 1607012877517.0,
+      "Persentase": 98.16
+    },
+    {
+      "Akun": " Belanja Bantuan Keuangan",
+      "Anggaran": 1734182298350.0,
+      "Realisasi": 474711685566.71,
+      "Persentase": 27.37
+    },
+    {
+      "Akun": " Belanja Subsidi",
+      "Anggaran": 4564613134.0,
+      "Realisasi": 0.0,
+      "Persentase": 0.0
+    },
+    {
+      "Akun": " Belanja Hibah",
+      "Anggaran": 395283383650.0,
+      "Realisasi": 269725810869.0,
+      "Persentase": 68.24
+    },
+    {
+      "Akun": " Belanja Tidak Terduga",
+      "Anggaran": 25000000000.0,
+      "Realisasi": 3743250.0,
+      "Persentase": 0.01
+    },
+    {
+      "Akun": " Pembiayaan Daerah",
+      "Anggaran": 0.0,
+      "Realisasi": 0.0,
+      "Persentase": 0.0
+    },
+    {
+      "Akun": " Penerimaan Pembiayaan Daerah",
+      "Anggaran": 108494651207.0,
+      "Realisasi": 108494651207.36,
+      "Persentase": 100.0
+    },
+    {
+      "Akun": " Sisa Lebih Perhitungan Anggaran Tahun Sebelumnya",
+      "Anggaran": 108494651207.0,
+      "Realisasi": 108494651207.36,
+      "Persentase": 100.0
+    }
+  ],
+  "kunci": {
+    "belanja_daerah": {
+      "anggaran": 10631783507681.0,
+      "realisasi": 6295060596615.3,
+      "persen": 59.21
+    },
+    "belanja_barang_jasa": {
+      "anggaran": 2284928856746.3,
+      "realisasi": 1418084450522.7,
+      "persen": 62.06
+    },
+    "pendapatan_daerah": {
+      "anggaran": 10523288856474.0,
+      "realisasi": 8255938738824.7,
+      "persen": 78.45
+    }
+  },
+  "korelasi_realisasi_vs_penjualan": {
+    "n": 6,
+    "spearman": 0.3142857142857143,
+    "p": 0.5440932944606414,
+    "tahun": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "realisasi_ribu_rupiah": {
+      "2020": 1411206870.0,
+      "2021": 1811885209.0,
+      "2022": 2042434073.0,
+      "2023": 3610252957.0,
+      "2024": 2259381000.0,
+      "2025": 1418084450.5226998
+    },
+    "total_penjualan": {
+      "2020": 13229204441.847,
+      "2021": 17659107330.173,
+      "2022": 14269515518.389002,
+      "2023": 16190624190.259003,
+      "2024": 12327692640.866001,
+      "2025": 8394861901.793
+    }
+  },
+  "catatan": "Data agregat provinsi (satu nilai), tidak bisa dipetakan ke 16 region. Nilai 2025 dari file baru = realisasi s.d. Oktober (saat test set berakhir), berbeda dari file lama yang berisi realisasi akhir tahun (2,20 T). Korelasi tetap tidak signifikan."
+}
