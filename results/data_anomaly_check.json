@@ -1,0 +1,441 @@
+{
+  "n_baris_raw": 46822,
+  "n_faktur_unik": 13661,
+  "n_pelanggan_unik": 230,
+  "rentang_tanggal": [
+    "2020-07-01 16:06:00",
+    "2025-10-27 13:10:00"
+  ],
+  "harga_per_qty": {
+    "n_baris_harga_<100": 102,
+    "n_baris_harga_>50jt": 6,
+    "n_baris_harga_<=1": 81,
+    "contoh_harga_<=1": [
+      {
+        "barang_nama": "BloodLancets",
+        "barang_spesifikasi": " ",
+        "d_jual_qty": 3000,
+        "jumlah": 0.0,
+        "harga_per_qty": 0.0,
+        "tanggal": "2020-09-15 11:58:00"
+      },
+      {
+        "barang_nama": "One Swabs",
+        "barang_spesifikasi": " ",
+        "d_jual_qty": 3000,
+        "jumlah": 0.0,
+        "harga_per_qty": 0.0,
+        "tanggal": "2020-09-15 11:58:00"
+      },
+      {
+        "barang_nama": "Masker",
+        "barang_spesifikasi": "Ear Loop",
+        "d_jual_qty": 1,
+        "jumlah": 1.0,
+        "harga_per_qty": 1.0,
+        "tanggal": "2020-09-24 09:16:00"
+      },
+      {
+        "barang_nama": "Masker",
+        "barang_spesifikasi": "Hijab",
+        "d_jual_qty": 1,
+        "jumlah": 1.0,
+        "harga_per_qty": 1.0,
+        "tanggal": "2020-09-24 09:16:00"
+      },
+      {
+        "barang_nama": "Disposable Syringe",
+        "barang_spesifikasi": "3 cc",
+        "d_jual_qty": 100,
+        "jumlah": 100.0,
+        "harga_per_qty": 1.0,
+        "tanggal": "2020-11-09 08:42:00"
+      },
+      {
+        "barang_nama": "Surgical Face Mask",
+        "barang_spesifikasi": "Earloop - Green",
+        "d_jual_qty": 1,
+        "jumlah": 1.0,
+        "harga_per_qty": 1.0,
+        "tanggal": "2020-11-09 10:15:00"
+      },
+      {
+        "barang_nama": "Hand Sanitizer ",
+        "barang_spesifikasi": "60ml",
+        "d_jual_qty": 100,
+        "jumlah": 100.0,
+        "harga_per_qty": 1.0,
+        "tanggal": "2020-11-11 14:27:00"
+      },
+      {
+        "barang_nama": "Hand Sanitizer ",
+        "barang_spesifikasi": "500ml",
+        "d_jual_qty": 40,
+        "jumlah": 40.0,
+        "harga_per_qty": 1.0,
+        "tanggal": "2020-11-11 14:27:00"
+      },
+      {
+        "barang_nama": "Shoe Cover",
+        "barang_spesifikasi": "Green",
+        "d_jual_qty": 1000,
+        "jumlah": 1000.0,
+        "harga_per_qty": 1.0,
+        "tanggal": "2020-11-11 14:27:00"
+      },
+      {
+        "barang_nama": "Face Shield",
+        "barang_spesifikasi": "Busa",
+        "d_jual_qty": 30,
+        "jumlah": 30.0,
+        "harga_per_qty": 1.0,
+        "tanggal": "2020-11-11 14:27:00"
+      }
+    ]
+  },
+  "qty_negatif": {
+    "n_baris": 0,
+    "n_faktur": 0,
+    "total_qty_negatif": 0.0,
+    "contoh": []
+  },
+  "jumlah_nol_qty_positif": {
+    "n_baris": 8,
+    "n_faktur": 6,
+    "total_qty": 6211.0,
+    "contoh": [
+      {
+        "d_jual_nofak": 1509200007,
+        "barang_nama": "BloodLancets",
+        "d_jual_qty": 3000,
+        "jumlah": 0.0,
+        "tanggal": "2020-09-15 11:58:00"
+      },
+      {
+        "d_jual_nofak": 1509200007,
+        "barang_nama": "One Swabs",
+        "d_jual_qty": 3000,
+        "jumlah": 0.0,
+        "tanggal": "2020-09-15 11:58:00"
+      },
+      {
+        "d_jual_nofak": 2906210012,
+        "barang_nama": "Hand Sanitizer ",
+        "d_jual_qty": 2,
+        "jumlah": 0.0,
+        "tanggal": "2021-06-29 16:03:00"
+      },
+      {
+        "d_jual_nofak": "M0807210001",
+        "barang_nama": "HEPA Filter",
+        "d_jual_qty": 2,
+        "jumlah": 0.0,
+        "tanggal": "2021-06-29 11:16:00"
+      },
+      {
+        "d_jual_nofak": "M0807210001",
+        "barang_nama": "Kantung Nafas",
+        "d_jual_qty": 200,
+        "jumlah": 0.0,
+        "tanggal": "2021-06-29 11:16:00"
+      },
+      {
+        "d_jual_nofak": 1407210017,
+        "barang_nama": "Holder",
+        "d_jual_qty": 1,
+        "jumlah": 0.0,
+        "tanggal": "2021-07-14 16:52:00"
+      },
+      {
+        "d_jual_nofak": 1407210018,
+        "barang_nama": "Holder",
+        "d_jual_qty": 2,
+        "jumlah": 0.0,
+        "tanggal": "2021-07-14 16:56:00"
+      },
+      {
+        "d_jual_nofak": 2201240001,
+        "barang_nama": "Suction Coneting Tube",
+        "d_jual_qty": 4,
+        "jumlah": 0.0,
+        "tanggal": "2024-01-22 10:39:00"
+      }
+    ]
+  },
+  "duplikasi_nofak": {
+    "n_baris_duplikat": 42170,
+    "n_faktur_terlibat": 9009,
+    "contoh": [
+      {
+        "d_jual_nofak": 1001220001,
+        "tanggal": "2022-01-10 09:26:00",
+        "pelanggan_nama": "RUMKIT BHAYANGKARA PALEMBANG",
+        "jumlah": 2691000.0
+      },
+      {
+        "d_jual_nofak": 1001220001,
+        "tanggal": "2022-01-10 09:26:00",
+        "pelanggan_nama": "RUMKIT BHAYANGKARA PALEMBANG",
+        "jumlah": 413250.0
+      },
+      {
+        "d_jual_nofak": 1001220001,
+        "tanggal": "2022-01-10 09:26:00",
+        "pelanggan_nama": "RUMKIT BHAYANGKARA PALEMBANG",
+        "jumlah": 500000.0
+      },
+      {
+        "d_jual_nofak": 1001220001,
+        "tanggal": "2022-01-10 09:26:00",
+        "pelanggan_nama": "RUMKIT BHAYANGKARA PALEMBANG",
+        "jumlah": 376400.0
+      },
+      {
+        "d_jual_nofak": 1001220001,
+        "tanggal": "2022-01-10 09:26:00",
+        "pelanggan_nama": "RUMKIT BHAYANGKARA PALEMBANG",
+        "jumlah": 224250.0
+      },
+      {
+        "d_jual_nofak": 1001220002,
+        "tanggal": "2022-01-10 11:44:00",
+        "pelanggan_nama": "PT. MEDIKALOKA JAKABARING",
+        "jumlah": 81000.0
+      },
+      {
+        "d_jual_nofak": 1001220002,
+        "tanggal": "2022-01-10 11:44:00",
+        "pelanggan_nama": "PT. MEDIKALOKA JAKABARING",
+        "jumlah": 81000.0
+      },
+      {
+        "d_jual_nofak": 1001220002,
+        "tanggal": "2022-01-10 11:44:00",
+        "pelanggan_nama": "PT. MEDIKALOKA JAKABARING",
+        "jumlah": 108000.0
+      },
+      {
+        "d_jual_nofak": 1001220002,
+        "tanggal": "2022-01-10 11:44:00",
+        "pelanggan_nama": "PT. MEDIKALOKA JAKABARING",
+        "jumlah": 162000.0
+      },
+      {
+        "d_jual_nofak": 1001220002,
+        "tanggal": "2022-01-10 11:44:00",
+        "pelanggan_nama": "PT. MEDIKALOKA JAKABARING",
+        "jumlah": 81000.0
+      }
+    ]
+  },
+  "konsistensi_satuan_produk_kunci": {
+    "handscoon": {
+      "n_baris": 1644,
+      "n_satuan": 3,
+      "satuan": [
+        {
+          "satuan": "Box",
+          "n_baris": 1132,
+          "total_qty": 65839,
+          "total_nilai_jt": 8240.3
+        },
+        {
+          "satuan": "Pair",
+          "n_baris": 500,
+          "total_qty": 137865,
+          "total_nilai_jt": 1735.4
+        },
+        {
+          "satuan": "Pack",
+          "n_baris": 12,
+          "total_qty": 2953,
+          "total_nilai_jt": 39.2
+        }
+      ]
+    },
+    "spuit": {
+      "n_baris": 3477,
+      "n_satuan": 2,
+      "satuan": [
+        {
+          "satuan": "Pcs",
+          "n_baris": 3234,
+          "total_qty": 12362986,
+          "total_nilai_jt": 12053.5
+        },
+        {
+          "satuan": "Box",
+          "n_baris": 243,
+          "total_qty": 10330,
+          "total_nilai_jt": 313.5
+        }
+      ]
+    },
+    "infusion_set": {
+      "n_baris": 980,
+      "n_satuan": 1,
+      "satuan": [
+        {
+          "satuan": "Pcs",
+          "n_baris": 980,
+          "total_qty": 405266,
+          "total_nilai_jt": 2644.4
+        }
+      ]
+    },
+    "iv_catheter": {
+      "n_baris": 886,
+      "n_satuan": 1,
+      "satuan": [
+        {
+          "satuan": "Pcs",
+          "n_baris": 886,
+          "total_qty": 435040,
+          "total_nilai_jt": 3023.9
+        }
+      ]
+    },
+    "masker": {
+      "n_baris": 776,
+      "n_satuan": 2,
+      "satuan": [
+        {
+          "satuan": "Box",
+          "n_baris": 629,
+          "total_qty": 58165,
+          "total_nilai_jt": 4099.1
+        },
+        {
+          "satuan": "Pcs",
+          "n_baris": 147,
+          "total_qty": 102890,
+          "total_nilai_jt": 1417.5
+        }
+      ]
+    },
+    "kassa": {
+      "n_baris": 758,
+      "n_satuan": 3,
+      "satuan": [
+        {
+          "satuan": "Roll",
+          "n_baris": 326,
+          "total_qty": 28385,
+          "total_nilai_jt": 784.7
+        },
+        {
+          "satuan": "Box",
+          "n_baris": 288,
+          "total_qty": 63660,
+          "total_nilai_jt": 294.6
+        },
+        {
+          "satuan": "Pack",
+          "n_baris": 144,
+          "total_qty": 13793,
+          "total_nilai_jt": 121.6
+        }
+      ]
+    },
+    "plester": {
+      "n_baris": 55,
+      "n_satuan": 2,
+      "satuan": [
+        {
+          "satuan": "Box",
+          "n_baris": 45,
+          "total_qty": 1069,
+          "total_nilai_jt": 148.5
+        },
+        {
+          "satuan": "Roll",
+          "n_baris": 10,
+          "total_qty": 517,
+          "total_nilai_jt": 13.0
+        }
+      ]
+    }
+  },
+  "barang_nama_normalisasi": {
+    "n_nama_asli": 1317,
+    "n_nama_ternormalisasi": 1143,
+    "selisih_pecah": 174
+  },
+  "jumlah_vs_total_fak": {
+    "n_baris_selisih_>0": 42153,
+    "pct_baris_selisih_>0": 90.03,
+    "contoh": [
+      {
+        "d_jual_nofak": 601210009,
+        "barang_nama": "Shoes Cover",
+        "jumlah": 486000.0,
+        "jual_total_fak": 1620000.0
+      },
+      {
+        "d_jual_nofak": 3011200008,
+        "barang_nama": "Disposable Syringe",
+        "jumlah": 593000.0,
+        "jual_total_fak": 4582890.0
+      },
+      {
+        "d_jual_nofak": 2811200003,
+        "barang_nama": "Endotracheal Tube",
+        "jumlah": 432818.182,
+        "jual_total_fak": 1464681.821
+      },
+      {
+        "d_jual_nofak": 1111200002,
+        "barang_nama": "Shoe Cover",
+        "jumlah": 92000.0,
+        "jual_total_fak": 2077750.0
+      },
+      {
+        "d_jual_nofak": 211200004,
+        "barang_nama": "ID Band",
+        "jumlah": 81000.0,
+        "jual_total_fak": 2544000.0
+      },
+      {
+        "d_jual_nofak": 510200003,
+        "barang_nama": "IV Cannula",
+        "jumlah": 3582500.0,
+        "jual_total_fak": 43484798.0
+      },
+      {
+        "d_jual_nofak": 107200001,
+        "barang_nama": "Pouches Flat Reels",
+        "jumlah": 600000.0,
+        "jual_total_fak": 4430000.0
+      },
+      {
+        "d_jual_nofak": 107200001,
+        "barang_nama": "Gussetted Reels",
+        "jumlah": 2660000.0,
+        "jual_total_fak": 4430000.0
+      },
+      {
+        "d_jual_nofak": 107200001,
+        "barang_nama": "Pouches Sterilization Flat ",
+        "jumlah": 1170000.0,
+        "jual_total_fak": 4430000.0
+      },
+      {
+        "d_jual_nofak": 207200001,
+        "barang_nama": "Blood Transfusion Set",
+        "jumlah": 780000.0,
+        "jual_total_fak": 5001640.0
+      }
+    ]
+  },
+  "tanggal": {
+    "n_null": 2,
+    "n_sebelum_2020": 0,
+    "n_setelah_2025_12": 0
+  },
+  "koordinat": {
+    "n_lat_null": 57,
+    "n_lon_null": 57,
+    "n_lat_di_luar_sumsel": 2313,
+    "n_lon_di_luar_sumsel": 1628
+  }
+}
