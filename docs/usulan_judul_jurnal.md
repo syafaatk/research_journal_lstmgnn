@@ -48,7 +48,7 @@ Dibuat: 26 Agustus 2026. Diperbarui: 28 Agustus 2026 (menambahkan temuan diagnos
 
 **Judul kerka:** *Event-Driven Demand Spikes in Healthcare Supply Chains: Evidence from Indonesia's COVID-19 Emergency Procurement*
 
-- **Temuan inti:** grup produk COVID 99,3 M IDR (19,7% total); spike Delta Jul-Agu 2021 x5,85 median bulanan (handscoon x43,9, rapit tes x25,4, auto-destruct syringe x10,0); satu invoice Airvo 762,5 jt; GeNose/APD; 2021 = puncak COVID + puncak BTT + puncak penjualan Rp13,03 M. Karhutla El Nino 2023 NEGATIF (masker tidak melonjak).
+- **Temuan inti:** grup produk COVID 99,3 M IDR (19,7% total); spike Delta Jul-Agu 2021 x5,85 median bulanan (handscoon x43,9, rapit tes x25,4, auto-destruct syringe x10,0); satu invoice Airvo 762,5 jt; GeNose/APD; 2021 = puncak COVID + puncak BTT + puncak penjualan Rp13,03 M. Karhutla El Nino 2023 NEGATIF (masker tidak melonjak — diverifikasi dengan normalisasi satuan Box/Pcs ke pcs, lihat `temuan.md` 6.2).
 - **Kontribusi:** anatomi spike pengadaan darurat: apa yang melonjak bersamaan, seberapa terkonsentrasi waktunya, dan mengapa sinyal ini tak tertangkap model berbasis riwayat.
 - **Metode:** analisis temporal produk-level (spike factor vs median), pemetaan produk-pemicu, triangulasi kebijakan (BTT, status tanggap darurat).
 - **Sasaran:** jurnal disaster/public health preparedness atau supply chain risk management.
@@ -58,7 +58,7 @@ Dibuat: 26 Agustus 2026. Diperbarui: 28 Agustus 2026 (menambahkan temuan diagnos
 
 **Judul kerja:** *Procurement Cycles, Not Outbreaks: Temporal Patterns of Syringe Purchasing in South Sumatra*
 
-- **Temuan inti:** puncak syringe berulang Juli dan November (siklus fiskal); Nov 2023 (endemi) justru tertinggi 242.303; uji DBD pooled r = 0,058 p = 0,639, within r = 0,001; uji COVID Mann-Whitney p = 0,824; konteks Muara Enim = program imunisasi rutin (pertusis/campak akibat cakupan imunisasi turun).
+- **Temuan inti:** puncak syringe berulang Juli dan November (siklus fiskal); Nov 2023 (endemi) justru tertinggi 242.303; uji DBD pooled r = 0,058 p = 0,639, within r = 0,001; uji COVID Mann-Whitney p = 0,824; konteks Muara Enim = program imunisasi rutin (pertusis/campak akibat cakupan imunisasi turun). Qty syringe sudah dinormalisasi satuan (spuit Box dikonversi ke pcs, isi 100 pcs/box; produk khusus pre-filled/insulin di-exclude — lihat `temuan.md` 6.4), sehingga angka qty valid.
 - **Kontribusi:** sanggah asumsi umum "wabah = lonjakan alkes"; bukti bahwa kalender fiskal lebih menentukan daripada epidemiologi.
 - **Metode:** deret waktu bulanan produk tunggal + uji korelasi epidemiologi; ringkas dan tajam, cocok short communication/research note.
 - **Sasaran:** jurnal public health (research note) atau vaccine/immunization program bulletin.
@@ -96,3 +96,4 @@ Dibuat: 26 Agustus 2026. Diperbarui: 28 Agustus 2026 (menambahkan temuan diagnos
 3. **Hasil negatif bernilai:** karhutla/DBD tidak berkorelasi, graf jarak kalah dari identitas, dan collapse classifier ZI adalah temuan yang layak dilaporkan secara jujur - framing "what does NOT drive demand" dan "kapan model gagal" adalah sudut yang jarang dipakai.
 4. **Periksa kebijakan jurnal** soal co-submission dan penggunaan dataset yang sama; cantumkan cross-reference antar paper.
 5. Eksperimen atribut node GCN (jumlah RS) SELESAI dan signifikan (base DM p = 0,004; tuned DM p < 0,0001) - memperkuat #4 sebagai bukti prediktif. Rolling window node feature tidak membantu (DM p = 0,763).
+6. **Normalisasi satuan produk kunci (28 Agu 2026) memperkuat validitas analisis produk** pada #5 dan #6: qty masker/spuit sudah dikonversi ke satuan dasar (pcs), dan kassa/plester dianalisis per produk karena Roll/Box/Pack adalah produk berbeda. Ini bukan objek kajian paper tersendiri (terlalu tipis), tapi menaikkan keandalan klaim berbasis qty produk. Detail di `temuan.md` 6.4 dan `checklist_anomali_data.md`.
