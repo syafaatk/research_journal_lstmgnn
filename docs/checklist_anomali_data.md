@@ -17,7 +17,7 @@ Data: `view_penjualan_detail data hingga oktober.xlsx` — 46.822 baris, 13.661 
 | 5 | Satuan campur produk kunci | 7 produk | **PERLU NORMALISASI** | Tinggi |
 | 6 | Nama barang pecah | 174 nama | **SELESAI** (normalisasi aman; typo kandidat perlu kurasi manual) | Sedang |
 | 7 | Jumlah vs total faktur | 90% selisih | Normal (total diulang) | - |
-| 8 | Tanggal null / di luar rentang | 2 null | Minor | Rendah |
+| 8 | Tanggal null / di luar rentang | 2 null | **SELESAI** (baris tidak lengkap, auto-exclude) | Diabaikan |
 | 9 | Koordinat di luar Sumsel | 2.313 baris | Normal (di luar 16 region) | - |
 
 ---
@@ -117,12 +117,11 @@ Data: `view_penjualan_detail data hingga oktober.xlsx` — 46.822 baris, 13.661 
 
 ---
 
-## 8. Tanggal null / di luar rentang — MINOR
+## 8. Tanggal null / di luar rentang — SELESAI (baris tidak lengkap, auto-exclude)
 
 **Temuan:** 2 baris tanggal null; 0 sebelum 2020; 0 setelah 2025.
 
-**Tindak lanjut:**
-- [ ] Periksa 2 baris tanggal null — apakah di-exclude atau diisi.
+**Keputusan (28 Agu 2026):** Kedua baris tanggal null juga punya `d_jual_nofak`, `wilayah`, dan `pelanggan_nama` null (baris tidak lengkap/sampah): Disposable Adult Monopolar Grounding PAD (56.000) dan Silk 4/0 (420.924), total 476.924 rupiah. Pipeline utama sudah `dropna(subset=["d_jual_nofak", "tanggal", ...])` sehingga kedua baris **otomatis ter-exclude** dari semua analisis. Tidak perlu tindakan.
 
 ---
 
@@ -136,10 +135,14 @@ Data: `view_penjualan_detail data hingga oktober.xlsx` — 46.822 baris, 13.661 
 
 ## Prioritas Tindak Lanjut
 
+Semua item anomali sudah ditindaklanjuti (28 Agu 2026):
+
 1. **Tinggi:** Normalisasi satuan produk kunci (#5) — SELESAI untuk semua 7 produk (masker, handscoon, spuit, kassa, plester, infusion_set, iv_catheter).
 2. **Tinggi:** Periksa harga per qty ekstrem (#1) — SELESAI. Sample/gratis (0,000% nilai) + produk modal sah; tidak perlu filter.
 3. **Sedang:** Normalisasi nama barang (#6) — SELESAI (normalisasi aman basic+tanda baca). Typo murni kandidat menunggu kurasi manual peneliti.
-4. **Rendah:** Keputusan baris sample/gratis (#3) — SELESAI (sample/gratis, dampak kecil) dan tanggal null (#8) — 2 baris, minor.
+4. **Rendah:** Baris sample/gratis (#3) — SELESAI (sample/gratis, dampak kecil). Tanggal null (#8) — SELESAI (baris tidak lengkap, auto-exclude).
+
+**Satu-satunya tindak lanjut terbuka:** kurasi manual typo nama barang murni (dari `results/nama_barang_normalisasi.json`) jika ingin agregasi per produk yang lebih akurat. Ini keputusan domain peneliti.
 
 ---
 
