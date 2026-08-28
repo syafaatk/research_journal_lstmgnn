@@ -1,0 +1,265 @@
+{
+  "n_baris": 63,
+  "n_faktur": 58,
+  "nilai_total_jt": 194.4,
+  "merek": {
+    "n_merek_asli": 8,
+    "n_merek_ternormalisasi": 6,
+    "selisih_pecah": 2,
+    "merek_top": {
+      "winner": 27,
+      "onemed": 20,
+      "bsn": 7,
+      "onehealth": 6,
+      "chilliplaster": 2,
+      "stardec": 1
+    }
+  },
+  "qty_per_satuan": [
+    {
+      "satuan": "Box",
+      "n_baris": 48,
+      "qty": 1149.0,
+      "nilai_jt": 164.9,
+      "produk_utama": {
+        "zinc oxide adhesive plaster": 20,
+        "plester bulat": 15,
+        "plesterin kain elastis": 10
+      }
+    },
+    {
+      "satuan": "Roll",
+      "n_baris": 15,
+      "qty": 597.0,
+      "nilai_jt": 29.5,
+      "produk_utama": {
+        "zinc oxide adhesive plaster": 8,
+        "hypafix": 5,
+        "adhesive plaster": 2
+      }
+    }
+  ],
+  "qty_per_produk": [
+    {
+      "nama_norm": "zinc oxide adhesive plaster",
+      "satuan_nama": "Box",
+      "n_baris": 20,
+      "qty": 719,
+      "nilai_jt": 128.9,
+      "harga_per_qty": 179314.0
+    },
+    {
+      "nama_norm": "hypafix",
+      "satuan_nama": "Roll",
+      "n_baris": 5,
+      "qty": 80,
+      "nilai_jt": 16.5,
+      "harga_per_qty": 205915.0
+    },
+    {
+      "nama_norm": "hypafix",
+      "satuan_nama": "Box",
+      "n_baris": 3,
+      "qty": 80,
+      "nilai_jt": 16.4,
+      "harga_per_qty": 205062.0
+    },
+    {
+      "nama_norm": "plester bulat",
+      "satuan_nama": "Box",
+      "n_baris": 15,
+      "qty": 199,
+      "nilai_jt": 13.7,
+      "harga_per_qty": 68675.0
+    },
+    {
+      "nama_norm": "zinc oxide adhesive plaster",
+      "satuan_nama": "Roll",
+      "n_baris": 8,
+      "qty": 252,
+      "nilai_jt": 11.6,
+      "harga_per_qty": 46021.0
+    },
+    {
+      "nama_norm": "plesterin kain elastis",
+      "satuan_nama": "Box",
+      "n_baris": 10,
+      "qty": 151,
+      "nilai_jt": 5.9,
+      "harga_per_qty": 38901.0
+    },
+    {
+      "nama_norm": "adhesive plaster",
+      "satuan_nama": "Roll",
+      "n_baris": 2,
+      "qty": 265,
+      "nilai_jt": 1.4,
+      "harga_per_qty": 5409.0
+    }
+  ],
+  "monthly_nilai": [
+    {
+      "month": "2020-07",
+      "nilai_jt": 5.9,
+      "n_baris": 1
+    },
+    {
+      "month": "2020-09",
+      "nilai_jt": 4.0,
+      "n_baris": 1
+    },
+    {
+      "month": "2020-10",
+      "nilai_jt": 10.4,
+      "n_baris": 3
+    },
+    {
+      "month": "2021-03",
+      "nilai_jt": 0.8,
+      "n_baris": 1
+    },
+    {
+      "month": "2021-04",
+      "nilai_jt": 4.3,
+      "n_baris": 3
+    },
+    {
+      "month": "2021-06",
+      "nilai_jt": 1.3,
+      "n_baris": 2
+    },
+    {
+      "month": "2021-07",
+      "nilai_jt": 0.2,
+      "n_baris": 1
+    },
+    {
+      "month": "2022-07",
+      "nilai_jt": 1.2,
+      "n_baris": 1
+    },
+    {
+      "month": "2022-11",
+      "nilai_jt": 4.5,
+      "n_baris": 1
+    },
+    {
+      "month": "2023-01",
+      "nilai_jt": 1.4,
+      "n_baris": 1
+    },
+    {
+      "month": "2023-02",
+      "nilai_jt": 1.4,
+      "n_baris": 1
+    },
+    {
+      "month": "2023-03",
+      "nilai_jt": 2.3,
+      "n_baris": 2
+    },
+    {
+      "month": "2023-04",
+      "nilai_jt": 0.6,
+      "n_baris": 1
+    },
+    {
+      "month": "2023-05",
+      "nilai_jt": 0.5,
+      "n_baris": 1
+    },
+    {
+      "month": "2023-06",
+      "nilai_jt": 0.3,
+      "n_baris": 1
+    },
+    {
+      "month": "2023-07",
+      "nilai_jt": 1.1,
+      "n_baris": 1
+    },
+    {
+      "month": "2023-08",
+      "nilai_jt": 107.4,
+      "n_baris": 2
+    },
+    {
+      "month": "2023-09",
+      "nilai_jt": 0.3,
+      "n_baris": 1
+    },
+    {
+      "month": "2023-12",
+      "nilai_jt": 2.2,
+      "n_baris": 2
+    },
+    {
+      "month": "2024-02",
+      "nilai_jt": 0.4,
+      "n_baris": 2
+    },
+    {
+      "month": "2024-07",
+      "nilai_jt": 1.4,
+      "n_baris": 3
+    },
+    {
+      "month": "2024-08",
+      "nilai_jt": 2.8,
+      "n_baris": 3
+    },
+    {
+      "month": "2024-09",
+      "nilai_jt": 2.9,
+      "n_baris": 3
+    },
+    {
+      "month": "2024-10",
+      "nilai_jt": 16.9,
+      "n_baris": 6
+    },
+    {
+      "month": "2024-12",
+      "nilai_jt": 0.2,
+      "n_baris": 1
+    },
+    {
+      "month": "2025-03",
+      "nilai_jt": 0.4,
+      "n_baris": 1
+    },
+    {
+      "month": "2025-04",
+      "nilai_jt": 2.3,
+      "n_baris": 2
+    },
+    {
+      "month": "2025-05",
+      "nilai_jt": 0.7,
+      "n_baris": 3
+    },
+    {
+      "month": "2025-06",
+      "nilai_jt": 0.7,
+      "n_baris": 3
+    },
+    {
+      "month": "2025-07",
+      "nilai_jt": 10.3,
+      "n_baris": 6
+    },
+    {
+      "month": "2025-08",
+      "nilai_jt": 3.5,
+      "n_baris": 2
+    },
+    {
+      "month": "2025-09",
+      "nilai_jt": 1.7,
+      "n_baris": 1
+    }
+  ],
+  "summary": {
+    "catatan": "Roll/Box plester adalah produk/format BERBEDA (Hypafix roll, Zinc Oxide box), bukan isi box yang sama. Tidak ada konversi satuan yang valid. Qty dianalisis per produk (nama x satuan) + nilai rupiah konsisten. Merek (kategori_nama) dinormalisasi (OneMed./.BSN. dll)."
+  }
+}
