@@ -326,6 +326,8 @@ Dari rentang data 1 Jul 2020 s.d. 27 Okt 2025 (1.945 hari): 1.509 hari ada trans
 6. **Anti-leakage temporal:** file lama realisasi 2025 = 2,20 T (akhir tahun), file baru = 1,42 T (s.d. Oktober, saat test set berakhir) — file baru yang benar untuk konteks test 2025.
 7. **Koreksi grain analisis produk (21 Agustus):** `syringe_temporal.py`, `expensive_products_analysis.py`, dan uji wabah lama memakai qty/nilai hasil dedup per faktur atau menjumlahkan `jual_total_fak` per baris item -> angka basi. Grain benar = baris item; nilai = kolom `jumlah`. Uji wabah direkonstruksi sebagai `syringe_wabah.py`. Semua angka syringe/neonatal/qty besar di dokumen ini sudah dikoreksi.
 8. **Koreksi `holidays.py` + temuan panel gap (26 Agustus):** daftar libur sebelumnya kehilangan 33 cuti bersama/libur nasional SKB 3 Menteri dan memuat 2 tanggal salah (TB Islam 1443 H + Maulid Nabi 1443 H geser ±1 hari). Dikoreksi sehingga eksperimen berikutnya otomatis benar. Ditemukan 21 hari kerja murni tanpa penjualan (forensik di 3.6). Eksperimen `exp_libur.py` membuktikan hari-hari ini **tidak terjangkau arsitektur model saat ini**: panel hanya memuat hari transaksi; hari tanpa penjualan bukan sampel sehingga fitur apapun untuk hari-hari itu bernilai nol di semua split train/val/test.
+9. **Normalisasi satuan produk kunci (28 Agustus):** 7 produk kunci dijual campur satuan. Diverifikasi per produk apakah satuan campur = isi box yang sama (perlu konversi) atau produk berbeda (tidak bisa konversi). Hasil: masker & spuit = isi box sama (konversi valid); kassa & plester = Roll/Box/Pack adalah PRODUK BERBEDA (tidak ada konversi); infusion_set & iv_catheter = sudah Pcs konsisten. Detail di `docs/checklist_anomali_data.md` #5.
+10. **Resolusi semua anomali data (28 Agustus):** seluruh 9 item checklist anomali data ditindaklanjuti. Harga ekstrem = sample/gratis (0,000% nilai) + produk modal sah; jumlah=0 = sample/gratis; tanggal null = baris tidak lengkap (auto-exclude); nama barang = normalisasi aman basic+tanda baca (1.318->1.135), typo kandidat menunggu kurasi manual. **Tidak ada keputusan yang mengubah input pipeline model** (target = nilai faktur per region per hari, bukan qty produk), sehingga hasil model tetap valid tanpa rerun. Detail di `docs/checklist_anomali_data.md`.
 
 ---
 
@@ -387,6 +389,28 @@ Dari rentang data 1 Jul 2020 s.d. 27 Okt 2025 (1.945 hari): 1.509 hari ada trans
 4. **Fitur kanal untuk model (V5):** share komposisi (V5b) satu-satunya turunan pemetaan ini yang signifikan memperbaiki model (DM vs V3_ref = -5,27, p<0,0001; R2 0,0687 vs 0,0670). Nilai kanal mentah (V5a) tidak signifikan (p=0,06).
 5. **Outlier mahal (CAPITAL_EQUIP) = 1,3%, 48 faktur** — kontribusi kecil tapi spike per transaksi besar; mendukung winsorization target stage amount.
 6. **Karhutla: negatif. DBD: tidak terpisah dari seasonality umum.**
+
+### 6.4 Normalisasi satuan produk kunci (28 Agustus 2026)
+
+**Script:** `scripts/handscoon_analysis.py`, `scripts/spuit_analysis.py`, `scripts/kassa_analysis.py`, `scripts/plester_analysis.py`, `scripts/infusion_iv_analysis.py`
+**Hasil:** `results/{handscoon,spuit,kassa,plester,infusion_iv}_analysis.json`
+**Konteks:** 7 produk kunci dijual campur satuan (pola sama dengan masker). Diverifikasi per produk apakah satuan campur = isi box yang sama (perlu konversi ke pcs) atau produk berbeda (tidak bisa konversi).
+
+| Produk | Satuan | Pendekatan | Temuan kunci |
+|---|---|---|---|
+| **masker** | Box/Pcs | Konversi ke pcs | surgical/duckbill=50, N95/KN95=10 pcs/box (sudah di 6.2) |
+| **handscoon** | Box/Pair/Pack | Per-satuan | isi box tidak diketahui dari data; normalisasi merek 49->33; qty Box=65.839/Pair=137.865/Pack=2.953; nilai 10.014,9 jt |
+| **spuit** | Pcs/Box | Konversi ke pcs | isi 100 pcs/box (rasio harga ~90-100x); qty total 13,4 jt pcs; Top Point dominan (12,3 jt pcs, 12 M); per cc: 3cc 4,77 jt, 10cc 3,03 jt, 5cc 2,82 jt; produk khusus (Bioglue pre-filled) di-exclude |
+| **kassa** | Roll/Box/Pack | Per produk | **Roll/Box/Pack = PRODUK BERBEDA** (Kassa roll 40x80, Kassa Steril 16x16, Gauze Swab 10x10), bukan isi box sama -> tidak ada konversi valid; Omega dominan |
+| **plester** | Box/Roll | Per produk | Roll/Box = format BERBEDA (Hypafix roll, Zinc Oxide box); normalisasi merek 8->6 (OneMed./.BSN.) |
+| **infusion_set** | Pcs | Pcs konsisten | sudah Pcs, tidak perlu konversi; normalisasi merek (Meddis../G E A); Top Point dominan (226 rb qty, 1.534 jt) |
+| **iv_catheter** | Pcs | Pcs konsisten | sudah Pcs; normalisasi merek 14->10 (GEA/Gea./G E A/GeA, HEALTHCARE., Meddis); per G: 22G 137 rb, 24G 134 rb, 20G 95 rb |
+
+**Temuan kunci:**
+1. **"Satuan campur" tidak selalu berarti isi box yang sama.** Untuk kassa dan plester, Roll/Box/Pack adalah **produk yang berbeda secara fundamental** (bukan 1 box = N pcs). Konversi satuan hanya valid untuk masker dan spuit; kassa/plester harus dianalisis per produk (nama x satuan). Ini mencegah penggabungan konversi yang salah.
+2. **Normalisasi merek (kategori_nama) penting di semua produk** — banyak merek kotor (OneMed./OneMed, GEA/Gea./G E A/GeA, Meddis../Meddis, .BSN./BSN) yang memecah agregasi per merek.
+3. **Produk khusus perlu di-exclude dari konversi** (mis. Bioglue pre-filled syringe, insulin, tuberculin) karena isi box berbeda.
+4. **Tidak berdampak ke model:** semua analisis ini eksplorasi terpisah; target model = nilai faktur per region per hari, bukan qty produk. Hasil model tetap valid tanpa rerun.
 
 ---
 
