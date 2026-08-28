@@ -12,7 +12,17 @@ khoirusysyafaat@students.uigm.ac.id, herri@uigm.ac.id
 
 Graph neural networks (GNNs) for spatiotemporal demand forecasting are typically built on graphs derived from geographic proximity, under the implicit assumption that nearby regions influence one another. Using real distribution data from a medical device distributor in South Sumatra, Indonesia (16 regions, July 2020 to October 2025, 10,878 invoices), we test whether the choice of graph construction determines forecasting quality more than the model architecture itself. We evaluate six graph constructions under an identical zero-inflated hybrid LSTM-GNN framework: identity adjacency, random graph, distance graph (Haversine k-nearest neighbors), sales-correlation graph, and the actual distribution network represented as a star centered on the distributor's hub in Palembang. The distribution-network star achieves the best R-squared of 0.0703, a 61% relative improvement over the distance graph (0.0436). The distance graph performs worse than both the identity adjacency (0.0538) and the random graph (0.0486), and the sales-correlation graph (0.0501) also underperforms identity. The maximum pairwise sales correlation between regions is only 0.332, indicating that the "natural" spatial structure is thin. These results show that the real distribution topology, not geographic proximity, carries the predictive signal in this setting. We conclude that for GNN-based demand forecasting in distribution businesses, the graph should encode how goods actually move, not where facilities are located. We provide a reproducible ablation protocol and discuss implications for graph design in sparse, zero-inflated regional demand data.
 
-**Keywords:** Graph Neural Networks; Demand Forecasting; Distribution Network; Graph Construction; Zero-Inflated Data; Spatiotemporal Prediction
+**Keywords:** Graph Neural Networks; Demand Forecasting; Distribution Network; Graph Construction; Zero-Inflated Data; Spatiotemporal Prediction; Medical Device Supply Chain
+
+---
+
+## HIGHLIGHTS
+
+- Distribution-network star graph beats geographic distance in GNN forecasting
+- Distance graph performs worse than identity and random graphs
+- Geographic proximity adds no signal in sparse regional demand data
+- Graph should encode how goods move, not where facilities are located
+- Reproducible ablation protocol for graph construction selection
 
 ---
 
@@ -176,22 +186,50 @@ The authors thank PT Parit Panjang for providing the distribution data and for c
 
 ---
 
+## CRediT AUTHOR STATEMENT
+
+Khoirusy Syafaat: Conceptualization, Methodology, Software, Formal analysis, Investigation, Data curation, Writing - original draft, Visualization. Herri Setiawan: Supervision, Writing - review and editing, Project administration.
+
+---
+
+## DATA AVAILABILITY STATEMENT
+
+The data that support the findings of this study are available from PT Parit Panjang but restrictions apply to the availability of these data, which were used under license for the current study and so are not publicly available. Data are however available from the authors upon reasonable request and with permission of PT Parit Panjang. The derived regional panel and the ablation results are available in the project repository.
+
+---
+
+## FUNDING
+
+This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors.
+
+---
+
+## DECLARATION OF COMPETING INTERESTS
+
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+---
+
+## DECLARATION OF RELATED MANUSCRIPTS
+
+This manuscript is a companion to a related study (Syafaat & Setiawan, 2025) that develops and evaluates the zero-inflated hybrid LSTM-GNN model. The two manuscripts share the same dataset and model framework but ask different questions. This manuscript isolates the question of graph construction; the companion manuscript reports the overall model and its baselines. The authors declare this relationship to the editor.
+
+---
+
 ## REFERENCES
 
-- Alourani, A., et al. (2023). Spatiotemporal forecasting with graph neural networks. *Journal of Applied Computing*.
-- Diebold, F. X., & Mariano, R. S. (1995). Comparing predictive accuracy. *Journal of Business & Economic Statistics*, 13(3), 253-263.
-- Heryati, et al. (2024). Regional demand modeling. *Applied Intelligence*.
-- Lambert, D. (1992). Zero-inflated Poisson regression. *Journal of the American Statistical Association*, 87(427), 427-432.
-- Li, Y., et al. (2018). Diffusion convolutional recurrent neural network. *ICLR*.
-- Luo, et al. (2024). Deep GNN for urban traffic. *IEEE Transactions*.
-- Patharkar, et al. (2024). Graph-based demand forecasting. *Expert Systems with Applications*.
-- Santos, et al. (2023). Epidemic spread modeling with GNN. *Applied Soft Computing*.
-- Sunder, et al. (2024). Energy demand forecasting with GNN. *Energy*.
+- Alourani, A., Khan, N. A., Ashfaq, F., & Jhanjhi, N. Z. (2023). BiLSTM- and GNN-based spatiotemporal traffic flow forecasting with correlated weather data. *Journal of Advanced Transportation*, 2023, 8962283. https://doi.org/10.1155/2023/8962283
+- Diebold, F. X., & Mariano, R. S. (1995). Comparing predictive accuracy. *Journal of Business & Economic Statistics*, 13(3), 253-263. https://doi.org/10.1080/07350015.1995.10524599
+- Heryati, A., Stiawan, D., Setiawan, H., Rini, D. P., & Budiarto, R. (2024). Green transportation route model for industrial goods delivery with genetic algorithm. *2024 11th International Conference on Electrical Engineering, Computer Science and Informatics (EECSI)*, 775-781. https://doi.org/10.1109/EECSI63442.2024.10776095
+- Lambert, D. (1992). Zero-inflated Poisson regression, with an application to defects in manufacturing. *Technometrics*, 34(1), 1-14. https://doi.org/10.1080/00401706.1992.10485228
+- Luo, M., Dou, H., & Zheng, N. (2024). Spatiotemporal prediction of urban traffics based on deep GNN. *Computers, Materials & Continua*, 78(1), 265-282. https://doi.org/10.32604/cmc.2023.040067
+- Patharkar, A., Cai, F., Al-Hindawi, F., & Wu, T. (2024). Predictive modeling of biomedical temporal data in healthcare applications: Review and future directions. *Frontiers in Physiology*, 15, 1386760. https://doi.org/10.3389/fphys.2024.1386760
+- Santos, V. O., Rocha, P. A. C., Scott, J., Thé, J. V. G., & Gharabaghi, B. (2023). Spatiotemporal analysis of bidimensional wind speed forecasting: Development and thorough assessment of LSTM and ensemble graph neural networks on the Dutch database. *Energy*, 278(Part A), 127852. https://doi.org/10.1016/j.energy.2023.127852
+- Sunder, R., Paul, V., Punia, S. K., Konduri, B., Nabilal, K. V., Lilhore, U. K., ... Tlija, M. (2024). An advanced hybrid deep learning model for accurate energy load prediction in smart building. *Energy Exploration & Exploitation*. https://doi.org/10.1177/01445987241267822
 - Syafaat, K., & Setiawan, H. (2025). Spatiotemporal prediction of medical device sales using hybrid LSTM-GNN in South Sumatra. *Companion manuscript*.
-- Wu, Z., et al. (2019). Graph WaveNet for deep spatial-temporal graph modeling. *IJCAI*.
-- Yang, Z., et al. (2023). Power grid forecasting with GNN. *IEEE Transactions on Power Systems*.
-- Ye, et al. (2024). Spatiotemporal demand prediction. *Neurocomputing*.
-- Zheng, C., et al. (2020). GCN-based traffic forecasting. *IEEE Access*.
+- Wu, Z., Pan, S., Long, G., Jiang, J., & Zhang, C. (2019). Graph WaveNet for deep spatial-temporal graph modeling. *IJCAI International Joint Conference on Artificial Intelligence*, 2019-August, 1907-1913. https://doi.org/10.24963/ijcai.2019/264
+- Yang, Z., Liu, Z., Zhou, J., Song, C., Xiang, Q., He, Q., ... Zhang, J. (2023). A graph neural network (GNN) method for assigning gas calorific values to natural gas pipeline networks. *Energy*, 278(Part C), 127875. https://doi.org/10.1016/j.energy.2023.127875
+- Ye, Y., Cao, Y., Dong, Y., & Yan, H. (2024). A graph neural network and transformer-based model for PM2.5 prediction through spatiotemporal correlation. *SSRN Working Paper*. https://doi.org/10.2139/ssrn.4979506
 
 ---
 
