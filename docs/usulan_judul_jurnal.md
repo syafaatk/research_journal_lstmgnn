@@ -1,6 +1,6 @@
 # Usulan Judul Jurnal Baru (dari Temuan Analisis)
 
-Dibuat: 26 Agustus 2026. Semua angka merujuk pada `temuan.md`, `daftar_tbd.md`, dan hasil eksperimen terverifikasi. Tujuan: memetakan temuan yang cukup kuat menjadi paper lanjutan, dengan posisi yang jelas terhadap naskah utama (LSTM-GNN Sumsel) agar tidak termasuk salami slicing.
+Dibuat: 26 Agustus 2026. Diperbarui: 28 Agustus 2026 (menambahkan temuan diagnostik ZI collapse, atribut node RS, mekanisme pembayaran lag 30 hari, dan catatan hasil fullreg). Semua angka merujuk pada `temuan.md`, `daftar_tbd.md`, dan hasil eksperimen terverifikasi. Tujuan: memetakan temuan yang cukup kuat menjadi paper lanjutan, dengan posisi yang jelas terhadap naskah utama (LSTM-GNN Sumsel) agar tidak termasuk salami slicing.
 
 ---
 
@@ -38,7 +38,7 @@ Dibuat: 26 Agustus 2026. Semua angka merujuk pada `temuan.md`, `daftar_tbd.md`, 
 
 **Judul kerja:** *Infrastructure, Not Budgets: Cross-Sectional and Temporal Determinants of Regional Medical Device Demand*
 
-- **Temuan inti (tiga lapis bukti):** jumlah RS berkorelasi dengan penjualan 2024 (r = 0,669, p = 0,005) dan dengan residual model 2025 (r = 0,697, p = 0,003), bertahan tanpa Palembang (r = 0,596) dan mengontrol penduduk (partial r = 0,648); tempat tidur (r = 0,577) dan pasien keluar (r = 0,522) senada. Sebaliknya belanja barang/jasa hanya efek skala antar-region (pooled r = 0,433 signifikan; within-region r = -0,112/0,103 tidak signifikan; APBD 2025 DJPK r = 0,256 p = 0,338). Anggaran Dinkes provinsi berlawanan arah dengan penjualan 2022-2024 karena mekanisme pencatatan pusat.
+- **Temuan inti (empat lapis bukti):** (1) jumlah RS berkorelasi dengan penjualan 2024 (r = 0,669, p = 0,005) dan dengan residual model 2025 (r = 0,697, p = 0,003), bertahan tanpa Palembang (r = 0,596) dan mengontrol penduduk (partial r = 0,648); (2) tempat tidur (r = 0,577) dan pasien keluar (r = 0,522) senada; (3) **atribut node GCN jumlah RS memperbaiki model secara signifikan** pada kedua konfigurasi (base: R2 0,0609 vs 0,0592, DM p = 0,004; tuned: R2 0,0528 vs 0,0508, DM p < 0,0001) — bukti prediktif, bukan hanya korelasional; (4) sebaliknya belanja barang/jasa hanya efek skala antar-region (pooled r = 0,433 signifikan; within-region r = -0,112/0,103 tidak signifikan; APBD 2025 DJPK r = 0,256 p = 0,338). Anggaran Dinkes provinsi berlawanan arah dengan penjualan 2022-2024 karena mekanisme pencatatan pusat.
 - **Kontribusi:** bagi kebijakan desentralisasi: alokasi alkes mengikuti kapasitas fasilitas, bukan siklus anggaran tahunan; peringatan metodologis tentang jebakan korelasi pooled lintas region.
 - **Metode:** ekonometrika terapan (korelasi pooled vs within, partial correlation, verifikasi APBD per pemda).
 - **Sasaran:** jurnal health policy/economics (Health Policy and Planning, BMC Health Services Research).
@@ -76,10 +76,23 @@ Dibuat: 26 Agustus 2026. Semua angka merujuk pada `temuan.md`, `daftar_tbd.md`, 
 
 ---
 
+## 8. Collapse Classifier pada Permintaan Zero-Inflated
+
+**Judul kerja:** *The Zero-Inflated Classifier Collapse: When Majority-Class Dominance Silences Sparse Regions in Demand Forecasting*
+
+- **Temuan inti:** dengan 84,85% target test bernilai nol, binary cross-entropy didominasi kelas mayoritas sehingga classifier **tidak pernah** output p > 0,5 untuk 15/16 region di seluruh 231 hari test (hanya Palembang yang ter-gate ke non-zero). Per-region R2 negatif untuk SEMUA region termasuk Palembang (-0,3336); model under-predict total penjualan test sebesar 78%; RMSE 8,16M lebih buruk dari baseline train_mean 7,66M. R2 pooled 0,0523 didorong prediksi nol yang benar (3.136 dari 3.696 region-day). Weighted BCE (pos_weight 4,1) memperbaiki collapse tapi over-predict (R2 -0,71); threshold tuning tidak membantu; regression tanpa ZI gate catastrophe (R2 -60).
+- **Kontribusi:** peringatan metodologis yang jujur tentang jebakan class imbalance pada forecasting permintaan sparse: keunggulan pooled R2 bisa menutupi kegagalan per-region; klasifikasi "apakah ada order" adalah sinyal yang lebih andal daripada jumlah. Relevan untuk komunitas forecasting & applied ML yang sering melaporkan R2 pooled tanpa dekomposisi per-unit.
+- **Metode:** diagnostik dekomposisi kontribusi (klasifikasi vs regresi), per-region R2, threshold sweep, eksperimen mitigasi (weighted BCE, fullreg, tanpa gate). Bisa diperluas dengan simulasi/benchmark pada dataset publik sparse.
+- **Sasaran:** jurnal forecasting / applied ML (International Journal of Forecasting applied track, Expert Systems with Applications) atau sebagai bagian revisi naskah utama.
+- **Pemisah:** objek kajiannya adalah **perilaku model di bawah class imbalance** (diagnostik + mitigasi), bukan klaim performa model baru; melengkapi #2 (granularitas & struktur nol) dari sudut klasifikasi.
+- **Catatan (28 Agu 2026):** eksperimen fullreg (train pada semua hari) yang awalnya tampak menjanjikan (R2 0,0367 -> 0,0494) ternyata **kontradiktif di seluruh pipeline** (Hybrid base turun, star graph terbalik, V3 kolaps) sehingga di-revert ke masked regression. Ini memperkuat bahwa perbaikan ZI bukan sekadar mengganti loss, dan layak dibahas sebagai temuan negatif yang jujur.
+
+---
+
 ## Catatan Strategis
 
-1. **Prioritas saya:** #4 (bukti terkuat, tiga lapis, kebijakan relevan, tanpa ML sehingga beda audiens) > #1 (temuan paling orisinal secara metodologis) > #3 (mudah dieksekusi, cepat selesai).
-2. **Hindari salami slicing:** setiap paper harus punya pertanyaan, unit analisis, dan metode berbeda dari naskah utama; jangan menduplikasi Tabel 3-8 sebagai inti klaim.
-3. **Hasil negatif bernilai:** karhutla/DBD tidak berkorelasi dan graf jarak kalah dari identitas adalah temuan yang layak dilaporkan secara jujur - framing "what does NOT drive demand" adalah sudut yang jarang dipakai.
+1. **Prioritas saya:** #4 (bukti terkuat, kini empat lapis termasuk bukti prediktif atribut node, kebijakan relevan, tanpa ML sehingga beda audiens) > #1 (temuan paling orisinal secara metodologis) > #8 (temuan baru, jujur, relevan untuk komunitas forecasting) > #3 (mudah dieksekusi, cepat selesai).
+2. **Hindari salami slicing:** setiap paper harus punya pertanyaan, unit analisis, dan metode berbeda dari naskah utama; jangan menduplikasi Tabel 3-8 sebagai inti klaim. #8 beririsan dengan #2 dan naskah utama, jadi harus dibingkai sebagai diagnostik/mitigasi, bukan klaim performa.
+3. **Hasil negatif bernilai:** karhutla/DBD tidak berkorelasi, graf jarak kalah dari identitas, dan collapse classifier ZI adalah temuan yang layak dilaporkan secara jujur - framing "what does NOT drive demand" dan "kapan model gagal" adalah sudut yang jarang dipakai.
 4. **Periksa kebijakan jurnal** soal co-submission dan penggunaan dataset yang sama; cantumkan cross-reference antar paper.
-5. Eksperimen rolling + atribut node yang sedang berjalan (F6 daftar_tbd) jika berhasil menaikkan R2 > 0,01 bisa menjadi dasar tambahan untuk #1 atau masuk revisi naskah utama.
+5. Eksperimen atribut node GCN (jumlah RS) SELESAI dan signifikan (base DM p = 0,004; tuned DM p < 0,0001) - memperkuat #4 sebagai bukti prediktif. Rolling window node feature tidak membantu (DM p = 0,763).
