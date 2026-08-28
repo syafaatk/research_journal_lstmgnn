@@ -89,11 +89,26 @@ Dibuat: 26 Agustus 2026. Diperbarui: 28 Agustus 2026 (menambahkan temuan diagnos
 
 ---
 
+## 9. Injeksi Atribut Node Statis ke GNN untuk Data Sparse (Sasaran Jurnal IT)
+
+**Judul kerja:** *Injecting Static Regional Attributes into Graph Neural Networks for Sparse Zero-Inflated Spatiotemporal Demand Forecasting*
+
+- **Temuan inti:** menambahkan atribut node statis (jumlah RS per kab/kota) ke jalur GCN memperbaiki model secara signifikan pada kedua konfigurasi: base R2 0,0609 vs 0,0592 (DM = -2,861, p = 0,004); tuned R2 0,0528 vs 0,0508 (DM = -6,037, p < 0,0001). Luas daerah tidak menambah (R2 0,0609 = W2); rolling mean/std 7 & 30 hari tidak membantu (DM p = 0,763). Mekanisme: jumlah RS = proxy kapasitas kesehatan regional (Palembang 33 RS = 44% provinsi, lainnya 1-8) yang mempengaruhi pola pengadaan; masuk via embedding node GCN.
+- **Kontribusi (metodologis, untuk audiens IT):** bagaimana menginjeksi atribut statis/hampir-konstan (yang tidak berubah dalam window 30 hari) ke model temporal-spasial tanpa overfitting — atribut statis tidak bisa masuk sebagai kanal input temporal biasa (konstan dalam window), tapi efektif sebagai atribut node pada jalur GCN. Ini pertanyaan arsitektur GNN yang relevan untuk forecasting spatiotemporal data sparse.
+- **Metode:** studi ablasi sistematis injeksi atribut node (jumlah RS, luas, rolling stats) pada konfigurasi base vs tuned, dengan uji Diebold-Mariano dan multi-seed; bisa diperluas ke dataset publik sparse untuk generalisasi.
+- **Sasaran:** jurnal IT/applied ML — IEEE Access, Applied Intelligence, Expert Systems with Applications, Neurocomputing, atau jurnal informatika nasional terakreditasi (SINTA 1-2) untuk konteks Indonesia.
+- **Pemisah dari #4:** #4 adalah analisis kebijakan TANPA machine learning (korelasi, partial correlation, verifikasi APBD) untuk audiens health policy. #9 adalah paper METODOLOGI GNN (dengan model, ablasi, uji statistik) untuk audiens computer science. Keduanya memakai temuan jumlah RS yang sama tapi menanyakan hal berbeda: #4 "apakah infrastruktur menentukan permintaan" (kebijakan), #9 "bagaimana menginjeksi atribut statis ke GNN untuk data sparse" (metode).
+- **Pemisah dari naskah utama:** naskah utama melaporkan model LSTM-GNN zero-inflated secara keseluruhan; #9 menjadikan INJEKSI ATRIBUT NODE sebagai objek kajian metodologis tersendiri, dengan eksperimen yang dirancang untuk itu (bukan sekadar melaporkan satu hasil).
+- **Catatan (28 Agu 2026):** ini mengisi celah sasaran jurnal IT yang belum terwakili — #1 (applied AI) dan #8 (ESWA) sudah IT, tapi #9 menawarkan sudut arsitektur GNN yang berbeda dari keduanya. Opsi tambahan yang lebih tipis untuk IT (data engineering): normalisasi satuan katalog produk alkes (Box/Pcs/Roll/Pack ambigu, kadang isi box sama kadang produk berbeda) — relevan untuk jurnal data quality, tapi perlu diperluas agar cukup kuat sebagai paper tersendiri.
+
+---
+
 ## Catatan Strategis
 
-1. **Prioritas saya:** #4 (bukti terkuat, kini empat lapis termasuk bukti prediktif atribut node, kebijakan relevan, tanpa ML sehingga beda audiens) > #1 (temuan paling orisinal secara metodologis) > #8 (temuan baru, jujur, relevan untuk komunitas forecasting) > #3 (mudah dieksekusi, cepat selesai).
+1. **Prioritas saya:** #4 (bukti terkuat, kini empat lapis termasuk bukti prediktif atribut node, kebijakan relevan, tanpa ML sehingga beda audiens) > #1 (temuan paling orisinal secara metodologis) > #8 (temuan baru, jujur, relevan untuk komunitas forecasting) > #9 (metodologi GNN untuk jurnal IT, bukti prediktif kuat) > #3 (mudah dieksekusi, cepat selesai).
 2. **Hindari salami slicing:** setiap paper harus punya pertanyaan, unit analisis, dan metode berbeda dari naskah utama; jangan menduplikasi Tabel 3-8 sebagai inti klaim. #8 beririsan dengan #2 dan naskah utama, jadi harus dibingkai sebagai diagnostik/mitigasi, bukan klaim performa.
 3. **Hasil negatif bernilai:** karhutla/DBD tidak berkorelasi, graf jarak kalah dari identitas, dan collapse classifier ZI adalah temuan yang layak dilaporkan secara jujur - framing "what does NOT drive demand" dan "kapan model gagal" adalah sudut yang jarang dipakai.
 4. **Periksa kebijakan jurnal** soal co-submission dan penggunaan dataset yang sama; cantumkan cross-reference antar paper.
 5. Eksperimen atribut node GCN (jumlah RS) SELESAI dan signifikan (base DM p = 0,004; tuned DM p < 0,0001) - memperkuat #4 sebagai bukti prediktif. Rolling window node feature tidak membantu (DM p = 0,763).
 6. **Normalisasi satuan produk kunci (28 Agu 2026) memperkuat validitas analisis produk** pada #5 dan #6: qty masker/spuit sudah dikonversi ke satuan dasar (pcs), dan kassa/plester dianalisis per produk karena Roll/Box/Pack adalah produk berbeda. Ini bukan objek kajian paper tersendiri (terlalu tipis), tapi menaikkan keandalan klaim berbasis qty produk. Detail di `temuan.md` 6.4 dan `checklist_anomali_data.md`.
+7. **Sasaran jurnal IT:** #1 (applied AI), #8 (ESWA), dan #9 (IEEE Access/Applied Intelligence/Neurocomputing/SINTA) adalah kandidat untuk jurnal informatika. #9 sengaja dibingkai sebagai metodologi GNN (bukan kebijakan) agar berbeda dari #4 dan mengisi celah audiens computer science. Untuk konteks Indonesia, #9 dan #8 juga cocok untuk jurnal nasional terakreditasi SINTA 1-2.
