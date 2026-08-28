@@ -1,0 +1,944 @@
+{
+  "n_nama_asli": 1318,
+  "n_nama_basic": 1144,
+  "n_nama_norm": 1135,
+  "pecah_basic": 174,
+  "pecah_punct": 9,
+  "n_kelompok_punct": 9,
+  "kelompok_punct": [
+    {
+      "nama_norm": "alat pengukur tinggi",
+      "n_nama": 2,
+      "nilai_jt": 1.8,
+      "nama": [
+        "alat pengukur tinggi -",
+        "alat pengukur tinggi"
+      ]
+    },
+    {
+      "nama_norm": "alkohol 70%",
+      "n_nama": 2,
+      "nilai_jt": 3.5,
+      "nama": [
+        "alkohol 70%",
+        "alkohol 70 %"
+      ]
+    },
+    {
+      "nama_norm": "film island dresing",
+      "n_nama": 2,
+      "nilai_jt": 238.9,
+      "nama": [
+        "film island dresing",
+        "film island dresing."
+      ]
+    },
+    {
+      "nama_norm": "kit 3a",
+      "n_nama": 2,
+      "nilai_jt": 1091.4,
+      "nama": [
+        "kit 3a",
+        "kit 3a -"
+      ]
+    },
+    {
+      "nama_norm": "latex examination gloves",
+      "n_nama": 2,
+      "nilai_jt": 48.1,
+      "nama": [
+        "latex examination gloves",
+        "latex examination gloves-"
+      ]
+    },
+    {
+      "nama_norm": "needle hecting",
+      "n_nama": 2,
+      "nilai_jt": 3.5,
+      "nama": [
+        "needle hecting",
+        "needle hecting-"
+      ]
+    },
+    {
+      "nama_norm": "nurse cap",
+      "n_nama": 2,
+      "nilai_jt": 91.1,
+      "nama": [
+        "nurse cap -",
+        "nurse cap"
+      ]
+    },
+    {
+      "nama_norm": "reusable grounding pad cable",
+      "n_nama": 2,
+      "nilai_jt": 3.5,
+      "nama": [
+        "reusable grounding pad cable,",
+        "reusable grounding pad cable"
+      ]
+    },
+    {
+      "nama_norm": "single blood bag",
+      "n_nama": 2,
+      "nilai_jt": 47.6,
+      "nama": [
+        "single blood bag-",
+        "single blood bag"
+      ]
+    }
+  ],
+  "n_pasangan_fuzzy_ge90": 170,
+  "pasangan_fuzzy": [
+    {
+      "rasio": 0.982,
+      "a": "disposable neutral electrode",
+      "b": "disposable neutral electrodes"
+    },
+    {
+      "rasio": 0.982,
+      "a": "latex steril surgical glove",
+      "b": "latex steril surgical gloves"
+    },
+    {
+      "rasio": 0.98,
+      "a": "mayo hegar needdle holder",
+      "b": "mayo hegar needle holder"
+    },
+    {
+      "rasio": 0.979,
+      "a": "closed suction catheter",
+      "b": "closed suction catheters"
+    },
+    {
+      "rasio": 0.978,
+      "a": "stethoscope classic ii",
+      "b": "stethoscope classic iii"
+    },
+    {
+      "rasio": 0.978,
+      "a": "handscoon non steril m",
+      "b": "handscoon non sterile m"
+    },
+    {
+      "rasio": 0.977,
+      "a": "suction conecting tube",
+      "b": "suction coneting tube"
+    },
+    {
+      "rasio": 0.977,
+      "a": "neonatal nasal ventilation double tube 10fr",
+      "b": "neonatal nasal ventilation double tube 12fr"
+    },
+    {
+      "rasio": 0.976,
+      "a": "handscoon non steril",
+      "b": "handscoon non sterile"
+    },
+    {
+      "rasio": 0.976,
+      "a": "2 way foley catheter",
+      "b": "2 way folley catheter"
+    },
+    {
+      "rasio": 0.976,
+      "a": "2 way foley catherer",
+      "b": "2 way folley catherer"
+    },
+    {
+      "rasio": 0.974,
+      "a": "umbilical cord clam",
+      "b": "umbilical cord clamp"
+    },
+    {
+      "rasio": 0.974,
+      "a": "handscoon gynecolog",
+      "b": "handscoon gynecology"
+    },
+    {
+      "rasio": 0.974,
+      "a": "film island dresing",
+      "b": "film island dressing"
+    },
+    {
+      "rasio": 0.973,
+      "a": "tracheostomy cuffed",
+      "b": "trachestomy cuffed"
+    },
+    {
+      "rasio": 0.973,
+      "a": "nitril powder free exam glove (amg) m",
+      "b": "nitril powder free exam glove (amg) s"
+    },
+    {
+      "rasio": 0.973,
+      "a": "nitril powder free exam glove (amg) l",
+      "b": "nitril powder free exam glove (amg) s"
+    },
+    {
+      "rasio": 0.973,
+      "a": "nitril powder free exam glove (amg) l",
+      "b": "nitril powder free exam glove (amg) m"
+    },
+    {
+      "rasio": 0.971,
+      "a": "breathing circuit",
+      "b": "breathing circuits"
+    },
+    {
+      "rasio": 0.97,
+      "a": "hellige marquete",
+      "b": "hellige marquette"
+    },
+    {
+      "rasio": 0.968,
+      "a": "pouches gussete",
+      "b": "pouches gusseted"
+    },
+    {
+      "rasio": 0.968,
+      "a": "mask anaesthesa",
+      "b": "mask anaesthesia"
+    },
+    {
+      "rasio": 0.966,
+      "a": "ultrasound gel",
+      "b": "ultrasound gell"
+    },
+    {
+      "rasio": 0.966,
+      "a": "gusseted reels",
+      "b": "gussetted reels"
+    },
+    {
+      "rasio": 0.966,
+      "a": "cervical colar",
+      "b": "cervical collar"
+    },
+    {
+      "rasio": 0.966,
+      "a": "3 way stop cock",
+      "b": "3 way stopcock"
+    },
+    {
+      "rasio": 0.965,
+      "a": "neonatal nasal ventilation double tube 12fr",
+      "b": "neonatal nasal ventilation double tube 8fr"
+    },
+    {
+      "rasio": 0.965,
+      "a": "neonatal nasal ventilation double tube 10fr",
+      "b": "neonatal nasal ventilation double tube 8fr"
+    },
+    {
+      "rasio": 0.963,
+      "a": "ring pesarium",
+      "b": "ring pessarium"
+    },
+    {
+      "rasio": 0.963,
+      "a": "mask nebulize",
+      "b": "mask nebulizer"
+    },
+    {
+      "rasio": 0.963,
+      "a": "kasa hidrofil",
+      "b": "kassa hidrofil"
+    },
+    {
+      "rasio": 0.96,
+      "a": "vaselin swab",
+      "b": "vaseline swab"
+    },
+    {
+      "rasio": 0.96,
+      "a": "nasal cannula",
+      "b": "nasal canula"
+    },
+    {
+      "rasio": 0.96,
+      "a": "alcohol swab",
+      "b": "alcohol swabs"
+    },
+    {
+      "rasio": 0.957,
+      "a": "torniquette",
+      "b": "tourniquette"
+    },
+    {
+      "rasio": 0.957,
+      "a": "sample container steril",
+      "b": "sample cotainer sterile"
+    },
+    {
+      "rasio": 0.957,
+      "a": "pouches fla",
+      "b": "pouches flat"
+    },
+    {
+      "rasio": 0.957,
+      "a": "head harnes",
+      "b": "head harness"
+    },
+    {
+      "rasio": 0.957,
+      "a": "handscoon non sterile m",
+      "b": "handscoon non sterile s"
+    },
+    {
+      "rasio": 0.955,
+      "a": "handscoon non sterile",
+      "b": "handscoon non sterile s"
+    },
+    {
+      "rasio": 0.955,
+      "a": "handscoon non sterile",
+      "b": "handscoon non sterile m"
+    },
+    {
+      "rasio": 0.952,
+      "a": "termometer",
+      "b": "thermometer"
+    },
+    {
+      "rasio": 0.952,
+      "a": "shoe cover",
+      "b": "shoes cover"
+    },
+    {
+      "rasio": 0.952,
+      "a": "masker kn95",
+      "b": "masker n95"
+    },
+    {
+      "rasio": 0.952,
+      "a": "handscoon non steril",
+      "b": "handscoon non steril m"
+    },
+    {
+      "rasio": 0.952,
+      "a": "cervical collar (soft)",
+      "b": "cervical collar soft"
+    },
+    {
+      "rasio": 0.952,
+      "a": "2 way folley catherer",
+      "b": "2 way folley catheter"
+    },
+    {
+      "rasio": 0.95,
+      "a": "high elastic bandage",
+      "b": "high elastis bandage"
+    },
+    {
+      "rasio": 0.95,
+      "a": "3 way foley catherer",
+      "b": "3 way foley catheter"
+    },
+    {
+      "rasio": 0.95,
+      "a": "2 way foley catheter",
+      "b": "3 way foley catheter"
+    },
+    {
+      "rasio": 0.95,
+      "a": "2 way foley catherer",
+      "b": "3 way foley catherer"
+    },
+    {
+      "rasio": 0.95,
+      "a": "2 way foley catherer",
+      "b": "2 way foley catheter"
+    },
+    {
+      "rasio": 0.947,
+      "a": "urine bag",
+      "b": "urine bags"
+    },
+    {
+      "rasio": 0.947,
+      "a": "umbilicak cord clam",
+      "b": "umbilical cord clam"
+    },
+    {
+      "rasio": 0.947,
+      "a": "shoe cover",
+      "b": "shoecover"
+    },
+    {
+      "rasio": 0.947,
+      "a": "rapit tes",
+      "b": "rapit test"
+    },
+    {
+      "rasio": 0.947,
+      "a": "nurse cap",
+      "b": "nurse caps"
+    },
+    {
+      "rasio": 0.947,
+      "a": "film shr-u",
+      "b": "film shru"
+    },
+    {
+      "rasio": 0.947,
+      "a": "film di-hl",
+      "b": "film dihl"
+    },
+    {
+      "rasio": 0.945,
+      "a": "hand sanitizer alcohol based",
+      "b": "handsanitizer alcohol bashd"
+    },
+    {
+      "rasio": 0.944,
+      "a": "catgut chromic 2/0",
+      "b": "catgut chromic 3/0"
+    },
+    {
+      "rasio": 0.943,
+      "a": "oxygen mask non rebreathing",
+      "b": "oxygen mask non rebrithing"
+    },
+    {
+      "rasio": 0.941,
+      "a": "polypropylene 6/0",
+      "b": "polypropylene 7/0"
+    },
+    {
+      "rasio": 0.941,
+      "a": "polypropylene 5/0",
+      "b": "polypropylene 7/0"
+    },
+    {
+      "rasio": 0.941,
+      "a": "polypropylene 5/0",
+      "b": "polypropylene 6/0"
+    },
+    {
+      "rasio": 0.941,
+      "a": "polypropylene 4/0",
+      "b": "polypropylene 7/0"
+    },
+    {
+      "rasio": 0.941,
+      "a": "polypropylene 4/0",
+      "b": "polypropylene 6/0"
+    },
+    {
+      "rasio": 0.941,
+      "a": "polypropylene 4/0",
+      "b": "polypropylene 5/0"
+    },
+    {
+      "rasio": 0.941,
+      "a": "polypropylene 3/0",
+      "b": "polypropylene 7/0"
+    },
+    {
+      "rasio": 0.941,
+      "a": "polypropylene 3/0",
+      "b": "polypropylene 6/0"
+    },
+    {
+      "rasio": 0.941,
+      "a": "polypropylene 3/0",
+      "b": "polypropylene 5/0"
+    },
+    {
+      "rasio": 0.941,
+      "a": "polypropylene 3/0",
+      "b": "polypropylene 4/0"
+    },
+    {
+      "rasio": 0.941,
+      "a": "polypropylene 2/0",
+      "b": "polypropylene 7/0"
+    },
+    {
+      "rasio": 0.941,
+      "a": "polypropylene 2/0",
+      "b": "polypropylene 6/0"
+    },
+    {
+      "rasio": 0.941,
+      "a": "polypropylene 2/0",
+      "b": "polypropylene 5/0"
+    },
+    {
+      "rasio": 0.941,
+      "a": "polypropylene 2/0",
+      "b": "polypropylene 4/0"
+    },
+    {
+      "rasio": 0.941,
+      "a": "polypropylene 2/0",
+      "b": "polypropylene 3/0"
+    },
+    {
+      "rasio": 0.941,
+      "a": "polypropylane 4/0",
+      "b": "polypropylene 4/0"
+    },
+    {
+      "rasio": 0.941,
+      "a": "needle hecting gr",
+      "b": "needle hecting gt"
+    },
+    {
+      "rasio": 0.941,
+      "a": "intubating stylet",
+      "b": "intubation stylet"
+    },
+    {
+      "rasio": 0.941,
+      "a": "hallige marquette",
+      "b": "hellige marquette"
+    },
+    {
+      "rasio": 0.941,
+      "a": "bionecto",
+      "b": "bionector"
+    },
+    {
+      "rasio": 0.938,
+      "a": "tracheastomy kit",
+      "b": "tracheostomy kit"
+    },
+    {
+      "rasio": 0.938,
+      "a": "polypropylene 0",
+      "b": "polypropylene 7/0"
+    },
+    {
+      "rasio": 0.938,
+      "a": "polypropylene 0",
+      "b": "polypropylene 6/0"
+    },
+    {
+      "rasio": 0.938,
+      "a": "polypropylene 0",
+      "b": "polypropylene 5/0"
+    },
+    {
+      "rasio": 0.938,
+      "a": "polypropylene 0",
+      "b": "polypropylene 4/0"
+    },
+    {
+      "rasio": 0.938,
+      "a": "polypropylene 0",
+      "b": "polypropylene 3/0"
+    },
+    {
+      "rasio": 0.938,
+      "a": "polypropylene 0",
+      "b": "polypropylene 2/0"
+    },
+    {
+      "rasio": 0.933,
+      "a": "syiringe",
+      "b": "syringe"
+    },
+    {
+      "rasio": 0.933,
+      "a": "strip accu chek",
+      "b": "strip accu-chek"
+    },
+    {
+      "rasio": 0.933,
+      "a": "povidine iodine",
+      "b": "povidone iodine"
+    },
+    {
+      "rasio": 0.933,
+      "a": "polypropylene 0",
+      "b": "polypropylene 1"
+    },
+    {
+      "rasio": 0.933,
+      "a": "handscoon non steril m",
+      "b": "handscoon non sterile s"
+    },
+    {
+      "rasio": 0.933,
+      "a": "handscoon non steril m",
+      "b": "handscoon non steril pf"
+    },
+    {
+      "rasio": 0.933,
+      "a": "condom catheter",
+      "b": "kondom catheter"
+    },
+    {
+      "rasio": 0.933,
+      "a": "ceratome knife",
+      "b": "ceratome knife p"
+    },
+    {
+      "rasio": 0.933,
+      "a": "breathing circuit 1.8 expandable",
+      "b": "breathing circuit expandable"
+    },
+    {
+      "rasio": 0.93,
+      "a": "ngt feeding tube 120cm",
+      "b": "ngt feeding tube 40cm"
+    },
+    {
+      "rasio": 0.93,
+      "a": "handscoon non steril m",
+      "b": "handscoon non sterile"
+    },
+    {
+      "rasio": 0.93,
+      "a": "handscoon non steril",
+      "b": "handscoon non sterile s"
+    },
+    {
+      "rasio": 0.93,
+      "a": "handscoon non steril",
+      "b": "handscoon non sterile m"
+    },
+    {
+      "rasio": 0.93,
+      "a": "handscoon non steril",
+      "b": "handscoon non steril pf"
+    },
+    {
+      "rasio": 0.929,
+      "a": "doubel lumen bronchal tube left-sided, slllc, set",
+      "b": "doubel lumen bronchal tube right-sided, slllc, set"
+    },
+    {
+      "rasio": 0.929,
+      "a": "polypropylene",
+      "b": "polypropylene 1"
+    },
+    {
+      "rasio": 0.929,
+      "a": "polypropylene",
+      "b": "polypropylene 0"
+    },
+    {
+      "rasio": 0.929,
+      "a": "hand sanitizer",
+      "b": "handsanitaizer"
+    },
+    {
+      "rasio": 0.929,
+      "a": "breathing bag",
+      "b": "rebreathing bag"
+    },
+    {
+      "rasio": 0.927,
+      "a": "2 way folley catheter",
+      "b": "3 way foley catheter"
+    },
+    {
+      "rasio": 0.927,
+      "a": "2 way folley catherer",
+      "b": "3 way foley catherer"
+    },
+    {
+      "rasio": 0.927,
+      "a": "2 way foley catheter",
+      "b": "2 way folley catherer"
+    },
+    {
+      "rasio": 0.927,
+      "a": "2 way foley catherer",
+      "b": "2 way folley catheter"
+    },
+    {
+      "rasio": 0.923,
+      "a": "umbilicak cord clam",
+      "b": "umbilical cord clamp"
+    },
+    {
+      "rasio": 0.923,
+      "a": "ultrafix 10x5",
+      "b": "ultrafix 15x5"
+    },
+    {
+      "rasio": 0.923,
+      "a": "tongue spatel",
+      "b": "tounge spatel"
+    },
+    {
+      "rasio": 0.923,
+      "a": "taunge spatel",
+      "b": "tounge spatel"
+    },
+    {
+      "rasio": 0.923,
+      "a": "surflo",
+      "b": "surfloo"
+    },
+    {
+      "rasio": 0.923,
+      "a": "pouches tyvek",
+      "b": "pouches tyvex"
+    },
+    {
+      "rasio": 0.923,
+      "a": "polypropylane",
+      "b": "polypropylene"
+    },
+    {
+      "rasio": 0.923,
+      "a": "mortar",
+      "b": "mortara"
+    },
+    {
+      "rasio": 0.923,
+      "a": "mob cap",
+      "b": "mobcap"
+    },
+    {
+      "rasio": 0.923,
+      "a": "disposable adult bipolar grounding pad",
+      "b": "disposable adult monopolar grounding pad"
+    },
+    {
+      "rasio": 0.923,
+      "a": "colostomi bag",
+      "b": "colostomy bag"
+    },
+    {
+      "rasio": 0.92,
+      "a": "oxygen mask non rebreathing",
+      "b": "oxygen mask rebreathing"
+    },
+    {
+      "rasio": 0.917,
+      "a": "skin marker",
+      "b": "t-skin marker"
+    },
+    {
+      "rasio": 0.917,
+      "a": "blood lancet",
+      "b": "bloodlancets"
+    },
+    {
+      "rasio": 0.917,
+      "a": "assucryl 5/0",
+      "b": "assucryl 6/0"
+    },
+    {
+      "rasio": 0.917,
+      "a": "assucryl 4/0",
+      "b": "assucryl 6/0"
+    },
+    {
+      "rasio": 0.917,
+      "a": "assucryl 4/0",
+      "b": "assucryl 5/0"
+    },
+    {
+      "rasio": 0.917,
+      "a": "assucryl 3/0",
+      "b": "assucryl 6/0"
+    },
+    {
+      "rasio": 0.917,
+      "a": "assucryl 3/0",
+      "b": "assucryl 5/0"
+    },
+    {
+      "rasio": 0.917,
+      "a": "assucryl 3/0",
+      "b": "assucryl 4/0"
+    },
+    {
+      "rasio": 0.917,
+      "a": "assucryl 2/0",
+      "b": "assucryl 6/0"
+    },
+    {
+      "rasio": 0.917,
+      "a": "assucryl 2/0",
+      "b": "assucryl 5/0"
+    },
+    {
+      "rasio": 0.917,
+      "a": "assucryl 2/0",
+      "b": "assucryl 4/0"
+    },
+    {
+      "rasio": 0.917,
+      "a": "assucryl 2/0",
+      "b": "assucryl 3/0"
+    },
+    {
+      "rasio": 0.917,
+      "a": "alcohol swab",
+      "b": "alkohol swab"
+    },
+    {
+      "rasio": 0.913,
+      "a": "transparent film dresing",
+      "b": "transparent iv dresing"
+    },
+    {
+      "rasio": 0.913,
+      "a": "handscoon non steril pf",
+      "b": "handscoon non sterile s"
+    },
+    {
+      "rasio": 0.913,
+      "a": "handscoon non steril pf",
+      "b": "handscoon non sterile m"
+    },
+    {
+      "rasio": 0.909,
+      "a": "terufusion infuse soldadm",
+      "b": "terufusion infuse soldadm/lock"
+    },
+    {
+      "rasio": 0.909,
+      "a": "print paper for steam dw",
+      "b": "print paper for stem"
+    },
+    {
+      "rasio": 0.909,
+      "a": "klem arteri",
+      "b": "klem artery"
+    },
+    {
+      "rasio": 0.909,
+      "a": "handscoon non steril pf",
+      "b": "handscoon non sterile"
+    },
+    {
+      "rasio": 0.909,
+      "a": "hallige marquette",
+      "b": "hellige marquete"
+    },
+    {
+      "rasio": 0.909,
+      "a": "chromic 3/0",
+      "b": "chromic 4/0"
+    },
+    {
+      "rasio": 0.909,
+      "a": "chromic 2/0",
+      "b": "chromic 4/0"
+    },
+    {
+      "rasio": 0.909,
+      "a": "chromic 2/0",
+      "b": "chromic 3/0"
+    },
+    {
+      "rasio": 0.909,
+      "a": "assucryl 2",
+      "b": "assucryl 2/0"
+    },
+    {
+      "rasio": 0.909,
+      "a": "assucryl 0",
+      "b": "assucryl 6/0"
+    },
+    {
+      "rasio": 0.909,
+      "a": "assucryl 0",
+      "b": "assucryl 5/0"
+    },
+    {
+      "rasio": 0.909,
+      "a": "assucryl 0",
+      "b": "assucryl 4/0"
+    },
+    {
+      "rasio": 0.909,
+      "a": "assucryl 0",
+      "b": "assucryl 3/0"
+    },
+    {
+      "rasio": 0.909,
+      "a": "assucryl 0",
+      "b": "assucryl 2/0"
+    },
+    {
+      "rasio": 0.909,
+      "a": "alkohol 95%",
+      "b": "alkohol 96%"
+    },
+    {
+      "rasio": 0.909,
+      "a": "alcohol 70%",
+      "b": "alkohol 70%"
+    },
+    {
+      "rasio": 0.903,
+      "a": "needle hecting",
+      "b": "needle hecting gt"
+    },
+    {
+      "rasio": 0.903,
+      "a": "needle hecting",
+      "b": "needle hecting gr"
+    },
+    {
+      "rasio": 0.903,
+      "a": "kacamata goggles",
+      "b": "kacamata google"
+    },
+    {
+      "rasio": 0.9,
+      "a": "virusolve",
+      "b": "virusolve +"
+    },
+    {
+      "rasio": 0.9,
+      "a": "shoecover",
+      "b": "shoes cover"
+    },
+    {
+      "rasio": 0.9,
+      "a": "chromic 2",
+      "b": "chromic 2/0"
+    },
+    {
+      "rasio": 0.9,
+      "a": "chromic 0",
+      "b": "chromic 4/0"
+    },
+    {
+      "rasio": 0.9,
+      "a": "chromic 0",
+      "b": "chromic 3/0"
+    },
+    {
+      "rasio": 0.9,
+      "a": "chromic 0",
+      "b": "chromic 2/0"
+    },
+    {
+      "rasio": 0.9,
+      "a": "assucryl 1",
+      "b": "assucryl 2"
+    },
+    {
+      "rasio": 0.9,
+      "a": "assucryl 0",
+      "b": "assucryl 2"
+    },
+    {
+      "rasio": 0.9,
+      "a": "assucryl 0",
+      "b": "assucryl 1"
+    },
+    {
+      "rasio": 0.9,
+      "a": "2 way foley catheter",
+      "b": "3 way foley catherer"
+    },
+    {
+      "rasio": 0.9,
+      "a": "2 way foley catherer",
+      "b": "3 way foley catheter"
+    }
+  ]
+}

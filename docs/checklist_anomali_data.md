@@ -15,7 +15,7 @@ Data: `view_penjualan_detail data hingga oktober.xlsx` — 46.822 baris, 13.661 
 | 3 | Jumlah=0 tapi qty>0 | 8 baris (6 faktur) | **SELESAI** (sample/gratis) | Diabaikan |
 | 4 | Duplikasi nofak | 42.170 baris | Normal (multi-baris item) | - |
 | 5 | Satuan campur produk kunci | 7 produk | **PERLU NORMALISASI** | Tinggi |
-| 6 | Nama barang pecah | 174 nama | **PERLU NORMALISASI** | Sedang |
+| 6 | Nama barang pecah | 174 nama | **SELESAI** (normalisasi aman; typo kandidat perlu kurasi manual) | Sedang |
 | 7 | Jumlah vs total faktur | 90% selisih | Normal (total diulang) | - |
 | 8 | Tanggal null / di luar rentang | 2 null | Minor | Rendah |
 | 9 | Koordinat di luar Sumsel | 2.313 baris | Normal (di luar 16 region) | - |
@@ -95,15 +95,17 @@ Data: `view_penjualan_detail data hingga oktober.xlsx` — 46.822 baris, 13.661 
 
 ---
 
-## 6. Nama barang pecah — PERLU NORMALISASI
+## 6. Nama barang pecah — SELESAI (normalisasi aman; typo kandidat perlu kurasi)
 
-**Temuan:** 1.317 nama barang asli -> 1.143 setelah normalisasi (strip, lowercase, spasi tunggal). Selisih 174 nama = produk yang sama tercatat dengan nama berbeda (typo, casing, spasi).
+**Temuan:** 1.318 nama barang asli -> 1.144 setelah normalisasi basic (strip, lowercase, spasi tunggal). Selisih 174 nama = produk yang sama tercatat dengan nama berbeda (typo, casing, spasi).
 
-**Risiko:** produk yang sama bisa terpecah menjadi beberapa entitas, mengaburkan agregasi per produk.
+**Keputusan (28 Agu 2026):**
+- **Normalisasi basic** (strip + lowercase + spasi tunggal) sudah diterapkan di pipeline: 1.318 -> 1.144.
+- **Normalisasi tanda baca** (hapus trailing `-`, `.`, `,`, `;`, `:` dan normalisasi spasi `%`): menggabung 9 kelompok lagi -> 1.135 nama. Aman, tidak mengubah makna. Contoh: `alkohol 70 %`->`alkohol 70%`, `kit 3a -`->`kit 3a`, `film island dresing.`->`film island dresing`.
+- **Typo kandidat (170 pasangan fuzzy >= 0.90) TIDAK digabung otomatis.** Banyak pasangan mirip adalah produk/ukuran/tipe BERBEDA (mis. `polypropylene 3/0` vs `4/0` ukuran benang jahit; `2-way` vs `3-way foley`; `non-sterile` vs `sterile`; `n95` vs `kn95`; `monopolar` vs `bipolar`; ukuran `fr/G/s/m/l`). Menggabung otomatis berisiko menciptakan error agregasi.
+- **Kandidat typo murni** (produk sama, hanya salah eja, tanpa perbedaan ukuran/tipe) didokumentasikan di `results/nama_barang_normalisasi.json` untuk **kurasi manual** oleh peneliti: `handscoon non steril/sterile`, `2 way foley/folley/catherer`, `kassa/kasa hidrofil`, `mask nebulizer/nebulize`, `syringe/syiringe`, `surflo/surfloo`, `nasal cannula/canula`, `alcohol/alkohol swab`, `povidine/povidone`, `rapit/rapid tes`, `oxygen mask non rebreathing/rebrithing`, `n95 mask/maks`, `blood transfusion/tranfusion`, dll.
 
-**Tindak lanjut:**
-- [ ] Terapkan normalisasi nama (strip + lowercase + spasi tunggal) di semua analisis per produk.
-- [ ] Periksa 174 nama yang pecah untuk typo yang perlu dipetakan manual.
+**Status:** Normalisasi aman (basic + tanda baca) diterapkan. Penggabungan typo murni menunggu kurasi manual peneliti untuk menghindari error agregasi.
 
 ---
 
@@ -136,7 +138,7 @@ Data: `view_penjualan_detail data hingga oktober.xlsx` — 46.822 baris, 13.661 
 
 1. **Tinggi:** Normalisasi satuan produk kunci (#5) — SELESAI untuk semua 7 produk (masker, handscoon, spuit, kassa, plester, infusion_set, iv_catheter).
 2. **Tinggi:** Periksa harga per qty ekstrem (#1) — SELESAI. Sample/gratis (0,000% nilai) + produk modal sah; tidak perlu filter.
-3. **Sedang:** Normalisasi nama barang (#6) — 174 nama pecah. **Belum ditindaklanjuti.**
+3. **Sedang:** Normalisasi nama barang (#6) — SELESAI (normalisasi aman basic+tanda baca). Typo murni kandidat menunggu kurasi manual peneliti.
 4. **Rendah:** Keputusan baris sample/gratis (#3) — SELESAI (sample/gratis, dampak kecil) dan tanggal null (#8) — 2 baris, minor.
 
 ---
@@ -146,3 +148,4 @@ Data: `view_penjualan_detail data hingga oktober.xlsx` — 46.822 baris, 13.661 
 - Diagnostik ini otomatis dan dapat dijalankan ulang: `E:\pyvenv_geo\Scripts\python.exe scripts\data_anomaly_check.py`
 - Output JSON: `results/data_anomaly_check.json`
 - Temuan yang sudah ditindaklanjuti: masker (satuan Box/Pcs dikonversi ke pcs, lihat `scripts/masker_karhutla_analysis.py`).
+- Normalisasi nama barang: `scripts/nama_barang_normalisasi.py` -> `results/nama_barang_normalisasi.json` (daftar typo kandidat untuk kurasi manual).
