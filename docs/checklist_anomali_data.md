@@ -93,6 +93,8 @@ Data: `view_penjualan_detail data hingga oktober.xlsx` — 46.822 baris, 13.661 
 | spuit | SELESAI (konversi ke pcs) | isi 100 pcs/box (rasio harga ~90-100x); produk khusus (pre-filled/insulin) di-exclude; normalisasi merek |
 | kassa | SELESAI (per produk) | Roll/Box/Pack adalah produk BERBEDA (Kassa roll, Kassa Steril box, Gauze Swab pack), bukan isi box sama; tidak ada konversi valid; analisis per nama x satuan |
 | plester | SELESAI (per produk) | Roll/Box produk/format BERBEDA (Hypafix roll, Zinc Oxide box); normalisasi merek (OneMed./.BSN.); analisis per nama x satuan |
+| infusion_set | SELESAI (Pcs konsisten) | sudah Pcs, tidak perlu konversi; normalisasi merek (Meddis../G E A); qty per merek |
+| iv_catheter | SELESAI (Pcs konsisten) | sudah Pcs, tidak perlu konversi; normalisasi merek (GEA/Gea./G E A/GeA, HEALTHCARE., Meddis); qty per ukuran G |
 
 ---
 

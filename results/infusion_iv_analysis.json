@@ -1,0 +1,831 @@
+{
+  "infusion_set": {
+    "label": "INFUSION_SET",
+    "n_baris": 980,
+    "n_faktur": 816,
+    "nilai_total_jt": 2644.4,
+    "qty_total": 405266.0,
+    "merek": {
+      "n_merek_asli": 14,
+      "n_merek_ternormalisasi": 13,
+      "selisih_pecah": 1,
+      "merek_top": {
+        "toppoint": 521,
+        "cosmomed": 161,
+        "meddis": 146,
+        "gpcare": 86,
+        "3dsemillas": 31,
+        "gea": 17,
+        "hexacare": 9,
+        "terumo": 3,
+        "healtcare": 2,
+        "onemed": 1
+      }
+    },
+    "qty_per_merek": [
+      {
+        "merek": "toppoint",
+        "n_baris": 521,
+        "qty": 226361,
+        "nilai_jt": 1533.9
+      },
+      {
+        "merek": "meddis",
+        "n_baris": 146,
+        "qty": 106417,
+        "nilai_jt": 686.1
+      },
+      {
+        "merek": "cosmomed",
+        "n_baris": 161,
+        "qty": 34891,
+        "nilai_jt": 175.4
+      },
+      {
+        "merek": "gpcare",
+        "n_baris": 86,
+        "qty": 20977,
+        "nilai_jt": 142.7
+      },
+      {
+        "merek": "3dsemillas",
+        "n_baris": 31,
+        "qty": 9550,
+        "nilai_jt": 62.9
+      },
+      {
+        "merek": "gea",
+        "n_baris": 17,
+        "qty": 3200,
+        "nilai_jt": 16.0
+      },
+      {
+        "merek": "hexacare",
+        "n_baris": 9,
+        "qty": 2100,
+        "nilai_jt": 13.6
+      },
+      {
+        "merek": "remedi",
+        "n_baris": 1,
+        "qty": 1000,
+        "nilai_jt": 4.6
+      },
+      {
+        "merek": "terumo",
+        "n_baris": 3,
+        "qty": 170,
+        "nilai_jt": 4.0
+      },
+      {
+        "merek": "b-braun",
+        "n_baris": 1,
+        "qty": 50,
+        "nilai_jt": 1.9
+      },
+      {
+        "merek": "healtcare",
+        "n_baris": 2,
+        "qty": 300,
+        "nilai_jt": 1.9
+      },
+      {
+        "merek": "saflock",
+        "n_baris": 1,
+        "qty": 200,
+        "nilai_jt": 1.0
+      },
+      {
+        "merek": "onemed",
+        "n_baris": 1,
+        "qty": 50,
+        "nilai_jt": 0.2
+      }
+    ],
+    "qty_per_ukuran": [],
+    "monthly": [
+      {
+        "month": "2020-07",
+        "qty": 800,
+        "nilai_jt": 3.7
+      },
+      {
+        "month": "2020-08",
+        "qty": 2015,
+        "nilai_jt": 10.6
+      },
+      {
+        "month": "2020-09",
+        "qty": 3385,
+        "nilai_jt": 17.4
+      },
+      {
+        "month": "2020-10",
+        "qty": 2632,
+        "nilai_jt": 15.6
+      },
+      {
+        "month": "2020-11",
+        "qty": 3230,
+        "nilai_jt": 16.3
+      },
+      {
+        "month": "2020-12",
+        "qty": 4050,
+        "nilai_jt": 22.4
+      },
+      {
+        "month": "2021-01",
+        "qty": 1150,
+        "nilai_jt": 5.2
+      },
+      {
+        "month": "2021-02",
+        "qty": 1300,
+        "nilai_jt": 5.9
+      },
+      {
+        "month": "2021-03",
+        "qty": 3650,
+        "nilai_jt": 18.7
+      },
+      {
+        "month": "2021-04",
+        "qty": 5100,
+        "nilai_jt": 25.9
+      },
+      {
+        "month": "2021-05",
+        "qty": 2050,
+        "nilai_jt": 10.7
+      },
+      {
+        "month": "2021-06",
+        "qty": 7750,
+        "nilai_jt": 39.9
+      },
+      {
+        "month": "2021-07",
+        "qty": 15964,
+        "nilai_jt": 93.6
+      },
+      {
+        "month": "2021-08",
+        "qty": 19000,
+        "nilai_jt": 115.5
+      },
+      {
+        "month": "2021-09",
+        "qty": 10800,
+        "nilai_jt": 51.8
+      },
+      {
+        "month": "2021-10",
+        "qty": 6700,
+        "nilai_jt": 35.5
+      },
+      {
+        "month": "2021-11",
+        "qty": 11700,
+        "nilai_jt": 70.7
+      },
+      {
+        "month": "2021-12",
+        "qty": 4715,
+        "nilai_jt": 31.6
+      },
+      {
+        "month": "2022-01",
+        "qty": 2935,
+        "nilai_jt": 15.5
+      },
+      {
+        "month": "2022-02",
+        "qty": 2550,
+        "nilai_jt": 16.3
+      },
+      {
+        "month": "2022-03",
+        "qty": 3915,
+        "nilai_jt": 23.8
+      },
+      {
+        "month": "2022-04",
+        "qty": 3000,
+        "nilai_jt": 18.8
+      },
+      {
+        "month": "2022-05",
+        "qty": 2230,
+        "nilai_jt": 14.3
+      },
+      {
+        "month": "2022-06",
+        "qty": 10618,
+        "nilai_jt": 77.8
+      },
+      {
+        "month": "2022-07",
+        "qty": 2290,
+        "nilai_jt": 15.1
+      },
+      {
+        "month": "2022-08",
+        "qty": 6235,
+        "nilai_jt": 40.7
+      },
+      {
+        "month": "2022-09",
+        "qty": 7590,
+        "nilai_jt": 47.8
+      },
+      {
+        "month": "2022-10",
+        "qty": 4628,
+        "nilai_jt": 30.2
+      },
+      {
+        "month": "2022-11",
+        "qty": 10753,
+        "nilai_jt": 69.2
+      },
+      {
+        "month": "2022-12",
+        "qty": 2900,
+        "nilai_jt": 18.7
+      },
+      {
+        "month": "2023-01",
+        "qty": 7516,
+        "nilai_jt": 48.3
+      },
+      {
+        "month": "2023-02",
+        "qty": 3810,
+        "nilai_jt": 25.2
+      },
+      {
+        "month": "2023-03",
+        "qty": 10347,
+        "nilai_jt": 66.4
+      },
+      {
+        "month": "2023-04",
+        "qty": 4120,
+        "nilai_jt": 27.9
+      },
+      {
+        "month": "2023-05",
+        "qty": 6500,
+        "nilai_jt": 42.8
+      },
+      {
+        "month": "2023-06",
+        "qty": 18250,
+        "nilai_jt": 129.7
+      },
+      {
+        "month": "2023-07",
+        "qty": 5150,
+        "nilai_jt": 35.1
+      },
+      {
+        "month": "2023-08",
+        "qty": 8340,
+        "nilai_jt": 56.2
+      },
+      {
+        "month": "2023-09",
+        "qty": 4650,
+        "nilai_jt": 32.6
+      },
+      {
+        "month": "2023-10",
+        "qty": 20850,
+        "nilai_jt": 160.4
+      },
+      {
+        "month": "2023-11",
+        "qty": 6284,
+        "nilai_jt": 48.4
+      },
+      {
+        "month": "2023-12",
+        "qty": 3800,
+        "nilai_jt": 26.2
+      },
+      {
+        "month": "2024-01",
+        "qty": 10470,
+        "nilai_jt": 73.2
+      },
+      {
+        "month": "2024-02",
+        "qty": 11046,
+        "nilai_jt": 73.0
+      },
+      {
+        "month": "2024-03",
+        "qty": 6700,
+        "nilai_jt": 46.7
+      },
+      {
+        "month": "2024-04",
+        "qty": 2680,
+        "nilai_jt": 19.9
+      },
+      {
+        "month": "2024-05",
+        "qty": 4950,
+        "nilai_jt": 32.6
+      },
+      {
+        "month": "2024-06",
+        "qty": 5250,
+        "nilai_jt": 36.1
+      },
+      {
+        "month": "2024-07",
+        "qty": 4610,
+        "nilai_jt": 29.1
+      },
+      {
+        "month": "2024-08",
+        "qty": 17050,
+        "nilai_jt": 110.8
+      },
+      {
+        "month": "2024-09",
+        "qty": 5010,
+        "nilai_jt": 35.2
+      },
+      {
+        "month": "2024-10",
+        "qty": 6915,
+        "nilai_jt": 45.7
+      },
+      {
+        "month": "2024-11",
+        "qty": 2881,
+        "nilai_jt": 19.3
+      },
+      {
+        "month": "2024-12",
+        "qty": 7852,
+        "nilai_jt": 53.8
+      },
+      {
+        "month": "2025-01",
+        "qty": 2750,
+        "nilai_jt": 17.3
+      },
+      {
+        "month": "2025-02",
+        "qty": 7800,
+        "nilai_jt": 53.2
+      },
+      {
+        "month": "2025-03",
+        "qty": 7150,
+        "nilai_jt": 48.5
+      },
+      {
+        "month": "2025-04",
+        "qty": 5800,
+        "nilai_jt": 42.5
+      },
+      {
+        "month": "2025-05",
+        "qty": 14250,
+        "nilai_jt": 101.3
+      },
+      {
+        "month": "2025-06",
+        "qty": 1400,
+        "nilai_jt": 9.0
+      },
+      {
+        "month": "2025-07",
+        "qty": 1650,
+        "nilai_jt": 10.6
+      },
+      {
+        "month": "2025-08",
+        "qty": 3900,
+        "nilai_jt": 29.8
+      },
+      {
+        "month": "2025-09",
+        "qty": 7150,
+        "nilai_jt": 53.8
+      },
+      {
+        "month": "2025-10",
+        "qty": 2750,
+        "nilai_jt": 24.9
+      }
+    ]
+  },
+  "iv_catheter": {
+    "label": "IV_CATHETER",
+    "n_baris": 835,
+    "n_faktur": 475,
+    "nilai_total_jt": 2964.2,
+    "qty_total": 432361.0,
+    "merek": {
+      "n_merek_asli": 14,
+      "n_merek_ternormalisasi": 10,
+      "selisih_pecah": 4,
+      "merek_top": {
+        "toppoint": 535,
+        "gea": 98,
+        "healthcare": 67,
+        "meddis": 49,
+        "nousmed": 43,
+        "remedi": 30,
+        "3dsemillas": 9,
+        "saflock": 2,
+        "onehealth": 1,
+        "healtcare": 1
+      }
+    },
+    "qty_per_merek": [
+      {
+        "merek": "toppoint",
+        "n_baris": 535,
+        "qty": 299547,
+        "nilai_jt": 2115.5
+      },
+      {
+        "merek": "meddis",
+        "n_baris": 49,
+        "qty": 55500,
+        "nilai_jt": 289.8
+      },
+      {
+        "merek": "3dsemillas",
+        "n_baris": 9,
+        "qty": 22500,
+        "nilai_jt": 207.0
+      },
+      {
+        "merek": "gea",
+        "n_baris": 98,
+        "qty": 27512,
+        "nilai_jt": 157.5
+      },
+      {
+        "merek": "healthcare",
+        "n_baris": 67,
+        "qty": 12350,
+        "nilai_jt": 89.2
+      },
+      {
+        "merek": "nousmed",
+        "n_baris": 43,
+        "qty": 7950,
+        "nilai_jt": 54.8
+      },
+      {
+        "merek": "remedi",
+        "n_baris": 30,
+        "qty": 6250,
+        "nilai_jt": 46.3
+      },
+      {
+        "merek": "saflock",
+        "n_baris": 2,
+        "qty": 450,
+        "nilai_jt": 2.1
+      },
+      {
+        "merek": "healtcare",
+        "n_baris": 1,
+        "qty": 300,
+        "nilai_jt": 1.5
+      },
+      {
+        "merek": "onehealth",
+        "n_baris": 1,
+        "qty": 2,
+        "nilai_jt": 0.6
+      }
+    ],
+    "qty_per_ukuran": [
+      {
+        "ukuran": "22",
+        "n_baris": 225,
+        "qty": 137400,
+        "nilai_jt": 933.6
+      },
+      {
+        "ukuran": "24",
+        "n_baris": 198,
+        "qty": 133750,
+        "nilai_jt": 930.1
+      },
+      {
+        "ukuran": "20",
+        "n_baris": 144,
+        "qty": 95250,
+        "nilai_jt": 651.1
+      },
+      {
+        "ukuran": "18",
+        "n_baris": 19,
+        "qty": 10947,
+        "nilai_jt": 91.6
+      },
+      {
+        "ukuran": "26",
+        "n_baris": 32,
+        "qty": 8250,
+        "nilai_jt": 54.7
+      },
+      {
+        "ukuran": "14",
+        "n_baris": 6,
+        "qty": 355,
+        "nilai_jt": 2.2
+      },
+      {
+        "ukuran": "16",
+        "n_baris": 6,
+        "qty": 257,
+        "nilai_jt": 1.7
+      }
+    ],
+    "monthly": [
+      {
+        "month": "2021-01",
+        "qty": 100,
+        "nilai_jt": 0.5
+      },
+      {
+        "month": "2021-06",
+        "qty": 717,
+        "nilai_jt": 5.0
+      },
+      {
+        "month": "2021-07",
+        "qty": 1200,
+        "nilai_jt": 8.3
+      },
+      {
+        "month": "2021-08",
+        "qty": 100,
+        "nilai_jt": 0.7
+      },
+      {
+        "month": "2021-09",
+        "qty": 700,
+        "nilai_jt": 5.0
+      },
+      {
+        "month": "2021-10",
+        "qty": 5000,
+        "nilai_jt": 36.0
+      },
+      {
+        "month": "2021-11",
+        "qty": 400,
+        "nilai_jt": 2.9
+      },
+      {
+        "month": "2021-12",
+        "qty": 1100,
+        "nilai_jt": 7.9
+      },
+      {
+        "month": "2022-01",
+        "qty": 1100,
+        "nilai_jt": 8.1
+      },
+      {
+        "month": "2022-02",
+        "qty": 700,
+        "nilai_jt": 5.0
+      },
+      {
+        "month": "2022-03",
+        "qty": 3600,
+        "nilai_jt": 26.6
+      },
+      {
+        "month": "2022-04",
+        "qty": 1100,
+        "nilai_jt": 7.9
+      },
+      {
+        "month": "2022-05",
+        "qty": 5100,
+        "nilai_jt": 38.3
+      },
+      {
+        "month": "2022-06",
+        "qty": 2500,
+        "nilai_jt": 18.0
+      },
+      {
+        "month": "2022-07",
+        "qty": 2960,
+        "nilai_jt": 21.8
+      },
+      {
+        "month": "2022-08",
+        "qty": 9300,
+        "nilai_jt": 66.4
+      },
+      {
+        "month": "2022-09",
+        "qty": 10900,
+        "nilai_jt": 77.2
+      },
+      {
+        "month": "2022-10",
+        "qty": 5200,
+        "nilai_jt": 36.9
+      },
+      {
+        "month": "2022-11",
+        "qty": 11500,
+        "nilai_jt": 79.5
+      },
+      {
+        "month": "2022-12",
+        "qty": 4000,
+        "nilai_jt": 27.7
+      },
+      {
+        "month": "2023-01",
+        "qty": 3000,
+        "nilai_jt": 20.4
+      },
+      {
+        "month": "2023-02",
+        "qty": 5400,
+        "nilai_jt": 36.0
+      },
+      {
+        "month": "2023-03",
+        "qty": 10700,
+        "nilai_jt": 74.9
+      },
+      {
+        "month": "2023-04",
+        "qty": 11700,
+        "nilai_jt": 80.6
+      },
+      {
+        "month": "2023-05",
+        "qty": 8700,
+        "nilai_jt": 64.7
+      },
+      {
+        "month": "2023-06",
+        "qty": 27245,
+        "nilai_jt": 218.0
+      },
+      {
+        "month": "2023-07",
+        "qty": 10200,
+        "nilai_jt": 71.1
+      },
+      {
+        "month": "2023-08",
+        "qty": 6000,
+        "nilai_jt": 43.8
+      },
+      {
+        "month": "2023-09",
+        "qty": 10150,
+        "nilai_jt": 69.5
+      },
+      {
+        "month": "2023-10",
+        "qty": 14850,
+        "nilai_jt": 127.0
+      },
+      {
+        "month": "2023-11",
+        "qty": 7987,
+        "nilai_jt": 54.9
+      },
+      {
+        "month": "2023-12",
+        "qty": 6600,
+        "nilai_jt": 44.4
+      },
+      {
+        "month": "2024-01",
+        "qty": 21450,
+        "nilai_jt": 126.7
+      },
+      {
+        "month": "2024-02",
+        "qty": 8500,
+        "nilai_jt": 62.8
+      },
+      {
+        "month": "2024-03",
+        "qty": 12702,
+        "nilai_jt": 85.5
+      },
+      {
+        "month": "2024-04",
+        "qty": 3800,
+        "nilai_jt": 25.6
+      },
+      {
+        "month": "2024-05",
+        "qty": 14400,
+        "nilai_jt": 103.1
+      },
+      {
+        "month": "2024-06",
+        "qty": 12600,
+        "nilai_jt": 91.0
+      },
+      {
+        "month": "2024-07",
+        "qty": 13150,
+        "nilai_jt": 83.1
+      },
+      {
+        "month": "2024-08",
+        "qty": 14100,
+        "nilai_jt": 91.9
+      },
+      {
+        "month": "2024-09",
+        "qty": 10150,
+        "nilai_jt": 71.3
+      },
+      {
+        "month": "2024-10",
+        "qty": 13600,
+        "nilai_jt": 88.7
+      },
+      {
+        "month": "2024-11",
+        "qty": 5150,
+        "nilai_jt": 34.8
+      },
+      {
+        "month": "2024-12",
+        "qty": 17250,
+        "nilai_jt": 106.8
+      },
+      {
+        "month": "2025-01",
+        "qty": 5550,
+        "nilai_jt": 39.0
+      },
+      {
+        "month": "2025-02",
+        "qty": 16100,
+        "nilai_jt": 103.4
+      },
+      {
+        "month": "2025-03",
+        "qty": 19850,
+        "nilai_jt": 112.9
+      },
+      {
+        "month": "2025-04",
+        "qty": 10300,
+        "nilai_jt": 74.1
+      },
+      {
+        "month": "2025-05",
+        "qty": 6100,
+        "nilai_jt": 43.2
+      },
+      {
+        "month": "2025-06",
+        "qty": 16500,
+        "nilai_jt": 90.3
+      },
+      {
+        "month": "2025-07",
+        "qty": 4950,
+        "nilai_jt": 34.7
+      },
+      {
+        "month": "2025-08",
+        "qty": 7750,
+        "nilai_jt": 50.9
+      },
+      {
+        "month": "2025-09",
+        "qty": 3450,
+        "nilai_jt": 25.6
+      },
+      {
+        "month": "2025-10",
+        "qty": 5150,
+        "nilai_jt": 33.9
+      }
+    ]
+  }
+}
