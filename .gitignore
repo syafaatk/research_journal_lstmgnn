@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Sensitive / raw commercial data (customer & salesperson names, transaction details)
+data/view_penjualan_detail*.xlsx
+data/df.xlsx
+data/*.xls
+data/customers_geocoded*.csv
+data/customers_coords.csv
+data/sirs_sumsel_geocoded*.csv
+data/not_found_list.csv
+data/lakip_dinkes_*.pdf
+data/monev_dinkes_*.pdf
+
+# Derived / regenerable caches and predictions
+results/_cache_*.npz
+results/_cache_*.npy
+results/*.npy
+
+# Logs
+logs/
+
+# Manuscript temp files
+manuscript/*AutoRecovered*.docx
+
+# Personal
+Curriculum Vitae/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Office temp/lock files
+~$*
