@@ -84,6 +84,16 @@ Data: `view_penjualan_detail data hingga oktober.xlsx` — 46.822 baris, 13.661 
 - [ ] Normalisasi qty ke satuan dasar (pcs) sebelum agregasi qty.
 - [ ] Sudah dilakukan untuk masker (surgical=50, N95/KN95=10) — perlu diperluas ke handscoon, spuit, kassa, plester.
 
+**Status per produk (28 Agu 2026):**
+
+| Produk | Status | Catatan |
+|---|---|---|
+| masker | SELESAI (konversi ke pcs) | surgical=50, N95/KN95=10 |
+| handscoon | SELESAI (per-satuan) | isi box tidak diketahui dari data; normalisasi merek; qty per Box/Pair/Pack terpisah |
+| spuit | BELUM | - |
+| kassa | BELUM | - |
+| plester | BELUM | - |
+
 ---
 
 ## 6. Nama barang pecah — PERLU NORMALISASI

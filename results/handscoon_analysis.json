@@ -1,0 +1,664 @@
+{
+  "n_baris": 1644,
+  "n_faktur": 898,
+  "merek": {
+    "n_merek_asli": 49,
+    "n_merek_ternormalisasi": 33,
+    "selisih_pecah": 16,
+    "merek_top": {
+      "gpcare": 448,
+      "meddis": 284,
+      "cosmomed": 191,
+      "remedi": 175,
+      "sritranggloves": 173,
+      "gammex": 76,
+      "pureglove": 58,
+      "shamrock": 53,
+      "maxter": 52,
+      "flexiglove": 22,
+      "safeglove": 14,
+      "jv": 11,
+      "elva": 11,
+      "hexacare": 10,
+      "troge": 9
+    }
+  },
+  "qty_per_satuan": [
+    {
+      "satuan": "Box",
+      "n_baris": 1132,
+      "n_faktur": 664,
+      "total_qty": 65839.0,
+      "total_nilai_jt": 8240.3
+    },
+    {
+      "satuan": "Pair",
+      "n_baris": 500,
+      "n_faktur": 271,
+      "total_qty": 137865.0,
+      "total_nilai_jt": 1735.4
+    },
+    {
+      "satuan": "Pack",
+      "n_baris": 12,
+      "n_faktur": 12,
+      "total_qty": 2953.0,
+      "total_nilai_jt": 39.2
+    }
+  ],
+  "nilai_total_jt": 10014.9,
+  "qty_per_merek_satuan": [
+    {
+      "merek": "*******",
+      "satuan_nama": "Box",
+      "n_baris": 3,
+      "qty": 70,
+      "nilai_jt": 9.3
+    },
+    {
+      "merek": "********",
+      "satuan_nama": "Box",
+      "n_baris": 1,
+      "qty": 20,
+      "nilai_jt": 2.7
+    },
+    {
+      "merek": "--",
+      "satuan_nama": "Pair",
+      "n_baris": 2,
+      "qty": 21,
+      "nilai_jt": 1.5
+    },
+    {
+      "merek": "amicare",
+      "satuan_nama": "Box",
+      "n_baris": 5,
+      "qty": 188,
+      "nilai_jt": 8.2
+    },
+    {
+      "merek": "cosmomed",
+      "satuan_nama": "Box",
+      "n_baris": 187,
+      "qty": 6242,
+      "nilai_jt": 1089.6
+    },
+    {
+      "merek": "cosmomed",
+      "satuan_nama": "Pair",
+      "n_baris": 4,
+      "qty": 500,
+      "nilai_jt": 2.7
+    },
+    {
+      "merek": "easycare",
+      "satuan_nama": "Pack",
+      "n_baris": 7,
+      "qty": 953,
+      "nilai_jt": 20.2
+    },
+    {
+      "merek": "elva",
+      "satuan_nama": "Box",
+      "n_baris": 11,
+      "qty": 900,
+      "nilai_jt": 150.8
+    },
+    {
+      "merek": "feroze",
+      "satuan_nama": "Box",
+      "n_baris": 1,
+      "qty": 90,
+      "nilai_jt": 4.4
+    },
+    {
+      "merek": "flexiglove",
+      "satuan_nama": "Box",
+      "n_baris": 22,
+      "qty": 790,
+      "nilai_jt": 48.1
+    },
+    {
+      "merek": "gammex",
+      "satuan_nama": "Box",
+      "n_baris": 76,
+      "qty": 285,
+      "nilai_jt": 377.8
+    },
+    {
+      "merek": "generalcare",
+      "satuan_nama": "Box",
+      "n_baris": 1,
+      "qty": 1,
+      "nilai_jt": 0.5
+    },
+    {
+      "merek": "goldenglove",
+      "satuan_nama": "Box",
+      "n_baris": 8,
+      "qty": 910,
+      "nilai_jt": 152.0
+    },
+    {
+      "merek": "gpcare",
+      "satuan_nama": "Box",
+      "n_baris": 215,
+      "qty": 9878,
+      "nilai_jt": 1239.0
+    },
+    {
+      "merek": "gpcare",
+      "satuan_nama": "Pair",
+      "n_baris": 233,
+      "qty": 50070,
+      "nilai_jt": 347.4
+    },
+    {
+      "merek": "hexacare",
+      "satuan_nama": "Box",
+      "n_baris": 10,
+      "qty": 410,
+      "nilai_jt": 31.9
+    },
+    {
+      "merek": "jv",
+      "satuan_nama": "Pair",
+      "n_baris": 11,
+      "qty": 4550,
+      "nilai_jt": 101.2
+    },
+    {
+      "merek": "lokal",
+      "satuan_nama": "Pair",
+      "n_baris": 1,
+      "qty": 45,
+      "nilai_jt": 1.4
+    },
+    {
+      "merek": "maxter",
+      "satuan_nama": "Box",
+      "n_baris": 50,
+      "qty": 480,
+      "nilai_jt": 194.6
+    },
+    {
+      "merek": "maxter",
+      "satuan_nama": "Pair",
+      "n_baris": 2,
+      "qty": 800,
+      "nilai_jt": 8.2
+    },
+    {
+      "merek": "meddis",
+      "satuan_nama": "Box",
+      "n_baris": 168,
+      "qty": 24407,
+      "nilai_jt": 2254.0
+    },
+    {
+      "merek": "meddis",
+      "satuan_nama": "Pair",
+      "n_baris": 116,
+      "qty": 50320,
+      "nilai_jt": 380.4
+    },
+    {
+      "merek": "mrclean",
+      "satuan_nama": "Pair",
+      "n_baris": 1,
+      "qty": 3,
+      "nilai_jt": 0.4
+    },
+    {
+      "merek": "onecare",
+      "satuan_nama": "Pair",
+      "n_baris": 8,
+      "qty": 1500,
+      "nilai_jt": 90.5
+    },
+    {
+      "merek": "onemed",
+      "satuan_nama": "Box",
+      "n_baris": 3,
+      "qty": 130,
+      "nilai_jt": 11.6
+    },
+    {
+      "merek": "onemed",
+      "satuan_nama": "Pair",
+      "n_baris": 1,
+      "qty": 45,
+      "nilai_jt": 2.6
+    },
+    {
+      "merek": "otoro",
+      "satuan_nama": "Box",
+      "n_baris": 1,
+      "qty": 17,
+      "nilai_jt": 1.2
+    },
+    {
+      "merek": "pureglove",
+      "satuan_nama": "Box",
+      "n_baris": 58,
+      "qty": 2879,
+      "nilai_jt": 479.6
+    },
+    {
+      "merek": "remedi",
+      "satuan_nama": "Box",
+      "n_baris": 108,
+      "qty": 8398,
+      "nilai_jt": 1402.2
+    },
+    {
+      "merek": "remedi",
+      "satuan_nama": "Pair",
+      "n_baris": 67,
+      "qty": 11361,
+      "nilai_jt": 631.3
+    },
+    {
+      "merek": "safeglove",
+      "satuan_nama": "Box",
+      "n_baris": 14,
+      "qty": 538,
+      "nilai_jt": 53.0
+    },
+    {
+      "merek": "sensi",
+      "satuan_nama": "Box",
+      "n_baris": 4,
+      "qty": 244,
+      "nilai_jt": 28.8
+    },
+    {
+      "merek": "shamrock",
+      "satuan_nama": "Pack",
+      "n_baris": 5,
+      "qty": 2000,
+      "nilai_jt": 19.0
+    },
+    {
+      "merek": "shamrock",
+      "satuan_nama": "Pair",
+      "n_baris": 48,
+      "qty": 15700,
+      "nilai_jt": 136.0
+    },
+    {
+      "merek": "shamrok",
+      "satuan_nama": "Box",
+      "n_baris": 1,
+      "qty": 6,
+      "nilai_jt": 0.0
+    },
+    {
+      "merek": "sky",
+      "satuan_nama": "Pair",
+      "n_baris": 1,
+      "qty": 50,
+      "nilai_jt": 2.2
+    },
+    {
+      "merek": "sritranggloves",
+      "satuan_nama": "Box",
+      "n_baris": 173,
+      "qty": 8680,
+      "nilai_jt": 642.5
+    },
+    {
+      "merek": "swarna",
+      "satuan_nama": "Box",
+      "n_baris": 2,
+      "qty": 5,
+      "nilai_jt": 0.8
+    },
+    {
+      "merek": "texgrip",
+      "satuan_nama": "Box",
+      "n_baris": 6,
+      "qty": 261,
+      "nilai_jt": 53.4
+    },
+    {
+      "merek": "troge",
+      "satuan_nama": "Box",
+      "n_baris": 4,
+      "qty": 10,
+      "nilai_jt": 4.2
+    },
+    {
+      "merek": "troge",
+      "satuan_nama": "Pair",
+      "n_baris": 5,
+      "qty": 2900,
+      "nilai_jt": 29.6
+    }
+  ],
+  "monthly_nilai": [
+    {
+      "month": "2020-07",
+      "nilai_jt": 338.1,
+      "n_baris": 34
+    },
+    {
+      "month": "2020-08",
+      "nilai_jt": 76.7,
+      "n_baris": 14
+    },
+    {
+      "month": "2020-09",
+      "nilai_jt": 86.4,
+      "n_baris": 18
+    },
+    {
+      "month": "2020-10",
+      "nilai_jt": 533.4,
+      "n_baris": 54
+    },
+    {
+      "month": "2020-11",
+      "nilai_jt": 721.2,
+      "n_baris": 72
+    },
+    {
+      "month": "2020-12",
+      "nilai_jt": 383.1,
+      "n_baris": 47
+    },
+    {
+      "month": "2021-01",
+      "nilai_jt": 171.4,
+      "n_baris": 27
+    },
+    {
+      "month": "2021-02",
+      "nilai_jt": 396.6,
+      "n_baris": 51
+    },
+    {
+      "month": "2021-03",
+      "nilai_jt": 413.8,
+      "n_baris": 58
+    },
+    {
+      "month": "2021-04",
+      "nilai_jt": 626.4,
+      "n_baris": 76
+    },
+    {
+      "month": "2021-05",
+      "nilai_jt": 452.0,
+      "n_baris": 54
+    },
+    {
+      "month": "2021-06",
+      "nilai_jt": 425.4,
+      "n_baris": 60
+    },
+    {
+      "month": "2021-07",
+      "nilai_jt": 434.5,
+      "n_baris": 47
+    },
+    {
+      "month": "2021-08",
+      "nilai_jt": 559.4,
+      "n_baris": 43
+    },
+    {
+      "month": "2021-09",
+      "nilai_jt": 235.0,
+      "n_baris": 34
+    },
+    {
+      "month": "2021-10",
+      "nilai_jt": 127.4,
+      "n_baris": 13
+    },
+    {
+      "month": "2021-11",
+      "nilai_jt": 138.1,
+      "n_baris": 29
+    },
+    {
+      "month": "2021-12",
+      "nilai_jt": 10.8,
+      "n_baris": 13
+    },
+    {
+      "month": "2022-01",
+      "nilai_jt": 12.2,
+      "n_baris": 3
+    },
+    {
+      "month": "2022-02",
+      "nilai_jt": 87.6,
+      "n_baris": 13
+    },
+    {
+      "month": "2022-03",
+      "nilai_jt": 30.0,
+      "n_baris": 14
+    },
+    {
+      "month": "2022-04",
+      "nilai_jt": 101.9,
+      "n_baris": 18
+    },
+    {
+      "month": "2022-05",
+      "nilai_jt": 10.8,
+      "n_baris": 8
+    },
+    {
+      "month": "2022-06",
+      "nilai_jt": 119.8,
+      "n_baris": 22
+    },
+    {
+      "month": "2022-07",
+      "nilai_jt": 149.9,
+      "n_baris": 27
+    },
+    {
+      "month": "2022-08",
+      "nilai_jt": 429.4,
+      "n_baris": 21
+    },
+    {
+      "month": "2022-09",
+      "nilai_jt": 82.4,
+      "n_baris": 17
+    },
+    {
+      "month": "2022-10",
+      "nilai_jt": 197.1,
+      "n_baris": 34
+    },
+    {
+      "month": "2022-11",
+      "nilai_jt": 187.2,
+      "n_baris": 18
+    },
+    {
+      "month": "2022-12",
+      "nilai_jt": 81.8,
+      "n_baris": 13
+    },
+    {
+      "month": "2023-01",
+      "nilai_jt": 53.8,
+      "n_baris": 14
+    },
+    {
+      "month": "2023-02",
+      "nilai_jt": 49.1,
+      "n_baris": 16
+    },
+    {
+      "month": "2023-03",
+      "nilai_jt": 68.0,
+      "n_baris": 19
+    },
+    {
+      "month": "2023-04",
+      "nilai_jt": 108.0,
+      "n_baris": 24
+    },
+    {
+      "month": "2023-05",
+      "nilai_jt": 74.0,
+      "n_baris": 17
+    },
+    {
+      "month": "2023-06",
+      "nilai_jt": 180.0,
+      "n_baris": 40
+    },
+    {
+      "month": "2023-07",
+      "nilai_jt": 126.0,
+      "n_baris": 34
+    },
+    {
+      "month": "2023-08",
+      "nilai_jt": 126.8,
+      "n_baris": 52
+    },
+    {
+      "month": "2023-09",
+      "nilai_jt": 65.1,
+      "n_baris": 27
+    },
+    {
+      "month": "2023-10",
+      "nilai_jt": 68.5,
+      "n_baris": 32
+    },
+    {
+      "month": "2023-11",
+      "nilai_jt": 149.4,
+      "n_baris": 46
+    },
+    {
+      "month": "2023-12",
+      "nilai_jt": 33.2,
+      "n_baris": 15
+    },
+    {
+      "month": "2024-01",
+      "nilai_jt": 40.5,
+      "n_baris": 19
+    },
+    {
+      "month": "2024-02",
+      "nilai_jt": 113.4,
+      "n_baris": 42
+    },
+    {
+      "month": "2024-03",
+      "nilai_jt": 29.5,
+      "n_baris": 16
+    },
+    {
+      "month": "2024-04",
+      "nilai_jt": 44.3,
+      "n_baris": 12
+    },
+    {
+      "month": "2024-05",
+      "nilai_jt": 67.1,
+      "n_baris": 13
+    },
+    {
+      "month": "2024-06",
+      "nilai_jt": 57.1,
+      "n_baris": 15
+    },
+    {
+      "month": "2024-07",
+      "nilai_jt": 88.0,
+      "n_baris": 21
+    },
+    {
+      "month": "2024-08",
+      "nilai_jt": 105.7,
+      "n_baris": 17
+    },
+    {
+      "month": "2024-09",
+      "nilai_jt": 28.9,
+      "n_baris": 7
+    },
+    {
+      "month": "2024-10",
+      "nilai_jt": 41.3,
+      "n_baris": 12
+    },
+    {
+      "month": "2024-11",
+      "nilai_jt": 44.3,
+      "n_baris": 11
+    },
+    {
+      "month": "2024-12",
+      "nilai_jt": 225.1,
+      "n_baris": 12
+    },
+    {
+      "month": "2025-01",
+      "nilai_jt": 38.1,
+      "n_baris": 13
+    },
+    {
+      "month": "2025-02",
+      "nilai_jt": 23.9,
+      "n_baris": 15
+    },
+    {
+      "month": "2025-03",
+      "nilai_jt": 29.8,
+      "n_baris": 20
+    },
+    {
+      "month": "2025-04",
+      "nilai_jt": 24.9,
+      "n_baris": 20
+    },
+    {
+      "month": "2025-05",
+      "nilai_jt": 35.9,
+      "n_baris": 24
+    },
+    {
+      "month": "2025-06",
+      "nilai_jt": 15.4,
+      "n_baris": 11
+    },
+    {
+      "month": "2025-07",
+      "nilai_jt": 13.1,
+      "n_baris": 12
+    },
+    {
+      "month": "2025-08",
+      "nilai_jt": 22.0,
+      "n_baris": 14
+    },
+    {
+      "month": "2025-09",
+      "nilai_jt": 91.8,
+      "n_baris": 11
+    },
+    {
+      "month": "2025-10",
+      "nilai_jt": 113.3,
+      "n_baris": 19
+    }
+  ],
+  "summary": {
+    "catatan": "kategori_nama berisi MEREK (bukan kategori) dan kotor (typo/casing/spasi), dinormalisasi. barang_satuan_id duplikat (Pair=20/23, Pack=12/28) dipetakan. Isi box handscoon TIDAK diketahui dari data dan bervariasi per merek, jadi qty dianalisis per satuan terpisah + nilai rupiah konsisten. Konversi box->pcs hanya jika user menyediakan isi per kemasan per merek."
+  }
+}
