@@ -1,20 +1,37 @@
 {
-  "qty_per_satuan": [
+  "qty_total_pcs": {
+    "qty_pcs_karhutla_2bln": 21050.0,
+    "qty_pcs_baseline_per_bln": 44906.833333333336,
+    "ratio_karhutla_vs_baseline": 0.47
+  },
+  "qty_per_tipe_pcs": [
+    {
+      "tipe": "surgical",
+      "isi_box": 50,
+      "qty_pcs_karhutla_2bln": 21050.0,
+      "qty_pcs_baseline_per_bln": 44227.833333333336,
+      "ratio": 0.48
+    },
+    {
+      "tipe": "n95",
+      "isi_box": 10,
+      "qty_pcs_karhutla_2bln": 0.0,
+      "qty_pcs_baseline_per_bln": 679.0,
+      "ratio": 0.0
+    }
+  ],
+  "qty_per_satuan_mentah": [
     {
       "satuan": "Box",
       "qty_karhutla_2bln": 421.0,
-      "n_baris_karhutla": 14,
       "qty_baseline_per_bln": 886.6833333333333,
-      "n_baris_baseline_per_bln": 9.9,
-      "ratio_qty_karhutla_vs_baseline": 0.47
+      "ratio": 0.47
     },
     {
       "satuan": "Pcs",
       "qty_karhutla_2bln": 0.0,
-      "n_baris_karhutla": 0,
       "qty_baseline_per_bln": 1634.0,
-      "n_baris_baseline_per_bln": 2.1,
-      "ratio_qty_karhutla_vs_baseline": null
+      "ratio": 0.0
     }
   ],
   "nilai_per_satuan": [
@@ -22,750 +39,399 @@
       "satuan": "Box",
       "nilai_karhutla_2bln_jt": 8.0,
       "nilai_baseline_per_bln_jt": 64.4,
-      "ratio_nilai_karhutla_vs_baseline": 0.12
+      "ratio": 0.12
     },
     {
       "satuan": "Pcs",
       "nilai_karhutla_2bln_jt": 0.0,
       "nilai_baseline_per_bln_jt": 22.0,
-      "ratio_nilai_karhutla_vs_baseline": null
+      "ratio": 0.0
     }
   ],
-  "monthly": [
+  "monthly_pcs": [
     {
       "month": "2020-07",
-      "satuan_nama": "Box",
-      "qty": 1701,
-      "nilai_jt": 343.2,
-      "n_baris": 19
-    },
-    {
-      "month": "2020-07",
-      "satuan_nama": "Pcs",
-      "qty": 510,
-      "nilai_jt": 53.0,
-      "n_baris": 4
+      "qty_pcs": 84400,
+      "nilai_jt": 396.2,
+      "n_baris": 23
     },
     {
       "month": "2020-08",
-      "satuan_nama": "Box",
-      "qty": 1181,
-      "nilai_jt": 350.2,
-      "n_baris": 16
-    },
-    {
-      "month": "2020-08",
-      "satuan_nama": "Pcs",
-      "qty": 520,
-      "nilai_jt": 44.6,
-      "n_baris": 7
+      "qty_pcs": 56330,
+      "nilai_jt": 394.8,
+      "n_baris": 23
     },
     {
       "month": "2020-09",
-      "satuan_nama": "Box",
-      "qty": 5858,
-      "nilai_jt": 631.7,
-      "n_baris": 32
-    },
-    {
-      "month": "2020-09",
-      "satuan_nama": "Pcs",
-      "qty": 460,
-      "nilai_jt": 19.6,
-      "n_baris": 5
-    },
-    {
-      "month": "2020-10",
-      "satuan_nama": "Box",
-      "qty": 3466,
-      "nilai_jt": 557.4,
-      "n_baris": 35
-    },
-    {
-      "month": "2020-10",
-      "satuan_nama": "Pcs",
-      "qty": 600,
-      "nilai_jt": 10.4,
-      "n_baris": 4
-    },
-    {
-      "month": "2020-11",
-      "satuan_nama": "Box",
-      "qty": 4339,
-      "nilai_jt": 495.9,
+      "qty_pcs": 290000,
+      "nilai_jt": 651.4,
       "n_baris": 37
     },
     {
+      "month": "2020-10",
+      "qty_pcs": 173820,
+      "nilai_jt": 567.8,
+      "n_baris": 39
+    },
+    {
       "month": "2020-11",
-      "satuan_nama": "Pcs",
-      "qty": 2190,
-      "nilai_jt": 58.2,
-      "n_baris": 5
+      "qty_pcs": 202620,
+      "nilai_jt": 554.1,
+      "n_baris": 42
     },
     {
       "month": "2020-12",
-      "satuan_nama": "Box",
-      "qty": 4663,
-      "nilai_jt": 334.6,
-      "n_baris": 28
-    },
-    {
-      "month": "2020-12",
-      "satuan_nama": "Pcs",
-      "qty": 3974,
-      "nilai_jt": 321.6,
-      "n_baris": 11
+      "qty_pcs": 221124,
+      "nilai_jt": 656.3,
+      "n_baris": 39
     },
     {
       "month": "2021-01",
-      "satuan_nama": "Box",
-      "qty": 738,
-      "nilai_jt": 49.2,
+      "qty_pcs": 39200,
+      "nilai_jt": 117.1,
+      "n_baris": 29
+    },
+    {
+      "month": "2021-02",
+      "qty_pcs": 21840,
+      "nilai_jt": 24.2,
+      "n_baris": 18
+    },
+    {
+      "month": "2021-03",
+      "qty_pcs": 24510,
+      "nilai_jt": 27.1,
+      "n_baris": 10
+    },
+    {
+      "month": "2021-04",
+      "qty_pcs": 61550,
+      "nilai_jt": 60.6,
+      "n_baris": 19
+    },
+    {
+      "month": "2021-05",
+      "qty_pcs": 32140,
+      "nilai_jt": 39.9,
+      "n_baris": 7
+    },
+    {
+      "month": "2021-06",
+      "qty_pcs": 9760,
+      "nilai_jt": 127.2,
+      "n_baris": 13
+    },
+    {
+      "month": "2021-07",
+      "qty_pcs": 206270,
+      "nilai_jt": 279.0,
+      "n_baris": 25
+    },
+    {
+      "month": "2021-08",
+      "qty_pcs": 22770,
+      "nilai_jt": 46.3,
+      "n_baris": 17
+    },
+    {
+      "month": "2021-09",
+      "qty_pcs": 362740,
+      "nilai_jt": 357.2,
       "n_baris": 20
     },
     {
-      "month": "2021-01",
-      "satuan_nama": "Pcs",
-      "qty": 2300,
-      "nilai_jt": 67.9,
-      "n_baris": 9
-    },
-    {
-      "month": "2021-02",
-      "satuan_nama": "Box",
-      "qty": 422,
-      "nilai_jt": 16.6,
-      "n_baris": 14
-    },
-    {
-      "month": "2021-02",
-      "satuan_nama": "Pcs",
-      "qty": 740,
-      "nilai_jt": 7.6,
-      "n_baris": 4
-    },
-    {
-      "month": "2021-03",
-      "satuan_nama": "Box",
-      "qty": 482,
-      "nilai_jt": 17.5,
-      "n_baris": 6
-    },
-    {
-      "month": "2021-03",
-      "satuan_nama": "Pcs",
-      "qty": 410,
-      "nilai_jt": 9.7,
-      "n_baris": 4
-    },
-    {
-      "month": "2021-04",
-      "satuan_nama": "Box",
-      "qty": 1228,
-      "nilai_jt": 54.1,
-      "n_baris": 16
-    },
-    {
-      "month": "2021-04",
-      "satuan_nama": "Pcs",
-      "qty": 150,
-      "nilai_jt": 6.5,
-      "n_baris": 3
-    },
-    {
-      "month": "2021-05",
-      "satuan_nama": "Box",
-      "qty": 630,
-      "nilai_jt": 23.5,
-      "n_baris": 4
-    },
-    {
-      "month": "2021-05",
-      "satuan_nama": "Pcs",
-      "qty": 640,
-      "nilai_jt": 16.4,
-      "n_baris": 3
-    },
-    {
-      "month": "2021-06",
-      "satuan_nama": "Box",
-      "qty": 400,
-      "nilai_jt": 120.3,
-      "n_baris": 9
-    },
-    {
-      "month": "2021-06",
-      "satuan_nama": "Pcs",
-      "qty": 360,
-      "nilai_jt": 7.0,
-      "n_baris": 4
-    },
-    {
-      "month": "2021-07",
-      "satuan_nama": "Box",
-      "qty": 4138,
-      "nilai_jt": 213.0,
-      "n_baris": 14
-    },
-    {
-      "month": "2021-07",
-      "satuan_nama": "Pcs",
-      "qty": 2330,
-      "nilai_jt": 66.0,
-      "n_baris": 11
-    },
-    {
-      "month": "2021-08",
-      "satuan_nama": "Box",
-      "qty": 405,
-      "nilai_jt": 15.2,
-      "n_baris": 5
-    },
-    {
-      "month": "2021-08",
-      "satuan_nama": "Pcs",
-      "qty": 2520,
-      "nilai_jt": 31.1,
-      "n_baris": 12
-    },
-    {
-      "month": "2021-09",
-      "satuan_nama": "Box",
-      "qty": 7219,
-      "nilai_jt": 327.6,
-      "n_baris": 16
-    },
-    {
-      "month": "2021-09",
-      "satuan_nama": "Pcs",
-      "qty": 1830,
-      "nilai_jt": 29.6,
-      "n_baris": 4
-    },
-    {
       "month": "2021-10",
-      "satuan_nama": "Pcs",
-      "qty": 63540,
+      "qty_pcs": 63540,
       "nilai_jt": 423.9,
       "n_baris": 6
     },
     {
       "month": "2021-11",
-      "satuan_nama": "Box",
-      "qty": 30,
-      "nilai_jt": 1.5,
-      "n_baris": 2
-    },
-    {
-      "month": "2021-11",
-      "satuan_nama": "Pcs",
-      "qty": 1060,
-      "nilai_jt": 5.6,
-      "n_baris": 5
-    },
-    {
-      "month": "2021-12",
-      "satuan_nama": "Box",
-      "qty": 7,
-      "nilai_jt": 0.0,
-      "n_baris": 3
-    },
-    {
-      "month": "2021-12",
-      "satuan_nama": "Pcs",
-      "qty": 2500,
-      "nilai_jt": 67.0,
-      "n_baris": 2
-    },
-    {
-      "month": "2022-01",
-      "satuan_nama": "Box",
-      "qty": 179,
-      "nilai_jt": 14.7,
-      "n_baris": 2
-    },
-    {
-      "month": "2022-01",
-      "satuan_nama": "Pcs",
-      "qty": 540,
-      "nilai_jt": 2.4,
-      "n_baris": 2
-    },
-    {
-      "month": "2022-02",
-      "satuan_nama": "Box",
-      "qty": 130,
-      "nilai_jt": 37.6,
-      "n_baris": 2
-    },
-    {
-      "month": "2022-02",
-      "satuan_nama": "Pcs",
-      "qty": 740,
-      "nilai_jt": 3.2,
-      "n_baris": 3
-    },
-    {
-      "month": "2022-03",
-      "satuan_nama": "Box",
-      "qty": 31,
-      "nilai_jt": 9.8,
+      "qty_pcs": 2560,
+      "nilai_jt": 7.1,
       "n_baris": 7
     },
     {
+      "month": "2021-12",
+      "qty_pcs": 2850,
+      "nilai_jt": 67.0,
+      "n_baris": 5
+    },
+    {
+      "month": "2022-01",
+      "qty_pcs": 9330,
+      "nilai_jt": 17.1,
+      "n_baris": 4
+    },
+    {
+      "month": "2022-02",
+      "qty_pcs": 2240,
+      "nilai_jt": 40.9,
+      "n_baris": 5
+    },
+    {
       "month": "2022-03",
-      "satuan_nama": "Pcs",
-      "qty": 2560,
-      "nilai_jt": 11.2,
-      "n_baris": 6
+      "qty_pcs": 2870,
+      "nilai_jt": 21.0,
+      "n_baris": 13
     },
     {
       "month": "2022-04",
-      "satuan_nama": "Box",
-      "qty": 848,
-      "nilai_jt": 16.3,
-      "n_baris": 6
-    },
-    {
-      "month": "2022-04",
-      "satuan_nama": "Pcs",
-      "qty": 300,
-      "nilai_jt": 1.3,
-      "n_baris": 1
+      "qty_pcs": 42700,
+      "nilai_jt": 17.6,
+      "n_baris": 7
     },
     {
       "month": "2022-05",
-      "satuan_nama": "Box",
-      "qty": 15,
+      "qty_pcs": 750,
       "nilai_jt": 0.3,
       "n_baris": 1
     },
     {
       "month": "2022-06",
-      "satuan_nama": "Box",
-      "qty": 10,
-      "nilai_jt": 0.2,
-      "n_baris": 2
-    },
-    {
-      "month": "2022-06",
-      "satuan_nama": "Pcs",
-      "qty": 200,
-      "nilai_jt": 0.9,
-      "n_baris": 1
+      "qty_pcs": 700,
+      "nilai_jt": 1.1,
+      "n_baris": 3
     },
     {
       "month": "2022-07",
-      "satuan_nama": "Box",
-      "qty": 30,
+      "qty_pcs": 1100,
       "nilai_jt": 2.5,
       "n_baris": 2
     },
     {
       "month": "2022-08",
-      "satuan_nama": "Box",
-      "qty": 500,
-      "nilai_jt": 14.9,
-      "n_baris": 1
-    },
-    {
-      "month": "2022-08",
-      "satuan_nama": "Pcs",
-      "qty": 80,
-      "nilai_jt": 0.4,
-      "n_baris": 1
+      "qty_pcs": 25080,
+      "nilai_jt": 15.2,
+      "n_baris": 2
     },
     {
       "month": "2022-09",
-      "satuan_nama": "Box",
-      "qty": 22,
-      "nilai_jt": 3.6,
-      "n_baris": 3
-    },
-    {
-      "month": "2022-09",
-      "satuan_nama": "Pcs",
-      "qty": 4480,
-      "nilai_jt": 19.9,
-      "n_baris": 3
+      "qty_pcs": 5580,
+      "nilai_jt": 23.5,
+      "n_baris": 6
     },
     {
       "month": "2022-10",
-      "satuan_nama": "Box",
-      "qty": 67,
+      "qty_pcs": 2750,
       "nilai_jt": 4.6,
       "n_baris": 8
     },
     {
       "month": "2022-11",
-      "satuan_nama": "Box",
-      "qty": 681,
-      "nilai_jt": 71.3,
-      "n_baris": 5
-    },
-    {
-      "month": "2022-11",
-      "satuan_nama": "Pcs",
-      "qty": 261,
-      "nilai_jt": 1.2,
-      "n_baris": 4
+      "qty_pcs": 33951,
+      "nilai_jt": 72.4,
+      "n_baris": 9
     },
     {
       "month": "2022-12",
-      "satuan_nama": "Box",
-      "qty": 29,
-      "nilai_jt": 0.5,
-      "n_baris": 5
-    },
-    {
-      "month": "2022-12",
-      "satuan_nama": "Pcs",
-      "qty": 200,
-      "nilai_jt": 0.9,
-      "n_baris": 1
-    },
-    {
-      "month": "2023-01",
-      "satuan_nama": "Box",
-      "qty": 79,
+      "qty_pcs": 1650,
       "nilai_jt": 1.4,
-      "n_baris": 4
+      "n_baris": 6
     },
     {
       "month": "2023-01",
-      "satuan_nama": "Pcs",
-      "qty": 100,
-      "nilai_jt": 0.4,
-      "n_baris": 2
+      "qty_pcs": 4050,
+      "nilai_jt": 1.8,
+      "n_baris": 6
     },
     {
       "month": "2023-02",
-      "satuan_nama": "Box",
-      "qty": 121,
-      "nilai_jt": 2.3,
-      "n_baris": 4
-    },
-    {
-      "month": "2023-02",
-      "satuan_nama": "Pcs",
-      "qty": 40,
-      "nilai_jt": 0.2,
-      "n_baris": 1
+      "qty_pcs": 6090,
+      "nilai_jt": 2.4,
+      "n_baris": 5
     },
     {
       "month": "2023-03",
-      "satuan_nama": "Box",
-      "qty": 385,
+      "qty_pcs": 18450,
       "nilai_jt": 14.3,
       "n_baris": 8
     },
     {
       "month": "2023-04",
-      "satuan_nama": "Box",
-      "qty": 420,
+      "qty_pcs": 21000,
       "nilai_jt": 5.3,
       "n_baris": 4
     },
     {
       "month": "2023-05",
-      "satuan_nama": "Box",
-      "qty": 73,
+      "qty_pcs": 3530,
       "nilai_jt": 1.3,
       "n_baris": 4
     },
     {
       "month": "2023-06",
-      "satuan_nama": "Box",
-      "qty": 656,
-      "nilai_jt": 9.2,
-      "n_baris": 8
-    },
-    {
-      "month": "2023-06",
-      "satuan_nama": "Pcs",
-      "qty": 100,
-      "nilai_jt": 0.4,
-      "n_baris": 1
+      "qty_pcs": 32900,
+      "nilai_jt": 9.7,
+      "n_baris": 9
     },
     {
       "month": "2023-07",
-      "satuan_nama": "Box",
-      "qty": 1035,
+      "qty_pcs": 51750,
       "nilai_jt": 14.5,
       "n_baris": 9
     },
     {
       "month": "2023-08",
-      "satuan_nama": "Box",
-      "qty": 240,
+      "qty_pcs": 12000,
       "nilai_jt": 5.2,
       "n_baris": 6
     },
     {
       "month": "2023-09",
-      "satuan_nama": "Box",
-      "qty": 181,
+      "qty_pcs": 9050,
       "nilai_jt": 2.7,
       "n_baris": 8
     },
     {
       "month": "2023-10",
-      "satuan_nama": "Box",
-      "qty": 655,
+      "qty_pcs": 31950,
       "nilai_jt": 17.6,
       "n_baris": 12
     },
     {
       "month": "2023-11",
-      "satuan_nama": "Box",
-      "qty": 1056,
-      "nilai_jt": 30.5,
-      "n_baris": 13
-    },
-    {
-      "month": "2023-11",
-      "satuan_nama": "Pcs",
-      "qty": 2455,
-      "nilai_jt": 10.7,
-      "n_baris": 1
+      "qty_pcs": 55255,
+      "nilai_jt": 41.2,
+      "n_baris": 14
     },
     {
       "month": "2023-12",
-      "satuan_nama": "Box",
-      "qty": 3527,
+      "qty_pcs": 176350,
       "nilai_jt": 67.4,
       "n_baris": 15
     },
     {
       "month": "2024-01",
-      "satuan_nama": "Box",
-      "qty": 654,
+      "qty_pcs": 32700,
       "nilai_jt": 9.3,
       "n_baris": 15
     },
     {
       "month": "2024-02",
-      "satuan_nama": "Box",
-      "qty": 466,
+      "qty_pcs": 23300,
       "nilai_jt": 6.4,
       "n_baris": 13
     },
     {
       "month": "2024-03",
-      "satuan_nama": "Box",
-      "qty": 223,
+      "qty_pcs": 11150,
       "nilai_jt": 2.9,
       "n_baris": 8
     },
     {
       "month": "2024-04",
-      "satuan_nama": "Box",
-      "qty": 453,
+      "qty_pcs": 22650,
       "nilai_jt": 6.9,
       "n_baris": 7
     },
     {
       "month": "2024-05",
-      "satuan_nama": "Box",
-      "qty": 628,
+      "qty_pcs": 31400,
       "nilai_jt": 8.7,
       "n_baris": 7
     },
     {
       "month": "2024-06",
-      "satuan_nama": "Box",
-      "qty": 425,
+      "qty_pcs": 21250,
       "nilai_jt": 7.1,
       "n_baris": 10
     },
     {
       "month": "2024-07",
-      "satuan_nama": "Box",
-      "qty": 1667,
-      "nilai_jt": 21.8,
-      "n_baris": 8
-    },
-    {
-      "month": "2024-07",
-      "satuan_nama": "Pcs",
-      "qty": 120,
-      "nilai_jt": 4.1,
-      "n_baris": 2
+      "qty_pcs": 83470,
+      "nilai_jt": 25.9,
+      "n_baris": 10
     },
     {
       "month": "2024-08",
-      "satuan_nama": "Box",
-      "qty": 492,
-      "nilai_jt": 6.9,
-      "n_baris": 15
-    },
-    {
-      "month": "2024-08",
-      "satuan_nama": "Pcs",
-      "qty": 100,
-      "nilai_jt": 4.0,
-      "n_baris": 1
-    },
-    {
-      "month": "2024-09",
-      "satuan_nama": "Box",
-      "qty": 637,
-      "nilai_jt": 13.7,
-      "n_baris": 13
-    },
-    {
-      "month": "2024-09",
-      "satuan_nama": "Pcs",
-      "qty": 140,
-      "nilai_jt": 4.8,
-      "n_baris": 2
-    },
-    {
-      "month": "2024-10",
-      "satuan_nama": "Box",
-      "qty": 848,
-      "nilai_jt": 22.5,
-      "n_baris": 18
-    },
-    {
-      "month": "2024-10",
-      "satuan_nama": "Pcs",
-      "qty": 100,
-      "nilai_jt": 4.0,
-      "n_baris": 1
-    },
-    {
-      "month": "2024-11",
-      "satuan_nama": "Box",
-      "qty": 602,
-      "nilai_jt": 16.5,
+      "qty_pcs": 24700,
+      "nilai_jt": 10.9,
       "n_baris": 16
     },
     {
-      "month": "2024-11",
-      "satuan_nama": "Pcs",
-      "qty": 120,
-      "nilai_jt": 4.8,
-      "n_baris": 1
-    },
-    {
-      "month": "2024-12",
-      "satuan_nama": "Box",
-      "qty": 877,
-      "nilai_jt": 13.9,
+      "month": "2024-09",
+      "qty_pcs": 31590,
+      "nilai_jt": 18.5,
       "n_baris": 15
     },
     {
+      "month": "2024-10",
+      "qty_pcs": 41500,
+      "nilai_jt": 26.5,
+      "n_baris": 19
+    },
+    {
+      "month": "2024-11",
+      "qty_pcs": 29420,
+      "nilai_jt": 21.3,
+      "n_baris": 17
+    },
+    {
       "month": "2024-12",
-      "satuan_nama": "Pcs",
-      "qty": 100,
-      "nilai_jt": 4.0,
-      "n_baris": 1
+      "qty_pcs": 43950,
+      "nilai_jt": 17.9,
+      "n_baris": 16
     },
     {
       "month": "2025-01",
-      "satuan_nama": "Box",
-      "qty": 215,
+      "qty_pcs": 10750,
       "nilai_jt": 5.1,
       "n_baris": 8
     },
     {
       "month": "2025-02",
-      "satuan_nama": "Box",
-      "qty": 350,
-      "nilai_jt": 7.1,
-      "n_baris": 11
-    },
-    {
-      "month": "2025-02",
-      "satuan_nama": "Pcs",
-      "qty": 260,
-      "nilai_jt": 10.4,
-      "n_baris": 2
+      "qty_pcs": 17760,
+      "nilai_jt": 17.5,
+      "n_baris": 13
     },
     {
       "month": "2025-03",
-      "satuan_nama": "Box",
-      "qty": 425,
+      "qty_pcs": 21250,
       "nilai_jt": 7.8,
       "n_baris": 10
     },
     {
       "month": "2025-04",
-      "satuan_nama": "Box",
-      "qty": 418,
-      "nilai_jt": 9.7,
-      "n_baris": 12
-    },
-    {
-      "month": "2025-04",
-      "satuan_nama": "Pcs",
-      "qty": 160,
-      "nilai_jt": 6.4,
-      "n_baris": 2
+      "qty_pcs": 21060,
+      "nilai_jt": 16.1,
+      "n_baris": 14
     },
     {
       "month": "2025-05",
-      "satuan_nama": "Box",
-      "qty": 145,
+      "qty_pcs": 7250,
       "nilai_jt": 3.6,
       "n_baris": 7
     },
     {
       "month": "2025-06",
-      "satuan_nama": "Box",
-      "qty": 310,
+      "qty_pcs": 15500,
       "nilai_jt": 7.5,
       "n_baris": 6
     },
     {
       "month": "2025-07",
-      "satuan_nama": "Box",
-      "qty": 50,
-      "nilai_jt": 1.2,
-      "n_baris": 3
-    },
-    {
-      "month": "2025-07",
-      "satuan_nama": "Pcs",
-      "qty": 1400,
-      "nilai_jt": 33.9,
-      "n_baris": 2
-    },
-    {
-      "month": "2025-08",
-      "satuan_nama": "Box",
-      "qty": 208,
-      "nilai_jt": 6.8,
+      "qty_pcs": 3900,
+      "nilai_jt": 35.1,
       "n_baris": 5
     },
     {
       "month": "2025-08",
-      "satuan_nama": "Pcs",
-      "qty": 1600,
-      "nilai_jt": 38.5,
-      "n_baris": 2
+      "qty_pcs": 12000,
+      "nilai_jt": 45.3,
+      "n_baris": 7
     },
     {
       "month": "2025-09",
-      "satuan_nama": "Box",
-      "qty": 90,
+      "qty_pcs": 4500,
       "nilai_jt": 1.8,
       "n_baris": 2
     },
     {
       "month": "2025-10",
-      "satuan_nama": "Box",
-      "qty": 105,
-      "nilai_jt": 11.9,
-      "n_baris": 5
-    },
-    {
-      "month": "2025-10",
-      "satuan_nama": "Pcs",
-      "qty": 100,
-      "nilai_jt": 3.8,
-      "n_baris": 1
+      "qty_pcs": 4350,
+      "nilai_jt": 15.7,
+      "n_baris": 6
     }
   ],
   "summary": {
@@ -774,6 +440,10 @@
       "2023-09"
     ],
     "n_bulan_baseline": 60,
-    "catatan": "Qty Box dan Pcs TIDAK bisa dijumlahkan langsung (1 box N95 isi ~20 pcs). Analisis dipisah per satuan. Nilai rupiah konsisten antar satuan."
+    "isi_box": {
+      "surgical": 50,
+      "n95": 10
+    },
+    "catatan": "Qty total masker dihitung dalam pcs: qty_box * isi_box + qty_pcs. Isi box: surgical/duckbill=50, N95/KN95=10 (dari user 28 Agu 2026). Nilai rupiah konsisten antar satuan."
   }
 }
