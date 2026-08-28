@@ -1,0 +1,606 @@
+{
+    "judul": "Tabel 3.14 Realisasi Anggaran Dinas Kesehatan Provinsi Sumatera Selatan Tahun 2023",
+    "data": [
+        {
+            "no": "I",
+            "program_kegiatan": "Program Penunjang Urusan Pemerintahan Daerah Provinsi",
+            "pagu_anggaran_rp": "93.734.513.986",
+            "realisasi_anggaran_rp": "81.563.703.808",
+            "capaian_persen": "87.02"
+        },
+        {
+            "no": "1.1",
+            "program_kegiatan": "Kegiatan Perencanaan, Penganggaran dan Evaluasi Kinerja Perangkat Daerah",
+            "pagu_anggaran_rp": "50.000.000",
+            "realisasi_anggaran_rp": "33.345.000",
+            "capaian_persen": "66.69"
+        },
+        {
+            "no": "1.1.1",
+            "program_kegiatan": "Subkegiatan Koordinasi dan Penyusunan Laporan Capaian Kinerja dan Ikhtisar Realisasi Kinerja SKPD",
+            "pagu_anggaran_rp": "50.000.000",
+            "realisasi_anggaran_rp": "33.345.000",
+            "capaian_persen": "66.69"
+        },
+        {
+            "no": "1.2",
+            "program_kegiatan": "Kegiatan Administrasi Keuangan Perangkat Daerah",
+            "pagu_anggaran_rp": "39.406.261.000",
+            "realisasi_anggaran_rp": "36.019.904.838",
+            "capaian_persen": "91.41"
+        },
+        {
+            "no": "1.2.1",
+            "program_kegiatan": "Subkegiatan Penyediaan Gaji dan Tunjangan ASN",
+            "pagu_anggaran_rp": "38.431.261.000",
+            "realisasi_anggaran_rp": "35.126.474.488",
+            "capaian_persen": "91.40"
+        },
+        {
+            "no": "1.2.2",
+            "program_kegiatan": "Subkegiatan Pelaksanaan Penatausahaan dan Pengujian/Verifikasi Keuangan SKPD",
+            "pagu_anggaran_rp": "800.000.000",
+            "realisasi_anggaran_rp": "719.040.000",
+            "capaian_persen": "89.88"
+        },
+        {
+            "no": "1.2.3",
+            "program_kegiatan": "Subkegiatan Koordinasi dan Penyusunan Laporan Keuangan Akhir Tahun SKPD",
+            "pagu_anggaran_rp": "175.000.000",
+            "realisasi_anggaran_rp": "174.390.350",
+            "capaian_persen": "99.65"
+        },
+        {
+            "no": "1.3",
+            "program_kegiatan": "Kegiatan Administrasi Barang Milik Daerah pada Perangkat Daerah",
+            "pagu_anggaran_rp": "135.000.000",
+            "realisasi_anggaran_rp": "95.786.913",
+            "capaian_persen": "70.95"
+        },
+        {
+            "no": "1.3.1",
+            "program_kegiatan": "Pengamanan Barang Milik Daerah SKPD",
+            "pagu_anggaran_rp": "135.000.000",
+            "realisasi_anggaran_rp": "95.786.913",
+            "capaian_persen": "70.95"
+        },
+        {
+            "no": "1.4",
+            "program_kegiatan": "Kegiatan Administrasi Kepegawaian Perangkat Daerah",
+            "pagu_anggaran_rp": "1.781.905.000",
+            "realisasi_anggaran_rp": "1.596.028.257",
+            "capaian_persen": "89.57"
+        },
+        {
+            "no": "1.4.1",
+            "program_kegiatan": "Subkegiatan Pendataan dan Pengolahan Administrasi Kepegawaian",
+            "pagu_anggaran_rp": "629.000.000",
+            "realisasi_anggaran_rp": "601.901.949",
+            "capaian_persen": "95.69"
+        },
+        {
+            "no": "1.4.2",
+            "program_kegiatan": "Subkegiatan Pendidikan dan Pelatihan Pegawai Berdasarkan Tugas dan Fungsi",
+            "pagu_anggaran_rp": "1.152.905.000",
+            "realisasi_anggaran_rp": "994.126.308",
+            "capaian_persen": "86.23"
+        },
+        {
+            "no": "1.5",
+            "program_kegiatan": "Kegiatan Administrasi Umum Perangkat Daerah",
+            "pagu_anggaran_rp": "4.918.767.500",
+            "realisasi_anggaran_rp": "4.561.086.080",
+            "capaian_persen": "92.73"
+        },
+        {
+            "no": "15.1",
+            "program_kegiatan": "Subkegiatan Penyediaan komponen instalasi listrik/penerangan bangunan kantor",
+            "pagu_anggaran_rp": "397.487.000",
+            "realisasi_anggaran_rp": "391.459.500",
+            "capaian_persen": "98.48"
+        },
+        {
+            "no": "1.5.2",
+            "program_kegiatan": "Subkegiatan Penyediaan Peralatan Rumah Tangga",
+            "pagu_anggaran_rp": "500.000.000",
+            "realisasi_anggaran_rp": "496.700.000",
+            "capaian_persen": "99.34"
+        },
+        {
+            "no": "15.3",
+            "program_kegiatan": "Subkegiatan Penyediaan Bahan Logistik Kantor",
+            "pagu_anggaran_rp": "1.020.621.500",
+            "realisasi_anggaran_rp": "840.305.164",
+            "capaian_persen": "82.33"
+        },
+        {
+            "no": "1.5.4",
+            "program_kegiatan": "Subkegiatan Penyediaan barang cetakan dan penggandaan",
+            "pagu_anggaran_rp": "419.759.000",
+            "realisasi_anggaran_rp": "405.197.500",
+            "capaian_persen": "96.53"
+        },
+        {
+            "no": "1.5.5",
+            "program_kegiatan": "Subkegiatan Penyediaan bahan bacaan dan peraturan perundang-undangan",
+            "pagu_anggaran_rp": "25.800.000",
+            "realisasi_anggaran_rp": "22.347.500",
+            "capaian_persen": "86.62"
+        },
+        {
+            "no": "1.5.6",
+            "program_kegiatan": "Subkegiatan Penyelenggaraan Rapat Koordinasi dan Konsultasi SKPD",
+            "pagu_anggaran_rp": "1.865.000.000",
+            "realisasi_anggaran_rp": "1.756.690.616",
+            "capaian_persen": "94.19"
+        },
+        {
+            "no": "1.5.7",
+            "program_kegiatan": "Subkegiatan Dukungan Pelaksanaan Sistem Pemerintahan Berbasis Elekronik pada SKPD",
+            "pagu_anggaran_rp": "690.100.000",
+            "realisasi_anggaran_rp": "648.385.800",
+            "capaian_persen": "93.96"
+        },
+        {
+            "no": "1.6",
+            "program_kegiatan": "Kegiatan Pengadaan Barang Milik Daerah Penunjang Urusan Pemerintah Daerah",
+            "pagu_anggaran_rp": "11.015.647.600",
+            "realisasi_anggaran_rp": "9.676.761.394",
+            "capaian_persen": "87.85"
+        },
+        {
+            "no": "1.6.1",
+            "program_kegiatan": "Subkegiatan Pengadaan Kendaraan Dinas Operasional atau Lapangan",
+            "pagu_anggaran_rp": "1.335.000.000",
+            "realisasi_anggaran_rp": "1.255.950.000",
+            "capaian_persen": "94.08"
+        },
+        {
+            "no": "1.6.2",
+            "program_kegiatan": "Subkegiatan Pengadaan Peralatan dan Mesin lainnya",
+            "pagu_anggaran_rp": "4.380.647.600",
+            "realisasi_anggaran_rp": "3.527.493.344",
+            "capaian_persen": "80.52"
+        },
+        {
+            "no": "1.6.3",
+            "program_kegiatan": "Subkegiatan Pengadaan Gedung Kantor atau Bangunan Lainnya",
+            "pagu_anggaran_rp": "5.300.000.000",
+            "realisasi_anggaran_rp": "4.893.318.050",
+            "capaian_persen": "92.33"
+        },
+        {
+            "no": "1.7",
+            "program_kegiatan": "Kegiatan Penyediaan Jasa Penunjang Urusan Pemerintahan Daerah",
+            "pagu_anggaran_rp": "14.127.874.600",
+            "realisasi_anggaran_rp": "11.749.034.444",
+            "capaian_persen": "83.16"
+        },
+        {
+            "no": "1.7.1",
+            "program_kegiatan": "Penyediaan Jasa Surat Menyurat",
+            "pagu_anggaran_rp": "31.000.000",
+            "realisasi_anggaran_rp": "11.789.000",
+            "capaian_persen": "38.03"
+        },
+        {
+            "no": "1.7.2",
+            "program_kegiatan": "Penyediaan Jasa Komunikasi, Sumber Daya Air dan Listrik",
+            "pagu_anggaran_rp": "3.441.220.000",
+            "realisasi_anggaran_rp": "2.406.803.794",
+            "capaian_persen": "69.94"
+        },
+        {
+            "no": "1.7.3",
+            "program_kegiatan": "Subkegiatan Penyediaan Jasa Umum Kantor",
+            "pagu_anggaran_rp": "10.655.654.600",
+            "realisasi_anggaran_rp": "9.330.441.650",
+            "capaian_persen": "87.56"
+        },
+        {
+            "no": "1.8",
+            "program_kegiatan": "Kegiatan Pemeliharaan Barang Milik Daerah Penunjang Urusan Pemerintahan Daerah",
+            "pagu_anggaran_rp": "17.600.039.582",
+            "realisasi_anggaran_rp": "13.805.218.121,7",
+            "capaian_persen": "78.44"
+        },
+        {
+            "no": "1.8.1",
+            "program_kegiatan": "Subkegiatan Penyediaan Jasa Pemeliharaan,Biaya Pemeliharaan dan Pajak Kendaraan Perorangan Dinas atau Kendaraan Dinas Jabatan",
+            "pagu_anggaran_rp": "2.308.912.000",
+            "realisasi_anggaran_rp": "2.288.602.500",
+            "capaian_persen": "99.12"
+        },
+        {
+            "no": "1.8.2",
+            "program_kegiatan": "Subkegiatan Pemeliharaan/ Rehabilitasi Gedung Kantor dan Bangunan Lainnya",
+            "pagu_anggaran_rp": "14.514.648.282",
+            "realisasi_anggaran_rp": "10.753.984.221,7",
+            "capaian_persen": "74.09"
+        },
+        {
+            "no": "1.8.3",
+            "program_kegiatan": "Subkegiatan Pemeliharaan/ Rehabilitasi Sarana dan Prasarana Gedung Kantor atau Bangunan Lainnya",
+            "pagu_anggaran_rp": "776.479.300",
+            "realisasi_anggaran_rp": "762.631.400",
+            "capaian_persen": "98.22"
+        },
+        {
+            "no": "1.9",
+            "program_kegiatan": "Kegiatan Peningkatan Pelayanan BLUD",
+            "pagu_anggaran_rp": "4.699.018.704",
+            "realisasi_anggaran_rp": "4.026.538.760",
+            "capaian_persen": "85.69"
+        },
+        {
+            "no": "1.9.1",
+            "program_kegiatan": "Subkegiatan Pelayanan dan Penunjang Pelayanan BLUD",
+            "pagu_anggaran_rp": "4.699.018.704",
+            "realisasi_anggaran_rp": "4.026.538.760",
+            "capaian_persen": "85.69"
+        },
+        {
+            "no": "II",
+            "program_kegiatan": "PROGRAM PEMENUHAN UPAYA KESEHATAN PERORANGAN DAN UPAYA KESEHATAN MASYARAKAT",
+            "pagu_anggaran_rp": "202.504.645.341",
+            "realisasi_anggaran_rp": "164.232.163.387,57",
+            "capaian_persen": "81.10"
+        },
+        {
+            "no": "2.1",
+            "program_kegiatan": "Kegiatan Penyediaan Fasilitas Pelayanan, Sarana, Prasarana dan Alat Kesehatan untuk UKP Rujukan, UKM dan UKM Rujukan Tingkat Daerah Provinsi",
+            "pagu_anggaran_rp": "19.005.090.300",
+            "realisasi_anggaran_rp": "17.517.848.753,57",
+            "capaian_persen": "92.17"
+        },
+        {
+            "no": "2.1.1",
+            "program_kegiatan": "Subkegiatan Pengembangan Fasilitas Kesehatan Lainnya",
+            "pagu_anggaran_rp": "192.721.300",
+            "realisasi_anggaran_rp": "192.721.300",
+            "capaian_persen": "100"
+        },
+        {
+            "no": "2.1.2",
+            "program_kegiatan": "Subkegiatan Pengadaan Prasarana Fasilitas Layanan Kesehatan",
+            "pagu_anggaran_rp": "1.500.000.000",
+            "realisasi_anggaran_rp": "1.497.593.570",
+            "capaian_persen": "99.84"
+        },
+        {
+            "no": "2.1.3",
+            "program_kegiatan": "Subkegiatan Pengadaan dan Pemeliharaan Alat Kalibrasi",
+            "pagu_anggaran_rp": "100.000.000",
+            "realisasi_anggaran_rp": "0",
+            "capaian_persen": "0"
+        },
+        {
+            "no": "2.1.4",
+            "program_kegiatan": "Subkegiatan Pengadaan Obat, Vaksin, Makanan dan Minuman serta Fasilitas Kesehatan Lainnya",
+            "pagu_anggaran_rp": "1.227.225.000",
+            "realisasi_anggaran_rp": "1.191.499.739",
+            "capaian_persen": "97.09"
+        },
+        {
+            "no": "2.1.5",
+            "program_kegiatan": "Subkegiatan Pengadaan Obat, Vaksin, Makanan dan Minuman serta Fasilitas Kesehatan Lainnya",
+            "pagu_anggaran_rp": "15.985.144.000",
+            "realisasi_anggaran_rp": "14.636.034.144,57",
+            "capaian_persen": "91.56"
+        },
+        {
+            "no": "2.2",
+            "program_kegiatan": "Kegiatan Penyediaan Layanan Kesehatan untuk UKP Rujukan, UKM dan UKM Rujukan Tingkat Daerah Provinsi",
+            "pagu_anggaran_rp": "181.028.870.041",
+            "realisasi_anggaran_rp": "144.479.585.306",
+            "capaian_persen": "79.81"
+        },
+        {
+            "no": "2.2.1",
+            "program_kegiatan": "Subkegiatan Pengelolaan Pelayanan Kesehatan bagi Penduduk Terdampak Krisis Kesehatan Akibat Bencana dan/atau Berpotensi Bencana",
+            "pagu_anggaran_rp": "872.593.500",
+            "realisasi_anggaran_rp": "751.217.375",
+            "capaian_persen": "86.09"
+        },
+        {
+            "no": "2.2.2",
+            "program_kegiatan": "Subkegiatan Pengelolaan Pelayanan Kesehatan bagi Penduduk pada Kondisi Kejadian Luar Biasa (KLB)",
+            "pagu_anggaran_rp": "653.610.000",
+            "realisasi_anggaran_rp": "413.636.750",
+            "capaian_persen": "63.28"
+        },
+        {
+            "no": "2.2.3",
+            "program_kegiatan": "Subkegiatan Pengelolaan Pelayanan Kesehatan Ibu dan Anak",
+            "pagu_anggaran_rp": "1.881.054.000",
+            "realisasi_anggaran_rp": "1.586.327.440",
+            "capaian_persen": "84.33"
+        },
+        {
+            "no": "2.2.4",
+            "program_kegiatan": "Subkegiatan Pengelolaan Pelayanan Kesehatan Usia Produktif",
+            "pagu_anggaran_rp": "1.129.030.200",
+            "realisasi_anggaran_rp": "1.035.392.437",
+            "capaian_persen": "91.71"
+        },
+        {
+            "no": "2.2.5",
+            "program_kegiatan": "Subkegiatan Pengelolaan Pelayanan Kesehatan Usia Lanjut",
+            "pagu_anggaran_rp": "145.627.000",
+            "realisasi_anggaran_rp": "127.013.310",
+            "capaian_persen": "87.22"
+        },
+        {
+            "no": "2.2.6",
+            "program_kegiatan": "Subkegiatan Pengelolaan Pelayanan Kesehatan Gizi Masyarakat",
+            "pagu_anggaran_rp": "3.484.853.896",
+            "realisasi_anggaran_rp": "3.217.175.258",
+            "capaian_persen": "92.32"
+        },
+        {
+            "no": "2.2.7",
+            "program_kegiatan": "Subkegiatan Pengelolaan Pelayanan Kesehatan Kerja dan Olahraga",
+            "pagu_anggaran_rp": "3.346.116.000",
+            "realisasi_anggaran_rp": "2.497.404.557",
+            "capaian_persen": "74.64"
+        },
+        {
+            "no": "2.2.8",
+            "program_kegiatan": "Subkegiatan Pengelolaan Pelayanan Kesehatan Lingkungan",
+            "pagu_anggaran_rp": "1.050.269.148",
+            "realisasi_anggaran_rp": "1.029.649.527",
+            "capaian_persen": "98.04"
+        },
+        {
+            "no": "2.2.9",
+            "program_kegiatan": "Subkegiatan Pengelolaan Pelayanan Promosi Kesehatan",
+            "pagu_anggaran_rp": "265.940.000",
+            "realisasi_anggaran_rp": "248.232.000",
+            "capaian_persen": "93.34"
+        },
+        {
+            "no": "2.2.10",
+            "program_kegiatan": "Subkegiatan Pengelolaan Pelayanan Kesehatan Tradisional, Akupuntur, Asuhan Mandiri dan Tradisional Lainnya",
+            "pagu_anggaran_rp": "176.333.000",
+            "realisasi_anggaran_rp": "174.798.000",
+            "capaian_persen": "99.13"
+        },
+        {
+            "no": "2.2.11",
+            "program_kegiatan": "Subkegiatan Pengelolaan Pelayanan Kesehatan Penyakit Menular dan Tidak Menular",
+            "pagu_anggaran_rp": "3.671.953.000",
+            "realisasi_anggaran_rp": "3.506.371.901",
+            "capaian_persen": "95.49"
+        },
+        {
+            "no": "2.2.12",
+            "program_kegiatan": "Subkegiatan Pengelolaan Pelayanan Kesehatan Haji",
+            "pagu_anggaran_rp": "102.666.000",
+            "realisasi_anggaran_rp": "102.313.000",
+            "capaian_persen": "99.66"
+        },
+        {
+            "no": "2.2.13",
+            "program_kegiatan": "Subkegiatan Pengelolaan Pelayanan Kesehatan Orang dengan Masalah Kesehatan Jiwa (ODMK)",
+            "pagu_anggaran_rp": "477.707.000",
+            "realisasi_anggaran_rp": "247.049.000",
+            "capaian_persen": "51.72"
+        },
+        {
+            "no": "2.2.14",
+            "program_kegiatan": "Subkegiatan Pengelolaan Pelayanan Kesehatan Khusus",
+            "pagu_anggaran_rp": "3.631.222.000",
+            "realisasi_anggaran_rp": "3.505.597.850",
+            "capaian_persen": "96.54"
+        },
+        {
+            "no": "2.2.15",
+            "program_kegiatan": "Subkegiatan Pengelolaan Jaminan Kesehatan Masyarakat",
+            "pagu_anggaran_rp": "155.417.004.297",
+            "realisasi_anggaran_rp": "122.472.371.335",
+            "capaian_persen": "78.80"
+        },
+        {
+            "no": "2.2.16",
+            "program_kegiatan": "Subkegiatan Pengelolaan Surveilans Kesehatan",
+            "pagu_anggaran_rp": "392.500.000",
+            "realisasi_anggaran_rp": "351.126.306",
+            "capaian_persen": "89.46"
+        },
+        {
+            "no": "2.2.17",
+            "program_kegiatan": "Subkegiatan Koordinasi dan Sinkronisasi Penerapan SPM Bidang Kesehatan Lintas Kabupaten/Kota",
+            "pagu_anggaran_rp": "276.705.000",
+            "realisasi_anggaran_rp": "260.535.170",
+            "capaian_persen": "94.16"
+        },
+        {
+            "no": "2.2.18",
+            "program_kegiatan": "Subkegiatan Pembinaan Pelaksanaan Upaya Pelayanan Kesehatan",
+            "pagu_anggaran_rp": "1.229.100.000",
+            "realisasi_anggaran_rp": "837.924.648",
+            "capaian_persen": "68.17"
+        },
+        {
+            "no": "2.2.19",
+            "program_kegiatan": "Subkegiatan Verifikasi dan Penilaian Kelayakan Puskesmas dan Registrasi Puskesmas",
+            "pagu_anggaran_rp": "670.000.000",
+            "realisasi_anggaran_rp": "422.981.060",
+            "capaian_persen": "63.13"
+        },
+        {
+            "no": "2.2.20",
+            "program_kegiatan": "Subkegiatan Investigasi Lanjutan Kejadian Ikutan Pasca Imunisasi dan Pemberian Obat Massal oleh Kabupaten/Kota",
+            "pagu_anggaran_rp": "547.319.000",
+            "realisasi_anggaran_rp": "385.939.000",
+            "capaian_persen": "70.51"
+        },
+        {
+            "no": "2.2.21",
+            "program_kegiatan": "Subkegiatan Penyediaan dan Pengelolaan Sistem Penanganan Gawat Darurat Terpadu (SPGDT)",
+            "pagu_anggaran_rp": "995.400.000",
+            "realisasi_anggaran_rp": "918.038.562",
+            "capaian_persen": "92.23"
+        },
+        {
+            "no": "2.2.22",
+            "program_kegiatan": "Subkegiatan Pengelolaan Rujukan dan Rujuk Balik",
+            "pagu_anggaran_rp": "518.999.000",
+            "realisasi_anggaran_rp": "299.870.820",
+            "capaian_persen": "57.78"
+        },
+        {
+            "no": "2.2.23",
+            "program_kegiatan": "Subkegiatan Pengelolaan Pelayanan Kesehatan Dasar melalui Pendekatan Keluarga",
+            "pagu_anggaran_rp": "92.868.000",
+            "realisasi_anggaran_rp": "88.620.000",
+            "capaian_persen": "95.43"
+        },
+        {
+            "no": "2.3",
+            "program_kegiatan": "Kegiatan Penyelenggaraan Sistem Informasi Kesehatan secara Terintegrasi",
+            "pagu_anggaran_rp": "279.400.000",
+            "realisasi_anggaran_rp": "228.321.442",
+            "capaian_persen": "81.72"
+        },
+        {
+            "no": "2.3.1",
+            "program_kegiatan": "Subkegiatan Pengelolaan Sistem Informasi Kesehatan",
+            "pagu_anggaran_rp": "279.400.000",
+            "realisasi_anggaran_rp": "228.321.442",
+            "capaian_persen": "81.72"
+        },
+        {
+            "no": "2.4",
+            "program_kegiatan": "Kegiatan Penerbitan Izin Rumah Sakit Kelas B dan Fasilitas Pelayanan Kesehatan Tingkat Daerah Provinsi",
+            "pagu_anggaran_rp": "2.191.285.000",
+            "realisasi_anggaran_rp": "2.006.407.886",
+            "capaian_persen": "91.56"
+        },
+        {
+            "no": "2.4.1",
+            "program_kegiatan": "Subkegiatan Pengendalian dan Pengawasan serta Tindak Lanjut Perizinan Rumah Sakit Kelas B dan Fasilitas Pelayanan Kesehatan",
+            "pagu_anggaran_rp": "108.104.000",
+            "realisasi_anggaran_rp": "105.194.000",
+            "capaian_persen": "97.31"
+        },
+        {
+            "no": "2.4.2",
+            "program_kegiatan": "Subkegiatan Peningkatan Tata Kelola Rumah Sakit",
+            "pagu_anggaran_rp": "1.131.670.000",
+            "realisasi_anggaran_rp": "1.002.232.790",
+            "capaian_persen": "88.56"
+        },
+        {
+            "no": "2.4.3",
+            "program_kegiatan": "Subkegiatan Peningkatan Mutu Pelayanan Fasilitas Kesehatan",
+            "pagu_anggaran_rp": "951.511.000",
+            "realisasi_anggaran_rp": "898.981.096",
+            "capaian_persen": "94.48"
+        },
+        {
+            "no": "III",
+            "program_kegiatan": "PROGRAM PENINGKATAN KAPASITAS SUMBER DAYA MANUSIA KESEHATAN",
+            "pagu_anggaran_rp": "880.000.000",
+            "realisasi_anggaran_rp": "722.416.645",
+            "capaian_persen": "82.09"
+        },
+        {
+            "no": "3.1",
+            "program_kegiatan": "Kegiatan Perencanaan Kebutuhan Sumber Daya Manusia Kesehatan untuk UKM dan UKP Provinsi",
+            "pagu_anggaran_rp": "298.000.000",
+            "realisasi_anggaran_rp": "252.367.064",
+            "capaian_persen": "84.69"
+        },
+        {
+            "no": "3.1.1",
+            "program_kegiatan": "Subkegiatan Pemenuhan Kebutuhan SDMK",
+            "pagu_anggaran_rp": "170.000.000",
+            "realisasi_anggaran_rp": "126.006.607",
+            "capaian_persen": "74.12"
+        },
+        {
+            "no": "3.1.2",
+            "program_kegiatan": "Subkegiatan Distribusi dan Pemerataan Sumber Daya Manusia Kesehatan",
+            "pagu_anggaran_rp": "128.000.000",
+            "realisasi_anggaran_rp": "126.360.457",
+            "capaian_persen": "98.72"
+        },
+        {
+            "no": "3.2",
+            "program_kegiatan": "Kegiatan Pengembangan Mutu dan Peningkatan Kompetensi Teknis Sumber Daya Manusia Kesehatan Tingkat Daerah Provinsi",
+            "pagu_anggaran_rp": "582.000.000",
+            "realisasi_anggaran_rp": "470.049.581",
+            "capaian_persen": "80.76"
+        },
+        {
+            "no": "3.2.1",
+            "program_kegiatan": "Subkegiatan Pembinaan dan Pengawasan Sumber Daya Manusia Kesehatan",
+            "pagu_anggaran_rp": "582.000.000",
+            "realisasi_anggaran_rp": "470.049.581",
+            "capaian_persen": "80.76"
+        },
+        {
+            "no": "IV",
+            "program_kegiatan": "PROGRAM SEDIAAN FARMASI, ALAT KESEHATAN DAN MAKANAN DAN MINUMAN",
+            "pagu_anggaran_rp": "468.319.500",
+            "realisasi_anggaran_rp": "441.298.873",
+            "capaian_persen": "94.23"
+        },
+        {
+            "no": "4.1",
+            "program_kegiatan": "Kegiatan Penerbitan Pengakuan Pedagang Besar Farmasi (PBF) Cabang dan Cabang Penyalur Alat Kesehatan (PAK)",
+            "pagu_anggaran_rp": "468.319.500",
+            "realisasi_anggaran_rp": "441.298.873",
+            "capaian_persen": "94.23"
+        },
+        {
+            "no": "4.1.1",
+            "program_kegiatan": "Subkegiatan Penyediaan dan Pengelolaan Data Perizinan Pengakuan PBF Cabang dan Cabang PAK Berbasis Elekronik",
+            "pagu_anggaran_rp": "468.319.500",
+            "realisasi_anggaran_rp": "441.298.873",
+            "capaian_persen": "94.23"
+        },
+        {
+            "no": "V",
+            "program_kegiatan": "PROGRAM PEMBERDAYAAN MASYARAKAT BIDANG KESEHATAN",
+            "pagu_anggaran_rp": "6.791.649.000",
+            "realisasi_anggaran_rp": "6.297.376.471",
+            "capaian_persen": "92.72"
+        },
+        {
+            "no": "5.1",
+            "program_kegiatan": "Kegiatan Advokasi, Pemberdayaan, Kemitraan, Peningkatan Peran Serta Masyarakat dan Lintas Sektor Tingkat Daerah Provinsi",
+            "pagu_anggaran_rp": "5.266.649.000",
+            "realisasi_anggaran_rp": "4.990.592.300",
+            "capaian_persen": "94.76"
+        },
+        {
+            "no": "5.1.1",
+            "program_kegiatan": "Subkegiatan Peningkatan Upaya Advokasi Kesehatan, Pemberdayaan, Penggalangan Kemitraan, Peran Serta Masyarakat dan Lintas Sektor Tingkat Daerah Provinsi",
+            "pagu_anggaran_rp": "468.319.500",
+            "realisasi_anggaran_rp": "441.298.873",
+            "capaian_persen": "94.23"
+        },
+        {
+            "no": "5.2",
+            "program_kegiatan": "Kegiatan Pelaksanaan Komunikasi Informasi dan Edukasi (KIE) Perilaku Hidup Bersih dan Sehat dalam rangka Promotif Preventif Tingkat Daerah Provinsi",
+            "pagu_anggaran_rp": "1.525.000.000",
+            "realisasi_anggaran_rp": "1.306.784.171",
+            "capaian_persen": "85.69"
+        },
+        {
+            "no": "5.2.1",
+            "program_kegiatan": "Subkegiatan Penyelenggaraan Promosi Kesehatan dan Perilaku Hidup Bersih dan Sehat",
+            "pagu_anggaran_rp": "1.525.000.000",
+            "realisasi_anggaran_rp": "1.306.784.171",
+            "capaian_persen": "85.69"
+        }
+    ],
+    "total": {
+        "pagu_anggaran_rp": "304.379.127.827",
+        "realisasi_anggaran_rp": "253.256.959.184,27",
+        "capaian_persen": "83.20"
+    },
+    "sumber": "Subbag Keuangan Dinas Kesehatan Prov. Sumsel 2023"
+}

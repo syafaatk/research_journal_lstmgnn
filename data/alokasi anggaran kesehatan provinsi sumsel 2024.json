@@ -1,0 +1,117 @@
+{
+    "judul_tabel": "TABEL 20 ALOKASI ANGGARAN KESEHATAN PROVINSI SUMATERA SELATAN TAHUN 2024",
+    "sumber_data": "Sub Bagian Perencanaan, Evaluasi dan Pelaporan Dinkes Prov. Sumsel, 2025",
+    "alokasi_anggaran": [
+        {
+            "no": "1",
+            "sumber_biaya": "APBD KAB/KOTA",
+            "rupiah": "Rp0,00",
+            "persentase": "0,00",
+            "detail": [
+                {
+                    "item": "a. Belanja Pegawai",
+                    "rupiah": null
+                },
+                {
+                    "item": "b. Belanja Barang dan Jasa",
+                    "rupiah": null
+                },
+                {
+                    "item": "c. Belanja Modal",
+                    "rupiah": null
+                },
+                {
+                    "item": "d. Belanja Lainnya",
+                    "rupiah": null
+                },
+                {
+                    "item": "e. Dana Alokasi Khusus (DAK)",
+                    "rupiah": "Rp0,00",
+                    "sub_detail": [
+                        {
+                            "item": "DAK fisik",
+                            "rupiah": "Rp0,00",
+                            "rincian": [
+                                "1. Reguler",
+                                "2. Penugasan",
+                                "3. Afirmasi"
+                            ]
+                        },
+                        {
+                            "item": "DAK non fisik",
+                            "rupiah": "Rp0,00",
+                            "rincian": [
+                                "1. BOK",
+                                "2. Akreditasi",
+                                "3. Jampersal"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "no": "2",
+            "sumber_biaya": "APBD PROVINSI",
+            "rupiah": "Rp479.415.163.113,00",
+            "persentase": "98,54",
+            "detail": [
+                {
+                    "item": "a. Belanja Pegawai",
+                    "rupiah": "Rp164.515.393.570,00"
+                },
+                {
+                    "item": "b. Belanja Barang dan Jasa",
+                    "rupiah": "Rp283.038.838.533,00"
+                },
+                {
+                    "item": "c. Belanja Modal",
+                    "rupiah": "Rp16.185.343.010,00"
+                },
+                {
+                    "item": "d. Belanja Lainnya (Hibah)",
+                    "rupiah": "Rp4.081.055.000,00"
+                },
+                {
+                    "item": "e. Dana Alokasi Khusus (DAK) : BOK",
+                    "rupiah": "Rp11.594.533.000,00"
+                }
+            ]
+        },
+        {
+            "no": "3",
+            "sumber_biaya": "APBN",
+            "rupiah": "Rp7.107.496.000,00",
+            "persentase": "1,46",
+            "detail": [
+                {
+                    "item": "a. Dana Dekonsentrasi",
+                    "rupiah": "Rp7.107.496.000,00"
+                },
+                {
+                    "item": "b. Lain-lain (sebutkan), misal bansos kapitasi",
+                    "rupiah": null
+                }
+            ]
+        },
+        {
+            "no": "4",
+            "sumber_biaya": "PINJAMAN/HIBAH LUAR NEGERI (PHLN)",
+            "keterangan": "(sebutkan project dan sumber dananya)",
+            "rupiah": "Rp0,00",
+            "persentase": "0,00"
+        },
+        {
+            "no": "5",
+            "sumber_biaya": "SUMBER PEMERINTAH LAIN*",
+            "rupiah": "Rp0,00",
+            "persentase": "0,00"
+        }
+    ],
+    "ringkasan_keseluruhan": {
+        "total_anggaran_kesehatan": "Rp486.522.659.113,00",
+        "total_apbd": "Rp11.613.884.803.146,00",
+        "persentase_apbd_kesehatan_terhadap_apbd_provinsi": "4,2",
+        "anggaran_kesehatan_perkapita": "Rp486.522.627.888,67"
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "judul_tabel": "TABEL 20 ALOKASI ANGGARAN KESEHATAN",
+    "kolom": [
+        "NO",
+        "SUMBER BIAYA",
+        "Rupiah",
+        "%"
+    ],
+    "data": [
+        {
+            "no": "1",
+            "sumber_biaya": "APBD KAB/KOTA",
+            "rupiah": "Rp0,00",
+            "persentase": "0,00",
+            "rincian": [
+                {
+                    "keterangan": "a. Belanja Langsung",
+                    "rupiah": null
+                },
+                {
+                    "keterangan": "b. Belanja Tidak Langsung",
+                    "rupiah": null
+                },
+                {
+                    "keterangan": "c. Dana Alokasi Khusus (DAK)",
+                    "rupiah": "Rp0,00",
+                    "sub_rincian": [
+                        {
+                            "keterangan": "- DAK fisik",
+                            "rupiah": "Rp0,00",
+                            "detail": [
+                                "1. Reguler",
+                                "2. Penugasan",
+                                "3. Afirmasi"
+                            ]
+                        },
+                        {
+                            "keterangan": "- DAK non fisik",
+                            "rupiah": "Rp0,00",
+                            "detail": [
+                                "1. BOK",
+                                "2. Akreditasi",
+                                "3. Jampersal"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "no": "2",
+            "sumber_biaya": "APBD PROVINSI",
+            "rupiah": "Rp207.892.836.814,00",
+            "persentase": "93,08",
+            "rincian": [
+                {
+                    "keterangan": "a. Belanja Langsung",
+                    "rupiah": "Rp169.630.921.814,00"
+                },
+                {
+                    "keterangan": "b. Belanja Tidak Langsung",
+                    "rupiah": "Rp35.392.655.000,00"
+                },
+                {
+                    "keterangan": "c. Dana Alokasi Khusus (DAK) : BOK",
+                    "rupiah": "Rp2.869.260.000,00"
+                }
+            ]
+        },
+        {
+            "no": "3",
+            "sumber_biaya": "APBN",
+            "rupiah": "Rp15.452.776.000,00",
+            "persentase": "6,92",
+            "rincian": [
+                {
+                    "keterangan": "a. Dana Dekonsentrasi",
+                    "rupiah": "Rp15.452.776.000,00"
+                },
+                {
+                    "keterangan": "b. Lain-lain (sebutkan), misal bansos kapitasi",
+                    "rupiah": null
+                }
+            ]
+        },
+        {
+            "no": "4",
+            "sumber_biaya": "PINJAMAN/HIBAH LUAR NEGERI (PHLN)",
+            "rupiah": null,
+            "persentase": "0,00",
+            "keterangan_tambahan": "(sebutkan project dan sumber dananya)"
+        },
+        {
+            "no": "5",
+            "sumber_biaya": "SUMBER PEMERINTAH LAIN*",
+            "rupiah": null,
+            "persentase": "0,00"
+        }
+    ],
+    "ringkasan_dan_total": {
+        "total_anggaran_kesehatan": "Rp223.345.612.814,00",
+        "total_anggaran_daerah": "Rp10.634.451.400.140,00",
+        "persentase_anggaran_kesehatan": "2,1",
+        "anggaran_kesehatan_perkapita": "Rp223.345.608.725,68"
+    },
+    "sumber": "Sub Bagian Perencanaan, Evaluasi dan Pelaporan Dinkes Prov. Sumsel, 2023"
+}
