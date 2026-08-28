@@ -91,7 +91,7 @@ Data: `view_penjualan_detail data hingga oktober.xlsx` — 46.822 baris, 13.661 
 | masker | SELESAI (konversi ke pcs) | surgical=50, N95/KN95=10 |
 | handscoon | SELESAI (per-satuan) | isi box tidak diketahui dari data; normalisasi merek; qty per Box/Pair/Pack terpisah |
 | spuit | SELESAI (konversi ke pcs) | isi 100 pcs/box (rasio harga ~90-100x); produk khusus (pre-filled/insulin) di-exclude; normalisasi merek |
-| kassa | BELUM | - |
+| kassa | SELESAI (per produk) | Roll/Box/Pack adalah produk BERBEDA (Kassa roll, Kassa Steril box, Gauze Swab pack), bukan isi box sama; tidak ada konversi valid; analisis per nama x satuan |
 | plester | BELUM | - |
 
 ---

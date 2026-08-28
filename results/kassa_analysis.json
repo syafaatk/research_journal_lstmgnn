@@ -1,0 +1,468 @@
+{
+  "n_baris": 758,
+  "n_faktur": 576,
+  "nilai_total_jt": 1200.9,
+  "merek": {
+    "n_merek_asli": 5,
+    "n_merek_ternormalisasi": 5,
+    "selisih_pecah": 0,
+    "merek_top": {
+      "omega": 605,
+      "winner": 134,
+      "meddis": 15,
+      "onemed": 3,
+      "naritafarma": 1
+    }
+  },
+  "qty_per_satuan": [
+    {
+      "satuan": "Roll",
+      "n_baris": 326,
+      "qty": 28385.0,
+      "nilai_jt": 784.7,
+      "produk_utama": {
+        "kassa": 291,
+        "kassa gulung": 34,
+        "kassa hidrofil": 1
+      }
+    },
+    {
+      "satuan": "Box",
+      "n_baris": 288,
+      "qty": 63660.0,
+      "nilai_jt": 294.6,
+      "produk_utama": {
+        "kassa steril": 276,
+        "kassa hidrofil": 12
+      }
+    },
+    {
+      "satuan": "Pack",
+      "n_baris": 144,
+      "qty": 13793.0,
+      "nilai_jt": 121.6,
+      "produk_utama": {
+        "gauze swab": 131,
+        "kassa gulung": 7,
+        "x-ray gauze swab": 3
+      }
+    }
+  ],
+  "qty_per_produk": [
+    {
+      "nama_norm": "kassa",
+      "satuan_nama": "Roll",
+      "n_baris": 291,
+      "qty": 5396,
+      "nilai_jt": 677.4,
+      "hrg_med": NaN,
+      "harga_per_qty": 125529.0
+    },
+    {
+      "nama_norm": "kassa steril",
+      "satuan_nama": "Box",
+      "n_baris": 276,
+      "qty": 43665,
+      "nilai_jt": 192.0,
+      "hrg_med": NaN,
+      "harga_per_qty": 4398.0
+    },
+    {
+      "nama_norm": "gauze swab",
+      "satuan_nama": "Pack",
+      "n_baris": 131,
+      "qty": 13385,
+      "nilai_jt": 108.9,
+      "hrg_med": NaN,
+      "harga_per_qty": 8133.0
+    },
+    {
+      "nama_norm": "kassa hidrofil",
+      "satuan_nama": "Box",
+      "n_baris": 12,
+      "qty": 19995,
+      "nilai_jt": 102.6,
+      "hrg_med": NaN,
+      "harga_per_qty": 5132.0
+    },
+    {
+      "nama_norm": "kassa hidrofil",
+      "satuan_nama": "Roll",
+      "n_baris": 1,
+      "qty": 319,
+      "nilai_jt": 72.7,
+      "hrg_med": NaN,
+      "harga_per_qty": 228045.0
+    },
+    {
+      "nama_norm": "kassa gulung",
+      "satuan_nama": "Roll",
+      "n_baris": 34,
+      "qty": 22670,
+      "nilai_jt": 34.6,
+      "hrg_med": NaN,
+      "harga_per_qty": 1525.0
+    },
+    {
+      "nama_norm": "x-ray gauze swab",
+      "satuan_nama": "Pack",
+      "n_baris": 3,
+      "qty": 308,
+      "nilai_jt": 5.1,
+      "hrg_med": NaN,
+      "harga_per_qty": 16576.0
+    },
+    {
+      "nama_norm": "kassa lipat",
+      "satuan_nama": "Pack",
+      "n_baris": 2,
+      "qty": 22,
+      "nilai_jt": 4.3,
+      "hrg_med": NaN,
+      "harga_per_qty": 196200.0
+    },
+    {
+      "nama_norm": "kassa gulung",
+      "satuan_nama": "Pack",
+      "n_baris": 7,
+      "qty": 77,
+      "nilai_jt": 3.2,
+      "hrg_med": NaN,
+      "harga_per_qty": 41766.0
+    },
+    {
+      "nama_norm": "kassa",
+      "satuan_nama": "Pack",
+      "n_baris": 1,
+      "qty": 1,
+      "nilai_jt": 0.1,
+      "hrg_med": NaN,
+      "harga_per_qty": 67200.0
+    }
+  ],
+  "monthly_nilai": [
+    {
+      "month": "2020-07",
+      "nilai_jt": 1.0,
+      "n_baris": 4
+    },
+    {
+      "month": "2020-08",
+      "nilai_jt": 11.7,
+      "n_baris": 11
+    },
+    {
+      "month": "2020-09",
+      "nilai_jt": 10.7,
+      "n_baris": 8
+    },
+    {
+      "month": "2020-10",
+      "nilai_jt": 6.2,
+      "n_baris": 7
+    },
+    {
+      "month": "2020-11",
+      "nilai_jt": 16.4,
+      "n_baris": 8
+    },
+    {
+      "month": "2020-12",
+      "nilai_jt": 27.2,
+      "n_baris": 13
+    },
+    {
+      "month": "2021-01",
+      "nilai_jt": 16.5,
+      "n_baris": 7
+    },
+    {
+      "month": "2021-02",
+      "nilai_jt": 7.8,
+      "n_baris": 5
+    },
+    {
+      "month": "2021-03",
+      "nilai_jt": 11.1,
+      "n_baris": 7
+    },
+    {
+      "month": "2021-04",
+      "nilai_jt": 17.3,
+      "n_baris": 9
+    },
+    {
+      "month": "2021-05",
+      "nilai_jt": 36.1,
+      "n_baris": 14
+    },
+    {
+      "month": "2021-06",
+      "nilai_jt": 32.5,
+      "n_baris": 14
+    },
+    {
+      "month": "2021-07",
+      "nilai_jt": 27.3,
+      "n_baris": 19
+    },
+    {
+      "month": "2021-08",
+      "nilai_jt": 8.1,
+      "n_baris": 12
+    },
+    {
+      "month": "2021-09",
+      "nilai_jt": 94.3,
+      "n_baris": 15
+    },
+    {
+      "month": "2021-10",
+      "nilai_jt": 13.6,
+      "n_baris": 9
+    },
+    {
+      "month": "2021-11",
+      "nilai_jt": 19.2,
+      "n_baris": 13
+    },
+    {
+      "month": "2021-12",
+      "nilai_jt": 19.5,
+      "n_baris": 10
+    },
+    {
+      "month": "2022-01",
+      "nilai_jt": 18.6,
+      "n_baris": 10
+    },
+    {
+      "month": "2022-02",
+      "nilai_jt": 12.8,
+      "n_baris": 7
+    },
+    {
+      "month": "2022-03",
+      "nilai_jt": 17.5,
+      "n_baris": 10
+    },
+    {
+      "month": "2022-04",
+      "nilai_jt": 3.5,
+      "n_baris": 8
+    },
+    {
+      "month": "2022-05",
+      "nilai_jt": 14.3,
+      "n_baris": 14
+    },
+    {
+      "month": "2022-06",
+      "nilai_jt": 86.1,
+      "n_baris": 29
+    },
+    {
+      "month": "2022-07",
+      "nilai_jt": 36.7,
+      "n_baris": 25
+    },
+    {
+      "month": "2022-08",
+      "nilai_jt": 34.6,
+      "n_baris": 28
+    },
+    {
+      "month": "2022-09",
+      "nilai_jt": 13.4,
+      "n_baris": 8
+    },
+    {
+      "month": "2022-10",
+      "nilai_jt": 7.8,
+      "n_baris": 8
+    },
+    {
+      "month": "2022-11",
+      "nilai_jt": 29.8,
+      "n_baris": 18
+    },
+    {
+      "month": "2022-12",
+      "nilai_jt": 10.8,
+      "n_baris": 8
+    },
+    {
+      "month": "2023-01",
+      "nilai_jt": 21.1,
+      "n_baris": 11
+    },
+    {
+      "month": "2023-02",
+      "nilai_jt": 28.7,
+      "n_baris": 18
+    },
+    {
+      "month": "2023-03",
+      "nilai_jt": 21.8,
+      "n_baris": 17
+    },
+    {
+      "month": "2023-04",
+      "nilai_jt": 18.3,
+      "n_baris": 11
+    },
+    {
+      "month": "2023-05",
+      "nilai_jt": 27.1,
+      "n_baris": 23
+    },
+    {
+      "month": "2023-06",
+      "nilai_jt": 36.9,
+      "n_baris": 14
+    },
+    {
+      "month": "2023-07",
+      "nilai_jt": 44.0,
+      "n_baris": 25
+    },
+    {
+      "month": "2023-08",
+      "nilai_jt": 25.8,
+      "n_baris": 22
+    },
+    {
+      "month": "2023-09",
+      "nilai_jt": 41.1,
+      "n_baris": 32
+    },
+    {
+      "month": "2023-10",
+      "nilai_jt": 45.6,
+      "n_baris": 29
+    },
+    {
+      "month": "2023-11",
+      "nilai_jt": 33.4,
+      "n_baris": 29
+    },
+    {
+      "month": "2023-12",
+      "nilai_jt": 13.2,
+      "n_baris": 15
+    },
+    {
+      "month": "2024-01",
+      "nilai_jt": 27.4,
+      "n_baris": 25
+    },
+    {
+      "month": "2024-02",
+      "nilai_jt": 20.1,
+      "n_baris": 18
+    },
+    {
+      "month": "2024-03",
+      "nilai_jt": 13.2,
+      "n_baris": 7
+    },
+    {
+      "month": "2024-04",
+      "nilai_jt": 7.0,
+      "n_baris": 14
+    },
+    {
+      "month": "2024-05",
+      "nilai_jt": 12.5,
+      "n_baris": 8
+    },
+    {
+      "month": "2024-06",
+      "nilai_jt": 6.9,
+      "n_baris": 9
+    },
+    {
+      "month": "2024-07",
+      "nilai_jt": 5.2,
+      "n_baris": 7
+    },
+    {
+      "month": "2024-08",
+      "nilai_jt": 15.2,
+      "n_baris": 8
+    },
+    {
+      "month": "2024-09",
+      "nilai_jt": 5.4,
+      "n_baris": 4
+    },
+    {
+      "month": "2024-10",
+      "nilai_jt": 0.6,
+      "n_baris": 3
+    },
+    {
+      "month": "2024-11",
+      "nilai_jt": 1.1,
+      "n_baris": 2
+    },
+    {
+      "month": "2024-12",
+      "nilai_jt": 10.7,
+      "n_baris": 9
+    },
+    {
+      "month": "2025-01",
+      "nilai_jt": 11.2,
+      "n_baris": 7
+    },
+    {
+      "month": "2025-02",
+      "nilai_jt": 2.0,
+      "n_baris": 1
+    },
+    {
+      "month": "2025-03",
+      "nilai_jt": 4.7,
+      "n_baris": 7
+    },
+    {
+      "month": "2025-04",
+      "nilai_jt": 1.8,
+      "n_baris": 2
+    },
+    {
+      "month": "2025-05",
+      "nilai_jt": 3.6,
+      "n_baris": 4
+    },
+    {
+      "month": "2025-06",
+      "nilai_jt": 1.8,
+      "n_baris": 3
+    },
+    {
+      "month": "2025-07",
+      "nilai_jt": 6.8,
+      "n_baris": 6
+    },
+    {
+      "month": "2025-08",
+      "nilai_jt": 3.7,
+      "n_baris": 3
+    },
+    {
+      "month": "2025-09",
+      "nilai_jt": 5.2,
+      "n_baris": 3
+    },
+    {
+      "month": "2025-10",
+      "nilai_jt": 15.8,
+      "n_baris": 4
+    }
+  ],
+  "summary": {
+    "catatan": "Roll/Box/Pack kassa adalah PRODUK BERBEDA (Kassa roll 40x80, Kassa Steril 16x16, Gauze Swab 10x10), bukan isi box yang sama. Tidak ada konversi satuan yang valid. Qty dianalisis per produk (nama x satuan) + nilai rupiah konsisten. Merek (kategori_nama) dinormalisasi."
+  }
+}
