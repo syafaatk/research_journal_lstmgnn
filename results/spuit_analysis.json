@@ -1,0 +1,455 @@
+{
+  "n_baris": 3477,
+  "n_faktur": 1764,
+  "isi_box_pcs": 100,
+  "n_baris_produk_khusus": 1,
+  "produk_khusus": {
+    "Bioglue Pre-Filled Syringe": 1
+  },
+  "merek": {
+    "n_merek_asli": 9,
+    "n_merek_ternormalisasi": 7,
+    "selisih_pecah": 2,
+    "merek_top": {
+      "toppoint": 3202,
+      "cosmomed": 214,
+      "kimsmed": 29,
+      "terumo": 21,
+      "onemed": 8,
+      "marwa": 1,
+      "hexacare": 1
+    }
+  },
+  "qty_total_pcs": 13395786.0,
+  "nilai_total_jt": 12360.0,
+  "qty_per_satuan": [
+    {
+      "satuan": "Box",
+      "n_baris": 242,
+      "qty_mentah": 10328.0,
+      "qty_pcs": 1032800.0,
+      "nilai_jt": 306.5
+    },
+    {
+      "satuan": "Pcs",
+      "n_baris": 3234,
+      "qty_mentah": 12362986.0,
+      "qty_pcs": 12362986.0,
+      "nilai_jt": 12053.5
+    }
+  ],
+  "qty_per_merek": [
+    {
+      "merek": "toppoint",
+      "n_baris": 3202,
+      "qty_pcs": 12301310,
+      "nilai_jt": 12003.0
+    },
+    {
+      "merek": "cosmomed",
+      "n_baris": 214,
+      "qty_pcs": 298800,
+      "nilai_jt": 197.5
+    },
+    {
+      "merek": "terumo",
+      "n_baris": 21,
+      "qty_pcs": 30300,
+      "nilai_jt": 98.7
+    },
+    {
+      "merek": "kimsmed",
+      "n_baris": 29,
+      "qty_pcs": 60475,
+      "nilai_jt": 46.7
+    },
+    {
+      "merek": "onemed",
+      "n_baris": 8,
+      "qty_pcs": 704700,
+      "nilai_jt": 13.7
+    },
+    {
+      "merek": "marwa",
+      "n_baris": 1,
+      "qty_pcs": 1,
+      "nilai_jt": 0.3
+    },
+    {
+      "merek": "hexacare",
+      "n_baris": 1,
+      "qty_pcs": 200,
+      "nilai_jt": 0.2
+    }
+  ],
+  "qty_per_cc": [
+    {
+      "cc": "3",
+      "n_baris": 823,
+      "qty_pcs": 4773916,
+      "nilai_jt": 3876.9
+    },
+    {
+      "cc": "10",
+      "n_baris": 770,
+      "qty_pcs": 3028645,
+      "nilai_jt": 2767.1
+    },
+    {
+      "cc": "5",
+      "n_baris": 638,
+      "qty_pcs": 2818662,
+      "nilai_jt": 2589.4
+    },
+    {
+      "cc": "1",
+      "n_baris": 491,
+      "qty_pcs": 1554352,
+      "nilai_jt": 1216.3
+    },
+    {
+      "cc": "50",
+      "n_baris": 508,
+      "qty_pcs": 165440,
+      "nilai_jt": 642.8
+    },
+    {
+      "cc": "20",
+      "n_baris": 209,
+      "qty_pcs": 144470,
+      "nilai_jt": 236.4
+    },
+    {
+      "cc": "30",
+      "n_baris": 1,
+      "qty_pcs": 1,
+      "nilai_jt": 0.3
+    }
+  ],
+  "monthly_pcs": [
+    {
+      "month": "2020-07",
+      "qty_pcs": 269200,
+      "nilai_jt": 271.6
+    },
+    {
+      "month": "2020-08",
+      "qty_pcs": 97045,
+      "nilai_jt": 82.5
+    },
+    {
+      "month": "2020-09",
+      "qty_pcs": 74060,
+      "nilai_jt": 68.0
+    },
+    {
+      "month": "2020-10",
+      "qty_pcs": 190525,
+      "nilai_jt": 156.4
+    },
+    {
+      "month": "2020-11",
+      "qty_pcs": 120095,
+      "nilai_jt": 106.2
+    },
+    {
+      "month": "2020-12",
+      "qty_pcs": 516575,
+      "nilai_jt": 413.8
+    },
+    {
+      "month": "2021-01",
+      "qty_pcs": 24925,
+      "nilai_jt": 21.0
+    },
+    {
+      "month": "2021-02",
+      "qty_pcs": 72810,
+      "nilai_jt": 64.5
+    },
+    {
+      "month": "2021-03",
+      "qty_pcs": 94305,
+      "nilai_jt": 87.3
+    },
+    {
+      "month": "2021-04",
+      "qty_pcs": 117035,
+      "nilai_jt": 109.3
+    },
+    {
+      "month": "2021-05",
+      "qty_pcs": 199000,
+      "nilai_jt": 163.1
+    },
+    {
+      "month": "2021-06",
+      "qty_pcs": 545675,
+      "nilai_jt": 416.3
+    },
+    {
+      "month": "2021-07",
+      "qty_pcs": 477026,
+      "nilai_jt": 394.1
+    },
+    {
+      "month": "2021-08",
+      "qty_pcs": 473550,
+      "nilai_jt": 406.3
+    },
+    {
+      "month": "2021-09",
+      "qty_pcs": 283450,
+      "nilai_jt": 223.2
+    },
+    {
+      "month": "2021-10",
+      "qty_pcs": 238085,
+      "nilai_jt": 200.7
+    },
+    {
+      "month": "2021-11",
+      "qty_pcs": 359575,
+      "nilai_jt": 313.1
+    },
+    {
+      "month": "2021-12",
+      "qty_pcs": 83000,
+      "nilai_jt": 89.7
+    },
+    {
+      "month": "2022-01",
+      "qty_pcs": 45975,
+      "nilai_jt": 47.2
+    },
+    {
+      "month": "2022-02",
+      "qty_pcs": 58250,
+      "nilai_jt": 63.0
+    },
+    {
+      "month": "2022-03",
+      "qty_pcs": 63250,
+      "nilai_jt": 66.9
+    },
+    {
+      "month": "2022-04",
+      "qty_pcs": 93990,
+      "nilai_jt": 102.1
+    },
+    {
+      "month": "2022-05",
+      "qty_pcs": 58525,
+      "nilai_jt": 64.0
+    },
+    {
+      "month": "2022-06",
+      "qty_pcs": 536295,
+      "nilai_jt": 568.6
+    },
+    {
+      "month": "2022-07",
+      "qty_pcs": 710175,
+      "nilai_jt": 695.6
+    },
+    {
+      "month": "2022-08",
+      "qty_pcs": 187735,
+      "nilai_jt": 204.8
+    },
+    {
+      "month": "2022-09",
+      "qty_pcs": 198650,
+      "nilai_jt": 222.0
+    },
+    {
+      "month": "2022-10",
+      "qty_pcs": 126200,
+      "nilai_jt": 139.7
+    },
+    {
+      "month": "2022-11",
+      "qty_pcs": 366700,
+      "nilai_jt": 394.9
+    },
+    {
+      "month": "2022-12",
+      "qty_pcs": 97050,
+      "nilai_jt": 101.4
+    },
+    {
+      "month": "2023-01",
+      "qty_pcs": 108375,
+      "nilai_jt": 118.7
+    },
+    {
+      "month": "2023-02",
+      "qty_pcs": 127950,
+      "nilai_jt": 135.8
+    },
+    {
+      "month": "2023-03",
+      "qty_pcs": 164250,
+      "nilai_jt": 172.9
+    },
+    {
+      "month": "2023-04",
+      "qty_pcs": 121150,
+      "nilai_jt": 120.0
+    },
+    {
+      "month": "2023-05",
+      "qty_pcs": 248475,
+      "nilai_jt": 269.6
+    },
+    {
+      "month": "2023-06",
+      "qty_pcs": 258075,
+      "nilai_jt": 270.8
+    },
+    {
+      "month": "2023-07",
+      "qty_pcs": 524085,
+      "nilai_jt": 504.9
+    },
+    {
+      "month": "2023-08",
+      "qty_pcs": 187825,
+      "nilai_jt": 188.2
+    },
+    {
+      "month": "2023-09",
+      "qty_pcs": 133880,
+      "nilai_jt": 143.8
+    },
+    {
+      "month": "2023-10",
+      "qty_pcs": 154185,
+      "nilai_jt": 156.8
+    },
+    {
+      "month": "2023-11",
+      "qty_pcs": 471180,
+      "nilai_jt": 494.5
+    },
+    {
+      "month": "2023-12",
+      "qty_pcs": 72925,
+      "nilai_jt": 76.6
+    },
+    {
+      "month": "2024-01",
+      "qty_pcs": 950350,
+      "nilai_jt": 270.1
+    },
+    {
+      "month": "2024-02",
+      "qty_pcs": 178975,
+      "nilai_jt": 183.5
+    },
+    {
+      "month": "2024-03",
+      "qty_pcs": 314140,
+      "nilai_jt": 315.5
+    },
+    {
+      "month": "2024-04",
+      "qty_pcs": 42500,
+      "nilai_jt": 46.5
+    },
+    {
+      "month": "2024-05",
+      "qty_pcs": 156055,
+      "nilai_jt": 151.5
+    },
+    {
+      "month": "2024-06",
+      "qty_pcs": 165000,
+      "nilai_jt": 177.9
+    },
+    {
+      "month": "2024-07",
+      "qty_pcs": 294050,
+      "nilai_jt": 299.9
+    },
+    {
+      "month": "2024-08",
+      "qty_pcs": 286300,
+      "nilai_jt": 268.2
+    },
+    {
+      "month": "2024-09",
+      "qty_pcs": 165100,
+      "nilai_jt": 162.2
+    },
+    {
+      "month": "2024-10",
+      "qty_pcs": 190835,
+      "nilai_jt": 223.1
+    },
+    {
+      "month": "2024-11",
+      "qty_pcs": 70980,
+      "nilai_jt": 73.2
+    },
+    {
+      "month": "2024-12",
+      "qty_pcs": 65775,
+      "nilai_jt": 70.1
+    },
+    {
+      "month": "2025-01",
+      "qty_pcs": 59225,
+      "nilai_jt": 62.3
+    },
+    {
+      "month": "2025-02",
+      "qty_pcs": 87800,
+      "nilai_jt": 108.5
+    },
+    {
+      "month": "2025-03",
+      "qty_pcs": 293975,
+      "nilai_jt": 193.0
+    },
+    {
+      "month": "2025-04",
+      "qty_pcs": 142575,
+      "nilai_jt": 164.4
+    },
+    {
+      "month": "2025-05",
+      "qty_pcs": 47800,
+      "nilai_jt": 60.5
+    },
+    {
+      "month": "2025-06",
+      "qty_pcs": 79175,
+      "nilai_jt": 101.4
+    },
+    {
+      "month": "2025-07",
+      "qty_pcs": 133625,
+      "nilai_jt": 159.8
+    },
+    {
+      "month": "2025-08",
+      "qty_pcs": 66475,
+      "nilai_jt": 76.1
+    },
+    {
+      "month": "2025-09",
+      "qty_pcs": 88340,
+      "nilai_jt": 103.6
+    },
+    {
+      "month": "2025-10",
+      "qty_pcs": 165650,
+      "nilai_jt": 179.2
+    }
+  ],
+  "summary": {
+    "isi_box_pcs": 100,
+    "catatan": "Konversi box->pcs dengan isi 100 pcs/box (dari rasio harga box/pcs ~90-100x, konsisten standar industri). Produk khusus (pre-filled/insulin/tuberculin) di-exclude dari konversi qty. Merek (kategori_nama) dinormalisasi."
+  }
+}
