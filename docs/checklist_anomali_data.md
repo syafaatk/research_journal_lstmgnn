@@ -10,9 +10,9 @@ Data: `view_penjualan_detail data hingga oktober.xlsx` — 46.822 baris, 13.661 
 
 | # | Anomali | Jumlah | Status | Dampak |
 |---|---|---|---|---|
-| 1 | Harga per qty ekstrem | 102 baris | **PERLU DITINDAKLANJUTI** | Tinggi |
+| 1 | Harga per qty ekstrem | 102 baris | **SELESAI** (sample/gratis + produk modal sah) | Diabaikan |
 | 2 | Qty negatif / retur | 0 | Bersih | - |
-| 3 | Jumlah=0 tapi qty>0 | 8 baris (6 faktur) | **PERLU KEPUTUSAN** | Rendah |
+| 3 | Jumlah=0 tapi qty>0 | 8 baris (6 faktur) | **SELESAI** (sample/gratis) | Diabaikan |
 | 4 | Duplikasi nofak | 42.170 baris | Normal (multi-baris item) | - |
 | 5 | Satuan campur produk kunci | 7 produk | **PERLU NORMALISASI** | Tinggi |
 | 6 | Nama barang pecah | 174 nama | **PERLU NORMALISASI** | Sedang |
@@ -22,16 +22,17 @@ Data: `view_penjualan_detail data hingga oktober.xlsx` — 46.822 baris, 13.661 
 
 ---
 
-## 1. Harga per qty ekstrem — PERLU DITINDAKLANJUTI
+## 1. Harga per qty ekstrem — SELESAI (tidak berdampak material)
 
 **Temuan:** 81 baris harga per qty <= 1 rupiah; 102 baris < 100 rupiah; 6 baris > 50 juta rupiah.
 
-**Risiko:** harga per qty ekstrem bisa jadi salah input (harga 1 rupiah jelas error) atau produk bernilai sangat tinggi yang sah. Jika dipakai untuk analisis produk bernilai tinggi / outlier, bisa menyesatkan.
+**Keputusan (28 Agu 2026):**
+- **81 baris harga <= 1 rupiah = sample/gratis** (bukan error input). Pola: Masker 1 rupiah/box, Hand Sanitizer 1 rupiah/botol, BloodLancets 3000 pcs jumlah=0. Ini barang diberikan dengan harga nominal/simbolis.
+  - 48 faktur terlibat; 40 di antaranya **sample murni** (semua baris nominal).
+  - Nilai total faktur sample murni = **8.376 rupiah** dari total 99,97 M = **0,000%**. Dampak ke agregasi nilai diabaikan.
+- **6 baris harga > 50 juta = produk modal (CAPITAL EQUIPMENT) yang sah**, bukan error: GeNose C19 (88,5 jt), Bubble Infant nCPAP (179 jt), Infant Warmer Giraffe (420 jt), Airvo Optiflow (152 jt), Blanketrol III (441 jt), Servis Juli 2024 (77,8 jt). Semua satuan Unit, kategori modal (GE, Medin, Fisher & Paykel, Gentherm). Sudah ditangani `scripts/expensive_products_analysis.py`.
 
-**Tindak lanjut:**
-- [ ] Periksa 81 baris harga <= 1 rupiah — apakah error input (qty salah, harga salah) atau sample/gratis.
-- [ ] Periksa 6 baris harga > 50 juta — apakah produk modal (CAPITAL_EQUIP) yang sah.
-- [ ] Putuskan apakah baris error di-exclude atau dikoreksi sebelum analisis produk.
+**Status:** Tidak perlu mengubah pipeline agregasi. Sample/gratis berdampak 0,000% nilai; produk modal adalah penjualan riil yang sah. Tidak ada baris yang perlu di-exclude/dikoreksi untuk analisis nilai.
 
 ---
 
@@ -43,15 +44,11 @@ Data: `view_penjualan_detail data hingga oktober.xlsx` — 46.822 baris, 13.661 
 
 ---
 
-## 3. Jumlah=0 tapi qty>0 — PERLU KEPUTUSAN
+## 3. Jumlah=0 tapi qty>0 — SELESAI (sample/gratis, dampak kecil)
 
-**Temuan:** 8 baris (6 faktur) dengan `jumlah` = 0 tapi `d_jual_qty` > 0, total qty 6.211. Ini kemungkinan barang sample/gratis (diberikan tanpa nilai).
+**Temuan:** 8 baris (6 faktur) dengan `jumlah` = 0 tapi `d_jual_qty` > 0, total qty 6.211. Ini barang sample/gratis (diberikan tanpa nilai): BloodLancets 3000, One Swabs 3000, Kantung Nafas 200, dll.
 
-**Risiko:** jika dihitung dalam agregasi qty, menambah qty tanpa nilai; jika dihitung nilai, tidak berpengaruh.
-
-**Tindak lanjut:**
-- [ ] Konfirmasi apakah baris ini sample/gratis.
-- [ ] Putuskan apakah di-exclude dari analisis qty (karena bukan penjualan riil).
+**Keputusan (28 Agu 2026):** Baris ini sample/gratis, bukan penjualan riil. Dampak ke agregasi qty kecil (6.211 unit dari total qty yang sangat besar) dan tidak berpengaruh ke agregasi nilai (jumlah=0). Tidak perlu di-exclude untuk analisis nilai; untuk analisis qty per produk, dampaknya diabaikan.
 
 ---
 
@@ -137,10 +134,10 @@ Data: `view_penjualan_detail data hingga oktober.xlsx` — 46.822 baris, 13.661 
 
 ## Prioritas Tindak Lanjut
 
-1. **Tinggi:** Normalisasi satuan produk kunci (#5) — pola masker terulang di handscoon, spuit, kassa, plester. Ini berdampak langsung pada analisis qty.
-2. **Tinggi:** Periksa harga per qty ekstrem (#1) — bisa mengganggu analisis produk bernilai tinggi.
-3. **Sedang:** Normalisasi nama barang (#6) — 174 nama pecah.
-4. **Rendah:** Keputusan baris sample/gratis (#3) dan tanggal null (#8).
+1. **Tinggi:** Normalisasi satuan produk kunci (#5) — SELESAI untuk semua 7 produk (masker, handscoon, spuit, kassa, plester, infusion_set, iv_catheter).
+2. **Tinggi:** Periksa harga per qty ekstrem (#1) — SELESAI. Sample/gratis (0,000% nilai) + produk modal sah; tidak perlu filter.
+3. **Sedang:** Normalisasi nama barang (#6) — 174 nama pecah. **Belum ditindaklanjuti.**
+4. **Rendah:** Keputusan baris sample/gratis (#3) — SELESAI (sample/gratis, dampak kecil) dan tanggal null (#8) — 2 baris, minor.
 
 ---
 
