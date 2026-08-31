@@ -138,7 +138,7 @@ Table 2 reports the Diebold-Mariano tests comparing each graph construction agai
 
 ### 4.3 The Distribution Topology Carries the Signal
 
-In contrast to the distance and correlation graphs, the distribution-network star achieves the best performance, significantly outperforming the distance graph (DM = -6.353, p < 0.001). This indicates that the real distribution topology carries predictive signal that geographic proximity does not. The mechanism is consistent with the data structure: because the distributor's hub is in Palembang, and all routes originate there, the star graph correctly encodes the flow of goods. Palembang is the dominant region (33 hospitals, 44% of the province's total), and connecting it to all other regions allows the model to propagate the hub's demand signal to the periphery.
+In contrast to the distance and correlation graphs, the distribution-network star achieves the best performance, significantly outperforming the distance graph (DM = -6.353, p < 0.001). This indicates that the real distribution topology carries predictive signal that geographic proximity does not. The mechanism is consistent with the data structure: because the distributor's hub is in Palembang, and all routes originate there, the star graph correctly encodes the flow of goods. Palembang is the dominant region (33 hospitals, 37% of the province's total), and connecting it to all other regions allows the model to propagate the hub's demand signal to the periphery.
 
 ### 4.4 Contribution of the COVID-19 Indicator
 

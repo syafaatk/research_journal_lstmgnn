@@ -10,7 +10,7 @@ khoirusysyafaat@students.uigm.ac.id, herri@uigm.ac.id
 
 ## ABSTRACT
 
-Graph neural networks (GNNs) for spatiotemporal forecasting often need to incorporate static regional attributes, such as the number of hospitals or the population of a region. These attributes are nearly constant within a forecasting window, so they cannot be injected as ordinary temporal input channels (they would be constant across the window and add no information). We investigate how to inject such static attributes effectively, using a zero-inflated hybrid LSTM-GNN model for regional medical device demand forecasting in South Sumatra, Indonesia. Adding the number of hospitals per region as a node attribute on the GCN path significantly improves the model in both configurations: base R-squared 0.0609 vs 0.0592 (Diebold-Mariano = -2.861, p = 0.004); tuned R-squared 0.0528 vs 0.0508 (DM = -6.037, p < 0.0001). Adding the region area does not help (R-squared 0.0609 = W2), and rolling mean/std features do not help (DM p = 0.763). The mechanism is that the number of hospitals is a proxy for regional healthcare capacity (Palembang has 33 hospitals, 44% of the province's total), which influences procurement patterns; injecting it via the GCN node embedding allows the model to reflect the healthcare infrastructure structure. We conclude that static regional attributes are best injected as node attributes on the GCN path, not as temporal input channels.
+Graph neural networks (GNNs) for spatiotemporal forecasting often need to incorporate static regional attributes, such as the number of hospitals or the population of a region. These attributes are nearly constant within a forecasting window, so they cannot be injected as ordinary temporal input channels (they would be constant across the window and add no information). We investigate how to inject such static attributes effectively, using a zero-inflated hybrid LSTM-GNN model for regional medical device demand forecasting in South Sumatra, Indonesia. Adding the number of hospitals per region as a node attribute on the GCN path significantly improves the model in both configurations: base R-squared 0.0609 vs 0.0592 (Diebold-Mariano = -2.861, p = 0.004); tuned R-squared 0.0528 vs 0.0508 (DM = -6.037, p < 0.0001). Adding the region area does not help (R-squared 0.0609 = W2), and rolling mean/std features do not help (DM p = 0.763). The mechanism is that the number of hospitals is a proxy for regional healthcare capacity (Palembang has 33 hospitals, 37% of the province's total), which influences procurement patterns; injecting it via the GCN node embedding allows the model to reflect the healthcare infrastructure structure. We conclude that static regional attributes are best injected as node attributes on the GCN path, not as temporal input channels.
 
 **Keywords:** Graph Neural Networks; Node Attributes; Spatiotemporal Forecasting; Zero-Inflated Data; Demand Forecasting; Static Features
 
@@ -106,7 +106,7 @@ Rolling mean/std features (7 and 30 days) do not help (DM p = 0.763). This is be
 
 ### 4.4 Mechanism
 
-The mechanism is that the number of hospitals is a proxy for regional healthcare capacity. Palembang has 33 hospitals (44% of the province's total), while other regions have 1-8 hospitals. The hospital count reflects the capacity that influences procurement patterns. Injecting it via the GCN node embedding allows the model to reflect the healthcare infrastructure structure, not just geographic proximity.
+The mechanism is that the number of hospitals is a proxy for regional healthcare capacity. Palembang has 33 hospitals (37% of the province's total), while other regions have 1-8 hospitals. The hospital count reflects the capacity that influences procurement patterns. Injecting it via the GCN node embedding allows the model to reflect the healthcare infrastructure structure, not just geographic proximity.
 
 ---
 
@@ -116,7 +116,7 @@ The mechanism is that the number of hospitals is a proxy for regional healthcare
 
 Our results show that static regional attributes are best injected as node attributes on the GCN path, not as temporal input channels. The hospital count, a proxy for regional healthcare capacity, significantly improves the model when injected as a node attribute. The region area and rolling features do not help.
 
-The mechanism is clear: the hospital count reflects the healthcare infrastructure that drives procurement. Palembang, with 33 hospitals, is the dominant region, and its demand dynamics are informative for the periphery. Injecting the hospital count via the GCN node embedding allows the model to reflect this structure.
+The mechanism is clear: the hospital count reflects the healthcare infrastructure that drives procurement. Palembang, with 33 hospitals (37% of the province's total), is the dominant region, and its demand dynamics are informative for the periphery. Injecting the hospital count via the GCN node embedding allows the model to reflect this structure.
 
 ### 5.2 Why Temporal Channels Fail
 

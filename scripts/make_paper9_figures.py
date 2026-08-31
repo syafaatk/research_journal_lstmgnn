@@ -80,7 +80,7 @@ for i, v in enumerate(hosp.values):
     ax.text(v + 0.2, i, str(v), va="center", fontsize=9)
 ax.set_xlabel("Number of hospitals")
 ax.set_title("Hospital Count per Region (2024)\n"
-             "Palembang: 33 hospitals (44% of province total); others 1-8")
+             "Palembang: 33 hospitals (37% of province total); others 1-8")
 ax.set_xlim(0, 38)
 plt.tight_layout()
 plt.savefig(os.path.join(FIGDIR, "fig2_hospitals_per_region.png"))

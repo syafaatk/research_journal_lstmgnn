@@ -10,7 +10,7 @@ khoirusysyafaat@students.uigm.ac.id, herri@uigm.ac.id
 
 ## ABSTRACT
 
-A common assumption in healthcare supply chains is that disease outbreaks drive medical device demand. We test this assumption for syringe purchasing in South Sumatra, Indonesia, using real distribution data (1,756 invoices, 12,372,163 units, IDR 12.34M). The syringe purchase peaks recur in July and November, following the fiscal cycle, not the epidemiological calendar. November 2023, a post-pandemic (endemic) month, was actually the highest at 242,303 units. The dengue test is not significant (pooled r = 0.058, p = 0.639; within-region r = 0.001), and the COVID test is not significant (Mann-Whitney p = 0.824). The context of Muara Enim, the largest syringe buyer, is a routine immunization program (pertussis and measles cases due to declining immunization coverage). We conclude that the fiscal calendar determines syringe purchasing more than epidemiology, challenging the assumption that outbreaks drive medical device demand.
+A common assumption in healthcare supply chains is that disease outbreaks drive medical device demand. We test this assumption for syringe purchasing in South Sumatra, Indonesia, using real distribution data (1,756 invoices, 12,372,163 units, IDR 12.34M). The syringe purchase peaks recur in July and November, following the fiscal cycle, not the epidemiological calendar. The highest peak (July 2022, 709,779 units) occurred in the mid-year fiscal cycle, not during the Omicron wave (January-February 2022, which had the lowest quantities); November 2023, a post-pandemic (endemic) month, reached 460,191 units, again not during an outbreak. The dengue test is not significant (pooled r = 0.048, p = 0.677; within-region r = 0.072, p = 0.536), and the COVID test is not significant (Mann-Whitney p = 0.614). The context of Muara Enim, the largest syringe buyer, is a routine immunization program (pertussis and measles cases due to declining immunization coverage). We conclude that the fiscal calendar determines syringe purchasing more than epidemiology, challenging the assumption that outbreaks drive medical device demand.
 
 **Keywords:** Syringe Procurement; Fiscal Cycle; Immunization; Outbreak; Medical Device Demand; Public Health
 
@@ -19,7 +19,7 @@ A common assumption in healthcare supply chains is that disease outbreaks drive 
 ## HIGHLIGHTS
 
 - Syringe purchase peaks recur in July and November (fiscal cycle)
-- November 2023 (endemic) was the highest at 242,303 units
+- The highest peak (July 2022, 709,779 units) is not tied to an outbreak
 - Dengue and COVID tests are not significant
 - Fiscal calendar determines syringe demand more than epidemiology
 - Challenges the assumption that outbreaks drive medical device demand
@@ -32,7 +32,7 @@ A common assumption in healthcare supply chains is that disease outbreaks drive 
 
 Syringes are a useful case because they are used in both routine services (immunization, injection) and outbreak response (vaccination campaigns, dengue treatment). If outbreaks drive demand, syringe purchases should spike during outbreak periods. If the fiscal calendar drives demand, syringe purchases should follow the budget cycle.
 
-We use real distribution data from a medical device distributor in South Sumatra. We show that syringe purchase peaks recur in July and November, following the fiscal cycle, not the epidemiological calendar. November 2023, a post-pandemic (endemic) month, was actually the highest at 242,303 units. The dengue and COVID tests are not significant. We conclude that the fiscal calendar determines syringe purchasing more than epidemiology.
+We use real distribution data from a medical device distributor in South Sumatra. We show that syringe purchase peaks recur in July and November, following the fiscal cycle, not the epidemiological calendar. The highest peak (July 2022, 709,779 units) occurred in the mid-year fiscal cycle, not during the Omicron wave (January-February 2022, which had the lowest quantities); November 2023, a post-pandemic (endemic) month, reached 460,191 units, again not during an outbreak. The dengue and COVID tests are not significant. We conclude that the fiscal calendar determines syringe purchasing more than epidemiology.
 
 The main contributions of this paper are as follows. First, we challenge the assumption that outbreaks drive medical device demand. Second, we provide evidence that the fiscal calendar determines syringe purchasing. Third, we provide a short, focused analysis suitable for a research note.
 
@@ -84,17 +84,17 @@ We analyze the monthly distribution of syringe purchases to identify recurring p
 
 Syringe purchases show recurring peaks in July and November, following the fiscal cycle. The mass procurement (quantity >= 10,000 per line item) is spread across 2020-2025 with consistent mid-year peaks (June-July, the start of the fiscal year) plus a December surge (end of the fiscal year). This is a government procurement pattern.
 
-### 4.2 November 2023 Was the Highest
+### 4.2 The Highest Peak Is Not Tied to an Outbreak
 
-November 2023, a post-pandemic (endemic) month, was the highest at 242,303 units. This is inconsistent with the outbreak-driven demand assumption: if outbreaks drove demand, the peak should occur during an outbreak, not during an endemic month.
+The highest peak (July 2022, 709,779 units) occurred in the mid-year fiscal cycle, not during the Omicron wave (January-February 2022), which had the lowest syringe quantities (37,659 and 57,854 units). November 2023, a post-pandemic (endemic) month, reached 460,191 units, again not during an outbreak. This is inconsistent with the outbreak-driven demand assumption: if outbreaks drove demand, the peaks should occur during outbreaks, not during non-outbreak months.
 
 ### 4.3 Dengue Test Is Not Significant
 
-The dengue test is not significant: pooled r = 0.058 (p = 0.639) and within-region r = 0.001. The highest dengue year (2024, 70.4/100k) is not the highest syringe year; the highest syringe year (2021) had the lowest dengue (13.4/100k).
+The dengue test is not significant: pooled r = 0.048 (p = 0.677) and within-region r = 0.072 (p = 0.536). The highest dengue year (2024, 70.4/100k) is not the highest syringe year; the highest syringe year (2021) had the lowest dengue (13.4/100k).
 
 ### 4.4 COVID Test Is Not Significant
 
-The COVID test is not significant: the pandemic phase (July 2020-December 2022) has a mean of 220,398 units/month vs 169,418 units/month in the endemic phase, but the Mann-Whitney test gives p = 0.824 and the Spearman correlation is r = 0.064 (p = 0.613). The highest peak (July 2022, 709,779 units) is not during the Omicron wave (January-February 2022), which had the lowest syringe quantities (37,659 and 57,854 units).
+The COVID test is not significant: the pandemic phase (July 2020-December 2022) has a mean of 220,398 units/month vs 169,418 units/month in the endemic phase, but the Mann-Whitney test gives p = 0.614 and the Spearman correlation is r = 0.064 (p = 0.613). The highest peak (July 2022, 709,779 units) is not during the Omicron wave (January-February 2022), which had the lowest syringe quantities (37,659 and 57,854 units).
 
 ### 4.5 The Muara Enim Context
 
@@ -106,7 +106,7 @@ Muara Enim, the largest syringe buyer, provides the context. Its 2023 health cas
 
 ### 5.1 Interpretation
 
-Our results challenge the assumption that outbreaks drive medical device demand. Syringe purchases follow the fiscal calendar, with recurring peaks in July and November, and the highest month (November 2023) was an endemic month. The dengue and COVID tests are not significant.
+Our results challenge the assumption that outbreaks drive medical device demand. Syringe purchases follow the fiscal calendar, with recurring peaks in July and November, and the highest peak (July 2022, 709,779 units) occurred in the mid-year fiscal cycle rather than during the Omicron wave; November 2023 (an endemic month) also reached 460,191 units without an outbreak. The dengue and COVID tests are not significant.
 
 The mechanism is clear: syringe procurement is driven by routine immunization and service programs, which follow the budget cycle, not by outbreak response. The Muara Enim context confirms this: the syringe procurement is related to routine immunization, not to outbreak response.
 
@@ -126,7 +126,7 @@ Future work should evaluate the fiscal-cycle pattern in additional product categ
 
 ## 6. CONCLUSION
 
-We tested the assumption that outbreaks drive medical device demand, using syringe purchasing in South Sumatra. Syringe purchase peaks recur in July and November, following the fiscal cycle, and November 2023 (an endemic month) was the highest at 242,303 units. The dengue and COVID tests are not significant. We conclude that the fiscal calendar determines syringe purchasing more than epidemiology, challenging the assumption that outbreaks drive medical device demand.
+We tested the assumption that outbreaks drive medical device demand, using syringe purchasing in South Sumatra. Syringe purchase peaks recur in July and November, following the fiscal cycle, and the highest peak (July 2022, 709,779 units) occurred in the mid-year fiscal cycle rather than during the Omicron wave; November 2023 (an endemic month) also reached 460,191 units without an outbreak. The dengue and COVID tests are not significant. We conclude that the fiscal calendar determines syringe purchasing more than epidemiology, challenging the assumption that outbreaks drive medical device demand.
 
 ---
 

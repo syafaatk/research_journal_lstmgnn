@@ -10,7 +10,7 @@ khoirusysyafaat@students.uigm.ac.id, herri@uigm.ac.id
 
 ## ABSTRACT
 
-Regional medical device demand is commonly assumed to follow regional budgets: regions that spend more on goods and services should buy more medical devices. We test this assumption using real distribution data from a medical device distributor in South Sumatra, Indonesia (16 regions, 2020-2025), combined with official statistics on healthcare infrastructure and regional budgets. Four layers of evidence are consistent. First, the number of hospitals correlates with 2024 sales (r = 0.669, p = 0.005) and with the 2025 model residual (r = 0.697, p = 0.003), surviving the exclusion of Palembang (r = 0.596) and controlling for population (partial r = 0.648). Second, bed capacity (r = 0.577) and patient volume (r = 0.522) are consistent. Third, injecting the hospital count as a node attribute in a graph neural network significantly improves prediction (base DM p = 0.004; tuned DM p < 0.0001), providing predictive rather than merely correlational evidence. Fourth, in contrast, goods-and-services expenditure is only a between-region scale effect (pooled r = 0.433 significant; within-region r = -0.112/0.103 not significant; official APBD 2025 r = 0.256, p = 0.338). We conclude that regional medical device demand follows healthcare infrastructure capacity, not the annual budget cycle, with a methodological warning about the pooled-correlation trap across regions.
+Regional medical device demand is commonly assumed to follow regional budgets: regions that spend more on goods and services should buy more medical devices. We test this assumption using real distribution data from a medical device distributor in South Sumatra, Indonesia (16 regions, 2020-2025), combined with official statistics on healthcare infrastructure and regional budgets. Four layers of evidence are consistent. First, the number of hospitals correlates with 2024 sales (r = 0.669, p = 0.005) and with the 2025 model residual (r = 0.697, p = 0.003), surviving the exclusion of Palembang (r = 0.596) and controlling for population (partial r = 0.648). Second, bed capacity (r = 0.577) and patient volume (r = 0.522) are consistent. Third, injecting the hospital count as a node attribute in a graph neural network significantly improves prediction (base DM p = 0.004; tuned DM p < 0.0001), providing predictive rather than merely correlational evidence. Fourth, in contrast, goods-and-services expenditure is only a between-region scale effect (pooled r = 0.345 significant; within-region r = 0.103 not significant; official APBD 2025 r = 0.256, p = 0.338). We conclude that regional medical device demand follows healthcare infrastructure capacity, not the annual budget cycle, with a methodological warning about the pooled-correlation trap across regions.
 
 **Keywords:** Medical Device Demand; Healthcare Infrastructure; Regional Budget; Decentralization; Health Policy; Procurement
 
@@ -117,11 +117,11 @@ Table 2 reports the budget analysis.
 
 | Analysis | r | p | Conclusion |
 |---|---|---|---|
-| Pooled 2020-2025 | 0.433 | 0.002 | significant (scale effect) |
-| Within-region (demeaned) | -0.112 / 0.103 | 0.449 / 0.318 | not significant |
+| Pooled 2020-2025 | 0.345 | 0.0006 | significant (scale effect) |
+| Within-region (demeaned) | 0.103 | 0.318 | not significant |
 | APBD 2025 DJPK per region | 0.256 | 0.338 | not significant |
 
-The pooled correlation is significant (r = 0.433, p = 0.002), but this is a between-region scale effect: larger regions spend more and buy more. The within-region correlation (demeaned) is not significant, and the official APBD 2025 correlation is not significant (r = 0.256, p = 0.338). The provincial health office budget moves in the opposite direction to sales (2022-2024) due to central recording mechanisms.
+The pooled correlation is significant (r = 0.345, p = 0.0006), but this is a between-region scale effect: larger regions spend more and buy more. The within-region correlation (demeaned) is not significant (r = 0.103, p = 0.318), and the official APBD 2025 correlation is not significant (r = 0.256, p = 0.338). The provincial health office budget moves in the opposite direction to sales (2022-2024) due to central recording mechanisms.
 
 ---
 
@@ -135,7 +135,7 @@ The mechanism is clear: hospitals are the largest buyers of medical devices. Mor
 
 ### 5.2 The Pooled-Correlation Trap
 
-Our results demonstrate the pooled-correlation trap. A naive analysis would conclude that regional budgets drive medical device demand, because the pooled correlation is significant (r = 0.433). However, this is a between-region scale effect: larger regions spend more and buy more. When we separate within-region from between-region variation, the temporal relationship disappears. This is a methodological warning for policy analysis: a significant pooled correlation across regions is not evidence of a temporal relationship.
+Our results demonstrate the pooled-correlation trap. A naive analysis would conclude that regional budgets drive medical device demand, because the pooled correlation is significant (r = 0.345). However, this is a between-region scale effect: larger regions spend more and buy more. When we separate within-region from between-region variation, the temporal relationship disappears. This is a methodological warning for policy analysis: a significant pooled correlation across regions is not evidence of a temporal relationship.
 
 ### 5.3 Implications for Policy
 
