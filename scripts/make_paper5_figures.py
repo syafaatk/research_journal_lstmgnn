@@ -25,10 +25,10 @@ plt.rcParams.update({
 # ---------------------------------------------------------------------------
 # 1. Delta wave product spike ratios (from manuscript verified numbers)
 # ---------------------------------------------------------------------------
-products = ["Handscoon", "Rapid test", "Auto-destruct\nsyringe", "Masker",
-            "Tabung\nOxygen", "Breathing\nCircuit"]
-ratios = [43.9, 25.4, 10.0, 33.8, 12.7, 11.3]
-colors = ["#d93025", "#d93025", "#f9ab00", "#d93025", "#f9ab00", "#f9ab00"]
+products = ["Handscoon", "Rapid test", "Masker", "Tabung\nOxygen", "Breathing\nCircuit",
+            "Paper Tape"]
+ratios = [37.3, 36.6, 33.8, 12.7, 11.3, 21.7]
+colors = ["#d93025", "#d93025", "#d93025", "#f9ab00", "#f9ab00", "#9aa7b0"]
 
 fig, ax = plt.subplots(figsize=(9, 5.5))
 bars = ax.bar(products, ratios, color=colors, edgecolor="black", linewidth=0.6)
@@ -45,11 +45,11 @@ plt.close(fig)
 print("Saved fig1_delta_spike_ratio.png")
 
 # ---------------------------------------------------------------------------
-# 2. COVID product group share (19.7% of total)
+# 2. COVID product group share (6.3% of total)
 # ---------------------------------------------------------------------------
 fig, ax = plt.subplots(figsize=(7, 5))
-labels = ["COVID product group\n(19.7%)", "Other products\n(80.3%)"]
-sizes = [19.7, 80.3]
+labels = ["COVID product group\n(6.3%)", "Other products\n(93.7%)"]
+sizes = [6.3, 93.7]
 colors = ["#d93025", "#9aa7b0"]
 wedges, texts, autotexts = ax.pie(sizes, labels=labels, colors=colors,
                                   autopct="%1.1f%%", startangle=90,
@@ -58,7 +58,7 @@ for at in autotexts:
     at.set_color("white")
     at.set_fontweight("bold")
 ax.set_title("COVID Product Group Share of Total Medical Device Sales\n"
-             "(99.3M IDR of total)")
+             "(6,315M IDR of total)")
 plt.tight_layout()
 plt.savefig(os.path.join(FIGDIR, "fig2_covid_share.png"))
 plt.close(fig)

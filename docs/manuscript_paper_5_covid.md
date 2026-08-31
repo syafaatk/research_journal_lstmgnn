@@ -10,7 +10,7 @@ khoirusysyafaat@students.uigm.ac.id, herri@uigm.ac.id
 
 ## ABSTRACT
 
-Emergency procurement during public health crises creates demand spikes that are concentrated in time and across specific products. We analyze the anatomy of these spikes using real distribution data from a medical device distributor in South Sumatra, Indonesia, during the COVID-19 pandemic. The COVID product group is valued at 99.3M IDR (19.7% of total sales). The Delta wave (July-August 2021) triggered a spike of 5.85x the monthly median, with handscoon (43.9x), rapid test (25.4x), and auto-destruct syringe (10.0x) leading the surge; a single Airvo invoice reached 762.5M IDR. In contrast, the El Nino forest-fire event of 2023 did NOT trigger a mask surge (verified with unit normalization from Box/Pcs to pcs; the mask quantity ratio was 0.47 relative to baseline). We conclude that emergency procurement spikes are concentrated in time and product, and that history-based models cannot capture them. The findings characterize what surges together, how concentrated the surge is in time, and why the signal is missed by history-based models.
+Emergency procurement during public health crises creates demand spikes that are concentrated in time and across specific products. We analyze the anatomy of these spikes using real distribution data from a medical device distributor in South Sumatra, Indonesia, during the COVID-19 pandemic. The COVID product group (PANDEMI_COVID) is valued at 6,315M IDR (6.3% of total sales). The Delta wave (July-August 2021) triggered a spike of 5.55x the monthly median, with handscoon (37.3x), rapid test (36.6x), and mask (33.8x) leading the surge; a single Airvo invoice reached 762.5M IDR. In contrast, the El Nino forest-fire event of 2023 did NOT trigger a mask surge (verified with unit normalization from Box/Pcs to pcs; the mask quantity ratio was 0.47 relative to baseline). We conclude that emergency procurement spikes are concentrated in time and product, and that history-based models cannot capture them. The findings characterize what surges together, how concentrated the surge is in time, and why the signal is missed by history-based models.
 
 **Keywords:** Emergency Procurement; Demand Spike; COVID-19; Healthcare Supply Chain; Event-Driven Demand; Product-Level Analysis
 
@@ -18,9 +18,9 @@ Emergency procurement during public health crises creates demand spikes that are
 
 ## HIGHLIGHTS
 
-- COVID product group is 19.7% of total medical device sales
-- Delta wave triggered a 5.85x monthly demand spike
-- Handscoon surged 43.9x, rapid test 25.4x during Delta
+- COVID product group is 6.3% of total medical device sales
+- Delta wave triggered a 5.55x monthly demand spike
+- Handscoon surged 37.3x, rapid test 36.6x during Delta
 - El Nino forest fires did NOT trigger a mask surge
 - History-based models cannot capture event-driven spikes
 
@@ -78,14 +78,14 @@ For the mask analysis, we normalize units from Box and Pcs to pcs, because the b
 
 ### 4.1 The COVID Product Group
 
-The COVID product group is valued at 99.3M IDR, or 19.7% of total sales. This includes PPE, testing supplies, and respiratory devices. The group is concentrated in the pandemic period (2020-2022).
+The COVID product group (PANDEMI_COVID) is valued at 6,315M IDR, or 6.3% of total sales. This includes PPE, testing supplies, and respiratory devices. The group is concentrated in the pandemic period (2020-2022).
 
 ### 4.2 The Delta Wave Spike
 
-The Delta wave (July-August 2021) triggered a spike of 5.85x the monthly median. The surge was led by:
-- Handscoon: 43.9x
-- Rapid test: 25.4x
-- Auto-destruct syringe: 10.0x
+The Delta wave (July-August 2021) triggered a spike of 5.55x the monthly median. The surge was led by:
+- Handscoon: 37.3x
+- Rapid test: 36.6x
+- Mask: 33.8x
 
 A single Airvo invoice reached 762.5M IDR. The pattern is clear: PPE, testing, and oxygen-related products surged simultaneously.
 
@@ -99,7 +99,7 @@ The El Nino forest-fire event of 2023 did NOT trigger a mask surge. After normal
 
 ### 4.5 Why History-Based Models Miss the Signal
 
-The spikes are concentrated in time and across specific products. A history-based model, which extrapolates from past patterns, cannot anticipate a 5.85x spike that occurs within weeks. The signal is event-driven, not history-driven.
+The spikes are concentrated in time and across specific products. A history-based model, which extrapolates from past patterns, cannot anticipate a 5.55x spike that occurs within weeks. The signal is event-driven, not history-driven.
 
 ---
 
@@ -127,7 +127,7 @@ Future work should evaluate the anatomy of emergency procurement in additional s
 
 ## 6. CONCLUSION
 
-We analyzed the anatomy of emergency procurement spikes using real distribution data from a medical device distributor during the COVID-19 pandemic. The COVID product group is valued at 99.3M IDR (19.7% of total). The Delta wave triggered a spike of 5.85x the monthly median, led by handscoon (43.9x), rapid test (25.4x), and auto-destruct syringe (10.0x). In contrast, the El Nino forest fires did not trigger a mask surge (ratio 0.47). We conclude that emergency procurement spikes are concentrated in time and product, and that history-based models cannot capture them.
+We analyzed the anatomy of emergency procurement spikes using real distribution data from a medical device distributor during the COVID-19 pandemic. The COVID product group (PANDEMI_COVID) is valued at 6,315M IDR (6.3% of total). The Delta wave triggered a spike of 5.55x the monthly median, led by handscoon (37.3x), rapid test (36.6x), and mask (33.8x). In contrast, the El Nino forest fires did not trigger a mask surge (ratio 0.47). We conclude that emergency procurement spikes are concentrated in time and product, and that history-based models cannot capture them.
 
 ---
 
