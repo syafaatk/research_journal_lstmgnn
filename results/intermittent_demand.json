@@ -1,0 +1,41 @@
+{
+  "n_invoices": 13661,
+  "n_products": 2380,
+  "n_months": 64,
+  "total_value_M": 96975.1,
+  "products_1_invoice": 867,
+  "products_1_month": 912,
+  "products_le6_months": 1684,
+  "pct_products_le6_months": 70.8,
+  "value_share_le6_months_pct": 19.9,
+  "value_share_le5_invoice_pct": 14.7,
+  "value_share_gt20_invoice_pct": 71.9,
+  "n_products_ge6_months": 770,
+  "sb_classification": {
+    "Smooth": {
+      "n": 12,
+      "pct": 1.6,
+      "value_M": 7932.3
+    },
+    "Erratic": {
+      "n": 44,
+      "pct": 5.7,
+      "value_M": 21424.0
+    },
+    "Intermittent": {
+      "n": 232,
+      "pct": 30.1,
+      "value_M": 12228.7
+    },
+    "Lumpy": {
+      "n": 482,
+      "pct": 62.6,
+      "value_M": 37946.8
+    }
+  },
+  "sb_median_ADI": 4.27,
+  "sb_median_CV2": 0.71,
+  "n_products_gap_gt12mo": 469,
+  "median_max_gap_months": 8,
+  "mean_max_gap_months": 11.0
+}
